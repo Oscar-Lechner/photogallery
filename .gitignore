@@ -1,7 +1,3 @@
 node_modules/
 .DS_Store
 Thumbs.db
-
-# Keep local photo drops out of git unless you intentionally publish them.
-photos/*
-!photos/.gitkeep
