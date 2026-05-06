@@ -1,0 +1,24 @@
+{
+  "dates": {
+    "cameraflicks / comencement":             "2026-05-02T00:00:00",
+    "cameraflicks / gradaftermath":           "2026-05-01T23:00:00",
+    "cameraflicks / atlas_graduation":        "2026-05-01T16:00:00",
+    "cameraflicks / misc":                    "2026-04-25T00:00:00",
+    "cameraflicks / gradpicscarlson":         "2026-04-21T00:00:00",
+    "cameraflicks / discolines":              "2026-04-18T20:00:00",
+    "cameraflicks / discolines / strangers":  "2026-04-18T20:00:00"
+  },
+  "display": {
+    "cameraflicks / comencement":             "Commencement",
+    "cameraflicks / gradaftermath":           "Grad Aftermath",
+    "cameraflicks / atlas_graduation":        "Atlas Graduation",
+    "cameraflicks / misc":                    "Misc",
+    "cameraflicks / gradpicscarlson":         "Carlson Shoot",
+    "cameraflicks / discolines":              "Discolines",
+    "cameraflicks / discolines / strangers":  "Discolines / Strangers"
+  },
+  "collapse": {
+    "cameraflicks / gradpicscarlson / goods":                   "cameraflicks / gradpicscarlson",
+    "cameraflicks / gradpicscarlson / goods / finstapost13":    "cameraflicks / gradpicscarlson"
+  }
+}

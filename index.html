@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A private image archive with fast album filtering, sharing, and downloads." />
+    <meta name="theme-color" content="#050608" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <!-- Entry screen -->
+    <div id="entryScreen" class="entry">
+      <div class="entry-header">
+        <span class="entry-wordmark">Canon PowerShot SX120IS</span>
+        <span class="entry-tagline">web archive</span>
+      </div>
+
+      <div class="wheel-area">
+        <div id="wheel" class="wheel" role="listbox" aria-label="Select album" tabindex="0">
+          <div id="wheelList" class="wheel-list"></div>
+        </div>
+        <p id="wheelMeta" class="wheel-meta" aria-live="polite"></p>
+      </div>
+
+      <div class="entry-actions">
+        <button id="enterBtn" class="enter-btn" type="button">Open Set</button>
+        <button id="enterAllBtn" class="ghost-btn" type="button">Full Archive</button>
+      </div>
+
+      <p class="entry-hint"></p>
+
+      <div id="entryError" class="entry-error" hidden>
+        <p>No photo index found.</p>
+        <code>npm run index</code>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <main id="gallery" class="gallery" hidden>
+      <header class="gallery-header">
+        <button id="backBtn" class="back-btn" type="button" aria-label="Back to album selection">&larr;</button>
+        <div class="gallery-header-center">
+          <span id="galleryAlbumLabel" class="gallery-album-name"></span>
+          <span id="galleryMeta" class="gallery-count"></span>
+        </div>
+        <div class="header-actions">
+          <button id="downloadView" class="share-btn primary-action" type="button">Download</button>
+          <button id="copyAlbumLink" class="share-btn" type="button">Copy Link</button>
+        </div>
+      </header>
+
+      <section class="command-bar" aria-label="Gallery controls">
+        <label class="field size-field">
+          <span>Tile size</span>
+          <input id="sizeRange" type="range" min="120" max="300" step="10" value="180" />
+        </label>
+      </section>
+
+      <!-- Hidden album filter: JS uses this, album rail drives it visually -->
+      <select id="albumFilter" class="visually-hidden" aria-hidden="true"></select>
+
+      <nav id="albumRail" class="album-rail" aria-label="Albums"></nav>
+
+      <section id="featurePanel" class="feature-panel" hidden>
+        <button id="featurePhoto" class="feature-photo" type="button" aria-label="Open featured photo"></button>
+        <div class="feature-copy">
+          <p class="f-eyebrow">Loaded set</p>
+          <h2 id="albumTitle"></h2>
+          <p id="albumSummary"></p>
+          <a id="featureDownload" class="feature-download" href="#" download>Download Featured</a>
+        </div>
+      </section>
+
+      <section id="emptyState" class="empty" hidden>
+        <p>Nothing in this view.</p>
+      </section>
+
+      <section id="photoGrid" class="grid" aria-live="polite" aria-label="Photos"></section>
+    </main>
+
+    <!-- Lightbox -->
+    <dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+      <button id="closeLightbox" class="icon-btn close-btn" type="button" aria-label="Close">&times;</button>
+      <button id="prevPhoto" class="icon-btn nav-btn prev-btn" type="button" aria-label="Previous">&lsaquo;</button>
+      <figure>
+        <img id="lightboxImage" alt="" />
+        <figcaption>
+          <span class="lb-info">
+            <strong id="lightboxTitle"></strong>
+            <small id="lightboxAlbum"></small>
+          </span>
+          <span class="lb-actions">
+            <small id="lightboxCount"></small>
+            <a id="openPhoto" class="dl-btn secondary" href="#" target="_blank" rel="noopener">Open</a>
+            <a id="downloadPhoto" class="dl-btn" href="#" download>Download Original</a>
+          </span>
+        </figcaption>
+      </figure>
+      <button id="nextPhoto" class="icon-btn nav-btn next-btn" type="button" aria-label="Next">&rsaquo;</button>
+    </dialog>
+
+    <!-- Download sheet -->
+    <dialog id="downloadSheet" class="download-sheet" aria-label="Download photos">
+      <div class="sheet-head">
+        <div>
+          <p class="f-eyebrow">Download</p>
+          <h2 id="downloadTitle">Current View</h2>
+        </div>
+        <button id="closeDownloadSheet" class="icon-btn sheet-close" type="button" aria-label="Close">&times;</button>
+      </div>
+      <div class="sheet-actions">
+        <p id="downloadSummary"></p>
+        <button id="downloadAllVisible" class="enter-btn compact" type="button">Download Shown</button>
+      </div>
+      <div id="visibleDownloadLinks" class="download-links"></div>
+    </dialog>
+
+    <script src="assets/app.js" type="module"></script>
+  </body>
+</html>

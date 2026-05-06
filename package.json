@@ -1,0 +1,11 @@
+{
+  "name": "photogallery",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "index": "node scripts/build-gallery.mjs",
+    "dev": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs"
+  }
+}
