@@ -1,5 +1,6 @@
 {
   "dates": {
+    "cameraflicks / vancouver_la":            "2026-05-07T00:00:00",
     "cameraflicks / comencement":             "2026-05-02T00:00:00",
     "cameraflicks / gradaftermath":           "2026-05-01T23:00:00",
     "cameraflicks / atlas_graduation":        "2026-05-01T16:00:00",
@@ -9,6 +10,7 @@
     "cameraflicks / discolines / strangers":  "2026-04-18T20:00:00"
   },
   "display": {
+    "cameraflicks / vancouver_la":            "Vancouver / LA",
     "cameraflicks / comencement":             "Commencement",
     "cameraflicks / gradaftermath":           "Grad Aftermath",
     "cameraflicks / atlas_graduation":        "Atlas Graduation",
