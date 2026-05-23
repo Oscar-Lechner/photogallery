@@ -1,7 +1,9 @@
 {
-  "generatedAt": "2026-05-13T23:02:26.784Z",
-  "count": 466,
+  "generatedAt": "2026-05-23T16:40:35.425Z",
+  "count": 581,
   "albumDates": {
+    "cameraflicks / night2": "2026-05-22T00:00:00",
+    "cameraflicks / night1": "2026-05-21T00:00:00",
     "cameraflicks / vancouver_la": "2026-05-07T00:00:00",
     "cameraflicks / comencement": "2026-05-02T00:00:00",
     "cameraflicks / gradaftermath": "2026-05-01T23:00:00",
@@ -12,6 +14,8 @@
     "cameraflicks / discolines / strangers": "2026-04-18T20:00:00"
   },
   "albumDisplay": {
+    "cameraflicks / night2": "Night 2 (May 22)",
+    "cameraflicks / night1": "Night 1 (May 21)",
     "cameraflicks / vancouver_la": "Vancouver / LA",
     "cameraflicks / comencement": "Commencement",
     "cameraflicks / gradaftermath": "Grad Aftermath",
@@ -2365,6 +2369,926 @@
       "src": "photos/cameraflicks/misc/IMG_1641.JPG",
       "mtime": 1777650766802.7007,
       "size": 1451275
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2014",
+      "relativePath": "cameraflicks/night1/IMG_2014.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2014.JPG",
+      "mtime": 1779553446092.7502,
+      "size": 1804657
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2015",
+      "relativePath": "cameraflicks/night1/IMG_2015.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2015.JPG",
+      "mtime": 1779553446469.1418,
+      "size": 1610548
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2016",
+      "relativePath": "cameraflicks/night1/IMG_2016.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2016.JPG",
+      "mtime": 1779553446931.6611,
+      "size": 2223886
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2017",
+      "relativePath": "cameraflicks/night1/IMG_2017.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2017.JPG",
+      "mtime": 1779553447378.5154,
+      "size": 2223166
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2018",
+      "relativePath": "cameraflicks/night1/IMG_2018.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2018.JPG",
+      "mtime": 1779553447831.0134,
+      "size": 2144014
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2019",
+      "relativePath": "cameraflicks/night1/IMG_2019.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2019.JPG",
+      "mtime": 1779553448292.7568,
+      "size": 2432671
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2020",
+      "relativePath": "cameraflicks/night1/IMG_2020.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2020.JPG",
+      "mtime": 1779553448651.4797,
+      "size": 1361977
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2021",
+      "relativePath": "cameraflicks/night1/IMG_2021.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2021.JPG",
+      "mtime": 1779553449032.6304,
+      "size": 1518065
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2022",
+      "relativePath": "cameraflicks/night1/IMG_2022.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2022.JPG",
+      "mtime": 1779553449366.3027,
+      "size": 878963
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2023",
+      "relativePath": "cameraflicks/night1/IMG_2023.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2023.JPG",
+      "mtime": 1779553449783.361,
+      "size": 2190402
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2024",
+      "relativePath": "cameraflicks/night1/IMG_2024.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2024.JPG",
+      "mtime": 1779553450241.3616,
+      "size": 2145621
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2025",
+      "relativePath": "cameraflicks/night1/IMG_2025.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2025.JPG",
+      "mtime": 1779553450685.8616,
+      "size": 2344248
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2026",
+      "relativePath": "cameraflicks/night1/IMG_2026.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2026.JPG",
+      "mtime": 1779553451145.7954,
+      "size": 2460031
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2027",
+      "relativePath": "cameraflicks/night1/IMG_2027.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2027.JPG",
+      "mtime": 1779553451599.7107,
+      "size": 2738541
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2028",
+      "relativePath": "cameraflicks/night1/IMG_2028.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2028.JPG",
+      "mtime": 1779553452072.8674,
+      "size": 1636111
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2029",
+      "relativePath": "cameraflicks/night1/IMG_2029.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2029.JPG",
+      "mtime": 1779553452469.918,
+      "size": 2333312
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2030",
+      "relativePath": "cameraflicks/night1/IMG_2030.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2030.JPG",
+      "mtime": 1779553452866.7336,
+      "size": 2115297
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2031",
+      "relativePath": "cameraflicks/night1/IMG_2031.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2031.JPG",
+      "mtime": 1779553453324.5413,
+      "size": 2550670
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2032",
+      "relativePath": "cameraflicks/night1/IMG_2032.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2032.JPG",
+      "mtime": 1779553453654.3318,
+      "size": 1514331
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2033",
+      "relativePath": "cameraflicks/night1/IMG_2033.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2033.JPG",
+      "mtime": 1779553454025.9326,
+      "size": 1902131
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2034",
+      "relativePath": "cameraflicks/night1/IMG_2034.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2034.JPG",
+      "mtime": 1779553454433.1082,
+      "size": 2357327
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2035",
+      "relativePath": "cameraflicks/night1/IMG_2035.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2035.JPG",
+      "mtime": 1779553454853.5698,
+      "size": 2433470
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2036",
+      "relativePath": "cameraflicks/night1/IMG_2036.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2036.JPG",
+      "mtime": 1779553455286.0444,
+      "size": 2499471
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2037",
+      "relativePath": "cameraflicks/night1/IMG_2037.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2037.JPG",
+      "mtime": 1779553455714.858,
+      "size": 2369199
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2038",
+      "relativePath": "cameraflicks/night1/IMG_2038.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2038.JPG",
+      "mtime": 1779553456107.5906,
+      "size": 2138041
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2039",
+      "relativePath": "cameraflicks/night1/IMG_2039.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2039.JPG",
+      "mtime": 1779553456490.6917,
+      "size": 1972753
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2040",
+      "relativePath": "cameraflicks/night1/IMG_2040.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2040.JPG",
+      "mtime": 1779553456866.3242,
+      "size": 2064166
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2041",
+      "relativePath": "cameraflicks/night1/IMG_2041.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2041.JPG",
+      "mtime": 1779553457262.775,
+      "size": 2199485
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2042",
+      "relativePath": "cameraflicks/night1/IMG_2042.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2042.JPG",
+      "mtime": 1779553457658.023,
+      "size": 2161455
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2043",
+      "relativePath": "cameraflicks/night1/IMG_2043.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2043.JPG",
+      "mtime": 1779553458092.4756,
+      "size": 2456728
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2044",
+      "relativePath": "cameraflicks/night1/IMG_2044.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2044.JPG",
+      "mtime": 1779553458410.478,
+      "size": 1421420
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2045",
+      "relativePath": "cameraflicks/night1/IMG_2045.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2045.JPG",
+      "mtime": 1779553458730.016,
+      "size": 1517777
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2046",
+      "relativePath": "cameraflicks/night1/IMG_2046.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2046.JPG",
+      "mtime": 1779553459162.0903,
+      "size": 2605814
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2047",
+      "relativePath": "cameraflicks/night1/IMG_2047.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2047.JPG",
+      "mtime": 1779553459620.9746,
+      "size": 2710721
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2048",
+      "relativePath": "cameraflicks/night1/IMG_2048.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2048.JPG",
+      "mtime": 1779553460101.4758,
+      "size": 2813655
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2049",
+      "relativePath": "cameraflicks/night1/IMG_2049.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2049.JPG",
+      "mtime": 1779553460555.9585,
+      "size": 2694476
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2050",
+      "relativePath": "cameraflicks/night1/IMG_2050.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2050.JPG",
+      "mtime": 1779553461065.0537,
+      "size": 3358379
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2051",
+      "relativePath": "cameraflicks/night1/IMG_2051.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2051.JPG",
+      "mtime": 1779553461365.5564,
+      "size": 1355685
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2052",
+      "relativePath": "cameraflicks/night1/IMG_2052.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2052.JPG",
+      "mtime": 1779553461809.7993,
+      "size": 2789138
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2053",
+      "relativePath": "cameraflicks/night1/IMG_2053.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2053.JPG",
+      "mtime": 1779553462299.7205,
+      "size": 3119694
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2054",
+      "relativePath": "cameraflicks/night1/IMG_2054.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2054.JPG",
+      "mtime": 1779553462793.6172,
+      "size": 2918988
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2055",
+      "relativePath": "cameraflicks/night1/IMG_2055.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2055.JPG",
+      "mtime": 1779553463222.6665,
+      "size": 2532698
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2056",
+      "relativePath": "cameraflicks/night1/IMG_2056.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2056.JPG",
+      "mtime": 1779553463694.1958,
+      "size": 2815907
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2057",
+      "relativePath": "cameraflicks/night1/IMG_2057.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2057.JPG",
+      "mtime": 1779553464055.823,
+      "size": 1757153
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2058",
+      "relativePath": "cameraflicks/night1/IMG_2058.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2058.JPG",
+      "mtime": 1779553464485.742,
+      "size": 2574977
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2059",
+      "relativePath": "cameraflicks/night1/IMG_2059.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2059.JPG",
+      "mtime": 1779553464953.8206,
+      "size": 2899027
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2060",
+      "relativePath": "cameraflicks/night1/IMG_2060.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2060.JPG",
+      "mtime": 1779553465366.1758,
+      "size": 2205928
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2061",
+      "relativePath": "cameraflicks/night1/IMG_2061.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2061.JPG",
+      "mtime": 1779553465792.6494,
+      "size": 2487518
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2062",
+      "relativePath": "cameraflicks/night1/IMG_2062.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2062.JPG",
+      "mtime": 1779553466235.1658,
+      "size": 2634863
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2063",
+      "relativePath": "cameraflicks/night1/IMG_2063.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2063.JPG",
+      "mtime": 1779553466608.1226,
+      "size": 1947749
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2064",
+      "relativePath": "cameraflicks/night1/IMG_2064.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2064.JPG",
+      "mtime": 1779553467014.448,
+      "size": 2401700
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2065",
+      "relativePath": "cameraflicks/night1/IMG_2065.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2065.JPG",
+      "mtime": 1779553467344.4988,
+      "size": 1559483
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2066",
+      "relativePath": "cameraflicks/night1/IMG_2066.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2066.JPG",
+      "mtime": 1779553467749.478,
+      "size": 2313986
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2067",
+      "relativePath": "cameraflicks/night1/IMG_2067.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2067.JPG",
+      "mtime": 1779553468149.193,
+      "size": 2185958
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2068",
+      "relativePath": "cameraflicks/night1/IMG_2068.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2068.JPG",
+      "mtime": 1779553468508.3142,
+      "size": 1705881
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2069",
+      "relativePath": "cameraflicks/night1/IMG_2069.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2069.JPG",
+      "mtime": 1779553468798.994,
+      "size": 1184235
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2070",
+      "relativePath": "cameraflicks/night1/IMG_2070.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2070.JPG",
+      "mtime": 1779553469071.7217,
+      "size": 1052559
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2071",
+      "relativePath": "cameraflicks/night1/IMG_2071.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2071.JPG",
+      "mtime": 1779553469358.0388,
+      "size": 1158563
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2072",
+      "relativePath": "cameraflicks/night1/IMG_2072.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2072.JPG",
+      "mtime": 1779553469730.0066,
+      "size": 2307392
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2073",
+      "relativePath": "cameraflicks/night1/IMG_2073.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2073.JPG",
+      "mtime": 1779553470171.9705,
+      "size": 2591744
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2074",
+      "relativePath": "cameraflicks/night1/IMG_2074.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2074.JPG",
+      "mtime": 1779553470622.043,
+      "size": 2750009
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2075",
+      "relativePath": "cameraflicks/night1/IMG_2075.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2075.JPG",
+      "mtime": 1779553471050.4734,
+      "size": 2614127
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2076",
+      "relativePath": "cameraflicks/night1/IMG_2076.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2076.JPG",
+      "mtime": 1779553471494.9248,
+      "size": 2651597
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2077",
+      "relativePath": "cameraflicks/night1/IMG_2077.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2077.JPG",
+      "mtime": 1779553471870.134,
+      "size": 1919707
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2078",
+      "relativePath": "cameraflicks/night1/IMG_2078.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2078.JPG",
+      "mtime": 1779553472308.5852,
+      "size": 2707490
+    },
+    {
+      "album": "cameraflicks / night1",
+      "title": "IMG 2079",
+      "relativePath": "cameraflicks/night1/IMG_2079.JPG",
+      "src": "photos/cameraflicks/night1/IMG_2079.JPG",
+      "mtime": 1779553472741.032,
+      "size": 2517572
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2080",
+      "relativePath": "cameraflicks/night2/IMG_2080.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2080.JPG",
+      "mtime": 1779553473145.9102,
+      "size": 2218501
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2081",
+      "relativePath": "cameraflicks/night2/IMG_2081.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2081.JPG",
+      "mtime": 1779553473523.349,
+      "size": 1848395
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2082",
+      "relativePath": "cameraflicks/night2/IMG_2082.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2082.JPG",
+      "mtime": 1779553473908.2803,
+      "size": 2202352
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2083",
+      "relativePath": "cameraflicks/night2/IMG_2083.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2083.JPG",
+      "mtime": 1779553474308.9395,
+      "size": 2076723
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2084",
+      "relativePath": "cameraflicks/night2/IMG_2084.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2084.JPG",
+      "mtime": 1779553474722.1682,
+      "size": 2479301
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2085",
+      "relativePath": "cameraflicks/night2/IMG_2085.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2085.JPG",
+      "mtime": 1779553475141.0857,
+      "size": 2432840
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2086",
+      "relativePath": "cameraflicks/night2/IMG_2086.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2086.JPG",
+      "mtime": 1779553475529.7588,
+      "size": 2125557
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2087",
+      "relativePath": "cameraflicks/night2/IMG_2087.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2087.JPG",
+      "mtime": 1779553475926.4143,
+      "size": 2133582
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2088",
+      "relativePath": "cameraflicks/night2/IMG_2088.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2088.JPG",
+      "mtime": 1779553476357.1992,
+      "size": 2596158
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2089",
+      "relativePath": "cameraflicks/night2/IMG_2089.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2089.JPG",
+      "mtime": 1779553476695.2678,
+      "size": 1551705
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2090",
+      "relativePath": "cameraflicks/night2/IMG_2090.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2090.JPG",
+      "mtime": 1779553477060.1333,
+      "size": 1850833
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2091",
+      "relativePath": "cameraflicks/night2/IMG_2091.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2091.JPG",
+      "mtime": 1779553477474.5603,
+      "size": 2462948
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2092",
+      "relativePath": "cameraflicks/night2/IMG_2092.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2092.JPG",
+      "mtime": 1779553477845.9226,
+      "size": 1917372
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2093",
+      "relativePath": "cameraflicks/night2/IMG_2093.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2093.JPG",
+      "mtime": 1779553478223.0625,
+      "size": 2015539
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2094",
+      "relativePath": "cameraflicks/night2/IMG_2094.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2094.JPG",
+      "mtime": 1779553478592.1677,
+      "size": 1866580
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2095",
+      "relativePath": "cameraflicks/night2/IMG_2095.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2095.JPG",
+      "mtime": 1779553478925.98,
+      "size": 1582881
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2096",
+      "relativePath": "cameraflicks/night2/IMG_2096.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2096.JPG",
+      "mtime": 1779553479433.696,
+      "size": 3364344
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2097",
+      "relativePath": "cameraflicks/night2/IMG_2097.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2097.JPG",
+      "mtime": 1779553479941.5989,
+      "size": 3206067
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2098",
+      "relativePath": "cameraflicks/night2/IMG_2098.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2098.JPG",
+      "mtime": 1779553480358.5576,
+      "size": 2225554
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2099",
+      "relativePath": "cameraflicks/night2/IMG_2099.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2099.JPG",
+      "mtime": 1779553480836.0608,
+      "size": 3068972
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2100",
+      "relativePath": "cameraflicks/night2/IMG_2100.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2100.JPG",
+      "mtime": 1779553481118.3218,
+      "size": 938973
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2101",
+      "relativePath": "cameraflicks/night2/IMG_2101.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2101.JPG",
+      "mtime": 1779553481465.861,
+      "size": 1835183
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2102",
+      "relativePath": "cameraflicks/night2/IMG_2102.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2102.JPG",
+      "mtime": 1779553481834.9824,
+      "size": 1917426
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2103",
+      "relativePath": "cameraflicks/night2/IMG_2103.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2103.JPG",
+      "mtime": 1779553482164.4995,
+      "size": 1559203
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2104",
+      "relativePath": "cameraflicks/night2/IMG_2104.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2104.JPG",
+      "mtime": 1779553482498.564,
+      "size": 1568282
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2105",
+      "relativePath": "cameraflicks/night2/IMG_2105.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2105.JPG",
+      "mtime": 1779553482808.6514,
+      "size": 1374567
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2106",
+      "relativePath": "cameraflicks/night2/IMG_2106.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2106.JPG",
+      "mtime": 1779553483095.0771,
+      "size": 1086763
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2107",
+      "relativePath": "cameraflicks/night2/IMG_2107.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2107.JPG",
+      "mtime": 1779553483340.054,
+      "size": 795017
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2108",
+      "relativePath": "cameraflicks/night2/IMG_2108.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2108.JPG",
+      "mtime": 1779553483602.933,
+      "size": 870107
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2109",
+      "relativePath": "cameraflicks/night2/IMG_2109.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2109.JPG",
+      "mtime": 1779553483863.679,
+      "size": 732372
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2110",
+      "relativePath": "cameraflicks/night2/IMG_2110.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2110.JPG",
+      "mtime": 1779553484169.5608,
+      "size": 1521233
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2111",
+      "relativePath": "cameraflicks/night2/IMG_2111.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2111.JPG",
+      "mtime": 1779553484499.6008,
+      "size": 1590105
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2112",
+      "relativePath": "cameraflicks/night2/IMG_2112.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2112.JPG",
+      "mtime": 1779553484864.7786,
+      "size": 1928203
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2113",
+      "relativePath": "cameraflicks/night2/IMG_2113.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2113.JPG",
+      "mtime": 1779553485188.8115,
+      "size": 1502863
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2114",
+      "relativePath": "cameraflicks/night2/IMG_2114.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2114.JPG",
+      "mtime": 1779553485484.5317,
+      "size": 1263703
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2115",
+      "relativePath": "cameraflicks/night2/IMG_2115.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2115.JPG",
+      "mtime": 1779553485850.2214,
+      "size": 1862351
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2116",
+      "relativePath": "cameraflicks/night2/IMG_2116.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2116.JPG",
+      "mtime": 1779553486154.1094,
+      "size": 1401468
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2117",
+      "relativePath": "cameraflicks/night2/IMG_2117.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2117.JPG",
+      "mtime": 1779553486464.469,
+      "size": 1460217
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2118",
+      "relativePath": "cameraflicks/night2/IMG_2118.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2118.JPG",
+      "mtime": 1779553486788.734,
+      "size": 1560660
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2119",
+      "relativePath": "cameraflicks/night2/IMG_2119.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2119.JPG",
+      "mtime": 1779553487167.8787,
+      "size": 2095325
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2120",
+      "relativePath": "cameraflicks/night2/IMG_2120.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2120.JPG",
+      "mtime": 1779553487521.458,
+      "size": 1825840
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2121",
+      "relativePath": "cameraflicks/night2/IMG_2121.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2121.JPG",
+      "mtime": 1779553487853.3005,
+      "size": 1602297
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2122",
+      "relativePath": "cameraflicks/night2/IMG_2122.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2122.JPG",
+      "mtime": 1779553488220.1455,
+      "size": 1872209
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2123",
+      "relativePath": "cameraflicks/night2/IMG_2123.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2123.JPG",
+      "mtime": 1779553488551.7827,
+      "size": 1607295
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2124",
+      "relativePath": "cameraflicks/night2/IMG_2124.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2124.JPG",
+      "mtime": 1779553488923.3894,
+      "size": 2062270
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2125",
+      "relativePath": "cameraflicks/night2/IMG_2125.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2125.JPG",
+      "mtime": 1779553489235.48,
+      "size": 1366738
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2126",
+      "relativePath": "cameraflicks/night2/IMG_2126.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2126.JPG",
+      "mtime": 1779553489560.132,
+      "size": 1585421
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2127",
+      "relativePath": "cameraflicks/night2/IMG_2127.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2127.JPG",
+      "mtime": 1779553489882.4568,
+      "size": 1554700
+    },
+    {
+      "album": "cameraflicks / night2",
+      "title": "IMG 2128",
+      "relativePath": "cameraflicks/night2/IMG_2128.JPG",
+      "src": "photos/cameraflicks/night2/IMG_2128.JPG",
+      "mtime": 1779553490233.7595,
+      "size": 1760698
     },
     {
       "album": "cameraflicks / vancouver_la",

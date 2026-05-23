@@ -1,5 +1,7 @@
 {
   "dates": {
+    "cameraflicks / night2":                  "2026-05-22T00:00:00",
+    "cameraflicks / night1":                  "2026-05-21T00:00:00",
     "cameraflicks / vancouver_la":            "2026-05-07T00:00:00",
     "cameraflicks / comencement":             "2026-05-02T00:00:00",
     "cameraflicks / gradaftermath":           "2026-05-01T23:00:00",
@@ -10,6 +12,8 @@
     "cameraflicks / discolines / strangers":  "2026-04-18T20:00:00"
   },
   "display": {
+    "cameraflicks / night2":                  "Night 2 (May 22)",
+    "cameraflicks / night1":                  "Night 1 (May 21)",
     "cameraflicks / vancouver_la":            "Vancouver / LA",
     "cameraflicks / comencement":             "Commencement",
     "cameraflicks / gradaftermath":           "Grad Aftermath",
