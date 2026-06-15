@@ -51,10 +51,11 @@
       </header>
 
       <section class="command-bar" aria-label="Gallery controls">
-        <label class="field size-field">
-          <span>Tile size</span>
-          <input id="sizeRange" type="range" min="120" max="300" step="10" value="180" />
-        </label>
+        <div id="tileSizeControl" class="tile-size-control" role="group" aria-label="Tile size">
+          <button class="tile-size-btn is-active" type="button" data-tile-size="140" aria-pressed="true">Small Tile</button>
+          <button class="tile-size-btn" type="button" data-tile-size="190" aria-pressed="false">Medium Tile</button>
+          <button class="tile-size-btn" type="button" data-tile-size="250" aria-pressed="false">Large Tile</button>
+        </div>
       </section>
 
       <!-- Hidden album filter: JS uses this, album rail drives it visually -->

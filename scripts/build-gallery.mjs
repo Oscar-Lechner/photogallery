@@ -1,10 +1,12 @@
 import { mkdir, readdir, readFile, writeFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import sharp from "sharp";
 
 const root      = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const photosDir = path.join(root, "photos");
 const dataDir   = path.join(root, "data");
+const thumbsDir = path.join(root, "thumbnails");
 const outputFile    = path.join(dataDir, "photos.json");
 const configFile    = path.join(dataDir, "album-config.json");
 
@@ -32,6 +34,63 @@ function titleFromFile(fileName) {
     .replace(/[_-]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function thumbPathFor(relativePath) {
+  const parsed = path.parse(relativePath);
+  return path.join(parsed.dir, `${parsed.name}.webp`);
+}
+
+async function ensureThumbnail(file) {
+  const thumbRelativePath = thumbPathFor(file.relativePath);
+  const thumbAbsolute = path.join(thumbsDir, thumbRelativePath);
+
+  try {
+    const thumbStat = await stat(thumbAbsolute);
+    if (thumbStat.mtimeMs >= file.mtime) {
+      return `thumbnails/${toUrlPath(thumbRelativePath)}`;
+    }
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
+  await mkdir(path.dirname(thumbAbsolute), { recursive: true });
+
+  try {
+    await sharp(path.join(photosDir, file.relativePath), {
+      failOn: "none",
+      limitInputPixels: false
+    })
+      .rotate()
+      .resize({
+        width: 420,
+        height: 420,
+        fit: "cover",
+        withoutEnlargement: true
+      })
+      .webp({ quality: 64, effort: 4 })
+      .toFile(thumbAbsolute);
+
+    return `thumbnails/${toUrlPath(thumbRelativePath)}`;
+  } catch (error) {
+    console.warn(`Could not create thumbnail for ${file.relativePath}: ${error.message}`);
+    return null;
+  }
+}
+
+async function mapLimit(items, limit, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const current = nextIndex++;
+      results[current] = await mapper(items[current], current);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return results;
 }
 
 // ── Walk photos/ ──
@@ -72,17 +131,22 @@ rawFiles.sort((a, b) =>
 );
 
 // Build photos with collapse applied
-const allPhotos = rawFiles.map(({ relativePath, mtime, size }) => {
+console.log(`Building thumbnails for ${rawFiles.length} photo${rawFiles.length !== 1 ? "s" : ""}...`);
+const thumbEntries = await mapLimit(rawFiles, 6, ensureThumbnail);
+
+const allPhotos = rawFiles.map(({ relativePath, mtime, size }, index) => {
   const parts    = relativePath.split(path.sep);
   const rawAlbum = parts.length > 1 ? parts.slice(0, -1).join(" / ") : "Loose Photos";
   const album    = config.collapse[rawAlbum] ?? rawAlbum;
   const encodedPath = toUrlPath(relativePath);
+  const src = `photos/${encodedPath}`;
 
   return {
     album,
     title: titleFromFile(relativePath),
     relativePath: relativePath.split(path.sep).join("/"),
-    src: `photos/${encodedPath}`,
+    src,
+    thumbSrc: thumbEntries[index] ?? src,
     mtime,
     size
   };

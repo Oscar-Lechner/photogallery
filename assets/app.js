@@ -16,7 +16,7 @@ const downloadView = document.querySelector("#downloadView");
 
 const albumFilter = document.querySelector("#albumFilter");
 const albumRail = document.querySelector("#albumRail");
-const sizeRange = document.querySelector("#sizeRange");
+const tileSizeControl = document.querySelector("#tileSizeControl");
 
 const featurePanel = document.querySelector("#featurePanel");
 const featurePhoto = document.querySelector("#featurePhoto");
@@ -51,6 +51,7 @@ let visiblePhotos = [];
 let currentIndex = -1;
 let manifest = null;
 let picker = null;
+let thumbObserver = null;
 
 const collator = new Intl.Collator(undefined, { numeric: true, sensitivity: "base" });
 
@@ -110,6 +111,10 @@ function triggerDownload(photo) {
   document.body.append(a);
   a.click();
   a.remove();
+}
+
+function thumbFor(photo) {
+  return photo.thumbSrc || photo.src;
 }
 
 // Album wheel data
@@ -435,6 +440,25 @@ function renderFeature() {
   featurePanel.hidden = true;
 }
 
+function getThumbObserver() {
+  if (!("IntersectionObserver" in window)) return null;
+  if (thumbObserver) return thumbObserver;
+
+  thumbObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      const img = entry.target;
+      thumbObserver.unobserve(img);
+      if (img.dataset.src) img.src = img.dataset.src;
+    }
+  }, {
+    rootMargin: "480px 0px",
+    threshold: 0.01
+  });
+
+  return thumbObserver;
+}
+
 // Gallery: skeleton
 const SKELETONS = 18;
 
@@ -465,6 +489,7 @@ function renderGrid(animate = false) {
   );
 
   emptyState.hidden = visiblePhotos.length !== 0;
+  if (thumbObserver) thumbObserver.disconnect();
   grid.innerHTML = "";
 
   const albumName = albumLabel(album || "All photos");
@@ -489,11 +514,16 @@ function renderGrid(animate = false) {
     open.setAttribute("aria-label", `Open ${photo.title}`);
 
     const img = document.createElement("img");
-    img.src = photo.src;
+    img.dataset.src = thumbFor(photo);
     img.alt = photo.title;
-    img.loading = i < 8 ? "eager" : "lazy";
+    img.loading = "lazy";
     img.decoding = "async";
-    if (i < 8) img.fetchPriority = "high";
+    img.fetchPriority = "low";
+    img.className = "is-thumb-loading";
+    img.addEventListener("load", () => {
+      img.classList.remove("is-thumb-loading");
+      img.classList.add("is-thumb-loaded");
+    }, { once: true });
     img.addEventListener("error", () => {
       card.classList.add("is-missing");
       img.alt = "";
@@ -519,6 +549,11 @@ function renderGrid(animate = false) {
   });
 
   grid.append(frag);
+  const observer = getThumbObserver();
+  grid.querySelectorAll("img[data-src]").forEach((img) => {
+    if (observer) observer.observe(img);
+    else img.src = img.dataset.src;
+  });
   renderFeature();
   updateRailActive();
 
@@ -620,28 +655,20 @@ albumRail.addEventListener("click", (e) => {
   renderGrid(true);
 });
 
-let tileSizeTimer = 0;
-let pendingTileSize = sizeRange.value;
-
 function applyTileSize(value) {
   document.documentElement.style.setProperty("--tile-min", `${value}px`);
 }
 
-sizeRange.addEventListener("input", () => {
-  pendingTileSize = sizeRange.value;
-  if (tileSizeTimer) return;
-  tileSizeTimer = window.setTimeout(() => {
-    tileSizeTimer = 0;
-    applyTileSize(pendingTileSize);
-  }, 120);
-});
+tileSizeControl.addEventListener("click", (e) => {
+  const button = e.target.closest("[data-tile-size]");
+  if (!button) return;
 
-sizeRange.addEventListener("change", () => {
-  if (tileSizeTimer) {
-    window.clearTimeout(tileSizeTimer);
-    tileSizeTimer = 0;
-  }
-  applyTileSize(sizeRange.value);
+  applyTileSize(button.dataset.tileSize);
+  tileSizeControl.querySelectorAll("[data-tile-size]").forEach((option) => {
+    const active = option === button;
+    option.classList.toggle("is-active", active);
+    option.setAttribute("aria-pressed", String(active));
+  });
 });
 
 copyAlbumLink.addEventListener("click", shareAlbum);
