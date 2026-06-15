@@ -1,5 +1,6 @@
 {
   "dates": {
+    "cameraflicks / europe_2026":             "2026-05-25T00:00:00",
     "cameraflicks / night2":                  "2026-05-22T00:00:00",
     "cameraflicks / night1":                  "2026-05-21T00:00:00",
     "cameraflicks / vancouver_la":            "2026-05-07T00:00:00",
@@ -14,6 +15,7 @@
     "cameraflicks / simone_corsica":          "2026-06-13T20:00:00"
   },
   "display": {
+    "cameraflicks / europe_2026":             "Europe 2026",
     "cameraflicks / night2":                  "Night 2 (May 22)",
     "cameraflicks / night1":                  "Night 1 (May 21)",
     "cameraflicks / vancouver_la":            "Vancouver / LA",
