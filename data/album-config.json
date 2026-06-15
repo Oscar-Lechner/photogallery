@@ -9,7 +9,9 @@
     "cameraflicks / misc":                    "2026-04-25T00:00:00",
     "cameraflicks / gradpicscarlson":         "2026-04-21T00:00:00",
     "cameraflicks / discolines":              "2026-04-18T20:00:00",
-    "cameraflicks / discolines / strangers":  "2026-04-18T20:00:00"
+    "cameraflicks / discolines / strangers":  "2026-04-18T20:00:00",
+    "cameraflicks / simone_breck":            "2026-05-15T20:00:00",
+    "cameraflicks / simone_corsica":          "2026-06-13T20:00:00"
   },
   "display": {
     "cameraflicks / night2":                  "Night 2 (May 22)",
@@ -21,7 +23,9 @@
     "cameraflicks / misc":                    "Misc",
     "cameraflicks / gradpicscarlson":         "Carlson Shoot",
     "cameraflicks / discolines":              "Discolines",
-    "cameraflicks / discolines / strangers":  "Discolines / Strangers"
+    "cameraflicks / discolines / strangers":  "Discolines / Strangers",
+    "cameraflicks / simone_breck":            "Simone Breck",
+    "cameraflicks / simone_corsica":          "Simone Corsica"
   },
   "collapse": {
     "cameraflicks / gradpicscarlson / goods":                   "cameraflicks / gradpicscarlson",
