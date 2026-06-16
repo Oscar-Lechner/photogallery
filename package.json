@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "deploy": "node scripts/deploy.mjs",
     "index": "node scripts/build-gallery.mjs",
     "dev": "node scripts/server.mjs",
     "start": "node scripts/server.mjs"
