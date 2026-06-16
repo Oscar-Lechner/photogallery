@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T20:31:57.438Z",
-  "count": 861,
+  "generatedAt": "2026-06-16T20:38:08.148Z",
+  "count": 1031,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -32,6 +32,699 @@
     "simone_corsica": "Simone Corsica"
   },
   "photos": [
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1693",
+      "relativePath": "atlas_graduation/IMG_1693.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1693.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1693.webp",
+      "mtime": 1781510741792.431,
+      "size": 3680940
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1694",
+      "relativePath": "atlas_graduation/IMG_1694.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1694.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1694.webp",
+      "mtime": 1781510741808.3438,
+      "size": 3182057
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1695",
+      "relativePath": "atlas_graduation/IMG_1695.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1695.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1695.webp",
+      "mtime": 1781510741832.013,
+      "size": 3214220
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1696",
+      "relativePath": "atlas_graduation/IMG_1696.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1696.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1696.webp",
+      "mtime": 1781510741840.2957,
+      "size": 3551317
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1697",
+      "relativePath": "atlas_graduation/IMG_1697.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1697.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1697.webp",
+      "mtime": 1781510741856.3252,
+      "size": 3589313
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1698",
+      "relativePath": "atlas_graduation/IMG_1698.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1698.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1698.webp",
+      "mtime": 1781510741892.3025,
+      "size": 4084523
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1699",
+      "relativePath": "atlas_graduation/IMG_1699.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1699.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1699.webp",
+      "mtime": 1781510741939.1548,
+      "size": 4054863
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1700",
+      "relativePath": "atlas_graduation/IMG_1700.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1700.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1700.webp",
+      "mtime": 1781510741967.549,
+      "size": 3433096
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1701",
+      "relativePath": "atlas_graduation/IMG_1701.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1701.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1701.webp",
+      "mtime": 1781510741983.5713,
+      "size": 3717175
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1702",
+      "relativePath": "atlas_graduation/IMG_1702.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1702.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1702.webp",
+      "mtime": 1781510741999.663,
+      "size": 1808144
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1703",
+      "relativePath": "atlas_graduation/IMG_1703.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1703.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1703.webp",
+      "mtime": 1781510742020.6584,
+      "size": 2336494
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1704",
+      "relativePath": "atlas_graduation/IMG_1704.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1704.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1704.webp",
+      "mtime": 1781510742041.8262,
+      "size": 2479286
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1705",
+      "relativePath": "atlas_graduation/IMG_1705.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1705.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1705.webp",
+      "mtime": 1781510742063.3784,
+      "size": 2986424
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1706",
+      "relativePath": "atlas_graduation/IMG_1706.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1706.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1706.webp",
+      "mtime": 1781510742101.1865,
+      "size": 2617868
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1707",
+      "relativePath": "atlas_graduation/IMG_1707.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1707.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1707.webp",
+      "mtime": 1781510742122.9875,
+      "size": 2815803
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1708",
+      "relativePath": "atlas_graduation/IMG_1708.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1708.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1708.webp",
+      "mtime": 1781510742142.941,
+      "size": 2551294
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1709",
+      "relativePath": "atlas_graduation/IMG_1709.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1709.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1709.webp",
+      "mtime": 1781510742160.9026,
+      "size": 2198118
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1710",
+      "relativePath": "atlas_graduation/IMG_1710.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1710.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1710.webp",
+      "mtime": 1781510742175.041,
+      "size": 2182254
+    },
+    {
+      "album": "atlas_graduation",
+      "title": "IMG 1711",
+      "relativePath": "atlas_graduation/IMG_1711.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/atlas_graduation--IMG_1711.JPG",
+      "thumbSrc": "thumbnails/atlas_graduation/IMG_1711.webp",
+      "mtime": 1781510742191.3567,
+      "size": 2534172
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1724",
+      "relativePath": "comencement/IMG_1724.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1724.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1724.webp",
+      "mtime": 1781510742240.6536,
+      "size": 2810912
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1725",
+      "relativePath": "comencement/IMG_1725.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1725.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1725.webp",
+      "mtime": 1781510742292.2239,
+      "size": 4267405
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1726",
+      "relativePath": "comencement/IMG_1726.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1726.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1726.webp",
+      "mtime": 1781510742333.5344,
+      "size": 4702411
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1727",
+      "relativePath": "comencement/IMG_1727.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1727.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1727.webp",
+      "mtime": 1781510742349.4,
+      "size": 2676525
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1728",
+      "relativePath": "comencement/IMG_1728.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1728.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1728.webp",
+      "mtime": 1781510742381.3113,
+      "size": 3330834
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1729",
+      "relativePath": "comencement/IMG_1729.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1729.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1729.webp",
+      "mtime": 1781510742397.463,
+      "size": 2286043
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1730",
+      "relativePath": "comencement/IMG_1730.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1730.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1730.webp",
+      "mtime": 1781510742413.3215,
+      "size": 2500765
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1731",
+      "relativePath": "comencement/IMG_1731.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1731.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1731.webp",
+      "mtime": 1781510742429.036,
+      "size": 2274556
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1732",
+      "relativePath": "comencement/IMG_1732.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1732.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1732.webp",
+      "mtime": 1781510742444.774,
+      "size": 2745634
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1733",
+      "relativePath": "comencement/IMG_1733.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1733.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1733.webp",
+      "mtime": 1781510742460.8623,
+      "size": 2639577
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1734",
+      "relativePath": "comencement/IMG_1734.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1734.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1734.webp",
+      "mtime": 1781510742476.8286,
+      "size": 2729855
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1735",
+      "relativePath": "comencement/IMG_1735.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1735.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1735.webp",
+      "mtime": 1781510742492.927,
+      "size": 2857354
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1736",
+      "relativePath": "comencement/IMG_1736.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1736.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1736.webp",
+      "mtime": 1781510742509.002,
+      "size": 2851255
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1737",
+      "relativePath": "comencement/IMG_1737.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1737.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1737.webp",
+      "mtime": 1781510742525.0981,
+      "size": 3024300
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1738",
+      "relativePath": "comencement/IMG_1738.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1738.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1738.webp",
+      "mtime": 1781510742544.9697,
+      "size": 2262215
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1739",
+      "relativePath": "comencement/IMG_1739.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1739.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1739.webp",
+      "mtime": 1781510742557.0652,
+      "size": 2585657
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1740",
+      "relativePath": "comencement/IMG_1740.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1740.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1740.webp",
+      "mtime": 1781510742576.4673,
+      "size": 2584889
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1741",
+      "relativePath": "comencement/IMG_1741.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1741.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1741.webp",
+      "mtime": 1781510742589.2227,
+      "size": 2405642
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1742",
+      "relativePath": "comencement/IMG_1742.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1742.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1742.webp",
+      "mtime": 1781510742605.1492,
+      "size": 2971017
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1743",
+      "relativePath": "comencement/IMG_1743.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1743.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1743.webp",
+      "mtime": 1781510742636.76,
+      "size": 2745285
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1744",
+      "relativePath": "comencement/IMG_1744.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1744.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1744.webp",
+      "mtime": 1781510742652.546,
+      "size": 2574863
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1745",
+      "relativePath": "comencement/IMG_1745.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1745.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1745.webp",
+      "mtime": 1781510742668.5188,
+      "size": 2288503
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1746",
+      "relativePath": "comencement/IMG_1746.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1746.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1746.webp",
+      "mtime": 1781510742700.6016,
+      "size": 1652433
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1747",
+      "relativePath": "comencement/IMG_1747.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1747.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1747.webp",
+      "mtime": 1781510742716.6367,
+      "size": 2301604
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1748",
+      "relativePath": "comencement/IMG_1748.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1748.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1748.webp",
+      "mtime": 1781510742752.316,
+      "size": 2250052
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1749",
+      "relativePath": "comencement/IMG_1749.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1749.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1749.webp",
+      "mtime": 1781510742773.8254,
+      "size": 2306988
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1750",
+      "relativePath": "comencement/IMG_1750.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1750.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1750.webp",
+      "mtime": 1781510742802.5974,
+      "size": 2051445
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1751",
+      "relativePath": "comencement/IMG_1751.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1751.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1751.webp",
+      "mtime": 1781510742822.5454,
+      "size": 2552838
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1752",
+      "relativePath": "comencement/IMG_1752.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1752.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1752.webp",
+      "mtime": 1781510742838.7197,
+      "size": 2126239
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1753",
+      "relativePath": "comencement/IMG_1753.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1753.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1753.webp",
+      "mtime": 1781510742872.1218,
+      "size": 2187058
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1754",
+      "relativePath": "comencement/IMG_1754.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1754.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1754.webp",
+      "mtime": 1781510742898.4697,
+      "size": 1979783
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1755",
+      "relativePath": "comencement/IMG_1755.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1755.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1755.webp",
+      "mtime": 1781510742914.3225,
+      "size": 2053574
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1756",
+      "relativePath": "comencement/IMG_1756.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1756.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1756.webp",
+      "mtime": 1781510742963.838,
+      "size": 1893112
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1757",
+      "relativePath": "comencement/IMG_1757.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1757.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1757.webp",
+      "mtime": 1781510742991.6775,
+      "size": 2783253
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1758",
+      "relativePath": "comencement/IMG_1758.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1758.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1758.webp",
+      "mtime": 1781510743007.4585,
+      "size": 2451335
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1760",
+      "relativePath": "comencement/IMG_1760.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1760.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1760.webp",
+      "mtime": 1781510743032.6675,
+      "size": 2151270
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1761",
+      "relativePath": "comencement/IMG_1761.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1761.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1761.webp",
+      "mtime": 1781510743046.7815,
+      "size": 3009536
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1762",
+      "relativePath": "comencement/IMG_1762.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1762.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1762.webp",
+      "mtime": 1781510743079.5269,
+      "size": 1952723
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1763",
+      "relativePath": "comencement/IMG_1763.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1763.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1763.webp",
+      "mtime": 1781510743115.422,
+      "size": 2520710
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1764",
+      "relativePath": "comencement/IMG_1764.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1764.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1764.webp",
+      "mtime": 1781510743127.2139,
+      "size": 2675840
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1768",
+      "relativePath": "comencement/IMG_1768.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1768.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1768.webp",
+      "mtime": 1781510743144.9768,
+      "size": 1591069
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1769",
+      "relativePath": "comencement/IMG_1769.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1769.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1769.webp",
+      "mtime": 1781510743172.158,
+      "size": 1899477
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1770",
+      "relativePath": "comencement/IMG_1770.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1770.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1770.webp",
+      "mtime": 1781510743196.7217,
+      "size": 1851970
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1771",
+      "relativePath": "comencement/IMG_1771.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1771.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1771.webp",
+      "mtime": 1781510743229.2234,
+      "size": 2646793
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1772",
+      "relativePath": "comencement/IMG_1772.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1772.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1772.webp",
+      "mtime": 1781510743245.4023,
+      "size": 1912702
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1773",
+      "relativePath": "comencement/IMG_1773.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1773.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1773.webp",
+      "mtime": 1781510743261.5972,
+      "size": 1292562
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1774",
+      "relativePath": "comencement/IMG_1774.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1774.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1774.webp",
+      "mtime": 1781510743277.7517,
+      "size": 1889193
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1775",
+      "relativePath": "comencement/IMG_1775.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1775.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1775.webp",
+      "mtime": 1781510743301.756,
+      "size": 3012272
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1776",
+      "relativePath": "comencement/IMG_1776.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1776.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1776.webp",
+      "mtime": 1781510743318.3835,
+      "size": 2436431
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1777",
+      "relativePath": "comencement/IMG_1777.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1777.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1777.webp",
+      "mtime": 1781510743342.4768,
+      "size": 2566857
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1779",
+      "relativePath": "comencement/IMG_1779.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1779.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1779.webp",
+      "mtime": 1781510743390.6145,
+      "size": 3152197
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1780",
+      "relativePath": "comencement/IMG_1780.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1780.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1780.webp",
+      "mtime": 1781510743390.6145,
+      "size": 2098169
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1781",
+      "relativePath": "comencement/IMG_1781.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1781.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1781.webp",
+      "mtime": 1781510743422.5752,
+      "size": 2441124
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1782",
+      "relativePath": "comencement/IMG_1782.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1782.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1782.webp",
+      "mtime": 1781510743485.547,
+      "size": 3086381
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1785",
+      "relativePath": "comencement/IMG_1785.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1785.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1785.webp",
+      "mtime": 1781510743526.186,
+      "size": 3070223
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1786",
+      "relativePath": "comencement/IMG_1786.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1786.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1786.webp",
+      "mtime": 1781510743541.9802,
+      "size": 961764
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1787",
+      "relativePath": "comencement/IMG_1787.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1787.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1787.webp",
+      "mtime": 1781510743589.8157,
+      "size": 2875052
+    },
+    {
+      "album": "comencement",
+      "title": "IMG 1788",
+      "relativePath": "comencement/IMG_1788.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/comencement--IMG_1788.JPG",
+      "thumbSrc": "thumbnails/comencement/IMG_1788.webp",
+      "mtime": 1781510743627.5708,
+      "size": 3228747
+    },
     {
       "album": "discolines",
       "title": "IMG 1489",
@@ -1698,6 +2391,690 @@
       "size": 2049644
     },
     {
+      "album": "gradaftermath",
+      "title": "IMG 1643",
+      "relativePath": "gradaftermath/IMG_1643.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1643.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1643.webp",
+      "mtime": 1781510744411.63,
+      "size": 2685065
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1644",
+      "relativePath": "gradaftermath/IMG_1644.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1644.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1644.webp",
+      "mtime": 1781510744436.7048,
+      "size": 2601436
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1645",
+      "relativePath": "gradaftermath/IMG_1645.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1645.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1645.webp",
+      "mtime": 1781510744468.4697,
+      "size": 2810121
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1646",
+      "relativePath": "gradaftermath/IMG_1646.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1646.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1646.webp",
+      "mtime": 1781510744492.8716,
+      "size": 2668869
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1647",
+      "relativePath": "gradaftermath/IMG_1647.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1647.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1647.webp",
+      "mtime": 1781510744508.6519,
+      "size": 2646352
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1648",
+      "relativePath": "gradaftermath/IMG_1648.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1648.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1648.webp",
+      "mtime": 1781510744522.6824,
+      "size": 2501114
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1649",
+      "relativePath": "gradaftermath/IMG_1649.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1649.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1649.webp",
+      "mtime": 1781510744540.3115,
+      "size": 2569650
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1650",
+      "relativePath": "gradaftermath/IMG_1650.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1650.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1650.webp",
+      "mtime": 1781510744561.607,
+      "size": 2480384
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1651",
+      "relativePath": "gradaftermath/IMG_1651.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1651.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1651.webp",
+      "mtime": 1781510744586.203,
+      "size": 2066864
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1652",
+      "relativePath": "gradaftermath/IMG_1652.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1652.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1652.webp",
+      "mtime": 1781510744610.2249,
+      "size": 2497889
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1653",
+      "relativePath": "gradaftermath/IMG_1653.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1653.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1653.webp",
+      "mtime": 1781510744643.9111,
+      "size": 2819724
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1654",
+      "relativePath": "gradaftermath/IMG_1654.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1654.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1654.webp",
+      "mtime": 1781510744673.297,
+      "size": 3048474
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1655",
+      "relativePath": "gradaftermath/IMG_1655.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1655.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1655.webp",
+      "mtime": 1781510744689.1174,
+      "size": 1454097
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1656",
+      "relativePath": "gradaftermath/IMG_1656.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1656.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1656.webp",
+      "mtime": 1781510744729.994,
+      "size": 2315430
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1657",
+      "relativePath": "gradaftermath/IMG_1657.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1657.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1657.webp",
+      "mtime": 1781510744754.8062,
+      "size": 2634445
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1658",
+      "relativePath": "gradaftermath/IMG_1658.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1658.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1658.webp",
+      "mtime": 1781510744779.3308,
+      "size": 2209562
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1659",
+      "relativePath": "gradaftermath/IMG_1659.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1659.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1659.webp",
+      "mtime": 1781510744806.3496,
+      "size": 2644868
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1660",
+      "relativePath": "gradaftermath/IMG_1660.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1660.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1660.webp",
+      "mtime": 1781510744819.847,
+      "size": 2624660
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1661",
+      "relativePath": "gradaftermath/IMG_1661.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1661.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1661.webp",
+      "mtime": 1781510744838.386,
+      "size": 2546918
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1662",
+      "relativePath": "gradaftermath/IMG_1662.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1662.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1662.webp",
+      "mtime": 1781510744856.462,
+      "size": 2665735
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1663",
+      "relativePath": "gradaftermath/IMG_1663.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1663.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1663.webp",
+      "mtime": 1781510744868.7288,
+      "size": 2268228
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1664",
+      "relativePath": "gradaftermath/IMG_1664.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1664.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1664.webp",
+      "mtime": 1781510744893.0972,
+      "size": 2867138
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1665",
+      "relativePath": "gradaftermath/IMG_1665.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1665.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1665.webp",
+      "mtime": 1781510744925.2427,
+      "size": 2732113
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1666",
+      "relativePath": "gradaftermath/IMG_1666.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1666.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1666.webp",
+      "mtime": 1781510744953.23,
+      "size": 2547535
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1667",
+      "relativePath": "gradaftermath/IMG_1667.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1667.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1667.webp",
+      "mtime": 1781510744972.3086,
+      "size": 2978024
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1668",
+      "relativePath": "gradaftermath/IMG_1668.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1668.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1668.webp",
+      "mtime": 1781510744998.0935,
+      "size": 2451563
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1669",
+      "relativePath": "gradaftermath/IMG_1669.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1669.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1669.webp",
+      "mtime": 1781510745031.0425,
+      "size": 1339103
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1670",
+      "relativePath": "gradaftermath/IMG_1670.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1670.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1670.webp",
+      "mtime": 1781510745063.3247,
+      "size": 3499206
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1671",
+      "relativePath": "gradaftermath/IMG_1671.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1671.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1671.webp",
+      "mtime": 1781510745118.7568,
+      "size": 5301047
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1672",
+      "relativePath": "gradaftermath/IMG_1672.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1672.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1672.webp",
+      "mtime": 1781510745158.3157,
+      "size": 5354374
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1673",
+      "relativePath": "gradaftermath/IMG_1673.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1673.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1673.webp",
+      "mtime": 1781510745197.267,
+      "size": 2916062
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1674",
+      "relativePath": "gradaftermath/IMG_1674.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1674.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1674.webp",
+      "mtime": 1781510745225.564,
+      "size": 2372812
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1675",
+      "relativePath": "gradaftermath/IMG_1675.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1675.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1675.webp",
+      "mtime": 1781510745274.6687,
+      "size": 2171049
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1676",
+      "relativePath": "gradaftermath/IMG_1676.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1676.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1676.webp",
+      "mtime": 1781510745300.502,
+      "size": 2224773
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1678",
+      "relativePath": "gradaftermath/IMG_1678.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1678.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1678.webp",
+      "mtime": 1781510745320.2993,
+      "size": 2615548
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1679",
+      "relativePath": "gradaftermath/IMG_1679.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1679.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1679.webp",
+      "mtime": 1781510745337.8235,
+      "size": 2172434
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1680",
+      "relativePath": "gradaftermath/IMG_1680.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1680.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1680.webp",
+      "mtime": 1781510745353.5972,
+      "size": 3219967
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1681",
+      "relativePath": "gradaftermath/IMG_1681.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1681.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1681.webp",
+      "mtime": 1781510745378.463,
+      "size": 3221984
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1682",
+      "relativePath": "gradaftermath/IMG_1682.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1682.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1682.webp",
+      "mtime": 1781510745402.6245,
+      "size": 2288324
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1683",
+      "relativePath": "gradaftermath/IMG_1683.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1683.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1683.webp",
+      "mtime": 1781510745444.4768,
+      "size": 3420919
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1684",
+      "relativePath": "gradaftermath/IMG_1684.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1684.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1684.webp",
+      "mtime": 1781510745466.5352,
+      "size": 4014127
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1685",
+      "relativePath": "gradaftermath/IMG_1685.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1685.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1685.webp",
+      "mtime": 1781510745500.1914,
+      "size": 3840278
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1686",
+      "relativePath": "gradaftermath/IMG_1686.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1686.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1686.webp",
+      "mtime": 1781510745513.9978,
+      "size": 2908705
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1687",
+      "relativePath": "gradaftermath/IMG_1687.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1687.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1687.webp",
+      "mtime": 1781510745537.9043,
+      "size": 3394519
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1688",
+      "relativePath": "gradaftermath/IMG_1688.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1688.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1688.webp",
+      "mtime": 1781510745554.733,
+      "size": 3037038
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1689",
+      "relativePath": "gradaftermath/IMG_1689.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1689.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1689.webp",
+      "mtime": 1781510745571.5125,
+      "size": 2145178
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1690",
+      "relativePath": "gradaftermath/IMG_1690.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1690.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1690.webp",
+      "mtime": 1781510745571.5125,
+      "size": 1385643
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1691",
+      "relativePath": "gradaftermath/IMG_1691.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1691.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1691.webp",
+      "mtime": 1781510745587.4836,
+      "size": 1559774
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1693",
+      "relativePath": "gradaftermath/IMG_1693.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1693.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1693.webp",
+      "mtime": 1781510745619.136,
+      "size": 3680940
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1694",
+      "relativePath": "gradaftermath/IMG_1694.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1694.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1694.webp",
+      "mtime": 1781510745657.451,
+      "size": 3182057
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1695",
+      "relativePath": "gradaftermath/IMG_1695.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1695.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1695.webp",
+      "mtime": 1781510745690.2314,
+      "size": 3214220
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1696",
+      "relativePath": "gradaftermath/IMG_1696.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1696.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1696.webp",
+      "mtime": 1781510745721.9653,
+      "size": 3551317
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1697",
+      "relativePath": "gradaftermath/IMG_1697.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/gradaftermath--IMG_1697.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1697.webp",
+      "mtime": 1781510745753.961,
+      "size": 3589313
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1698",
+      "relativePath": "gradaftermath/IMG_1698.JPG",
+      "src": "photos/gradaftermath/IMG_1698.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1698.webp",
+      "mtime": 1781510745815.6204,
+      "size": 4084523
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1699",
+      "relativePath": "gradaftermath/IMG_1699.JPG",
+      "src": "photos/gradaftermath/IMG_1699.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1699.webp",
+      "mtime": 1781510745863.0364,
+      "size": 4054863
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1700",
+      "relativePath": "gradaftermath/IMG_1700.JPG",
+      "src": "photos/gradaftermath/IMG_1700.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1700.webp",
+      "mtime": 1781510745899.561,
+      "size": 3433096
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1701",
+      "relativePath": "gradaftermath/IMG_1701.JPG",
+      "src": "photos/gradaftermath/IMG_1701.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1701.webp",
+      "mtime": 1781510745931.658,
+      "size": 3717175
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1702",
+      "relativePath": "gradaftermath/IMG_1702.JPG",
+      "src": "photos/gradaftermath/IMG_1702.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1702.webp",
+      "mtime": 1781510745953.6794,
+      "size": 1808144
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1703",
+      "relativePath": "gradaftermath/IMG_1703.JPG",
+      "src": "photos/gradaftermath/IMG_1703.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1703.webp",
+      "mtime": 1781510745967.4766,
+      "size": 2336494
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1704",
+      "relativePath": "gradaftermath/IMG_1704.JPG",
+      "src": "photos/gradaftermath/IMG_1704.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1704.webp",
+      "mtime": 1781510745981.25,
+      "size": 2479286
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1705",
+      "relativePath": "gradaftermath/IMG_1705.JPG",
+      "src": "photos/gradaftermath/IMG_1705.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1705.webp",
+      "mtime": 1781510745997.0251,
+      "size": 2986424
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1706",
+      "relativePath": "gradaftermath/IMG_1706.JPG",
+      "src": "photos/gradaftermath/IMG_1706.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1706.webp",
+      "mtime": 1781510746014.771,
+      "size": 2617868
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1707",
+      "relativePath": "gradaftermath/IMG_1707.JPG",
+      "src": "photos/gradaftermath/IMG_1707.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1707.webp",
+      "mtime": 1781510746028.8354,
+      "size": 2815803
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1708",
+      "relativePath": "gradaftermath/IMG_1708.JPG",
+      "src": "photos/gradaftermath/IMG_1708.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1708.webp",
+      "mtime": 1781510746038.9897,
+      "size": 2551294
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1709",
+      "relativePath": "gradaftermath/IMG_1709.JPG",
+      "src": "photos/gradaftermath/IMG_1709.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1709.webp",
+      "mtime": 1781510746052.5625,
+      "size": 2198118
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1710",
+      "relativePath": "gradaftermath/IMG_1710.JPG",
+      "src": "photos/gradaftermath/IMG_1710.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1710.webp",
+      "mtime": 1781510746069.4019,
+      "size": 2182254
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1711",
+      "relativePath": "gradaftermath/IMG_1711.JPG",
+      "src": "photos/gradaftermath/IMG_1711.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1711.webp",
+      "mtime": 1781510746071.2139,
+      "size": 2534172
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1712",
+      "relativePath": "gradaftermath/IMG_1712.JPG",
+      "src": "photos/gradaftermath/IMG_1712.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1712.webp",
+      "mtime": 1781510746100.5806,
+      "size": 2379321
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1713",
+      "relativePath": "gradaftermath/IMG_1713.JPG",
+      "src": "photos/gradaftermath/IMG_1713.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1713.webp",
+      "mtime": 1781510746118.2627,
+      "size": 2902324
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1714",
+      "relativePath": "gradaftermath/IMG_1714.JPG",
+      "src": "photos/gradaftermath/IMG_1714.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1714.webp",
+      "mtime": 1781510746132.3684,
+      "size": 2886984
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1715",
+      "relativePath": "gradaftermath/IMG_1715.JPG",
+      "src": "photos/gradaftermath/IMG_1715.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1715.webp",
+      "mtime": 1781510746140.4424,
+      "size": 2213410
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1716",
+      "relativePath": "gradaftermath/IMG_1716.JPG",
+      "src": "photos/gradaftermath/IMG_1716.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1716.webp",
+      "mtime": 1781510746188.942,
+      "size": 1592074
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1717",
+      "relativePath": "gradaftermath/IMG_1717.JPG",
+      "src": "photos/gradaftermath/IMG_1717.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1717.webp",
+      "mtime": 1781510746205.7275,
+      "size": 2275449
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1718",
+      "relativePath": "gradaftermath/IMG_1718.JPG",
+      "src": "photos/gradaftermath/IMG_1718.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1718.webp",
+      "mtime": 1781510746225.0432,
+      "size": 2204923
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1719",
+      "relativePath": "gradaftermath/IMG_1719.JPG",
+      "src": "photos/gradaftermath/IMG_1719.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1719.webp",
+      "mtime": 1781510746237.8474,
+      "size": 2171453
+    },
+    {
+      "album": "gradaftermath",
+      "title": "IMG 1720",
+      "relativePath": "gradaftermath/IMG_1720.JPG",
+      "src": "photos/gradaftermath/IMG_1720.JPG",
+      "thumbSrc": "thumbnails/gradaftermath/IMG_1720.webp",
+      "mtime": 1781510746252.275,
+      "size": 2223982
+    },
+    {
       "album": "gradpicscarlson",
       "title": "1514editedfinal",
       "relativePath": "gradpicscarlson/goods/1514editedfinal.png",
@@ -2470,6 +3847,159 @@
       "thumbSrc": "thumbnails/gradpicscarlson/IMG_1623.webp",
       "mtime": 1781510747994.295,
       "size": 2378905
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1624",
+      "relativePath": "misc/IMG_1624.JPG",
+      "src": "photos/misc/IMG_1624.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1624.webp",
+      "mtime": 1781510748397.7756,
+      "size": 1998401
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1625",
+      "relativePath": "misc/IMG_1625.JPG",
+      "src": "photos/misc/IMG_1625.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1625.webp",
+      "mtime": 1781510748414.2363,
+      "size": 1959138
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1626",
+      "relativePath": "misc/IMG_1626.JPG",
+      "src": "photos/misc/IMG_1626.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1626.webp",
+      "mtime": 1781510748430.44,
+      "size": 2261419
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1627",
+      "relativePath": "misc/IMG_1627.JPG",
+      "src": "photos/misc/IMG_1627.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1627.webp",
+      "mtime": 1781510748446.5178,
+      "size": 1790206
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1628",
+      "relativePath": "misc/IMG_1628.JPG",
+      "src": "photos/misc/IMG_1628.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1628.webp",
+      "mtime": 1781510748462.3762,
+      "size": 2906779
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1629",
+      "relativePath": "misc/IMG_1629.JPG",
+      "src": "photos/misc/IMG_1629.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1629.webp",
+      "mtime": 1781510748497.8772,
+      "size": 2712847
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1630",
+      "relativePath": "misc/IMG_1630.JPG",
+      "src": "photos/misc/IMG_1630.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1630.webp",
+      "mtime": 1781510748506.9753,
+      "size": 1772857
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1631",
+      "relativePath": "misc/IMG_1631.JPG",
+      "src": "photos/misc/IMG_1631.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1631.webp",
+      "mtime": 1781510748530.2993,
+      "size": 1458602
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1632",
+      "relativePath": "misc/IMG_1632.JPG",
+      "src": "photos/misc/IMG_1632.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1632.webp",
+      "mtime": 1781510748561.9983,
+      "size": 1645802
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1633",
+      "relativePath": "misc/IMG_1633.JPG",
+      "src": "photos/misc/IMG_1633.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1633.webp",
+      "mtime": 1781510748578.1177,
+      "size": 1647546
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1634",
+      "relativePath": "misc/IMG_1634.JPG",
+      "src": "photos/misc/IMG_1634.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1634.webp",
+      "mtime": 1781510748610.258,
+      "size": 1579132
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1635",
+      "relativePath": "misc/IMG_1635.JPG",
+      "src": "photos/misc/IMG_1635.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1635.webp",
+      "mtime": 1781510748638.7898,
+      "size": 2281037
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1636",
+      "relativePath": "misc/IMG_1636.JPG",
+      "src": "photos/misc/IMG_1636.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1636.webp",
+      "mtime": 1781510748664.9102,
+      "size": 1318136
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1638",
+      "relativePath": "misc/IMG_1638.JPG",
+      "src": "photos/misc/IMG_1638.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1638.webp",
+      "mtime": 1781510748697.43,
+      "size": 2486181
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1639",
+      "relativePath": "misc/IMG_1639.JPG",
+      "src": "photos/misc/IMG_1639.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1639.webp",
+      "mtime": 1781510748714.5793,
+      "size": 1857010
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1640",
+      "relativePath": "misc/IMG_1640.JPG",
+      "src": "photos/misc/IMG_1640.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1640.webp",
+      "mtime": 1781510748728.324,
+      "size": 1730773
+    },
+    {
+      "album": "misc",
+      "title": "IMG 1641",
+      "relativePath": "misc/IMG_1641.JPG",
+      "src": "photos/misc/IMG_1641.JPG",
+      "thumbSrc": "thumbnails/misc/IMG_1641.webp",
+      "mtime": 1781510748744.0947,
+      "size": 1451275
     },
     {
       "album": "night1",
