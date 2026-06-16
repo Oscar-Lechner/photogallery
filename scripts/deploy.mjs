@@ -28,6 +28,27 @@ const dataDir      = path.join(root, "data");
 const manifestPath = path.join(dataDir, "release-manifest.json");
 const RELEASE_TAG  = "photos";
 
+// ── Concurrency helpers ───────────────────────────────────────────────────────
+
+function chunk(arr, size) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
+
+async function mapLimit(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await fn(items[i], i);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return results;
+}
+
 // ── Auth & repo detection ─────────────────────────────────────────────────────
 
 function loadDotEnv() {
@@ -157,22 +178,24 @@ async function main() {
     const release = await getOrCreateRelease(token, owner, repo);
     console.log(`  Release id: ${release.id}\n`);
 
+    // Phase 1: generate all thumbnails locally (fast, 6 workers)
+    process.stdout.write(`  Generating ${newPhotos.length} thumbnail(s)...`);
+    await Promise.all(
+      chunk(newPhotos, 6).map(batch =>
+        Promise.all(batch.map(p => ensureThumbnail(p.absolute, p.relativePath, p.mtime)))
+      )
+    );
+    console.log(" done.\n");
+
+    // Phase 2: upload originals (4 parallel)
     let uploaded = 0;
     let failed   = 0;
+    const total  = newPhotos.length;
 
-    for (let i = 0; i < newPhotos.length; i++) {
-      const photo = newPhotos[i];
-      const label = `[${i + 1}/${newPhotos.length}] ${photo.relativePath}`;
-
+    await mapLimit(newPhotos, 4, async photo => {
       try {
-        // Thumbnail first (fast, local)
-        await ensureThumbnail(photo.absolute, photo.relativePath, photo.mtime);
-
-        // Upload original
         const assetName = toAssetName(photo.relativePath);
         const data      = await readFile(photo.absolute);
-
-        process.stdout.write(`  ${label} ... `);
         await uploadAsset(token, owner, repo, release.id, assetName, data);
 
         manifest[photo.relativePath] = {
@@ -182,18 +205,21 @@ async function main() {
           uploadedAt: new Date().toISOString(),
         };
 
-        console.log("✓");
         uploaded++;
+        process.stdout.write(`\r  Uploading: ${uploaded}/${total} done, ${failed} failed   `);
 
-        // Save manifest incrementally so a crash mid-run doesn't lose progress
-        if (uploaded % 10 === 0) saveManifest(manifest);
+        // Checkpoint every 20 uploads so a crash doesn't lose progress
+        if (uploaded % 20 === 0) saveManifest(manifest);
 
       } catch (err) {
-        console.log(`✗\n  Error: ${err.message}`);
         failed++;
+        process.stdout.write(`\r  Uploading: ${uploaded}/${total} done, ${failed} failed   `);
+        // Print the error on a new line so it doesn't get overwritten
+        console.log(`\n  ✗ ${photo.relativePath}: ${err.message}`);
       }
-    }
+    });
 
+    console.log(); // newline after progress
     saveManifest(manifest);
     console.log(`\n  Uploaded: ${uploaded}  Failed: ${failed}\n`);
 
