@@ -568,18 +568,28 @@ function renderGrid(animate = false) {
 // Lightbox
 function showPhoto(index) {
   if (!visiblePhotos.length) return;
-  currentIndex = ((index % visiblePhotos.length) + visiblePhotos.length) % visiblePhotos.length;
-  const photo = visiblePhotos[currentIndex];
+  const idx = ((index % visiblePhotos.length) + visiblePhotos.length) % visiblePhotos.length;
+  currentIndex = idx;
+  const photo = visiblePhotos[idx];
 
+  // Show thumbnail immediately — it's already cached from the grid scroll
+  const thumb = thumbFor(photo);
   lightboxImage.classList.add("is-loading");
-  lightboxImage.src = photo.src;
+  lightboxImage.src = thumb;
   lightboxImage.alt = photo.title;
   lightboxTitle.textContent = photo.title;
   lightboxAlbum.textContent = albumLabel(photo.album || "All photos");
-  lightboxCount.textContent = `${currentIndex + 1} / ${visiblePhotos.length}`;
+  lightboxCount.textContent = `${idx + 1} / ${visiblePhotos.length}`;
   openPhoto.href = photo.src;
   downloadPhoto.href = photo.src;
   downloadPhoto.download = fileName(photo);
+
+  // Try to upgrade to full-res in the background; swap only if still on this photo
+  if (photo.src !== thumb) {
+    const hd = new Image();
+    hd.onload = () => { if (currentIndex === idx) lightboxImage.src = hd.src; };
+    hd.src = photo.src;
+  }
 
   if (!lightbox.open) lightbox.showModal();
 }
