@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T20:16:53.275Z",
+  "generatedAt": "2026-06-16T20:24:51.593Z",
   "count": 209,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
@@ -36,7 +36,7 @@
       "album": "europe_2026",
       "title": "IMG 2129",
       "relativePath": "europe_2026/IMG_2129.JPG",
-      "src": "photos/europe_2026/IMG_2129.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2129.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2129.webp",
       "mtime": 315525620000,
       "size": 2467919
@@ -45,7 +45,7 @@
       "album": "europe_2026",
       "title": "IMG 2130",
       "relativePath": "europe_2026/IMG_2130.JPG",
-      "src": "photos/europe_2026/IMG_2130.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2130.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2130.webp",
       "mtime": 315525630000,
       "size": 2170689
@@ -54,7 +54,7 @@
       "album": "europe_2026",
       "title": "IMG 2131",
       "relativePath": "europe_2026/IMG_2131.JPG",
-      "src": "photos/europe_2026/IMG_2131.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2131.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2131.webp",
       "mtime": 315525610000,
       "size": 2626470
@@ -63,7 +63,7 @@
       "album": "europe_2026",
       "title": "IMG 2132",
       "relativePath": "europe_2026/IMG_2132.JPG",
-      "src": "photos/europe_2026/IMG_2132.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2132.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2132.webp",
       "mtime": 315525618000,
       "size": 2252776
@@ -72,7 +72,7 @@
       "album": "europe_2026",
       "title": "IMG 2133",
       "relativePath": "europe_2026/IMG_2133.JPG",
-      "src": "photos/europe_2026/IMG_2133.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2133.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2133.webp",
       "mtime": 315525624000,
       "size": 3082745
@@ -81,7 +81,7 @@
       "album": "europe_2026",
       "title": "IMG 2134",
       "relativePath": "europe_2026/IMG_2134.JPG",
-      "src": "photos/europe_2026/IMG_2134.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2134.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2134.webp",
       "mtime": 315525642000,
       "size": 2251024
@@ -90,7 +90,7 @@
       "album": "europe_2026",
       "title": "IMG 2135",
       "relativePath": "europe_2026/IMG_2135.JPG",
-      "src": "photos/europe_2026/IMG_2135.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2135.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2135.webp",
       "mtime": 315525612000,
       "size": 2149113
@@ -99,7 +99,7 @@
       "album": "europe_2026",
       "title": "IMG 2136",
       "relativePath": "europe_2026/IMG_2136.JPG",
-      "src": "photos/europe_2026/IMG_2136.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2136.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2136.webp",
       "mtime": 315525626000,
       "size": 2147478
@@ -108,7 +108,7 @@
       "album": "europe_2026",
       "title": "IMG 2137",
       "relativePath": "europe_2026/IMG_2137.JPG",
-      "src": "photos/europe_2026/IMG_2137.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2137.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2137.webp",
       "mtime": 315525614000,
       "size": 1800633
@@ -117,7 +117,7 @@
       "album": "europe_2026",
       "title": "IMG 2138",
       "relativePath": "europe_2026/IMG_2138.JPG",
-      "src": "photos/europe_2026/IMG_2138.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2138.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2138.webp",
       "mtime": 315525608000,
       "size": 1740967
@@ -126,7 +126,7 @@
       "album": "europe_2026",
       "title": "IMG 2139",
       "relativePath": "europe_2026/IMG_2139.JPG",
-      "src": "photos/europe_2026/IMG_2139.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2139.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2139.webp",
       "mtime": 315525606000,
       "size": 1868405
@@ -135,7 +135,7 @@
       "album": "europe_2026",
       "title": "IMG 2140",
       "relativePath": "europe_2026/IMG_2140.JPG",
-      "src": "photos/europe_2026/IMG_2140.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2140.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2140.webp",
       "mtime": 315525616000,
       "size": 2855618
@@ -144,7 +144,7 @@
       "album": "europe_2026",
       "title": "IMG 2141",
       "relativePath": "europe_2026/IMG_2141.JPG",
-      "src": "photos/europe_2026/IMG_2141.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2141.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2141.webp",
       "mtime": 315525626000,
       "size": 2355094
@@ -153,7 +153,7 @@
       "album": "europe_2026",
       "title": "IMG 2142",
       "relativePath": "europe_2026/IMG_2142.JPG",
-      "src": "photos/europe_2026/IMG_2142.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2142.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2142.webp",
       "mtime": 315525606000,
       "size": 2295065
@@ -162,7 +162,7 @@
       "album": "europe_2026",
       "title": "IMG 2143",
       "relativePath": "europe_2026/IMG_2143.JPG",
-      "src": "photos/europe_2026/IMG_2143.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2143.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2143.webp",
       "mtime": 315525608000,
       "size": 2340521
@@ -171,7 +171,7 @@
       "album": "europe_2026",
       "title": "IMG 2144",
       "relativePath": "europe_2026/IMG_2144.JPG",
-      "src": "photos/europe_2026/IMG_2144.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2144.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2144.webp",
       "mtime": 315525610000,
       "size": 2401949
@@ -180,7 +180,7 @@
       "album": "europe_2026",
       "title": "IMG 2145",
       "relativePath": "europe_2026/IMG_2145.JPG",
-      "src": "photos/europe_2026/IMG_2145.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2145.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2145.webp",
       "mtime": 315525620000,
       "size": 2499405
@@ -189,7 +189,7 @@
       "album": "europe_2026",
       "title": "IMG 2146",
       "relativePath": "europe_2026/IMG_2146.JPG",
-      "src": "photos/europe_2026/IMG_2146.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2146.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2146.webp",
       "mtime": 315525606000,
       "size": 1729578
@@ -198,7 +198,7 @@
       "album": "europe_2026",
       "title": "IMG 2147",
       "relativePath": "europe_2026/IMG_2147.JPG",
-      "src": "photos/europe_2026/IMG_2147.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2147.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2147.webp",
       "mtime": 315525606000,
       "size": 2467164
@@ -207,7 +207,7 @@
       "album": "europe_2026",
       "title": "IMG 2148",
       "relativePath": "europe_2026/IMG_2148.JPG",
-      "src": "photos/europe_2026/IMG_2148.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2148.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2148.webp",
       "mtime": 315525604000,
       "size": 2105499
@@ -216,7 +216,7 @@
       "album": "europe_2026",
       "title": "IMG 2149",
       "relativePath": "europe_2026/IMG_2149.JPG",
-      "src": "photos/europe_2026/IMG_2149.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2149.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2149.webp",
       "mtime": 315525616000,
       "size": 2681855
@@ -225,7 +225,7 @@
       "album": "europe_2026",
       "title": "IMG 2150",
       "relativePath": "europe_2026/IMG_2150.JPG",
-      "src": "photos/europe_2026/IMG_2150.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2150.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2150.webp",
       "mtime": 315525618000,
       "size": 3267925
@@ -234,7 +234,7 @@
       "album": "europe_2026",
       "title": "IMG 2151",
       "relativePath": "europe_2026/IMG_2151.JPG",
-      "src": "photos/europe_2026/IMG_2151.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2151.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2151.webp",
       "mtime": 315525610000,
       "size": 1329895
@@ -243,7 +243,7 @@
       "album": "europe_2026",
       "title": "IMG 2152",
       "relativePath": "europe_2026/IMG_2152.JPG",
-      "src": "photos/europe_2026/IMG_2152.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2152.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2152.webp",
       "mtime": 315525616000,
       "size": 1620223
@@ -252,7 +252,7 @@
       "album": "europe_2026",
       "title": "IMG 2153",
       "relativePath": "europe_2026/IMG_2153.JPG",
-      "src": "photos/europe_2026/IMG_2153.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2153.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2153.webp",
       "mtime": 315525604000,
       "size": 2330835
@@ -261,7 +261,7 @@
       "album": "europe_2026",
       "title": "IMG 2154",
       "relativePath": "europe_2026/IMG_2154.JPG",
-      "src": "photos/europe_2026/IMG_2154.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2154.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2154.webp",
       "mtime": 315525614000,
       "size": 2781152
@@ -270,7 +270,7 @@
       "album": "europe_2026",
       "title": "IMG 2155",
       "relativePath": "europe_2026/IMG_2155.JPG",
-      "src": "photos/europe_2026/IMG_2155.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2155.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2155.webp",
       "mtime": 315525604000,
       "size": 3987107
@@ -279,7 +279,7 @@
       "album": "europe_2026",
       "title": "IMG 2156",
       "relativePath": "europe_2026/IMG_2156.JPG",
-      "src": "photos/europe_2026/IMG_2156.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2156.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2156.webp",
       "mtime": 315525614000,
       "size": 2846627
@@ -288,7 +288,7 @@
       "album": "europe_2026",
       "title": "IMG 2157",
       "relativePath": "europe_2026/IMG_2157.JPG",
-      "src": "photos/europe_2026/IMG_2157.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2157.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2157.webp",
       "mtime": 315525610000,
       "size": 1125220
@@ -297,7 +297,7 @@
       "album": "europe_2026",
       "title": "IMG 2158",
       "relativePath": "europe_2026/IMG_2158.JPG",
-      "src": "photos/europe_2026/IMG_2158.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2158.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2158.webp",
       "mtime": 315525612000,
       "size": 1911397
@@ -306,7 +306,7 @@
       "album": "europe_2026",
       "title": "IMG 2159",
       "relativePath": "europe_2026/IMG_2159.JPG",
-      "src": "photos/europe_2026/IMG_2159.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2159.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2159.webp",
       "mtime": 315525606000,
       "size": 1854744
@@ -315,7 +315,7 @@
       "album": "europe_2026",
       "title": "IMG 2160",
       "relativePath": "europe_2026/IMG_2160.JPG",
-      "src": "photos/europe_2026/IMG_2160.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2160.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2160.webp",
       "mtime": 315525614000,
       "size": 1991232
@@ -324,7 +324,7 @@
       "album": "europe_2026",
       "title": "IMG 2161",
       "relativePath": "europe_2026/IMG_2161.JPG",
-      "src": "photos/europe_2026/IMG_2161.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2161.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2161.webp",
       "mtime": 315525612000,
       "size": 1820663
@@ -333,7 +333,7 @@
       "album": "europe_2026",
       "title": "IMG 2162",
       "relativePath": "europe_2026/IMG_2162.JPG",
-      "src": "photos/europe_2026/IMG_2162.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2162.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2162.webp",
       "mtime": 315525610000,
       "size": 1381946
@@ -342,7 +342,7 @@
       "album": "europe_2026",
       "title": "IMG 2163",
       "relativePath": "europe_2026/IMG_2163.JPG",
-      "src": "photos/europe_2026/IMG_2163.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2163.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2163.webp",
       "mtime": 315525610000,
       "size": 2135939
@@ -351,7 +351,7 @@
       "album": "europe_2026",
       "title": "IMG 2164",
       "relativePath": "europe_2026/IMG_2164.JPG",
-      "src": "photos/europe_2026/IMG_2164.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2164.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2164.webp",
       "mtime": 315525606000,
       "size": 2271474
@@ -360,7 +360,7 @@
       "album": "europe_2026",
       "title": "IMG 2165",
       "relativePath": "europe_2026/IMG_2165.JPG",
-      "src": "photos/europe_2026/IMG_2165.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2165.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2165.webp",
       "mtime": 315525608000,
       "size": 3050592
@@ -369,7 +369,7 @@
       "album": "europe_2026",
       "title": "IMG 2166",
       "relativePath": "europe_2026/IMG_2166.JPG",
-      "src": "photos/europe_2026/IMG_2166.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2166.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2166.webp",
       "mtime": 315525616000,
       "size": 3412831
@@ -378,7 +378,7 @@
       "album": "europe_2026",
       "title": "IMG 2167",
       "relativePath": "europe_2026/IMG_2167.JPG",
-      "src": "photos/europe_2026/IMG_2167.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2167.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2167.webp",
       "mtime": 315525636000,
       "size": 3229582
@@ -387,7 +387,7 @@
       "album": "europe_2026",
       "title": "IMG 2168",
       "relativePath": "europe_2026/IMG_2168.JPG",
-      "src": "photos/europe_2026/IMG_2168.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2168.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2168.webp",
       "mtime": 315525672000,
       "size": 2060729
@@ -396,7 +396,7 @@
       "album": "europe_2026",
       "title": "IMG 2169",
       "relativePath": "europe_2026/IMG_2169.JPG",
-      "src": "photos/europe_2026/IMG_2169.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2169.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2169.webp",
       "mtime": 315525682000,
       "size": 1752533
@@ -405,7 +405,7 @@
       "album": "europe_2026",
       "title": "IMG 2170",
       "relativePath": "europe_2026/IMG_2170.JPG",
-      "src": "photos/europe_2026/IMG_2170.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2170.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2170.webp",
       "mtime": 315525692000,
       "size": 2117032
@@ -414,7 +414,7 @@
       "album": "europe_2026",
       "title": "IMG 2171",
       "relativePath": "europe_2026/IMG_2171.JPG",
-      "src": "photos/europe_2026/IMG_2171.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2171.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2171.webp",
       "mtime": 315525700000,
       "size": 1503110
@@ -423,7 +423,7 @@
       "album": "europe_2026",
       "title": "IMG 2172",
       "relativePath": "europe_2026/IMG_2172.JPG",
-      "src": "photos/europe_2026/IMG_2172.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2172.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2172.webp",
       "mtime": 315525710000,
       "size": 1689647
@@ -432,7 +432,7 @@
       "album": "europe_2026",
       "title": "IMG 2173",
       "relativePath": "europe_2026/IMG_2173.JPG",
-      "src": "photos/europe_2026/IMG_2173.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2173.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2173.webp",
       "mtime": 315525722000,
       "size": 1706003
@@ -441,7 +441,7 @@
       "album": "europe_2026",
       "title": "IMG 2174",
       "relativePath": "europe_2026/IMG_2174.JPG",
-      "src": "photos/europe_2026/IMG_2174.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2174.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2174.webp",
       "mtime": 315525748000,
       "size": 1895193
@@ -450,7 +450,7 @@
       "album": "europe_2026",
       "title": "IMG 2175",
       "relativePath": "europe_2026/IMG_2175.JPG",
-      "src": "photos/europe_2026/IMG_2175.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2175.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2175.webp",
       "mtime": 315525758000,
       "size": 3306419
@@ -459,7 +459,7 @@
       "album": "europe_2026",
       "title": "IMG 2176",
       "relativePath": "europe_2026/IMG_2176.JPG",
-      "src": "photos/europe_2026/IMG_2176.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2176.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2176.webp",
       "mtime": 315525770000,
       "size": 1820363
@@ -468,7 +468,7 @@
       "album": "europe_2026",
       "title": "IMG 2177",
       "relativePath": "europe_2026/IMG_2177.JPG",
-      "src": "photos/europe_2026/IMG_2177.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2177.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2177.webp",
       "mtime": 315525604000,
       "size": 2762494
@@ -477,7 +477,7 @@
       "album": "europe_2026",
       "title": "IMG 2178",
       "relativePath": "europe_2026/IMG_2178.JPG",
-      "src": "photos/europe_2026/IMG_2178.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2178.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2178.webp",
       "mtime": 315525612000,
       "size": 2972924
@@ -486,7 +486,7 @@
       "album": "europe_2026",
       "title": "IMG 2179",
       "relativePath": "europe_2026/IMG_2179.JPG",
-      "src": "photos/europe_2026/IMG_2179.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2179.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2179.webp",
       "mtime": 315525622000,
       "size": 2080999
@@ -495,7 +495,7 @@
       "album": "europe_2026",
       "title": "IMG 2180",
       "relativePath": "europe_2026/IMG_2180.JPG",
-      "src": "photos/europe_2026/IMG_2180.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2180.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2180.webp",
       "mtime": 315525634000,
       "size": 2368040
@@ -504,7 +504,7 @@
       "album": "europe_2026",
       "title": "IMG 2181",
       "relativePath": "europe_2026/IMG_2181.JPG",
-      "src": "photos/europe_2026/IMG_2181.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2181.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2181.webp",
       "mtime": 315525652000,
       "size": 2256082
@@ -513,7 +513,7 @@
       "album": "europe_2026",
       "title": "IMG 2182",
       "relativePath": "europe_2026/IMG_2182.JPG",
-      "src": "photos/europe_2026/IMG_2182.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2182.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2182.webp",
       "mtime": 315525610000,
       "size": 2622090
@@ -522,7 +522,7 @@
       "album": "europe_2026",
       "title": "IMG 2183",
       "relativePath": "europe_2026/IMG_2183.JPG",
-      "src": "photos/europe_2026/IMG_2183.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2183.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2183.webp",
       "mtime": 315525616000,
       "size": 2553709
@@ -531,7 +531,7 @@
       "album": "europe_2026",
       "title": "IMG 2184",
       "relativePath": "europe_2026/IMG_2184.JPG",
-      "src": "photos/europe_2026/IMG_2184.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2184.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2184.webp",
       "mtime": 315525632000,
       "size": 2890106
@@ -540,7 +540,7 @@
       "album": "europe_2026",
       "title": "IMG 2185",
       "relativePath": "europe_2026/IMG_2185.JPG",
-      "src": "photos/europe_2026/IMG_2185.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2185.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2185.webp",
       "mtime": 315525612000,
       "size": 1309776
@@ -549,7 +549,7 @@
       "album": "europe_2026",
       "title": "IMG 2186",
       "relativePath": "europe_2026/IMG_2186.JPG",
-      "src": "photos/europe_2026/IMG_2186.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2186.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2186.webp",
       "mtime": 315525624000,
       "size": 1276293
@@ -558,7 +558,7 @@
       "album": "europe_2026",
       "title": "IMG 2187",
       "relativePath": "europe_2026/IMG_2187.JPG",
-      "src": "photos/europe_2026/IMG_2187.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2187.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2187.webp",
       "mtime": 315525636000,
       "size": 1381378
@@ -567,7 +567,7 @@
       "album": "europe_2026",
       "title": "IMG 2188",
       "relativePath": "europe_2026/IMG_2188.JPG",
-      "src": "photos/europe_2026/IMG_2188.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2188.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2188.webp",
       "mtime": 315525644000,
       "size": 1195325
@@ -576,7 +576,7 @@
       "album": "europe_2026",
       "title": "IMG 2189",
       "relativePath": "europe_2026/IMG_2189.JPG",
-      "src": "photos/europe_2026/IMG_2189.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2189.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2189.webp",
       "mtime": 315525684000,
       "size": 1401275
@@ -585,7 +585,7 @@
       "album": "europe_2026",
       "title": "IMG 2190",
       "relativePath": "europe_2026/IMG_2190.JPG",
-      "src": "photos/europe_2026/IMG_2190.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2190.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2190.webp",
       "mtime": 315525702000,
       "size": 1602826
@@ -594,7 +594,7 @@
       "album": "europe_2026",
       "title": "IMG 2191",
       "relativePath": "europe_2026/IMG_2191.JPG",
-      "src": "photos/europe_2026/IMG_2191.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2191.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2191.webp",
       "mtime": 315525710000,
       "size": 1505316
@@ -603,7 +603,7 @@
       "album": "europe_2026",
       "title": "IMG 2192",
       "relativePath": "europe_2026/IMG_2192.JPG",
-      "src": "photos/europe_2026/IMG_2192.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2192.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2192.webp",
       "mtime": 315525730000,
       "size": 1778668
@@ -612,7 +612,7 @@
       "album": "europe_2026",
       "title": "IMG 2193",
       "relativePath": "europe_2026/IMG_2193.JPG",
-      "src": "photos/europe_2026/IMG_2193.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2193.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2193.webp",
       "mtime": 315525604000,
       "size": 2389683
@@ -621,7 +621,7 @@
       "album": "europe_2026",
       "title": "IMG 2194",
       "relativePath": "europe_2026/IMG_2194.JPG",
-      "src": "photos/europe_2026/IMG_2194.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2194.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2194.webp",
       "mtime": 315525622000,
       "size": 2232682
@@ -630,7 +630,7 @@
       "album": "europe_2026",
       "title": "IMG 2195",
       "relativePath": "europe_2026/IMG_2195.JPG",
-      "src": "photos/europe_2026/IMG_2195.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2195.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2195.webp",
       "mtime": 315525632000,
       "size": 2925889
@@ -639,7 +639,7 @@
       "album": "europe_2026",
       "title": "IMG 2196",
       "relativePath": "europe_2026/IMG_2196.JPG",
-      "src": "photos/europe_2026/IMG_2196.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2196.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2196.webp",
       "mtime": 315525606000,
       "size": 1573410
@@ -648,7 +648,7 @@
       "album": "europe_2026",
       "title": "IMG 2197",
       "relativePath": "europe_2026/IMG_2197.JPG",
-      "src": "photos/europe_2026/IMG_2197.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2197.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2197.webp",
       "mtime": 315525614000,
       "size": 1897159
@@ -657,7 +657,7 @@
       "album": "europe_2026",
       "title": "IMG 2198",
       "relativePath": "europe_2026/IMG_2198.JPG",
-      "src": "photos/europe_2026/IMG_2198.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2198.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2198.webp",
       "mtime": 315525620000,
       "size": 1777337
@@ -666,7 +666,7 @@
       "album": "europe_2026",
       "title": "IMG 2199",
       "relativePath": "europe_2026/IMG_2199.JPG",
-      "src": "photos/europe_2026/IMG_2199.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2199.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2199.webp",
       "mtime": 315525606000,
       "size": 1367991
@@ -675,7 +675,7 @@
       "album": "europe_2026",
       "title": "IMG 2200",
       "relativePath": "europe_2026/IMG_2200.JPG",
-      "src": "photos/europe_2026/IMG_2200.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2200.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2200.webp",
       "mtime": 315525616000,
       "size": 1881222
@@ -684,7 +684,7 @@
       "album": "europe_2026",
       "title": "IMG 2201",
       "relativePath": "europe_2026/IMG_2201.JPG",
-      "src": "photos/europe_2026/IMG_2201.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2201.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2201.webp",
       "mtime": 315525626000,
       "size": 1392620
@@ -693,7 +693,7 @@
       "album": "europe_2026",
       "title": "IMG 2202",
       "relativePath": "europe_2026/IMG_2202.JPG",
-      "src": "photos/europe_2026/IMG_2202.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2202.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2202.webp",
       "mtime": 315525604000,
       "size": 1687372
@@ -702,7 +702,7 @@
       "album": "europe_2026",
       "title": "IMG 2203",
       "relativePath": "europe_2026/IMG_2203.JPG",
-      "src": "photos/europe_2026/IMG_2203.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2203.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2203.webp",
       "mtime": 315525608000,
       "size": 2251439
@@ -711,7 +711,7 @@
       "album": "europe_2026",
       "title": "IMG 2204",
       "relativePath": "europe_2026/IMG_2204.JPG",
-      "src": "photos/europe_2026/IMG_2204.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2204.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2204.webp",
       "mtime": 315525608000,
       "size": 2341642
@@ -720,7 +720,7 @@
       "album": "europe_2026",
       "title": "IMG 2205",
       "relativePath": "europe_2026/IMG_2205.JPG",
-      "src": "photos/europe_2026/IMG_2205.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2205.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2205.webp",
       "mtime": 315525608000,
       "size": 2421247
@@ -729,7 +729,7 @@
       "album": "europe_2026",
       "title": "IMG 2206",
       "relativePath": "europe_2026/IMG_2206.JPG",
-      "src": "photos/europe_2026/IMG_2206.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2206.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2206.webp",
       "mtime": 315525616000,
       "size": 1597839
@@ -738,7 +738,7 @@
       "album": "europe_2026",
       "title": "IMG 2207",
       "relativePath": "europe_2026/IMG_2207.JPG",
-      "src": "photos/europe_2026/IMG_2207.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2207.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2207.webp",
       "mtime": 315525628000,
       "size": 1475940
@@ -747,7 +747,7 @@
       "album": "europe_2026",
       "title": "IMG 2208",
       "relativePath": "europe_2026/IMG_2208.JPG",
-      "src": "photos/europe_2026/IMG_2208.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2208.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2208.webp",
       "mtime": 315525642000,
       "size": 1797558
@@ -756,7 +756,7 @@
       "album": "europe_2026",
       "title": "IMG 2209",
       "relativePath": "europe_2026/IMG_2209.JPG",
-      "src": "photos/europe_2026/IMG_2209.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2209.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2209.webp",
       "mtime": 315525660000,
       "size": 1772851
@@ -765,7 +765,7 @@
       "album": "europe_2026",
       "title": "IMG 2210",
       "relativePath": "europe_2026/IMG_2210.JPG",
-      "src": "photos/europe_2026/IMG_2210.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2210.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2210.webp",
       "mtime": 315525610000,
       "size": 1604709
@@ -774,7 +774,7 @@
       "album": "europe_2026",
       "title": "IMG 2211",
       "relativePath": "europe_2026/IMG_2211.JPG",
-      "src": "photos/europe_2026/IMG_2211.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2211.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2211.webp",
       "mtime": 315525610000,
       "size": 3419989
@@ -783,7 +783,7 @@
       "album": "europe_2026",
       "title": "IMG 2212",
       "relativePath": "europe_2026/IMG_2212.JPG",
-      "src": "photos/europe_2026/IMG_2212.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2212.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2212.webp",
       "mtime": 315525622000,
       "size": 2538273
@@ -792,7 +792,7 @@
       "album": "europe_2026",
       "title": "IMG 2213",
       "relativePath": "europe_2026/IMG_2213.JPG",
-      "src": "photos/europe_2026/IMG_2213.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2213.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2213.webp",
       "mtime": 315525606000,
       "size": 2004339
@@ -801,7 +801,7 @@
       "album": "europe_2026",
       "title": "IMG 2214",
       "relativePath": "europe_2026/IMG_2214.JPG",
-      "src": "photos/europe_2026/IMG_2214.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2214.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2214.webp",
       "mtime": 315525616000,
       "size": 2744026
@@ -810,7 +810,7 @@
       "album": "europe_2026",
       "title": "IMG 2215",
       "relativePath": "europe_2026/IMG_2215.JPG",
-      "src": "photos/europe_2026/IMG_2215.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2215.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2215.webp",
       "mtime": 315525610000,
       "size": 1758324
@@ -819,7 +819,7 @@
       "album": "europe_2026",
       "title": "IMG 2216",
       "relativePath": "europe_2026/IMG_2216.JPG",
-      "src": "photos/europe_2026/IMG_2216.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2216.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2216.webp",
       "mtime": 315525616000,
       "size": 1854158
@@ -828,7 +828,7 @@
       "album": "europe_2026",
       "title": "IMG 2217",
       "relativePath": "europe_2026/IMG_2217.JPG",
-      "src": "photos/europe_2026/IMG_2217.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2217.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2217.webp",
       "mtime": 315525606000,
       "size": 2067060
@@ -837,7 +837,7 @@
       "album": "europe_2026",
       "title": "IMG 2218",
       "relativePath": "europe_2026/IMG_2218.JPG",
-      "src": "photos/europe_2026/IMG_2218.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2218.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2218.webp",
       "mtime": 315525620000,
       "size": 1870781
@@ -846,7 +846,7 @@
       "album": "europe_2026",
       "title": "IMG 2219",
       "relativePath": "europe_2026/IMG_2219.JPG",
-      "src": "photos/europe_2026/IMG_2219.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2219.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2219.webp",
       "mtime": 315525604000,
       "size": 2965179
@@ -855,7 +855,7 @@
       "album": "europe_2026",
       "title": "IMG 2220",
       "relativePath": "europe_2026/IMG_2220.JPG",
-      "src": "photos/europe_2026/IMG_2220.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2220.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2220.webp",
       "mtime": 315525624000,
       "size": 2593285
@@ -864,7 +864,7 @@
       "album": "europe_2026",
       "title": "IMG 2221",
       "relativePath": "europe_2026/IMG_2221.JPG",
-      "src": "photos/europe_2026/IMG_2221.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2221.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2221.webp",
       "mtime": 315525632000,
       "size": 2649420
@@ -873,7 +873,7 @@
       "album": "europe_2026",
       "title": "IMG 2222",
       "relativePath": "europe_2026/IMG_2222.JPG",
-      "src": "photos/europe_2026/IMG_2222.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2222.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2222.webp",
       "mtime": 315525606000,
       "size": 2488272
@@ -882,7 +882,7 @@
       "album": "europe_2026",
       "title": "IMG 2223",
       "relativePath": "europe_2026/IMG_2223.JPG",
-      "src": "photos/europe_2026/IMG_2223.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2223.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2223.webp",
       "mtime": 315525616000,
       "size": 2461157
@@ -891,7 +891,7 @@
       "album": "europe_2026",
       "title": "IMG 2224",
       "relativePath": "europe_2026/IMG_2224.JPG",
-      "src": "photos/europe_2026/IMG_2224.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2224.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2224.webp",
       "mtime": 315525626000,
       "size": 3695466
@@ -900,7 +900,7 @@
       "album": "europe_2026",
       "title": "IMG 2225",
       "relativePath": "europe_2026/IMG_2225.JPG",
-      "src": "photos/europe_2026/IMG_2225.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2225.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2225.webp",
       "mtime": 315525614000,
       "size": 2173169
@@ -909,7 +909,7 @@
       "album": "europe_2026",
       "title": "IMG 2226",
       "relativePath": "europe_2026/IMG_2226.JPG",
-      "src": "photos/europe_2026/IMG_2226.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2226.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2226.webp",
       "mtime": 315525624000,
       "size": 1872742
@@ -918,7 +918,7 @@
       "album": "europe_2026",
       "title": "IMG 2227",
       "relativePath": "europe_2026/IMG_2227.JPG",
-      "src": "photos/europe_2026/IMG_2227.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2227.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2227.webp",
       "mtime": 315525612000,
       "size": 1693267
@@ -927,7 +927,7 @@
       "album": "europe_2026",
       "title": "IMG 2228",
       "relativePath": "europe_2026/IMG_2228.JPG",
-      "src": "photos/europe_2026/IMG_2228.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2228.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2228.webp",
       "mtime": 315525620000,
       "size": 1334304
@@ -936,7 +936,7 @@
       "album": "europe_2026",
       "title": "IMG 2229",
       "relativePath": "europe_2026/IMG_2229.JPG",
-      "src": "photos/europe_2026/IMG_2229.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2229.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2229.webp",
       "mtime": 315525640000,
       "size": 1732125
@@ -945,7 +945,7 @@
       "album": "europe_2026",
       "title": "IMG 2230",
       "relativePath": "europe_2026/IMG_2230.JPG",
-      "src": "photos/europe_2026/IMG_2230.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2230.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2230.webp",
       "mtime": 315525648000,
       "size": 1730225
@@ -954,7 +954,7 @@
       "album": "europe_2026",
       "title": "IMG 2231",
       "relativePath": "europe_2026/IMG_2231.JPG",
-      "src": "photos/europe_2026/IMG_2231.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2231.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2231.webp",
       "mtime": 315525608000,
       "size": 1289815
@@ -963,7 +963,7 @@
       "album": "europe_2026",
       "title": "IMG 2232",
       "relativePath": "europe_2026/IMG_2232.JPG",
-      "src": "photos/europe_2026/IMG_2232.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2232.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2232.webp",
       "mtime": 315525606000,
       "size": 3388017
@@ -972,7 +972,7 @@
       "album": "europe_2026",
       "title": "IMG 2233",
       "relativePath": "europe_2026/IMG_2233.JPG",
-      "src": "photos/europe_2026/IMG_2233.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2233.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2233.webp",
       "mtime": 315525612000,
       "size": 2749232
@@ -981,7 +981,7 @@
       "album": "europe_2026",
       "title": "IMG 2234",
       "relativePath": "europe_2026/IMG_2234.JPG",
-      "src": "photos/europe_2026/IMG_2234.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2234.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2234.webp",
       "mtime": 315525624000,
       "size": 2654199
@@ -990,7 +990,7 @@
       "album": "europe_2026",
       "title": "IMG 2235",
       "relativePath": "europe_2026/IMG_2235.JPG",
-      "src": "photos/europe_2026/IMG_2235.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2235.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2235.webp",
       "mtime": 315525630000,
       "size": 3131702
@@ -999,7 +999,7 @@
       "album": "europe_2026",
       "title": "IMG 2236",
       "relativePath": "europe_2026/IMG_2236.JPG",
-      "src": "photos/europe_2026/IMG_2236.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2236.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2236.webp",
       "mtime": 315525636000,
       "size": 2674600
@@ -1008,7 +1008,7 @@
       "album": "europe_2026",
       "title": "IMG 2237",
       "relativePath": "europe_2026/IMG_2237.JPG",
-      "src": "photos/europe_2026/IMG_2237.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2237.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2237.webp",
       "mtime": 315525644000,
       "size": 2716077
@@ -1017,7 +1017,7 @@
       "album": "europe_2026",
       "title": "IMG 2238",
       "relativePath": "europe_2026/IMG_2238.JPG",
-      "src": "photos/europe_2026/IMG_2238.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2238.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2238.webp",
       "mtime": 315525612000,
       "size": 1684576
@@ -1026,7 +1026,7 @@
       "album": "europe_2026",
       "title": "IMG 2239",
       "relativePath": "europe_2026/IMG_2239.JPG",
-      "src": "photos/europe_2026/IMG_2239.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2239.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2239.webp",
       "mtime": 315525624000,
       "size": 1664973
@@ -1035,7 +1035,7 @@
       "album": "europe_2026",
       "title": "IMG 2240",
       "relativePath": "europe_2026/IMG_2240.JPG",
-      "src": "photos/europe_2026/IMG_2240.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2240.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2240.webp",
       "mtime": 315525630000,
       "size": 1550886
@@ -1044,7 +1044,7 @@
       "album": "europe_2026",
       "title": "IMG 2241",
       "relativePath": "europe_2026/IMG_2241.JPG",
-      "src": "photos/europe_2026/IMG_2241.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2241.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2241.webp",
       "mtime": 315525610000,
       "size": 2310820
@@ -1053,7 +1053,7 @@
       "album": "europe_2026",
       "title": "IMG 2242",
       "relativePath": "europe_2026/IMG_2242.JPG",
-      "src": "photos/europe_2026/IMG_2242.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2242.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2242.webp",
       "mtime": 315525604000,
       "size": 1946363
@@ -1062,7 +1062,7 @@
       "album": "europe_2026",
       "title": "IMG 2243",
       "relativePath": "europe_2026/IMG_2243.JPG",
-      "src": "photos/europe_2026/IMG_2243.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2243.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2243.webp",
       "mtime": 315525618000,
       "size": 2099004
@@ -1071,7 +1071,7 @@
       "album": "europe_2026",
       "title": "IMG 2244",
       "relativePath": "europe_2026/IMG_2244.JPG",
-      "src": "photos/europe_2026/IMG_2244.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2244.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2244.webp",
       "mtime": 315525608000,
       "size": 2328829
@@ -1080,7 +1080,7 @@
       "album": "europe_2026",
       "title": "IMG 2245",
       "relativePath": "europe_2026/IMG_2245.JPG",
-      "src": "photos/europe_2026/IMG_2245.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2245.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2245.webp",
       "mtime": 1781592365829.7021,
       "size": 2487416
@@ -1089,7 +1089,7 @@
       "album": "europe_2026",
       "title": "IMG 2246",
       "relativePath": "europe_2026/IMG_2246.JPG",
-      "src": "photos/europe_2026/IMG_2246.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2246.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2246.webp",
       "mtime": 1781592366125.2725,
       "size": 2197686
@@ -1098,7 +1098,7 @@
       "album": "europe_2026",
       "title": "IMG 2247",
       "relativePath": "europe_2026/IMG_2247.JPG",
-      "src": "photos/europe_2026/IMG_2247.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2247.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2247.webp",
       "mtime": 1781592366369.5022,
       "size": 1737412
@@ -1107,7 +1107,7 @@
       "album": "europe_2026",
       "title": "IMG 2248",
       "relativePath": "europe_2026/IMG_2248.JPG",
-      "src": "photos/europe_2026/IMG_2248.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2248.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2248.webp",
       "mtime": 1781592366643.8298,
       "size": 1746809
@@ -1116,7 +1116,7 @@
       "album": "europe_2026",
       "title": "IMG 2249",
       "relativePath": "europe_2026/IMG_2249.JPG",
-      "src": "photos/europe_2026/IMG_2249.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2249.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2249.webp",
       "mtime": 1781592366911.8674,
       "size": 1863481
@@ -1125,7 +1125,7 @@
       "album": "europe_2026",
       "title": "IMG 2250",
       "relativePath": "europe_2026/IMG_2250.JPG",
-      "src": "photos/europe_2026/IMG_2250.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2250.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2250.webp",
       "mtime": 1781592367194.8833,
       "size": 2254110
@@ -1134,7 +1134,7 @@
       "album": "europe_2026",
       "title": "IMG 2251",
       "relativePath": "europe_2026/IMG_2251.JPG",
-      "src": "photos/europe_2026/IMG_2251.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2251.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2251.webp",
       "mtime": 1781592367532.4062,
       "size": 2039238
@@ -1143,7 +1143,7 @@
       "album": "europe_2026",
       "title": "IMG 2252",
       "relativePath": "europe_2026/IMG_2252.JPG",
-      "src": "photos/europe_2026/IMG_2252.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2252.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2252.webp",
       "mtime": 1781592367902.5923,
       "size": 2871780
@@ -1152,7 +1152,7 @@
       "album": "europe_2026",
       "title": "IMG 2253",
       "relativePath": "europe_2026/IMG_2253.JPG",
-      "src": "photos/europe_2026/IMG_2253.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2253.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2253.webp",
       "mtime": 1781592368181.4749,
       "size": 2051612
@@ -1161,7 +1161,7 @@
       "album": "europe_2026",
       "title": "IMG 2254",
       "relativePath": "europe_2026/IMG_2254.JPG",
-      "src": "photos/europe_2026/IMG_2254.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2254.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2254.webp",
       "mtime": 1781592368476.441,
       "size": 1532262
@@ -1170,7 +1170,7 @@
       "album": "europe_2026",
       "title": "IMG 2255",
       "relativePath": "europe_2026/IMG_2255.JPG",
-      "src": "photos/europe_2026/IMG_2255.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2255.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2255.webp",
       "mtime": 1781592368710.5793,
       "size": 1427352
@@ -1179,7 +1179,7 @@
       "album": "europe_2026",
       "title": "IMG 2256",
       "relativePath": "europe_2026/IMG_2256.JPG",
-      "src": "photos/europe_2026/IMG_2256.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2256.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2256.webp",
       "mtime": 1781592368948.9521,
       "size": 1722000
@@ -1188,7 +1188,7 @@
       "album": "europe_2026",
       "title": "IMG 2257",
       "relativePath": "europe_2026/IMG_2257.JPG",
-      "src": "photos/europe_2026/IMG_2257.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2257.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2257.webp",
       "mtime": 1781592369174.1196,
       "size": 1634811
@@ -1197,7 +1197,7 @@
       "album": "europe_2026",
       "title": "IMG 2258",
       "relativePath": "europe_2026/IMG_2258.JPG",
-      "src": "photos/europe_2026/IMG_2258.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2258.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2258.webp",
       "mtime": 1781592369395.6924,
       "size": 1618799
@@ -1206,7 +1206,7 @@
       "album": "europe_2026",
       "title": "IMG 2259",
       "relativePath": "europe_2026/IMG_2259.JPG",
-      "src": "photos/europe_2026/IMG_2259.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2259.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2259.webp",
       "mtime": 1781592369753.4338,
       "size": 3003988
@@ -1215,7 +1215,7 @@
       "album": "europe_2026",
       "title": "IMG 2260",
       "relativePath": "europe_2026/IMG_2260.JPG",
-      "src": "photos/europe_2026/IMG_2260.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2260.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2260.webp",
       "mtime": 1781592369994.697,
       "size": 1727693
@@ -1224,7 +1224,7 @@
       "album": "europe_2026",
       "title": "IMG 2261",
       "relativePath": "europe_2026/IMG_2261.JPG",
-      "src": "photos/europe_2026/IMG_2261.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2261.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2261.webp",
       "mtime": 1781592370255.6897,
       "size": 1953035
@@ -1233,7 +1233,7 @@
       "album": "europe_2026",
       "title": "IMG 2262",
       "relativePath": "europe_2026/IMG_2262.JPG",
-      "src": "photos/europe_2026/IMG_2262.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2262.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2262.webp",
       "mtime": 1781592370583.7537,
       "size": 2360845
@@ -1242,7 +1242,7 @@
       "album": "europe_2026",
       "title": "IMG 2263",
       "relativePath": "europe_2026/IMG_2263.JPG",
-      "src": "photos/europe_2026/IMG_2263.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2263.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2263.webp",
       "mtime": 1781592370965.9258,
       "size": 2784830
@@ -1251,7 +1251,7 @@
       "album": "europe_2026",
       "title": "IMG 2266",
       "relativePath": "europe_2026/IMG_2266.JPG",
-      "src": "photos/europe_2026/IMG_2266.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2266.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2266.webp",
       "mtime": 1781592371251.2761,
       "size": 1866865
@@ -1260,7 +1260,7 @@
       "album": "europe_2026",
       "title": "IMG 2267",
       "relativePath": "europe_2026/IMG_2267.JPG",
-      "src": "photos/europe_2026/IMG_2267.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2267.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2267.webp",
       "mtime": 1781592371517.6665,
       "size": 1684262
@@ -1269,7 +1269,7 @@
       "album": "europe_2026",
       "title": "IMG 2268",
       "relativePath": "europe_2026/IMG_2268.JPG",
-      "src": "photos/europe_2026/IMG_2268.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2268.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2268.webp",
       "mtime": 1781592371746.2888,
       "size": 1799281
@@ -1278,7 +1278,7 @@
       "album": "europe_2026",
       "title": "IMG 2269",
       "relativePath": "europe_2026/IMG_2269.JPG",
-      "src": "photos/europe_2026/IMG_2269.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2269.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2269.webp",
       "mtime": 1781592372014.95,
       "size": 1986675
@@ -1287,7 +1287,7 @@
       "album": "europe_2026",
       "title": "IMG 2270",
       "relativePath": "europe_2026/IMG_2270.JPG",
-      "src": "photos/europe_2026/IMG_2270.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2270.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2270.webp",
       "mtime": 1781592372338.643,
       "size": 2027438
@@ -1296,7 +1296,7 @@
       "album": "europe_2026",
       "title": "IMG 2271",
       "relativePath": "europe_2026/IMG_2271.JPG",
-      "src": "photos/europe_2026/IMG_2271.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2271.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2271.webp",
       "mtime": 1781592372615.2993,
       "size": 1809988
@@ -1305,7 +1305,7 @@
       "album": "europe_2026",
       "title": "IMG 2272",
       "relativePath": "europe_2026/IMG_2272.JPG",
-      "src": "photos/europe_2026/IMG_2272.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2272.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2272.webp",
       "mtime": 1781592372890.4421,
       "size": 1934557
@@ -1314,7 +1314,7 @@
       "album": "europe_2026",
       "title": "IMG 2273",
       "relativePath": "europe_2026/IMG_2273.JPG",
-      "src": "photos/europe_2026/IMG_2273.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2273.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2273.webp",
       "mtime": 1781592373156.961,
       "size": 1958563
@@ -1323,7 +1323,7 @@
       "album": "europe_2026",
       "title": "IMG 2274",
       "relativePath": "europe_2026/IMG_2274.JPG",
-      "src": "photos/europe_2026/IMG_2274.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2274.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2274.webp",
       "mtime": 1781592373477.6648,
       "size": 2304543
@@ -1332,7 +1332,7 @@
       "album": "europe_2026",
       "title": "IMG 2275",
       "relativePath": "europe_2026/IMG_2275.JPG",
-      "src": "photos/europe_2026/IMG_2275.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2275.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2275.webp",
       "mtime": 1781592373742.211,
       "size": 1754991
@@ -1341,7 +1341,7 @@
       "album": "europe_2026",
       "title": "IMG 2276",
       "relativePath": "europe_2026/IMG_2276.JPG",
-      "src": "photos/europe_2026/IMG_2276.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2276.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2276.webp",
       "mtime": 1781592373986.784,
       "size": 1582988
@@ -1350,7 +1350,7 @@
       "album": "europe_2026",
       "title": "IMG 2277",
       "relativePath": "europe_2026/IMG_2277.JPG",
-      "src": "photos/europe_2026/IMG_2277.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2277.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2277.webp",
       "mtime": 1781592374226.3943,
       "size": 1754318
@@ -1359,7 +1359,7 @@
       "album": "europe_2026",
       "title": "IMG 2278",
       "relativePath": "europe_2026/IMG_2278.JPG",
-      "src": "photos/europe_2026/IMG_2278.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2278.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2278.webp",
       "mtime": 1781592374468.68,
       "size": 1839073
@@ -1368,7 +1368,7 @@
       "album": "europe_2026",
       "title": "IMG 2279",
       "relativePath": "europe_2026/IMG_2279.JPG",
-      "src": "photos/europe_2026/IMG_2279.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--europe_2026--IMG_2279.JPG",
       "thumbSrc": "thumbnails/europe_2026/IMG_2279.webp",
       "mtime": 1781592365515.562,
       "size": 2049644
@@ -1377,7 +1377,7 @@
       "album": "simone_corsica",
       "title": "IMG 1774",
       "relativePath": "simone_corsica/IMG_1774.JPG",
-      "src": "photos/simone_corsica/IMG_1774.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1774.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1774.webp",
       "mtime": 315525606000,
       "size": 3896871
@@ -1386,7 +1386,7 @@
       "album": "simone_corsica",
       "title": "IMG 1775",
       "relativePath": "simone_corsica/IMG_1775.JPG",
-      "src": "photos/simone_corsica/IMG_1775.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1775.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1775.webp",
       "mtime": 315525616000,
       "size": 4480202
@@ -1395,7 +1395,7 @@
       "album": "simone_corsica",
       "title": "IMG 1776",
       "relativePath": "simone_corsica/IMG_1776.JPG",
-      "src": "photos/simone_corsica/IMG_1776.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1776.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1776.webp",
       "mtime": 315525606000,
       "size": 4100381
@@ -1404,7 +1404,7 @@
       "album": "simone_corsica",
       "title": "IMG 1777",
       "relativePath": "simone_corsica/IMG_1777.JPG",
-      "src": "photos/simone_corsica/IMG_1777.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1777.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1777.webp",
       "mtime": 315525606000,
       "size": 2681975
@@ -1413,7 +1413,7 @@
       "album": "simone_corsica",
       "title": "IMG 1779",
       "relativePath": "simone_corsica/IMG_1779.JPG",
-      "src": "photos/simone_corsica/IMG_1779.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1779.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1779.webp",
       "mtime": 315525656000,
       "size": 3000573
@@ -1422,7 +1422,7 @@
       "album": "simone_corsica",
       "title": "IMG 1780",
       "relativePath": "simone_corsica/IMG_1780.JPG",
-      "src": "photos/simone_corsica/IMG_1780.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1780.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1780.webp",
       "mtime": 315525668000,
       "size": 2368876
@@ -1431,7 +1431,7 @@
       "album": "simone_corsica",
       "title": "IMG 1781",
       "relativePath": "simone_corsica/IMG_1781.JPG",
-      "src": "photos/simone_corsica/IMG_1781.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1781.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1781.webp",
       "mtime": 315525608000,
       "size": 2474942
@@ -1440,7 +1440,7 @@
       "album": "simone_corsica",
       "title": "IMG 1782",
       "relativePath": "simone_corsica/IMG_1782.JPG",
-      "src": "photos/simone_corsica/IMG_1782.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1782.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1782.webp",
       "mtime": 315525610000,
       "size": 3077139
@@ -1449,7 +1449,7 @@
       "album": "simone_corsica",
       "title": "IMG 1783",
       "relativePath": "simone_corsica/IMG_1783.JPG",
-      "src": "photos/simone_corsica/IMG_1783.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1783.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1783.webp",
       "mtime": 315525622000,
       "size": 2870042
@@ -1458,7 +1458,7 @@
       "album": "simone_corsica",
       "title": "IMG 1786",
       "relativePath": "simone_corsica/IMG_1786.JPG",
-      "src": "photos/simone_corsica/IMG_1786.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1786.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1786.webp",
       "mtime": 315525622000,
       "size": 4635013
@@ -1467,7 +1467,7 @@
       "album": "simone_corsica",
       "title": "IMG 1787",
       "relativePath": "simone_corsica/IMG_1787.JPG",
-      "src": "photos/simone_corsica/IMG_1787.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1787.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1787.webp",
       "mtime": 315525606000,
       "size": 6491742
@@ -1476,7 +1476,7 @@
       "album": "simone_corsica",
       "title": "IMG 1788",
       "relativePath": "simone_corsica/IMG_1788.JPG",
-      "src": "photos/simone_corsica/IMG_1788.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1788.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1788.webp",
       "mtime": 315525604000,
       "size": 5890948
@@ -1485,7 +1485,7 @@
       "album": "simone_corsica",
       "title": "IMG 1789",
       "relativePath": "simone_corsica/IMG_1789.JPG",
-      "src": "photos/simone_corsica/IMG_1789.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1789.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1789.webp",
       "mtime": 315525604000,
       "size": 5345125
@@ -1494,7 +1494,7 @@
       "album": "simone_corsica",
       "title": "IMG 1792",
       "relativePath": "simone_corsica/IMG_1792.JPG",
-      "src": "photos/simone_corsica/IMG_1792.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1792.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1792.webp",
       "mtime": 315525662000,
       "size": 5508713
@@ -1503,7 +1503,7 @@
       "album": "simone_corsica",
       "title": "IMG 1793",
       "relativePath": "simone_corsica/IMG_1793.JPG",
-      "src": "photos/simone_corsica/IMG_1793.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1793.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1793.webp",
       "mtime": 315525668000,
       "size": 5499145
@@ -1512,7 +1512,7 @@
       "album": "simone_corsica",
       "title": "IMG 1794",
       "relativePath": "simone_corsica/IMG_1794.JPG",
-      "src": "photos/simone_corsica/IMG_1794.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1794.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1794.webp",
       "mtime": 315525700000,
       "size": 4928317
@@ -1521,7 +1521,7 @@
       "album": "simone_corsica",
       "title": "IMG 1795",
       "relativePath": "simone_corsica/IMG_1795.JPG",
-      "src": "photos/simone_corsica/IMG_1795.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1795.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1795.webp",
       "mtime": 315525704000,
       "size": 3976572
@@ -1530,7 +1530,7 @@
       "album": "simone_corsica",
       "title": "IMG 1796",
       "relativePath": "simone_corsica/IMG_1796.JPG",
-      "src": "photos/simone_corsica/IMG_1796.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1796.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1796.webp",
       "mtime": 315525606000,
       "size": 5866999
@@ -1539,7 +1539,7 @@
       "album": "simone_corsica",
       "title": "IMG 1797",
       "relativePath": "simone_corsica/IMG_1797.JPG",
-      "src": "photos/simone_corsica/IMG_1797.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1797.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1797.webp",
       "mtime": 315525604000,
       "size": 4039904
@@ -1548,7 +1548,7 @@
       "album": "simone_corsica",
       "title": "IMG 1798",
       "relativePath": "simone_corsica/IMG_1798.JPG",
-      "src": "photos/simone_corsica/IMG_1798.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1798.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1798.webp",
       "mtime": 315525610000,
       "size": 6151225
@@ -1557,7 +1557,7 @@
       "album": "simone_corsica",
       "title": "IMG 1799",
       "relativePath": "simone_corsica/IMG_1799.JPG",
-      "src": "photos/simone_corsica/IMG_1799.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1799.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1799.webp",
       "mtime": 315525606000,
       "size": 6518497
@@ -1566,7 +1566,7 @@
       "album": "simone_corsica",
       "title": "IMG 1800",
       "relativePath": "simone_corsica/IMG_1800.JPG",
-      "src": "photos/simone_corsica/IMG_1800.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1800.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1800.webp",
       "mtime": 315525614000,
       "size": 6460139
@@ -1575,7 +1575,7 @@
       "album": "simone_corsica",
       "title": "IMG 1801",
       "relativePath": "simone_corsica/IMG_1801.JPG",
-      "src": "photos/simone_corsica/IMG_1801.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1801.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1801.webp",
       "mtime": 315525620000,
       "size": 4668100
@@ -1584,7 +1584,7 @@
       "album": "simone_corsica",
       "title": "IMG 1802",
       "relativePath": "simone_corsica/IMG_1802.JPG",
-      "src": "photos/simone_corsica/IMG_1802.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1802.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1802.webp",
       "mtime": 315525604000,
       "size": 4085799
@@ -1593,7 +1593,7 @@
       "album": "simone_corsica",
       "title": "IMG 1803",
       "relativePath": "simone_corsica/IMG_1803.JPG",
-      "src": "photos/simone_corsica/IMG_1803.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1803.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1803.webp",
       "mtime": 315525612000,
       "size": 3469155
@@ -1602,7 +1602,7 @@
       "album": "simone_corsica",
       "title": "IMG 1805",
       "relativePath": "simone_corsica/IMG_1805.JPG",
-      "src": "photos/simone_corsica/IMG_1805.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1805.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1805.webp",
       "mtime": 315525618000,
       "size": 4505398
@@ -1611,7 +1611,7 @@
       "album": "simone_corsica",
       "title": "IMG 1806",
       "relativePath": "simone_corsica/IMG_1806.JPG",
-      "src": "photos/simone_corsica/IMG_1806.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1806.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1806.webp",
       "mtime": 315525608000,
       "size": 3387983
@@ -1620,7 +1620,7 @@
       "album": "simone_corsica",
       "title": "IMG 1807",
       "relativePath": "simone_corsica/IMG_1807.JPG",
-      "src": "photos/simone_corsica/IMG_1807.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1807.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1807.webp",
       "mtime": 315525612000,
       "size": 3587454
@@ -1629,7 +1629,7 @@
       "album": "simone_corsica",
       "title": "IMG 1808",
       "relativePath": "simone_corsica/IMG_1808.JPG",
-      "src": "photos/simone_corsica/IMG_1808.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1808.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1808.webp",
       "mtime": 315525628000,
       "size": 4279096
@@ -1638,7 +1638,7 @@
       "album": "simone_corsica",
       "title": "IMG 1809",
       "relativePath": "simone_corsica/IMG_1809.JPG",
-      "src": "photos/simone_corsica/IMG_1809.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1809.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1809.webp",
       "mtime": 315525604000,
       "size": 4096840
@@ -1647,7 +1647,7 @@
       "album": "simone_corsica",
       "title": "IMG 1811",
       "relativePath": "simone_corsica/IMG_1811.JPG",
-      "src": "photos/simone_corsica/IMG_1811.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1811.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1811.webp",
       "mtime": 315525604000,
       "size": 4354874
@@ -1656,7 +1656,7 @@
       "album": "simone_corsica",
       "title": "IMG 1812",
       "relativePath": "simone_corsica/IMG_1812.JPG",
-      "src": "photos/simone_corsica/IMG_1812.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1812.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1812.webp",
       "mtime": 315525610000,
       "size": 4466751
@@ -1665,7 +1665,7 @@
       "album": "simone_corsica",
       "title": "IMG 1813",
       "relativePath": "simone_corsica/IMG_1813.JPG",
-      "src": "photos/simone_corsica/IMG_1813.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1813.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1813.webp",
       "mtime": 315525604000,
       "size": 2945244
@@ -1674,7 +1674,7 @@
       "album": "simone_corsica",
       "title": "IMG 1814",
       "relativePath": "simone_corsica/IMG_1814.JPG",
-      "src": "photos/simone_corsica/IMG_1814.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1814.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1814.webp",
       "mtime": 315525622000,
       "size": 5142276
@@ -1683,7 +1683,7 @@
       "album": "simone_corsica",
       "title": "IMG 1816",
       "relativePath": "simone_corsica/IMG_1816.JPG",
-      "src": "photos/simone_corsica/IMG_1816.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1816.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1816.webp",
       "mtime": 315525640000,
       "size": 3063793
@@ -1692,7 +1692,7 @@
       "album": "simone_corsica",
       "title": "IMG 1817",
       "relativePath": "simone_corsica/IMG_1817.JPG",
-      "src": "photos/simone_corsica/IMG_1817.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1817.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1817.webp",
       "mtime": 315525646000,
       "size": 2801514
@@ -1701,7 +1701,7 @@
       "album": "simone_corsica",
       "title": "IMG 1820",
       "relativePath": "simone_corsica/IMG_1820.JPG",
-      "src": "photos/simone_corsica/IMG_1820.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1820.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1820.webp",
       "mtime": 315525664000,
       "size": 3875054
@@ -1710,7 +1710,7 @@
       "album": "simone_corsica",
       "title": "IMG 1821",
       "relativePath": "simone_corsica/IMG_1821.JPG",
-      "src": "photos/simone_corsica/IMG_1821.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1821.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1821.webp",
       "mtime": 315525670000,
       "size": 4227610
@@ -1719,7 +1719,7 @@
       "album": "simone_corsica",
       "title": "IMG 1822",
       "relativePath": "simone_corsica/IMG_1822.JPG",
-      "src": "photos/simone_corsica/IMG_1822.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1822.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1822.webp",
       "mtime": 315525624000,
       "size": 3391136
@@ -1728,7 +1728,7 @@
       "album": "simone_corsica",
       "title": "IMG 1823",
       "relativePath": "simone_corsica/IMG_1823.JPG",
-      "src": "photos/simone_corsica/IMG_1823.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1823.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1823.webp",
       "mtime": 315525670000,
       "size": 4835870
@@ -1737,7 +1737,7 @@
       "album": "simone_corsica",
       "title": "IMG 1824",
       "relativePath": "simone_corsica/IMG_1824.JPG",
-      "src": "photos/simone_corsica/IMG_1824.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1824.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1824.webp",
       "mtime": 315525818000,
       "size": 4669862
@@ -1746,7 +1746,7 @@
       "album": "simone_corsica",
       "title": "IMG 1825",
       "relativePath": "simone_corsica/IMG_1825.JPG",
-      "src": "photos/simone_corsica/IMG_1825.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1825.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1825.webp",
       "mtime": 315525824000,
       "size": 4523220
@@ -1755,7 +1755,7 @@
       "album": "simone_corsica",
       "title": "IMG 1826",
       "relativePath": "simone_corsica/IMG_1826.JPG",
-      "src": "photos/simone_corsica/IMG_1826.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1826.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1826.webp",
       "mtime": 315525830000,
       "size": 5075242
@@ -1764,7 +1764,7 @@
       "album": "simone_corsica",
       "title": "IMG 1827",
       "relativePath": "simone_corsica/IMG_1827.JPG",
-      "src": "photos/simone_corsica/IMG_1827.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1827.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1827.webp",
       "mtime": 315525840000,
       "size": 4820094
@@ -1773,7 +1773,7 @@
       "album": "simone_corsica",
       "title": "IMG 1828",
       "relativePath": "simone_corsica/IMG_1828.JPG",
-      "src": "photos/simone_corsica/IMG_1828.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1828.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1828.webp",
       "mtime": 315525850000,
       "size": 4041877
@@ -1782,7 +1782,7 @@
       "album": "simone_corsica",
       "title": "IMG 1829",
       "relativePath": "simone_corsica/IMG_1829.JPG",
-      "src": "photos/simone_corsica/IMG_1829.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1829.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1829.webp",
       "mtime": 315525858000,
       "size": 4680480
@@ -1791,7 +1791,7 @@
       "album": "simone_corsica",
       "title": "IMG 1830",
       "relativePath": "simone_corsica/IMG_1830.JPG",
-      "src": "photos/simone_corsica/IMG_1830.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1830.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1830.webp",
       "mtime": 315525894000,
       "size": 4798994
@@ -1800,7 +1800,7 @@
       "album": "simone_corsica",
       "title": "IMG 1831",
       "relativePath": "simone_corsica/IMG_1831.JPG",
-      "src": "photos/simone_corsica/IMG_1831.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1831.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1831.webp",
       "mtime": 315525904000,
       "size": 4182232
@@ -1809,7 +1809,7 @@
       "album": "simone_corsica",
       "title": "IMG 1832",
       "relativePath": "simone_corsica/IMG_1832.JPG",
-      "src": "photos/simone_corsica/IMG_1832.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1832.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1832.webp",
       "mtime": 315525916000,
       "size": 4684871
@@ -1818,7 +1818,7 @@
       "album": "simone_corsica",
       "title": "IMG 1833",
       "relativePath": "simone_corsica/IMG_1833.JPG",
-      "src": "photos/simone_corsica/IMG_1833.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1833.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1833.webp",
       "mtime": 315525920000,
       "size": 4641155
@@ -1827,7 +1827,7 @@
       "album": "simone_corsica",
       "title": "IMG 1835",
       "relativePath": "simone_corsica/IMG_1835.JPG",
-      "src": "photos/simone_corsica/IMG_1835.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1835.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1835.webp",
       "mtime": 315525610000,
       "size": 3291074
@@ -1836,7 +1836,7 @@
       "album": "simone_corsica",
       "title": "IMG 1836",
       "relativePath": "simone_corsica/IMG_1836.JPG",
-      "src": "photos/simone_corsica/IMG_1836.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1836.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1836.webp",
       "mtime": 315525626000,
       "size": 3188249
@@ -1845,7 +1845,7 @@
       "album": "simone_corsica",
       "title": "IMG 1837",
       "relativePath": "simone_corsica/IMG_1837.JPG",
-      "src": "photos/simone_corsica/IMG_1837.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1837.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1837.webp",
       "mtime": 315525604000,
       "size": 2792574
@@ -1854,7 +1854,7 @@
       "album": "simone_corsica",
       "title": "IMG 1838",
       "relativePath": "simone_corsica/IMG_1838.JPG",
-      "src": "photos/simone_corsica/IMG_1838.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1838.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1838.webp",
       "mtime": 315525622000,
       "size": 2685010
@@ -1863,7 +1863,7 @@
       "album": "simone_corsica",
       "title": "IMG 1840",
       "relativePath": "simone_corsica/IMG_1840.JPG",
-      "src": "photos/simone_corsica/IMG_1840.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1840.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1840.webp",
       "mtime": 315525786000,
       "size": 2642274
@@ -1872,7 +1872,7 @@
       "album": "simone_corsica",
       "title": "IMG 1841",
       "relativePath": "simone_corsica/IMG_1841.JPG",
-      "src": "photos/simone_corsica/IMG_1841.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1841.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1841.webp",
       "mtime": 315525794000,
       "size": 2817552
@@ -1881,7 +1881,7 @@
       "album": "simone_corsica",
       "title": "IMG 1842",
       "relativePath": "simone_corsica/IMG_1842.JPG",
-      "src": "photos/simone_corsica/IMG_1842.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1842.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1842.webp",
       "mtime": 315525802000,
       "size": 2641632
@@ -1890,7 +1890,7 @@
       "album": "simone_corsica",
       "title": "IMG 1843",
       "relativePath": "simone_corsica/IMG_1843.JPG",
-      "src": "photos/simone_corsica/IMG_1843.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1843.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1843.webp",
       "mtime": 315525810000,
       "size": 2717387
@@ -1899,7 +1899,7 @@
       "album": "simone_corsica",
       "title": "IMG 1844",
       "relativePath": "simone_corsica/IMG_1844.JPG",
-      "src": "photos/simone_corsica/IMG_1844.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1844.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1844.webp",
       "mtime": 315525824000,
       "size": 2682025
@@ -1908,7 +1908,7 @@
       "album": "simone_corsica",
       "title": "IMG 1845",
       "relativePath": "simone_corsica/IMG_1845.JPG",
-      "src": "photos/simone_corsica/IMG_1845.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/cameraflicks--simone_corsica--IMG_1845.JPG",
       "thumbSrc": "thumbnails/simone_corsica/IMG_1845.webp",
       "mtime": 315525832000,
       "size": 3270090

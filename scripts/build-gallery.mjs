@@ -120,7 +120,8 @@ export async function buildIndex() {
   // Load release manifest: relativePath → { url, size, mtime }
   let manifest = {};
   try {
-    manifest = JSON.parse(await readFile(path.join(dataDir, "release-manifest.json"), "utf8"));
+    const raw = (await readFile(path.join(dataDir, "release-manifest.json"), "utf8")).replace(/^﻿/, "");
+    manifest = JSON.parse(raw);
   } catch { /* optional */ }
 
   // Walk local photos (may be empty if photos/ is gitignored and not present)
