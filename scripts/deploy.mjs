@@ -23,10 +23,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { walkPhotos, ensureThumbnail, buildIndex } from "./build-gallery.mjs";
 
-const root         = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const dataDir      = path.join(root, "data");
-const manifestPath = path.join(dataDir, "release-manifest.json");
-const RELEASE_TAG  = "photos";
+const root             = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const dataDir          = path.join(root, "data");
+const manifestPath     = path.join(dataDir, "release-manifest.json");
+const RELEASE_TAG      = "photos";
+const RELEASE_CAPACITY = 950; // GitHub hard-limits releases to 1000 assets; stay under
 
 // ── Concurrency helpers ───────────────────────────────────────────────────────
 
@@ -109,15 +110,17 @@ async function ghFetch(token, method, url, body) {
   return text ? JSON.parse(text) : null;
 }
 
-async function getOrCreateRelease(token, owner, repo) {
+async function getOrCreateRelease(token, owner, repo, tag) {
   const base = `https://api.github.com/repos/${owner}/${repo}`;
   try {
-    return await ghFetch(token, "GET", `${base}/releases/tags/${RELEASE_TAG}`);
+    return await ghFetch(token, "GET", `${base}/releases/tags/${tag}`);
   } catch {
-    console.log(`  Creating GitHub Release "${RELEASE_TAG}"...`);
+    const seq  = tag === RELEASE_TAG ? 1 : parseInt(tag.replace(`${RELEASE_TAG}-`, ""), 10);
+    const name = seq === 1 ? "Photo Archive" : `Photo Archive (${seq})`;
+    console.log(`  Creating GitHub Release "${tag}"...`);
     return await ghFetch(token, "POST", `${base}/releases`, {
-      tag_name: RELEASE_TAG,
-      name: "Photo Archive",
+      tag_name: tag,
+      name,
       body: "Original-quality photos. Auto-managed by deploy.mjs — do not edit manually.",
       draft: false,
       prerelease: false,
@@ -130,8 +133,27 @@ function toAssetName(relPath) {
   return relPath.replace(/\//g, "--");
 }
 
-function toDownloadUrl(owner, repo, assetName) {
-  return `https://github.com/${owner}/${repo}/releases/download/${RELEASE_TAG}/${encodeURIComponent(assetName)}`;
+function toDownloadUrl(owner, repo, assetName, tag) {
+  return `https://github.com/${owner}/${repo}/releases/download/${tag}/${encodeURIComponent(assetName)}`;
+}
+
+// Given the current manifest, count assets per release tag and assign a tag
+// to each new photo — spilling into photos-2, photos-3, etc. as needed.
+function assignReleaseTags(newPhotos, manifest) {
+  const counts = {};
+  for (const info of Object.values(manifest)) {
+    const m = info.url.match(/\/releases\/download\/([^/]+)\//);
+    if (m) counts[m[1]] = (counts[m[1]] || 0) + 1;
+  }
+  return newPhotos.map(photo => {
+    for (let i = 1; ; i++) {
+      const tag = i === 1 ? RELEASE_TAG : `${RELEASE_TAG}-${i}`;
+      if ((counts[tag] ?? 0) < RELEASE_CAPACITY) {
+        counts[tag] = (counts[tag] ?? 0) + 1;
+        return { photo, tag };
+      }
+    }
+  });
 }
 
 async function uploadAsset(token, owner, repo, releaseId, assetName, data) {
@@ -175,8 +197,17 @@ async function main() {
   console.log(`  New to upload  : ${newPhotos.length}\n`);
 
   if (newPhotos.length > 0) {
-    const release = await getOrCreateRelease(token, owner, repo);
-    console.log(`  Release id: ${release.id}\n`);
+    // Assign each new photo to a release, spilling into photos-2, photos-3, ... as needed
+    const assignments  = assignReleaseTags(newPhotos, manifest);
+    const releaseTags  = [...new Set(assignments.map(a => a.tag))];
+
+    // Get or create all needed releases up front
+    const releaseMap = {};
+    for (const tag of releaseTags) {
+      releaseMap[tag] = await getOrCreateRelease(token, owner, repo, tag);
+      console.log(`  Release "${tag}" (id: ${releaseMap[tag].id})`);
+    }
+    console.log();
 
     // Phase 1: generate all thumbnails locally (fast, 6 workers)
     process.stdout.write(`  Generating ${newPhotos.length} thumbnail(s)...`);
@@ -192,14 +223,15 @@ async function main() {
     let failed   = 0;
     const total  = newPhotos.length;
 
-    await mapLimit(newPhotos, 4, async photo => {
+    await mapLimit(assignments, 4, async ({ photo, tag }) => {
+      const release = releaseMap[tag];
       try {
         const assetName = toAssetName(photo.relativePath);
         const data      = await readFile(photo.absolute);
         await uploadAsset(token, owner, repo, release.id, assetName, data);
 
         manifest[photo.relativePath] = {
-          url:        toDownloadUrl(owner, repo, assetName),
+          url:        toDownloadUrl(owner, repo, assetName, tag),
           size:       photo.size,
           mtime:      photo.mtime,
           uploadedAt: new Date().toISOString(),
@@ -214,12 +246,11 @@ async function main() {
       } catch (err) {
         failed++;
         process.stdout.write(`\r  Uploading: ${uploaded}/${total} done, ${failed} failed   `);
-        // Print the error on a new line so it doesn't get overwritten
         console.log(`\n  ✗ ${photo.relativePath}: ${err.message}`);
       }
     });
 
-    console.log(); // newline after progress
+    console.log();
     saveManifest(manifest);
     console.log(`\n  Uploaded: ${uploaded}  Failed: ${failed}\n`);
 
