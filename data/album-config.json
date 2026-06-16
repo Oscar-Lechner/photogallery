@@ -1,36 +1,36 @@
 {
   "dates": {
-    "cameraflicks / europe_2026":             "2026-05-25T00:00:00",
-    "cameraflicks / night2":                  "2026-05-22T00:00:00",
-    "cameraflicks / night1":                  "2026-05-21T00:00:00",
-    "cameraflicks / vancouver_la":            "2026-05-07T00:00:00",
-    "cameraflicks / comencement":             "2026-05-02T00:00:00",
-    "cameraflicks / gradaftermath":           "2026-05-01T23:00:00",
-    "cameraflicks / atlas_graduation":        "2026-05-01T16:00:00",
-    "cameraflicks / misc":                    "2026-04-25T00:00:00",
-    "cameraflicks / gradpicscarlson":         "2026-04-21T00:00:00",
-    "cameraflicks / discolines":              "2026-04-18T20:00:00",
-    "cameraflicks / discolines / strangers":  "2026-04-18T20:00:00",
-    "cameraflicks / simone_breck":            "2026-05-15T20:00:00",
-    "cameraflicks / simone_corsica":          "2026-06-13T20:00:00"
+    "europe_2026":             "2026-05-25T00:00:00",
+    "night2":                  "2026-05-22T00:00:00",
+    "night1":                  "2026-05-21T00:00:00",
+    "vancouver_la":            "2026-05-07T00:00:00",
+    "comencement":             "2026-05-02T00:00:00",
+    "gradaftermath":           "2026-05-01T23:00:00",
+    "atlas_graduation":        "2026-05-01T16:00:00",
+    "misc":                    "2026-04-25T00:00:00",
+    "gradpicscarlson":         "2026-04-21T00:00:00",
+    "discolines":              "2026-04-18T20:00:00",
+    "discolines / strangers":  "2026-04-18T20:00:00",
+    "simone_breck":            "2026-05-15T20:00:00",
+    "simone_corsica":          "2026-06-13T20:00:00"
   },
   "display": {
-    "cameraflicks / europe_2026":             "Europe 2026",
-    "cameraflicks / night2":                  "Night 2 (May 22)",
-    "cameraflicks / night1":                  "Night 1 (May 21)",
-    "cameraflicks / vancouver_la":            "Vancouver / LA",
-    "cameraflicks / comencement":             "Commencement",
-    "cameraflicks / gradaftermath":           "Grad Aftermath",
-    "cameraflicks / atlas_graduation":        "Atlas Graduation",
-    "cameraflicks / misc":                    "Misc",
-    "cameraflicks / gradpicscarlson":         "Carlson Shoot",
-    "cameraflicks / discolines":              "Discolines",
-    "cameraflicks / discolines / strangers":  "Discolines / Strangers",
-    "cameraflicks / simone_breck":            "Simone Breck",
-    "cameraflicks / simone_corsica":          "Simone Corsica"
+    "europe_2026":             "Europe 2026",
+    "night2":                  "Night 2 (May 22)",
+    "night1":                  "Night 1 (May 21)",
+    "vancouver_la":            "Vancouver / LA",
+    "comencement":             "Commencement",
+    "gradaftermath":           "Grad Aftermath",
+    "atlas_graduation":        "Atlas Graduation",
+    "misc":                    "Misc",
+    "gradpicscarlson":         "Carlson Shoot",
+    "discolines":              "Discolines",
+    "discolines / strangers":  "Discolines / Strangers",
+    "simone_breck":            "Simone Breck",
+    "simone_corsica":          "Simone Corsica"
   },
   "collapse": {
-    "cameraflicks / gradpicscarlson / goods":                   "cameraflicks / gradpicscarlson",
-    "cameraflicks / gradpicscarlson / goods / finstapost13":    "cameraflicks / gradpicscarlson"
+    "gradpicscarlson / goods":                "gradpicscarlson",
+    "gradpicscarlson / goods / finstapost13": "gradpicscarlson"
   }
 }
