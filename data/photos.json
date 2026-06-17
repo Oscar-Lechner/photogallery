@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T20:40:14.641Z",
-  "count": 1031,
+  "generatedAt": "2026-06-17T07:34:41.776Z",
+  "count": 1047,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -2389,6 +2389,150 @@
       "thumbSrc": "thumbnails/europe_2026/IMG_2279.webp",
       "mtime": 1781592365515.562,
       "size": 2049644
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2280",
+      "relativePath": "europe_2026/IMG_2280.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2280.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2280.webp",
+      "mtime": 315525608000,
+      "size": 2346744
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2281",
+      "relativePath": "europe_2026/IMG_2281.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2281.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2281.webp",
+      "mtime": 315525616000,
+      "size": 2140673
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2282",
+      "relativePath": "europe_2026/IMG_2282.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2282.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2282.webp",
+      "mtime": 315525606000,
+      "size": 3642948
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2283",
+      "relativePath": "europe_2026/IMG_2283.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2283.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2283.webp",
+      "mtime": 315525612000,
+      "size": 3514876
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2284",
+      "relativePath": "europe_2026/IMG_2284.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2284.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2284.webp",
+      "mtime": 315525612000,
+      "size": 2617914
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2285",
+      "relativePath": "europe_2026/IMG_2285.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2285.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2285.webp",
+      "mtime": 315525622000,
+      "size": 3768502
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2286",
+      "relativePath": "europe_2026/IMG_2286.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2286.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2286.webp",
+      "mtime": 315525626000,
+      "size": 1802197
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2287",
+      "relativePath": "europe_2026/IMG_2287.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2287.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2287.webp",
+      "mtime": 315525604000,
+      "size": 2728338
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2288",
+      "relativePath": "europe_2026/IMG_2288.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2288.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2288.webp",
+      "mtime": 315525612000,
+      "size": 2407197
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2289",
+      "relativePath": "europe_2026/IMG_2289.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2289.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2289.webp",
+      "mtime": 315525606000,
+      "size": 2705140
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2290",
+      "relativePath": "europe_2026/IMG_2290.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2290.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2290.webp",
+      "mtime": 315525616000,
+      "size": 2182501
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2291",
+      "relativePath": "europe_2026/IMG_2291.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2291.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2291.webp",
+      "mtime": 315525622000,
+      "size": 2023356
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2292",
+      "relativePath": "europe_2026/IMG_2292.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2292.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2292.webp",
+      "mtime": 315525640000,
+      "size": 3430250
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2293",
+      "relativePath": "europe_2026/IMG_2293.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2293.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2293.webp",
+      "mtime": 315525606000,
+      "size": 2062526
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2294",
+      "relativePath": "europe_2026/IMG_2294.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2294.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2294.webp",
+      "mtime": 315525612000,
+      "size": 1961029
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 2295",
+      "relativePath": "europe_2026/IMG_2295.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_2295.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_2295.webp",
+      "mtime": 315525604000,
+      "size": 2515525
     },
     {
       "album": "gradaftermath",
