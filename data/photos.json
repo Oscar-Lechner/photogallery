@@ -5038,15 +5038,6 @@
     },
     {
       "album": "night2",
-      "title": "IMG 2113",
-      "relativePath": "night2/IMG_2113.JPG",
-      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/night2--IMG_2113.JPG",
-      "thumbSrc": "thumbnails/night2/IMG_2113.webp",
-      "mtime": 1781510750996.7788,
-      "size": 1502863
-    },
-    {
-      "album": "night2",
       "title": "IMG 2114",
       "relativePath": "night2/IMG_2114.JPG",
       "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos/night2--IMG_2114.JPG",
