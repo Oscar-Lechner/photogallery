@@ -1,3 +1,5 @@
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+
 // DOM
 const entryScreen = document.querySelector("#entryScreen");
 const wheelEl = document.querySelector("#wheel");
@@ -16,7 +18,12 @@ const downloadView = document.querySelector("#downloadView");
 
 const albumFilter = document.querySelector("#albumFilter");
 const albumRail = document.querySelector("#albumRail");
+const colorViewBtn = document.querySelector("#colorViewBtn");
+const sortControl = document.querySelector("#sortControl");
 const tileSizeControl = document.querySelector("#tileSizeControl");
+const colorBar = document.querySelector("#colorBar");
+const colorBarGradient = document.querySelector("#colorBarGradient");
+const colorBarThumb = document.querySelector("#colorBarThumb");
 
 const featurePanel = document.querySelector("#featurePanel");
 const featurePhoto = document.querySelector("#featurePhoto");
@@ -52,6 +59,8 @@ let currentIndex = -1;
 let manifest = null;
 let picker = null;
 let thumbObserver = null;
+let currentSort = "filename";
+let currentTileMin = 140;
 
 const collator = new Intl.Collator(undefined, { numeric: true, sensitivity: "base" });
 
@@ -432,7 +441,58 @@ function updateRailActive() {
 
 // Gallery: ordering
 function sortPhotos(items) {
-  return [...items].sort((a, b) => collator.compare(a.album, b.album) || collator.compare(a.title, b.title));
+  switch (currentSort) {
+    case "hue": {
+      // Rainbow buckets keep reds together (fixing 0°/360° wrap) and group
+      // similar colors so the sort feels like a real rainbow.
+      // Returns [bucketIndex, hueWithinBucket].
+      function hueBucket(h) {
+        if (h >= 345 || h < 15)  return [0, h >= 345 ? h - 345 : h + 15]; // red
+        if (h < 45)  return [1, h - 15];   // orange
+        if (h < 75)  return [2, h - 45];   // yellow
+        if (h < 165) return [3, h - 75];   // green
+        if (h < 210) return [4, h - 165];  // cyan
+        if (h < 270) return [5, h - 210];  // blue
+        if (h < 315) return [6, h - 270];  // purple
+        return        [7, h - 315];        // pink / magenta
+      }
+      return [...items].sort((a, b) => {
+        const ca = a.color, cb = b.color;
+        if (!ca && !cb) return 0;
+        if (!ca) return 1;
+        if (!cb) return -1;
+        const na = ca.s < 15 || (ca.c ?? 100) < 10;
+        const nb = cb.s < 15 || (cb.c ?? 100) < 10;
+        if (na !== nb) return na ? 1 : -1;
+        if (na && nb) return ca.l - cb.l;
+        const [ba, ha] = hueBucket(ca.h);
+        const [bb, hb] = hueBucket(cb.h);
+        if (ba !== bb) return ba - bb;
+        // Within bucket: vivid first, then fine hue order, then most-chromatic
+        return (cb.s - ca.s) || (ha - hb) || ((cb.c ?? 0) - (ca.c ?? 0));
+      });
+    }
+    case "flat":
+      return [...items].sort((a, b) => {
+        const ca = a.color, cb = b.color;
+        if (!ca && !cb) return 0;
+        if (!ca) return 1;
+        if (!cb) return -1;
+        return ((cb.u ?? 0) - (ca.u ?? 0)) || (cb.s - ca.s);
+      });
+    case "value": {
+      const v = c => { const l = c.l / 100, s = c.s / 100; return l + s * Math.min(l, 1 - l); };
+      return [...items].sort((a, b) => {
+        const ca = a.color, cb = b.color;
+        if (!ca && !cb) return 0;
+        if (!ca) return 1;
+        if (!cb) return -1;
+        return v(cb) - v(ca);
+      });
+    }
+    default:
+      return [...items].sort((a, b) => collator.compare(a.album, b.album) || collator.compare(a.title, b.title));
+  }
 }
 
 // Gallery: feature
@@ -474,6 +534,40 @@ function renderSkeleton() {
   }
   grid.append(frag);
 }
+
+// Color bar
+function updateColorBar() {
+  if (currentSort !== "hue" || !visiblePhotos.some(p => p.color)) {
+    colorBar.hidden = true;
+    return;
+  }
+
+  // Sit just left of the native scrollbar
+  const sbw = window.innerWidth - document.documentElement.clientWidth;
+  colorBar.style.right = sbw + "px";
+
+  // Build gradient from evenly-sampled photos (sorted by hue)
+  const N = Math.min(visiblePhotos.length, 36);
+  const stops = [];
+  for (let i = 0; i < N; i++) {
+    const idx = Math.round((i / (N - 1)) * (visiblePhotos.length - 1));
+    const h = visiblePhotos[idx]?.color?.h ?? 0;
+    stops.push(`hsl(${h},95%,50%) ${((i / (N - 1)) * 100).toFixed(1)}%`);
+  }
+  colorBarGradient.style.background = `linear-gradient(to bottom,${stops.join(",")})`;
+
+  colorBar.hidden = false;
+  updateColorBarThumb();
+}
+
+function updateColorBarThumb() {
+  if (colorBar.hidden) return;
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const fraction = scrollable > 0 ? Math.min(1, window.scrollY / scrollable) : 0;
+  colorBarThumb.style.top = (fraction * 100) + "%";
+}
+
+window.addEventListener("scroll", updateColorBarThumb, { passive: true });
 
 // Gallery: grid
 const ANIM_CAP = 28;
@@ -545,6 +639,14 @@ function renderGrid(animate = false) {
 
     open.append(img, cap);
     card.append(open, dl);
+    if (photo.color) {
+      const hsl = `hsl(${photo.color.h},${photo.color.s}%,${photo.color.l}%)`;
+      card.style.setProperty("--card-color", hsl);
+      const dot = document.createElement("span");
+      dot.className = "color-dot";
+      dot.style.cssText = `--c:${hsl}`;
+      card.append(dot);
+    }
     frag.append(card);
   });
 
@@ -559,10 +661,12 @@ function renderGrid(animate = false) {
 
   setParams({
     album,
-    sort: "",
+    sort: currentSort !== "filename" ? currentSort : "",
     seed: "",
     q: "",
   });
+
+  updateColorBar();
 }
 
 // Lightbox
@@ -666,6 +770,7 @@ albumRail.addEventListener("click", (e) => {
 });
 
 function applyTileSize(value) {
+  currentTileMin = parseInt(value);
   document.documentElement.style.setProperty("--tile-min", `${value}px`);
 }
 
@@ -679,6 +784,89 @@ tileSizeControl.addEventListener("click", (e) => {
     option.classList.toggle("is-active", active);
     option.setAttribute("aria-pressed", String(active));
   });
+});
+
+colorViewBtn.addEventListener("click", () => {
+  const active = grid.classList.toggle("is-color-view");
+  colorViewBtn.classList.toggle("is-active", active);
+  colorViewBtn.setAttribute("aria-pressed", String(active));
+});
+
+sortControl.addEventListener("click", (e) => {
+  const button = e.target.closest("[data-sort]");
+  if (!button) return;
+  currentSort = button.dataset.sort;
+  sortControl.querySelectorAll("[data-sort]").forEach((opt) => {
+    const active = opt === button;
+    opt.classList.toggle("is-active", active);
+    opt.setAttribute("aria-pressed", String(active));
+  });
+  renderGrid(false);
+});
+
+// Keyboard shortcuts: 1–4 for sort, [ / ] for tile size
+document.addEventListener("keydown", (e) => {
+  if (gallery.hidden) return;
+  if (e.target.closest("input,textarea,select,[contenteditable]")) return;
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+  const SORT_MAP = { "1": "filename", "2": "hue", "3": "flat", "4": "value" };
+  const TILE_SIZES = [80, 140, 190, 250];
+
+  if (e.key === "s") {
+    e.preventDefault();
+    colorViewBtn.click();
+  } else if (SORT_MAP[e.key] !== undefined) {
+    e.preventDefault();
+    currentSort = SORT_MAP[e.key];
+    sortControl.querySelectorAll("[data-sort]").forEach(btn => {
+      const active = btn.dataset.sort === currentSort;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-pressed", String(active));
+    });
+    renderGrid(false);
+  } else if (e.key === "[" || e.key === "]") {
+    e.preventDefault();
+    const cur = TILE_SIZES.indexOf(currentTileMin);
+    const next = e.key === "[" ? Math.max(0, cur - 1) : Math.min(TILE_SIZES.length - 1, cur + 1);
+    if (next !== cur) {
+      const size = String(TILE_SIZES[next]);
+      applyTileSize(size);
+      tileSizeControl.querySelectorAll("[data-tile-size]").forEach(btn => {
+        const active = btn.dataset.tileSize === size;
+        btn.classList.toggle("is-active", active);
+        btn.setAttribute("aria-pressed", String(active));
+      });
+    }
+  } else if (e.key === "z") {
+    e.preventDefault();
+    const count = visiblePhotos.length;
+    if (count === 0) return;
+    const gap = 8;
+    const gridWidth = photoGrid.clientWidth;
+    // Grid's distance from document top (stable regardless of current scroll position)
+    const gridDocTop = photoGrid.getBoundingClientRect().top + window.scrollY;
+    const availableH = window.innerHeight - gridDocTop - 8;
+    // Binary search: largest tileMin where all photos fit without scrolling
+    let lo = 20, hi = gridWidth;
+    while (lo < hi - 1) {
+      const mid = Math.floor((lo + hi) / 2);
+      const cols = Math.max(1, Math.floor((gridWidth + gap) / (mid + gap)));
+      const tileW = (gridWidth - (cols - 1) * gap) / cols;
+      const rows = Math.ceil(count / cols);
+      if (rows * tileW + (rows - 1) * gap <= availableH) {
+        lo = mid;
+      } else {
+        hi = mid;
+      }
+    }
+    applyTileSize(lo);
+    tileSizeControl.querySelectorAll("[data-tile-size]").forEach(btn => {
+      btn.classList.remove("is-active");
+      btn.setAttribute("aria-pressed", "false");
+    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 });
 
 copyAlbumLink.addEventListener("click", shareAlbum);
@@ -734,8 +922,18 @@ async function boot() {
 
     const params = getParams();
     const urlAlbum = params.get("album") ?? "";
-    if (params.has("q") || params.has("sort") || params.has("seed")) {
-      setParams({ q: "", sort: "", seed: "" });
+    const urlSort = params.get("sort") ?? "";
+    if (params.has("q") || params.has("seed")) {
+      setParams({ q: "", seed: "" });
+    }
+    const validSorts = ["hue", "flat", "value"];
+    if (validSorts.includes(urlSort)) {
+      currentSort = urlSort;
+      sortControl.querySelectorAll("[data-sort]").forEach((b) => {
+        const active = b.dataset.sort === currentSort;
+        b.classList.toggle("is-active", active);
+        b.setAttribute("aria-pressed", String(active));
+      });
     }
 
     if (urlAlbum) {

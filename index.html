@@ -51,10 +51,18 @@
       </header>
 
       <section class="command-bar" aria-label="Gallery controls">
+        <button id="colorViewBtn" class="tile-size-btn" type="button" aria-pressed="false">Swatches (s)</button>
+        <div id="sortControl" class="sort-control" role="group" aria-label="Sort photos">
+          <button class="tile-size-btn is-active" type="button" data-sort="filename" aria-pressed="true">Default (1)</button>
+          <button class="tile-size-btn" type="button" data-sort="hue" aria-pressed="false">Hue (2)</button>
+          <button class="tile-size-btn" type="button" data-sort="flat" aria-pressed="false">Flat (3)</button>
+          <button class="tile-size-btn" type="button" data-sort="value" aria-pressed="false">Value (4)</button>
+        </div>
         <div id="tileSizeControl" class="tile-size-control" role="group" aria-label="Tile size">
-          <button class="tile-size-btn is-active" type="button" data-tile-size="140" aria-pressed="true">Small Tile</button>
-          <button class="tile-size-btn" type="button" data-tile-size="190" aria-pressed="false">Medium Tile</button>
-          <button class="tile-size-btn" type="button" data-tile-size="250" aria-pressed="false">Large Tile</button>
+          <button class="tile-size-btn" type="button" data-tile-size="80" aria-pressed="false">Tiny</button>
+          <button class="tile-size-btn is-active" type="button" data-tile-size="140" aria-pressed="true">Small</button>
+          <button class="tile-size-btn" type="button" data-tile-size="190" aria-pressed="false">Medium</button>
+          <button class="tile-size-btn" type="button" data-tile-size="250" aria-pressed="false">Large</button>
         </div>
       </section>
 
@@ -116,6 +124,12 @@
       </div>
       <div id="visibleDownloadLinks" class="download-links"></div>
     </dialog>
+
+    <!-- Color bar: hue-sort position indicator -->
+    <div id="colorBar" class="color-bar" hidden aria-hidden="true">
+      <div id="colorBarGradient" class="color-bar-gradient"></div>
+      <div id="colorBarThumb" class="color-bar-thumb"></div>
+    </div>
 
     <script src="assets/app.js" type="module"></script>
   </body>

@@ -14,6 +14,92 @@ const IMAGE_EXTS = new Set([".avif", ".gif", ".heic", ".heif", ".jpeg", ".jpg", 
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
+// Increment this when the extraction algorithm changes to bust the cache.
+const COLOR_ALGO_VERSION = 4;
+
+async function extractColor(thumbAbs) {
+  try {
+    // Downscale to 64×64 for fast, consistent per-pixel analysis.
+    const { data } = await sharp(thumbAbs, { failOn: "none" })
+      .resize(64, 64, { fit: "cover" })
+      .removeAlpha()
+      .raw()
+      .toBuffer({ resolveWithObject: true });
+
+    const n = data.length / 3;
+    const buckets = new Float32Array(360);
+    let totalL = 0;
+    let chromaticCount = 0;
+
+    // Pass 1: build a saturation-weighted hue histogram, skipping near-neutral pixels.
+    for (let i = 0; i < n; i++) {
+      const r = data[i * 3] / 255;
+      const g = data[i * 3 + 1] / 255;
+      const b = data[i * 3 + 2] / 255;
+      const max = Math.max(r, g, b), min = Math.min(r, g, b);
+      const l = (max + min) / 2;
+      totalL += l;
+      if (max === min) continue;
+      const d = max - min;
+      const s = d / (1 - Math.abs(2 * l - 1));
+      if (s < 0.15) continue;                  // skip grey/near-neutral pixels
+      let h;
+      if (max === r)      h = ((g - b) / d + (g < b ? 6 : 0)) * 60;
+      else if (max === g) h = ((b - r) / d + 2) * 60;
+      else                h = ((r - g) / d + 4) * 60;
+      if (h < 0) h += 360;
+      buckets[Math.floor(h) % 360] += s;        // weight by saturation
+      chromaticCount++;
+    }
+
+    const avgL = Math.round((totalL / n) * 100);
+
+    const chromaticRatio = Math.round((chromaticCount / n) * 100);
+
+    // If fewer than 5% of pixels are chromatic, treat the image as achromatic.
+    if (chromaticCount < n * 0.05) return { h: 0, s: 0, l: avgL, c: chromaticRatio, u: 0 };
+
+    // Find the dominant hue: smooth the histogram with a ±20° window then take the peak.
+    let bestScore = -1, dominantH = 0;
+    for (let h = 0; h < 360; h++) {
+      let score = 0;
+      for (let d = -20; d <= 20; d++) score += buckets[(h + d + 360) % 360];
+      if (score > bestScore) { bestScore = score; dominantH = h; }
+    }
+
+    // Pass 2: average S and L only for chromatic pixels within ±30° of the dominant hue.
+    let sumS = 0, sumL = 0, count = 0;
+    for (let i = 0; i < n; i++) {
+      const r = data[i * 3] / 255;
+      const g = data[i * 3 + 1] / 255;
+      const b = data[i * 3 + 2] / 255;
+      const max = Math.max(r, g, b), min = Math.min(r, g, b);
+      if (max === min) continue;
+      const d = max - min;
+      const l = (max + min) / 2;
+      const s = d / (1 - Math.abs(2 * l - 1));
+      if (s < 0.15) continue;
+      let h;
+      if (max === r)      h = ((g - b) / d + (g < b ? 6 : 0)) * 60;
+      else if (max === g) h = ((b - r) / d + 2) * 60;
+      else                h = ((r - g) / d + 4) * 60;
+      if (h < 0) h += 360;
+      const diff = Math.min(Math.abs(h - dominantH), 360 - Math.abs(h - dominantH));
+      if (diff <= 30) { sumS += s; sumL += l; count++; }
+    }
+
+    return {
+      h: dominantH,
+      s: count > 0 ? Math.round((sumS / count) * 100) : 50,
+      l: count > 0 ? Math.round((sumL / count) * 100) : avgL,
+      c: chromaticRatio,
+      u: Math.round((count / n) * 100),
+    };
+  } catch {
+    return null;
+  }
+}
+
 function titleFromFile(relPath) {
   return path
     .basename(relPath, path.extname(relPath))
@@ -192,6 +278,33 @@ export async function buildIndex() {
     if (!albumDisplay[album]) {
       albumDisplay[album] = autoDisplayName(album);
     }
+  }
+
+  // Load color cache and extract for any photos missing color data
+  const colorCachePath = path.join(dataDir, "colors.json");
+  let colorCache = {};
+  try {
+    const raw = JSON.parse(await readFile(colorCachePath, "utf8"));
+    if (raw._version === COLOR_ALGO_VERSION) colorCache = raw;
+  } catch { /* empty or missing */ }
+
+  const needsColor = photos.filter(p => !colorCache[p.relativePath]);
+  if (needsColor.length > 0) {
+    process.stdout.write(`Extracting color data for ${needsColor.length} photo(s)...`);
+    await mapLimit(needsColor, 6, async p => {
+      const thumbAbs = path.join(thumbsDir, p.relativePath.replace(/\.[^.]+$/, ".webp").split("/").join(path.sep));
+      try {
+        await stat(thumbAbs);
+        const color = await extractColor(thumbAbs);
+        if (color) colorCache[p.relativePath] = color;
+      } catch { /* thumbnail missing, skip */ }
+    });
+    console.log(" done.");
+    await writeFile(colorCachePath, JSON.stringify({ _version: COLOR_ALGO_VERSION, ...colorCache }, null, 2) + "\n");
+  }
+
+  for (const p of photos) {
+    if (colorCache[p.relativePath]) p.color = colorCache[p.relativePath];
   }
 
   await mkdir(dataDir, { recursive: true });

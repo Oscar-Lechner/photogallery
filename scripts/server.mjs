@@ -56,9 +56,10 @@ const server = createServer(async (request, response) => {
     }
 
     const extension = path.extname(filePath).toLowerCase();
+    const isThumbnail = filePath.includes(path.sep + "thumbnails" + path.sep);
     response.writeHead(200, {
       "Content-Type": types[extension] || "application/octet-stream",
-      "Cache-Control": "no-store"
+      "Cache-Control": isThumbnail ? "public, max-age=604800, immutable" : "no-store",
     });
     createReadStream(filePath).pipe(response);
   } catch {
