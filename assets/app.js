@@ -580,7 +580,7 @@ function showPhoto(index) {
   lightboxTitle.textContent = photo.title;
   lightboxAlbum.textContent = albumLabel(photo.album || "All photos");
   lightboxCount.textContent = `${idx + 1} / ${visiblePhotos.length}`;
-  openPhoto.href = photo.src;
+  openPhoto.href = thumbFor(photo);
   downloadPhoto.href = photo.src;
   downloadPhoto.download = fileName(photo);
 

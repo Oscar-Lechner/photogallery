@@ -568,6 +568,42 @@ a {
   -webkit-backdrop-filter: blur(16px);
 }
 
+.tile-size-control {
+  display: flex;
+  gap: 5px;
+}
+
+.tile-size-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: rgba(237, 240, 239, 0.035);
+  color: var(--quiet);
+  font-size: 0.68rem;
+  font-weight: 780;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 130ms ease, border-color 130ms ease, color 130ms ease;
+}
+
+.tile-size-btn:hover {
+  border-color: var(--line-hi);
+  background: rgba(237, 240, 239, 0.07);
+  color: var(--muted);
+}
+
+.tile-size-btn.is-active,
+.tile-size-btn[aria-pressed="true"] {
+  border-color: rgba(77, 159, 255, 0.44);
+  background: rgba(77, 159, 255, 0.1);
+  color: var(--ink);
+}
+
 .field {
   display: grid;
   gap: 6px;
