@@ -301,9 +301,10 @@ class WheelPicker {
     }, { passive: true });
     vp.addEventListener("touchmove", (e) => {
       if (!this._drag) return;
+      e.preventDefault();
       const dy = this._drag.y - e.touches[0].clientY;
       this._go(this._drag.idx + Math.round(dy / IH), false);
-    }, { passive: true });
+    }, { passive: false });
     vp.addEventListener("touchend", () => {
       if (!this._drag) return;
       this._drag = null;
@@ -891,6 +892,29 @@ lightbox.addEventListener("click", (e) => {
 downloadSheet.addEventListener("click", (e) => {
   if (e.target === downloadSheet) downloadSheet.close();
 });
+
+// Swipe between albums in gallery
+function navigateAlbum(delta) {
+  const chips = [...albumRail.querySelectorAll(".album-chip")];
+  if (chips.length < 2) return;
+  const values = chips.map((c) => c.dataset.album);
+  const idx = values.indexOf(albumFilter.value);
+  const next = ((idx + delta) % values.length + values.length) % values.length;
+  albumFilter.value = values[next];
+  renderGrid(true);
+}
+
+let _gsx = 0, _gsy = 0;
+gallery.addEventListener("touchstart", (e) => {
+  _gsx = e.touches[0].clientX;
+  _gsy = e.touches[0].clientY;
+}, { passive: true });
+gallery.addEventListener("touchend", (e) => {
+  const dx = e.changedTouches[0].clientX - _gsx;
+  const dy = e.changedTouches[0].clientY - _gsy;
+  if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy)) return;
+  navigateAlbum(dx < 0 ? 1 : -1);
+}, { passive: true });
 
 // Touch swipe in lightbox
 let _tx = 0;

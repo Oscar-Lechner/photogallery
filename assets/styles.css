@@ -688,12 +688,18 @@ a {
 }
 
 .album-rail {
+  position: sticky;
+  top: 114px;
+  z-index: 14;
   display: flex;
   gap: 8px;
-  padding: 0 0 12px;
+  padding: 8px 0;
   overflow-x: auto;
   scrollbar-width: none;
   scroll-padding-inline: clamp(10px, 3vw, 24px);
+  background: rgba(5, 6, 8, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .album-rail::-webkit-scrollbar {
@@ -1252,20 +1258,15 @@ a {
   }
 
   .header-actions {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-  }
-
-  .share-btn {
-    width: 100%;
-    min-width: 0;
+    display: none;
   }
 
   .command-bar {
-    position: static;
-    padding: 10px 0;
+    display: none;
+  }
+
+  .album-rail {
+    top: 64px;
   }
 
   .size-field {
