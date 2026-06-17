@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-17T07:38:56.849Z",
-  "count": 1047,
+  "generatedAt": "2026-06-17T07:50:55.859Z",
+  "count": 1079,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -7897,6 +7897,294 @@
       "thumbSrc": "thumbnails/simone_corsica/IMG_1845.webp",
       "mtime": 315525832000,
       "size": 3270090
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1846",
+      "relativePath": "simone_corsica/IMG_1846.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1846.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1846.webp",
+      "mtime": 315525608000,
+      "size": 4640337
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1847",
+      "relativePath": "simone_corsica/IMG_1847.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1847.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1847.webp",
+      "mtime": 315525616000,
+      "size": 3957765
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1848",
+      "relativePath": "simone_corsica/IMG_1848.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1848.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1848.webp",
+      "mtime": 315525624000,
+      "size": 3946956
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1849",
+      "relativePath": "simone_corsica/IMG_1849.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1849.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1849.webp",
+      "mtime": 315525614000,
+      "size": 4070678
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1850",
+      "relativePath": "simone_corsica/IMG_1850.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1850.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1850.webp",
+      "mtime": 315525646000,
+      "size": 4833596
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1851",
+      "relativePath": "simone_corsica/IMG_1851.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1851.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1851.webp",
+      "mtime": 315525668000,
+      "size": 4996850
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1853",
+      "relativePath": "simone_corsica/IMG_1853.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1853.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1853.webp",
+      "mtime": 315525604000,
+      "size": 4441126
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1854",
+      "relativePath": "simone_corsica/IMG_1854.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1854.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1854.webp",
+      "mtime": 315525610000,
+      "size": 3274850
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1855",
+      "relativePath": "simone_corsica/IMG_1855.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1855.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1855.webp",
+      "mtime": 315525604000,
+      "size": 5774818
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1856",
+      "relativePath": "simone_corsica/IMG_1856.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1856.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1856.webp",
+      "mtime": 315525606000,
+      "size": 5818810
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1857",
+      "relativePath": "simone_corsica/IMG_1857.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1857.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1857.webp",
+      "mtime": 315525630000,
+      "size": 2545052
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1858",
+      "relativePath": "simone_corsica/IMG_1858.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1858.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1858.webp",
+      "mtime": 315525682000,
+      "size": 2862811
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1859",
+      "relativePath": "simone_corsica/IMG_1859.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1859.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1859.webp",
+      "mtime": 315525606000,
+      "size": 3154419
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1860",
+      "relativePath": "simone_corsica/IMG_1860.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1860.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1860.webp",
+      "mtime": 315525614000,
+      "size": 3175017
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1863",
+      "relativePath": "simone_corsica/IMG_1863.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1863.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1863.webp",
+      "mtime": 315525606000,
+      "size": 6203199
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1864",
+      "relativePath": "simone_corsica/IMG_1864.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1864.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1864.webp",
+      "mtime": 315525620000,
+      "size": 5247525
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1865",
+      "relativePath": "simone_corsica/IMG_1865.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1865.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1865.webp",
+      "mtime": 315525636000,
+      "size": 5094282
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1867",
+      "relativePath": "simone_corsica/IMG_1867.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1867.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1867.webp",
+      "mtime": 315525606000,
+      "size": 6080833
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1868",
+      "relativePath": "simone_corsica/IMG_1868.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1868.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1868.webp",
+      "mtime": 315525612000,
+      "size": 6093281
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1869",
+      "relativePath": "simone_corsica/IMG_1869.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1869.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1869.webp",
+      "mtime": 315525608000,
+      "size": 5285640
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1870",
+      "relativePath": "simone_corsica/IMG_1870.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1870.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1870.webp",
+      "mtime": 315525620000,
+      "size": 6872357
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1871",
+      "relativePath": "simone_corsica/IMG_1871.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1871.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1871.webp",
+      "mtime": 315525652000,
+      "size": 4468277
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1872",
+      "relativePath": "simone_corsica/IMG_1872.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1872.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1872.webp",
+      "mtime": 315525672000,
+      "size": 4987624
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1873",
+      "relativePath": "simone_corsica/IMG_1873.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1873.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1873.webp",
+      "mtime": 315525706000,
+      "size": 5066454
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1874",
+      "relativePath": "simone_corsica/IMG_1874.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1874.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1874.webp",
+      "mtime": 315525712000,
+      "size": 6142540
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1877",
+      "relativePath": "simone_corsica/IMG_1877.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1877.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1877.webp",
+      "mtime": 315525604000,
+      "size": 6060702
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1878",
+      "relativePath": "simone_corsica/IMG_1878.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1878.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1878.webp",
+      "mtime": 315525634000,
+      "size": 4277871
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1879",
+      "relativePath": "simone_corsica/IMG_1879.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1879.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1879.webp",
+      "mtime": 315525644000,
+      "size": 4427529
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1880",
+      "relativePath": "simone_corsica/IMG_1880.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1880.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1880.webp",
+      "mtime": 315525664000,
+      "size": 5230832
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1881",
+      "relativePath": "simone_corsica/IMG_1881.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1881.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1881.webp",
+      "mtime": 315525602000,
+      "size": 5974288
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1882",
+      "relativePath": "simone_corsica/IMG_1882.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1882.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1882.webp",
+      "mtime": 315525610000,
+      "size": 6172941
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1885",
+      "relativePath": "simone_corsica/IMG_1885.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1885.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1885.webp",
+      "mtime": 315525624000,
+      "size": 2417618
     },
     {
       "album": "vancouver_la",
