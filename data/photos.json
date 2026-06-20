@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-17T11:54:57.517Z",
-  "count": 1078,
+  "generatedAt": "2026-06-20T06:22:43.715Z",
+  "count": 1107,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -1838,6 +1838,294 @@
         "l": 46,
         "c": 53,
         "u": 33
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0002",
+      "relativePath": "europe_2026/IMG_0002.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0002.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0002.webp",
+      "mtime": 1781935748562.3154,
+      "size": 3208475,
+      "color": {
+        "h": 85,
+        "s": 27,
+        "l": 35,
+        "c": 78,
+        "u": 60
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0003",
+      "relativePath": "europe_2026/IMG_0003.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0003.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0003.webp",
+      "mtime": 1781935748791.4387,
+      "size": 1515590,
+      "color": {
+        "h": 223,
+        "s": 53,
+        "l": 66,
+        "c": 80,
+        "u": 80
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0004",
+      "relativePath": "europe_2026/IMG_0004.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0004.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0004.webp",
+      "mtime": 1781935749108.8044,
+      "size": 1920868,
+      "color": {
+        "h": 206,
+        "s": 54,
+        "l": 59,
+        "c": 81,
+        "u": 69
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0005",
+      "relativePath": "europe_2026/IMG_0005.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0005.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0005.webp",
+      "mtime": 1781935749336.2083,
+      "size": 1661908,
+      "color": {
+        "h": 208,
+        "s": 50,
+        "l": 59,
+        "c": 58,
+        "u": 50
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0006",
+      "relativePath": "europe_2026/IMG_0006.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0006.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0006.webp",
+      "mtime": 1781935749538.0637,
+      "size": 1505024,
+      "color": {
+        "h": 193,
+        "s": 46,
+        "l": 44,
+        "c": 44,
+        "u": 43
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0007",
+      "relativePath": "europe_2026/IMG_0007.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0007.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0007.webp",
+      "mtime": 1781935749778.4966,
+      "size": 1930754,
+      "color": {
+        "h": 212,
+        "s": 60,
+        "l": 66,
+        "c": 72,
+        "u": 53
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0008",
+      "relativePath": "europe_2026/IMG_0008.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0008.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0008.webp",
+      "mtime": 1781935750061.6736,
+      "size": 2282681,
+      "color": {
+        "h": 208,
+        "s": 35,
+        "l": 50,
+        "c": 65,
+        "u": 60
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0009",
+      "relativePath": "europe_2026/IMG_0009.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0009.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0009.webp",
+      "mtime": 1781935750252.1726,
+      "size": 1359805,
+      "color": {
+        "h": 197,
+        "s": 68,
+        "l": 26,
+        "c": 67,
+        "u": 65
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0010",
+      "relativePath": "europe_2026/IMG_0010.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0010.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0010.webp",
+      "mtime": 1781935750443.4175,
+      "size": 1400872,
+      "color": {
+        "h": 177,
+        "s": 77,
+        "l": 17,
+        "c": 99,
+        "u": 98
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0011",
+      "relativePath": "europe_2026/IMG_0011.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0011.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0011.webp",
+      "mtime": 1781935750666.9001,
+      "size": 1699470,
+      "color": {
+        "h": 208,
+        "s": 37,
+        "l": 47,
+        "c": 67,
+        "u": 67
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0012",
+      "relativePath": "europe_2026/IMG_0012.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0012.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0012.webp",
+      "mtime": 1781935751035.6807,
+      "size": 3148571,
+      "color": {
+        "h": 200,
+        "s": 43,
+        "l": 48,
+        "c": 63,
+        "u": 63
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0013",
+      "relativePath": "europe_2026/IMG_0013.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0013.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0013.webp",
+      "mtime": 1781935751287.102,
+      "size": 2065406,
+      "color": {
+        "h": 196,
+        "s": 53,
+        "l": 64,
+        "c": 90,
+        "u": 90
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0014",
+      "relativePath": "europe_2026/IMG_0014.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0014.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0014.webp",
+      "mtime": 1781935751509.0896,
+      "size": 1583160,
+      "color": {
+        "h": 203,
+        "s": 79,
+        "l": 24,
+        "c": 67,
+        "u": 51
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0015",
+      "relativePath": "europe_2026/IMG_0015.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0015.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0015.webp",
+      "mtime": 1781935751725.7856,
+      "size": 1562169,
+      "color": {
+        "h": 168,
+        "s": 81,
+        "l": 47,
+        "c": 100,
+        "u": 100
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0016",
+      "relativePath": "europe_2026/IMG_0016.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0016.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0016.webp",
+      "mtime": 1781935751920.777,
+      "size": 1689722,
+      "color": {
+        "h": 195,
+        "s": 63,
+        "l": 50,
+        "c": 95,
+        "u": 95
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0017",
+      "relativePath": "europe_2026/IMG_0017.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0017.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0017.webp",
+      "mtime": 1781935752161.9468,
+      "size": 1878667,
+      "color": {
+        "h": 204,
+        "s": 66,
+        "l": 28,
+        "c": 59,
+        "u": 52
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0018",
+      "relativePath": "europe_2026/IMG_0018.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0018.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0018.webp",
+      "mtime": 1781935752386.1055,
+      "size": 1675833,
+      "color": {
+        "h": 190,
+        "s": 80,
+        "l": 45,
+        "c": 99,
+        "u": 98
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0019",
+      "relativePath": "europe_2026/IMG_0019.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0019.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0019.webp",
+      "mtime": 1781935748164.83,
+      "size": 1795788,
+      "color": {
+        "h": 200,
+        "s": 74,
+        "l": 51,
+        "c": 76,
+        "u": 65
       }
     },
     {
@@ -14510,6 +14798,182 @@
         "l": 60,
         "c": 98,
         "u": 95
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1886",
+      "relativePath": "simone_corsica/IMG_1886.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1886.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1886.webp",
+      "mtime": 315525606000,
+      "size": 2838847,
+      "color": {
+        "h": 195,
+        "s": 84,
+        "l": 74,
+        "c": 86,
+        "u": 78
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1887",
+      "relativePath": "simone_corsica/IMG_1887.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1887.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1887.webp",
+      "mtime": 315525614000,
+      "size": 2805914,
+      "color": {
+        "h": 196,
+        "s": 77,
+        "l": 71,
+        "c": 84,
+        "u": 73
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1888",
+      "relativePath": "simone_corsica/IMG_1888.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1888.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1888.webp",
+      "mtime": 315525606000,
+      "size": 3145456,
+      "color": {
+        "h": 29,
+        "s": 27,
+        "l": 41,
+        "c": 60,
+        "u": 37
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1889",
+      "relativePath": "simone_corsica/IMG_1889.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1889.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1889.webp",
+      "mtime": 315525616000,
+      "size": 3500879,
+      "color": {
+        "h": 20,
+        "s": 36,
+        "l": 21,
+        "c": 53,
+        "u": 34
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1890",
+      "relativePath": "simone_corsica/IMG_1890.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1890.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1890.webp",
+      "mtime": 315525606000,
+      "size": 2991997,
+      "color": {
+        "h": 203,
+        "s": 32,
+        "l": 63,
+        "c": 66,
+        "u": 65
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1891",
+      "relativePath": "simone_corsica/IMG_1891.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1891.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1891.webp",
+      "mtime": 315525626000,
+      "size": 2925768,
+      "color": {
+        "h": 217,
+        "s": 40,
+        "l": 51,
+        "c": 79,
+        "u": 78
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1894",
+      "relativePath": "simone_corsica/IMG_1894.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1894.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1894.webp",
+      "mtime": 315525664000,
+      "size": 3047923,
+      "color": {
+        "h": 194,
+        "s": 39,
+        "l": 49,
+        "c": 98,
+        "u": 98
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1895",
+      "relativePath": "simone_corsica/IMG_1895.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1895.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1895.webp",
+      "mtime": 315525672000,
+      "size": 2818350,
+      "color": {
+        "h": 202,
+        "s": 49,
+        "l": 70,
+        "c": 86,
+        "u": 86
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1896",
+      "relativePath": "simone_corsica/IMG_1896.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1896.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1896.webp",
+      "mtime": 315525608000,
+      "size": 2776664,
+      "color": {
+        "h": 197,
+        "s": 51,
+        "l": 69,
+        "c": 100,
+        "u": 100
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1898",
+      "relativePath": "simone_corsica/IMG_1898.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1898.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1898.webp",
+      "mtime": 315525668000,
+      "size": 3154587,
+      "color": {
+        "h": 197,
+        "s": 80,
+        "l": 50,
+        "c": 95,
+        "u": 94
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1899",
+      "relativePath": "simone_corsica/IMG_1899.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1899.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1899.webp",
+      "mtime": 315525606000,
+      "size": 3834233,
+      "color": {
+        "h": 200,
+        "s": 54,
+        "l": 59,
+        "c": 53,
+        "u": 43
       }
     },
     {
