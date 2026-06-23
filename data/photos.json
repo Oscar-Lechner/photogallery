@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-20T12:41:12.641Z",
-  "count": 1116,
+  "generatedAt": "2026-06-23T20:20:11.629Z",
+  "count": 1212,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -2270,6 +2270,230 @@
         "l": 20,
         "c": 97,
         "u": 59
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0030",
+      "relativePath": "europe_2026/IMG_0030.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0030.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0030.webp",
+      "mtime": 1782245839465.1714,
+      "size": 1643004,
+      "color": {
+        "h": 7,
+        "s": 40,
+        "l": 35,
+        "c": 89,
+        "u": 88
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0031",
+      "relativePath": "europe_2026/IMG_0031.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0031.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0031.webp",
+      "mtime": 1782245839608.2395,
+      "size": 1232343,
+      "color": {
+        "h": 200,
+        "s": 22,
+        "l": 79,
+        "c": 28,
+        "u": 28
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0032",
+      "relativePath": "europe_2026/IMG_0032.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0032.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0032.webp",
+      "mtime": 1782245839815.3054,
+      "size": 1652060,
+      "color": {
+        "h": 207,
+        "s": 27,
+        "l": 46,
+        "c": 56,
+        "u": 55
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0033",
+      "relativePath": "europe_2026/IMG_0033.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0033.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0033.webp",
+      "mtime": 1782245839997.4822,
+      "size": 1525510,
+      "color": {
+        "h": 209,
+        "s": 28,
+        "l": 46,
+        "c": 72,
+        "u": 69
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0069",
+      "relativePath": "europe_2026/IMG_0069.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0069.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0069.webp",
+      "mtime": 1782245840267.7346,
+      "size": 2222200,
+      "color": {
+        "h": 35,
+        "s": 25,
+        "l": 50,
+        "c": 45,
+        "u": 30
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0070",
+      "relativePath": "europe_2026/IMG_0070.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0070.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0070.webp",
+      "mtime": 1782245840553.4568,
+      "size": 2278196,
+      "color": {
+        "h": 30,
+        "s": 25,
+        "l": 36,
+        "c": 80,
+        "u": 76
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0071",
+      "relativePath": "europe_2026/IMG_0071.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0071.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0071.webp",
+      "mtime": 1782245840759.4243,
+      "size": 1460755,
+      "color": {
+        "h": 35,
+        "s": 29,
+        "l": 41,
+        "c": 85,
+        "u": 81
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0080",
+      "relativePath": "europe_2026/IMG_0080.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0080.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0080.webp",
+      "mtime": 1782245841065.1404,
+      "size": 2484412,
+      "color": {
+        "h": 89,
+        "s": 39,
+        "l": 44,
+        "c": 91,
+        "u": 77
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0081",
+      "relativePath": "europe_2026/IMG_0081.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0081.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0081.webp",
+      "mtime": 1782245841372.0896,
+      "size": 2299770,
+      "color": {
+        "h": 87,
+        "s": 42,
+        "l": 44,
+        "c": 86,
+        "u": 81
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0084",
+      "relativePath": "europe_2026/IMG_0084.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0084.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0084.webp",
+      "mtime": 1782245841540.3547,
+      "size": 1215170,
+      "color": {
+        "h": 197,
+        "s": 74,
+        "l": 65,
+        "c": 86,
+        "u": 68
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0085",
+      "relativePath": "europe_2026/IMG_0085.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0085.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0085.webp",
+      "mtime": 1782245841731.396,
+      "size": 1375352,
+      "color": {
+        "h": 195,
+        "s": 96,
+        "l": 80,
+        "c": 93,
+        "u": 54
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0086",
+      "relativePath": "europe_2026/IMG_0086.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0086.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0086.webp",
+      "mtime": 1782245842000.212,
+      "size": 2229792,
+      "color": {
+        "h": 220,
+        "s": 67,
+        "l": 74,
+        "c": 48,
+        "u": 11
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0087",
+      "relativePath": "europe_2026/IMG_0087.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0087.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0087.webp",
+      "mtime": 1782245842311.1467,
+      "size": 2554730,
+      "color": {
+        "h": 225,
+        "s": 62,
+        "l": 74,
+        "c": 45,
+        "u": 10
+      }
+    },
+    {
+      "album": "europe_2026",
+      "title": "IMG 0089",
+      "relativePath": "europe_2026/IMG_0089.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/europe_2026--IMG_0089.JPG",
+      "thumbSrc": "thumbnails/europe_2026/IMG_0089.webp",
+      "mtime": 1782245842563.8638,
+      "size": 1994082,
+      "color": {
+        "h": 23,
+        "s": 30,
+        "l": 30,
+        "c": 35,
+        "u": 23
       }
     },
     {
@@ -15118,6 +15342,1318 @@
         "l": 59,
         "c": 53,
         "u": 43
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1901",
+      "relativePath": "simone_corsica/IMG_1901.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1901.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1901.webp",
+      "mtime": 315525604000,
+      "size": 3843355,
+      "color": {
+        "h": 205,
+        "s": 51,
+        "l": 43,
+        "c": 73,
+        "u": 55
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1902",
+      "relativePath": "simone_corsica/IMG_1902.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1902.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1902.webp",
+      "mtime": 315525632000,
+      "size": 3855253,
+      "color": {
+        "h": 198,
+        "s": 57,
+        "l": 42,
+        "c": 81,
+        "u": 44
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1903",
+      "relativePath": "simone_corsica/IMG_1903.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1903.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1903.webp",
+      "mtime": 315525646000,
+      "size": 3218444,
+      "color": {
+        "h": 201,
+        "s": 54,
+        "l": 47,
+        "c": 71,
+        "u": 50
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1904",
+      "relativePath": "simone_corsica/IMG_1904.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1904.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1904.webp",
+      "mtime": 315525656000,
+      "size": 3998469,
+      "color": {
+        "h": 210,
+        "s": 64,
+        "l": 60,
+        "c": 86,
+        "u": 31
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1905",
+      "relativePath": "simone_corsica/IMG_1905.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1905.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1905.webp",
+      "mtime": 315525666000,
+      "size": 4837586,
+      "color": {
+        "h": 208,
+        "s": 82,
+        "l": 70,
+        "c": 69,
+        "u": 26
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1906",
+      "relativePath": "simone_corsica/IMG_1906.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1906.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1906.webp",
+      "mtime": 315525734000,
+      "size": 4161728,
+      "color": {
+        "h": 202,
+        "s": 45,
+        "l": 62,
+        "c": 62,
+        "u": 49
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1907",
+      "relativePath": "simone_corsica/IMG_1907.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1907.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1907.webp",
+      "mtime": 315525608000,
+      "size": 4348422,
+      "color": {
+        "h": 211,
+        "s": 65,
+        "l": 75,
+        "c": 73,
+        "u": 23
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1908",
+      "relativePath": "simone_corsica/IMG_1908.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1908.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1908.webp",
+      "mtime": 315525660000,
+      "size": 3820612,
+      "color": {
+        "h": 80,
+        "s": 43,
+        "l": 32,
+        "c": 87,
+        "u": 66
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1909",
+      "relativePath": "simone_corsica/IMG_1909.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1909.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1909.webp",
+      "mtime": 315525672000,
+      "size": 3476425,
+      "color": {
+        "h": 199,
+        "s": 79,
+        "l": 73,
+        "c": 72,
+        "u": 40
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1910",
+      "relativePath": "simone_corsica/IMG_1910.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1910.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1910.webp",
+      "mtime": 315525682000,
+      "size": 2317215,
+      "color": {
+        "h": 205,
+        "s": 61,
+        "l": 68,
+        "c": 55,
+        "u": 23
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1911",
+      "relativePath": "simone_corsica/IMG_1911.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1911.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1911.webp",
+      "mtime": 315525608000,
+      "size": 5775696,
+      "color": {
+        "h": 60,
+        "s": 41,
+        "l": 35,
+        "c": 80,
+        "u": 55
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1912",
+      "relativePath": "simone_corsica/IMG_1912.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1912.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1912.webp",
+      "mtime": 315525616000,
+      "size": 3743075,
+      "color": {
+        "h": 208,
+        "s": 68,
+        "l": 59,
+        "c": 66,
+        "u": 35
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1913",
+      "relativePath": "simone_corsica/IMG_1913.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1913.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1913.webp",
+      "mtime": 315525604000,
+      "size": 4708189,
+      "color": {
+        "h": 208,
+        "s": 77,
+        "l": 63,
+        "c": 83,
+        "u": 42
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1914",
+      "relativePath": "simone_corsica/IMG_1914.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1914.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1914.webp",
+      "mtime": 315525618000,
+      "size": 3074028,
+      "color": {
+        "h": 209,
+        "s": 58,
+        "l": 64,
+        "c": 91,
+        "u": 71
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1915",
+      "relativePath": "simone_corsica/IMG_1915.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1915.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1915.webp",
+      "mtime": 315525606000,
+      "size": 6323621,
+      "color": {
+        "h": 74,
+        "s": 43,
+        "l": 35,
+        "c": 85,
+        "u": 71
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1916",
+      "relativePath": "simone_corsica/IMG_1916.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1916.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1916.webp",
+      "mtime": 315525610000,
+      "size": 3210550,
+      "color": {
+        "h": 50,
+        "s": 28,
+        "l": 33,
+        "c": 51,
+        "u": 39
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1917",
+      "relativePath": "simone_corsica/IMG_1917.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1917.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1917.webp",
+      "mtime": 315525620000,
+      "size": 2482797,
+      "color": {
+        "h": 34,
+        "s": 30,
+        "l": 57,
+        "c": 77,
+        "u": 46
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1918",
+      "relativePath": "simone_corsica/IMG_1918.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1918.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1918.webp",
+      "mtime": 315525614000,
+      "size": 2364337,
+      "color": {
+        "h": 16,
+        "s": 65,
+        "l": 43,
+        "c": 59,
+        "u": 52
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1919",
+      "relativePath": "simone_corsica/IMG_1919.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1919.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1919.webp",
+      "mtime": 315525686000,
+      "size": 2661477,
+      "color": {
+        "h": 23,
+        "s": 40,
+        "l": 50,
+        "c": 45,
+        "u": 37
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1923",
+      "relativePath": "simone_corsica/IMG_1923.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1923.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1923.webp",
+      "mtime": 315525742000,
+      "size": 3286500,
+      "color": {
+        "h": 217,
+        "s": 56,
+        "l": 54,
+        "c": 53,
+        "u": 48
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1924",
+      "relativePath": "simone_corsica/IMG_1924.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1924.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1924.webp",
+      "mtime": 315525640000,
+      "size": 2593648,
+      "color": {
+        "h": 6,
+        "s": 69,
+        "l": 60,
+        "c": 88,
+        "u": 56
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1925",
+      "relativePath": "simone_corsica/IMG_1925.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1925.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1925.webp",
+      "mtime": 315525656000,
+      "size": 2544213,
+      "color": {
+        "h": 40,
+        "s": 27,
+        "l": 27,
+        "c": 62,
+        "u": 52
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1926",
+      "relativePath": "simone_corsica/IMG_1926.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1926.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1926.webp",
+      "mtime": 315525674000,
+      "size": 2567192,
+      "color": {
+        "h": 52,
+        "s": 43,
+        "l": 37,
+        "c": 82,
+        "u": 75
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1927",
+      "relativePath": "simone_corsica/IMG_1927.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1927.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1927.webp",
+      "mtime": 315525680000,
+      "size": 2820018,
+      "color": {
+        "h": 38,
+        "s": 42,
+        "l": 60,
+        "c": 83,
+        "u": 67
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1928",
+      "relativePath": "simone_corsica/IMG_1928.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1928.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1928.webp",
+      "mtime": 315525690000,
+      "size": 2732503,
+      "color": {
+        "h": 40,
+        "s": 39,
+        "l": 59,
+        "c": 82,
+        "u": 71
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1929",
+      "relativePath": "simone_corsica/IMG_1929.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1929.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1929.webp",
+      "mtime": 315525708000,
+      "size": 2662330,
+      "color": {
+        "h": 32,
+        "s": 48,
+        "l": 53,
+        "c": 100,
+        "u": 98
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1930",
+      "relativePath": "simone_corsica/IMG_1930.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1930.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1930.webp",
+      "mtime": 315525712000,
+      "size": 2689590,
+      "color": {
+        "h": 32,
+        "s": 54,
+        "l": 61,
+        "c": 100,
+        "u": 98
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1931",
+      "relativePath": "simone_corsica/IMG_1931.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1931.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1931.webp",
+      "mtime": 315525718000,
+      "size": 2264361,
+      "color": {
+        "h": 28,
+        "s": 37,
+        "l": 44,
+        "c": 86,
+        "u": 86
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1932",
+      "relativePath": "simone_corsica/IMG_1932.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1932.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1932.webp",
+      "mtime": 315525794000,
+      "size": 2700550,
+      "color": {
+        "h": 41,
+        "s": 46,
+        "l": 64,
+        "c": 69,
+        "u": 68
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1933",
+      "relativePath": "simone_corsica/IMG_1933.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1933.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1933.webp",
+      "mtime": 315525824000,
+      "size": 2866374,
+      "color": {
+        "h": 38,
+        "s": 49,
+        "l": 63,
+        "c": 80,
+        "u": 79
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1934",
+      "relativePath": "simone_corsica/IMG_1934.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1934.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1934.webp",
+      "mtime": 315525840000,
+      "size": 2815778,
+      "color": {
+        "h": 36,
+        "s": 44,
+        "l": 65,
+        "c": 42,
+        "u": 42
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1935",
+      "relativePath": "simone_corsica/IMG_1935.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1935.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1935.webp",
+      "mtime": 315525848000,
+      "size": 2568635,
+      "color": {
+        "h": 36,
+        "s": 48,
+        "l": 60,
+        "c": 70,
+        "u": 65
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1936",
+      "relativePath": "simone_corsica/IMG_1936.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1936.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1936.webp",
+      "mtime": 315525860000,
+      "size": 2449281,
+      "color": {
+        "h": 35,
+        "s": 52,
+        "l": 60,
+        "c": 80,
+        "u": 75
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1937",
+      "relativePath": "simone_corsica/IMG_1937.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1937.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1937.webp",
+      "mtime": 315525870000,
+      "size": 2468438,
+      "color": {
+        "h": 32,
+        "s": 45,
+        "l": 56,
+        "c": 69,
+        "u": 63
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1938",
+      "relativePath": "simone_corsica/IMG_1938.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1938.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1938.webp",
+      "mtime": 315525618000,
+      "size": 2791199,
+      "color": {
+        "h": 32,
+        "s": 41,
+        "l": 23,
+        "c": 85,
+        "u": 63
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1939",
+      "relativePath": "simone_corsica/IMG_1939.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1939.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1939.webp",
+      "mtime": 315525624000,
+      "size": 2533478,
+      "color": {
+        "h": 43,
+        "s": 53,
+        "l": 19,
+        "c": 96,
+        "u": 62
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1940",
+      "relativePath": "simone_corsica/IMG_1940.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1940.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1940.webp",
+      "mtime": 315525606000,
+      "size": 3350213,
+      "color": {
+        "h": 61,
+        "s": 38,
+        "l": 16,
+        "c": 75,
+        "u": 72
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1941",
+      "relativePath": "simone_corsica/IMG_1941.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1941.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1941.webp",
+      "mtime": 315525616000,
+      "size": 3266172,
+      "color": {
+        "h": 52,
+        "s": 49,
+        "l": 11,
+        "c": 100,
+        "u": 99
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1942",
+      "relativePath": "simone_corsica/IMG_1942.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1942.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1942.webp",
+      "mtime": 315525606000,
+      "size": 3035672,
+      "color": {
+        "h": 32,
+        "s": 22,
+        "l": 56,
+        "c": 59,
+        "u": 52
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1943",
+      "relativePath": "simone_corsica/IMG_1943.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1943.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1943.webp",
+      "mtime": 315525608000,
+      "size": 2470092,
+      "color": {
+        "h": 60,
+        "s": 49,
+        "l": 3,
+        "c": 92,
+        "u": 91
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1945",
+      "relativePath": "simone_corsica/IMG_1945.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1945.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1945.webp",
+      "mtime": 315525630000,
+      "size": 2596515,
+      "color": {
+        "h": 32,
+        "s": 31,
+        "l": 36,
+        "c": 86,
+        "u": 83
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1949",
+      "relativePath": "simone_corsica/IMG_1949.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1949.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1949.webp",
+      "mtime": 315525608000,
+      "size": 2731489,
+      "color": {
+        "h": 12,
+        "s": 28,
+        "l": 35,
+        "c": 51,
+        "u": 34
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1950",
+      "relativePath": "simone_corsica/IMG_1950.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1950.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1950.webp",
+      "mtime": 315525620000,
+      "size": 2252980,
+      "color": {
+        "h": 40,
+        "s": 29,
+        "l": 63,
+        "c": 34,
+        "u": 28
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1952",
+      "relativePath": "simone_corsica/IMG_1952.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1952.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1952.webp",
+      "mtime": 315525642000,
+      "size": 2503207,
+      "color": {
+        "h": 4,
+        "s": 36,
+        "l": 57,
+        "c": 73,
+        "u": 72
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1954",
+      "relativePath": "simone_corsica/IMG_1954.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1954.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1954.webp",
+      "mtime": 315525668000,
+      "size": 2636454,
+      "color": {
+        "h": 18,
+        "s": 32,
+        "l": 54,
+        "c": 56,
+        "u": 42
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1956",
+      "relativePath": "simone_corsica/IMG_1956.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1956.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1956.webp",
+      "mtime": 315525680000,
+      "size": 2259301,
+      "color": {
+        "h": 3,
+        "s": 29,
+        "l": 54,
+        "c": 56,
+        "u": 50
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1957",
+      "relativePath": "simone_corsica/IMG_1957.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1957.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1957.webp",
+      "mtime": 315525692000,
+      "size": 2739214,
+      "color": {
+        "h": 20,
+        "s": 28,
+        "l": 39,
+        "c": 51,
+        "u": 42
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1958",
+      "relativePath": "simone_corsica/IMG_1958.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1958.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1958.webp",
+      "mtime": 315525696000,
+      "size": 2734944,
+      "color": {
+        "h": 25,
+        "s": 23,
+        "l": 32,
+        "c": 51,
+        "u": 39
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1959",
+      "relativePath": "simone_corsica/IMG_1959.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/simone_corsica--IMG_1959.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1959.webp",
+      "mtime": 315525702000,
+      "size": 2749444,
+      "color": {
+        "h": 30,
+        "s": 38,
+        "l": 57,
+        "c": 58,
+        "u": 45
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1961",
+      "relativePath": "simone_corsica/IMG_1961.JPG",
+      "src": "photos/simone_corsica/IMG_1961.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1961.webp",
+      "mtime": 315525604000,
+      "size": 4952848,
+      "color": {
+        "h": 86,
+        "s": 28,
+        "l": 49,
+        "c": 55,
+        "u": 45
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1962",
+      "relativePath": "simone_corsica/IMG_1962.JPG",
+      "src": "photos/simone_corsica/IMG_1962.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1962.webp",
+      "mtime": 315525614000,
+      "size": 4331424,
+      "color": {
+        "h": 203,
+        "s": 42,
+        "l": 76,
+        "c": 82,
+        "u": 53
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1964",
+      "relativePath": "simone_corsica/IMG_1964.JPG",
+      "src": "photos/simone_corsica/IMG_1964.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1964.webp",
+      "mtime": 315525662000,
+      "size": 3088418,
+      "color": {
+        "h": 213,
+        "s": 89,
+        "l": 84,
+        "c": 68,
+        "u": 23
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1965",
+      "relativePath": "simone_corsica/IMG_1965.JPG",
+      "src": "photos/simone_corsica/IMG_1965.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1965.webp",
+      "mtime": 315525606000,
+      "size": 3068638,
+      "color": {
+        "h": 211,
+        "s": 87,
+        "l": 76,
+        "c": 54,
+        "u": 23
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1966",
+      "relativePath": "simone_corsica/IMG_1966.JPG",
+      "src": "photos/simone_corsica/IMG_1966.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1966.webp",
+      "mtime": 315525644000,
+      "size": 4187737,
+      "color": {
+        "h": 32,
+        "s": 32,
+        "l": 61,
+        "c": 43,
+        "u": 43
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1970",
+      "relativePath": "simone_corsica/IMG_1970.JPG",
+      "src": "photos/simone_corsica/IMG_1970.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1970.webp",
+      "mtime": 315525606000,
+      "size": 3126941,
+      "color": {
+        "h": 26,
+        "s": 29,
+        "l": 28,
+        "c": 84,
+        "u": 63
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1971",
+      "relativePath": "simone_corsica/IMG_1971.JPG",
+      "src": "photos/simone_corsica/IMG_1971.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1971.webp",
+      "mtime": 315525644000,
+      "size": 4270740,
+      "color": {
+        "h": 73,
+        "s": 56,
+        "l": 29,
+        "c": 100,
+        "u": 60
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1972",
+      "relativePath": "simone_corsica/IMG_1972.JPG",
+      "src": "photos/simone_corsica/IMG_1972.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1972.webp",
+      "mtime": 315525654000,
+      "size": 4761951,
+      "color": {
+        "h": 33,
+        "s": 24,
+        "l": 46,
+        "c": 81,
+        "u": 64
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1973",
+      "relativePath": "simone_corsica/IMG_1973.JPG",
+      "src": "photos/simone_corsica/IMG_1973.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1973.webp",
+      "mtime": 315525752000,
+      "size": 3477701,
+      "color": {
+        "h": 176,
+        "s": 24,
+        "l": 44,
+        "c": 50,
+        "u": 27
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1974",
+      "relativePath": "simone_corsica/IMG_1974.JPG",
+      "src": "photos/simone_corsica/IMG_1974.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1974.webp",
+      "mtime": 315525612000,
+      "size": 3387712,
+      "color": {
+        "h": 260,
+        "s": 34,
+        "l": 58,
+        "c": 90,
+        "u": 61
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1975",
+      "relativePath": "simone_corsica/IMG_1975.JPG",
+      "src": "photos/simone_corsica/IMG_1975.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1975.webp",
+      "mtime": 315525620000,
+      "size": 5619558,
+      "color": {
+        "h": 85,
+        "s": 47,
+        "l": 28,
+        "c": 83,
+        "u": 59
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1976",
+      "relativePath": "simone_corsica/IMG_1976.JPG",
+      "src": "photos/simone_corsica/IMG_1976.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1976.webp",
+      "mtime": 315525636000,
+      "size": 2398982,
+      "color": {
+        "h": 316,
+        "s": 33,
+        "l": 48,
+        "c": 82,
+        "u": 51
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1980",
+      "relativePath": "simone_corsica/IMG_1980.JPG",
+      "src": "photos/simone_corsica/IMG_1980.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1980.webp",
+      "mtime": 315525612000,
+      "size": 5427176,
+      "color": {
+        "h": 34,
+        "s": 21,
+        "l": 41,
+        "c": 26,
+        "u": 16
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1981",
+      "relativePath": "simone_corsica/IMG_1981.JPG",
+      "src": "photos/simone_corsica/IMG_1981.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1981.webp",
+      "mtime": 315525618000,
+      "size": 4864306,
+      "color": {
+        "h": 50,
+        "s": 22,
+        "l": 41,
+        "c": 33,
+        "u": 29
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1984",
+      "relativePath": "simone_corsica/IMG_1984.JPG",
+      "src": "photos/simone_corsica/IMG_1984.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1984.webp",
+      "mtime": 315525604000,
+      "size": 3344598,
+      "color": {
+        "h": 84,
+        "s": 26,
+        "l": 38,
+        "c": 59,
+        "u": 41
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1987",
+      "relativePath": "simone_corsica/IMG_1987.JPG",
+      "src": "photos/simone_corsica/IMG_1987.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1987.webp",
+      "mtime": 315525658000,
+      "size": 3808984,
+      "color": {
+        "h": 106,
+        "s": 36,
+        "l": 47,
+        "c": 51,
+        "u": 40
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1990",
+      "relativePath": "simone_corsica/IMG_1990.JPG",
+      "src": "photos/simone_corsica/IMG_1990.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1990.webp",
+      "mtime": 315525692000,
+      "size": 3484229,
+      "color": {
+        "h": 103,
+        "s": 38,
+        "l": 52,
+        "c": 33,
+        "u": 25
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1993",
+      "relativePath": "simone_corsica/IMG_1993.JPG",
+      "src": "photos/simone_corsica/IMG_1993.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1993.webp",
+      "mtime": 315525612000,
+      "size": 3863455,
+      "color": {
+        "h": 199,
+        "s": 31,
+        "l": 81,
+        "c": 83,
+        "u": 54
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1994",
+      "relativePath": "simone_corsica/IMG_1994.JPG",
+      "src": "photos/simone_corsica/IMG_1994.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1994.webp",
+      "mtime": 315525620000,
+      "size": 2674586,
+      "color": {
+        "h": 197,
+        "s": 30,
+        "l": 79,
+        "c": 96,
+        "u": 88
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1995",
+      "relativePath": "simone_corsica/IMG_1995.JPG",
+      "src": "photos/simone_corsica/IMG_1995.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1995.webp",
+      "mtime": 315525632000,
+      "size": 3105381,
+      "color": {
+        "h": 202,
+        "s": 25,
+        "l": 78,
+        "c": 57,
+        "u": 43
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1997",
+      "relativePath": "simone_corsica/IMG_1997.JPG",
+      "src": "photos/simone_corsica/IMG_1997.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1997.webp",
+      "mtime": 315525684000,
+      "size": 5247793,
+      "color": {
+        "h": 59,
+        "s": 25,
+        "l": 29,
+        "c": 68,
+        "u": 61
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1998",
+      "relativePath": "simone_corsica/IMG_1998.JPG",
+      "src": "photos/simone_corsica/IMG_1998.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1998.webp",
+      "mtime": 315525714000,
+      "size": 3539513,
+      "color": {
+        "h": 35,
+        "s": 31,
+        "l": 46,
+        "c": 85,
+        "u": 68
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 1999",
+      "relativePath": "simone_corsica/IMG_1999.JPG",
+      "src": "photos/simone_corsica/IMG_1999.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_1999.webp",
+      "mtime": 315525728000,
+      "size": 3461438,
+      "color": {
+        "h": 32,
+        "s": 35,
+        "l": 53,
+        "c": 66,
+        "u": 46
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2000",
+      "relativePath": "simone_corsica/IMG_2000.JPG",
+      "src": "photos/simone_corsica/IMG_2000.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2000.webp",
+      "mtime": 315525736000,
+      "size": 3507421,
+      "color": {
+        "h": 33,
+        "s": 40,
+        "l": 50,
+        "c": 86,
+        "u": 74
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2001",
+      "relativePath": "simone_corsica/IMG_2001.JPG",
+      "src": "photos/simone_corsica/IMG_2001.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2001.webp",
+      "mtime": 315525750000,
+      "size": 2526888,
+      "color": {
+        "h": 203,
+        "s": 20,
+        "l": 73,
+        "c": 29,
+        "u": 17
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2002",
+      "relativePath": "simone_corsica/IMG_2002.JPG",
+      "src": "photos/simone_corsica/IMG_2002.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2002.webp",
+      "mtime": 315525784000,
+      "size": 5693982,
+      "color": {
+        "h": 53,
+        "s": 23,
+        "l": 40,
+        "c": 65,
+        "u": 62
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2003",
+      "relativePath": "simone_corsica/IMG_2003.JPG",
+      "src": "photos/simone_corsica/IMG_2003.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2003.webp",
+      "mtime": 315525608000,
+      "size": 2199924,
+      "color": {
+        "h": 198,
+        "s": 26,
+        "l": 75,
+        "c": 93,
+        "u": 91
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2004",
+      "relativePath": "simone_corsica/IMG_2004.JPG",
+      "src": "photos/simone_corsica/IMG_2004.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2004.webp",
+      "mtime": 315525618000,
+      "size": 2743331,
+      "color": {
+        "h": 7,
+        "s": 24,
+        "l": 47,
+        "c": 60,
+        "u": 52
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2005",
+      "relativePath": "simone_corsica/IMG_2005.JPG",
+      "src": "photos/simone_corsica/IMG_2005.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2005.webp",
+      "mtime": 315525650000,
+      "size": 2935640,
+      "color": {
+        "h": 7,
+        "s": 25,
+        "l": 47,
+        "c": 55,
+        "u": 51
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2006",
+      "relativePath": "simone_corsica/IMG_2006.JPG",
+      "src": "photos/simone_corsica/IMG_2006.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2006.webp",
+      "mtime": 315525606000,
+      "size": 4616068,
+      "color": {
+        "h": 80,
+        "s": 39,
+        "l": 36,
+        "c": 93,
+        "u": 68
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2007",
+      "relativePath": "simone_corsica/IMG_2007.JPG",
+      "src": "photos/simone_corsica/IMG_2007.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2007.webp",
+      "mtime": 315525612000,
+      "size": 2193723,
+      "color": {
+        "h": 13,
+        "s": 38,
+        "l": 53,
+        "c": 49,
+        "u": 31
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2009",
+      "relativePath": "simone_corsica/IMG_2009.JPG",
+      "src": "photos/simone_corsica/IMG_2009.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2009.webp",
+      "mtime": 315525626000,
+      "size": 1872185,
+      "color": {
+        "h": 10,
+        "s": 26,
+        "l": 40,
+        "c": 33,
+        "u": 21
+      }
+    },
+    {
+      "album": "simone_corsica",
+      "title": "IMG 2010",
+      "relativePath": "simone_corsica/IMG_2010.JPG",
+      "src": "photos/simone_corsica/IMG_2010.JPG",
+      "thumbSrc": "thumbnails/simone_corsica/IMG_2010.webp",
+      "mtime": 315525642000,
+      "size": 3044346,
+      "color": {
+        "h": 15,
+        "s": 28,
+        "l": 40,
+        "c": 52,
+        "u": 28
       }
     },
     {
