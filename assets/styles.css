@@ -439,6 +439,7 @@ a {
 .feature-download:focus-visible,
 .card-download:focus-visible,
 .album-chip:focus-visible,
+.chip-toggle:focus-visible,
 .back-btn:focus-visible,
 .icon-btn:focus-visible,
 .photo-open:focus-visible,
@@ -707,6 +708,9 @@ a {
 }
 
 .album-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   flex: 0 0 auto;
   max-width: min(340px, 78vw);
   min-height: 36px;
@@ -717,8 +721,6 @@ a {
   background: rgba(237, 240, 239, 0.028);
   color: var(--muted);
   cursor: pointer;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   transition: background 130ms ease, border-color 130ms ease, color 130ms ease;
 }
 
@@ -732,6 +734,33 @@ a {
   border-color: rgba(77, 159, 255, 0.46);
   background: rgba(77, 159, 255, 0.14);
   color: var(--ink);
+}
+
+.chip-label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chip-toggle {
+  flex: 0 0 auto;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--line-hi);
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 130ms ease, border-color 130ms ease;
+}
+
+.chip-toggle:hover {
+  border-color: var(--ink);
+}
+
+.chip-toggle.is-checked {
+  background: rgba(77, 159, 255, 0.85);
+  border-color: rgba(77, 159, 255, 0.9);
 }
 
 .feature-panel {

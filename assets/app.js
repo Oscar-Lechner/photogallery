@@ -16,7 +16,6 @@ const backBtn = document.querySelector("#backBtn");
 const copyAlbumLink = document.querySelector("#copyAlbumLink");
 const downloadView = document.querySelector("#downloadView");
 
-const albumFilter = document.querySelector("#albumFilter");
 const albumRail = document.querySelector("#albumRail");
 const colorViewBtn = document.querySelector("#colorViewBtn");
 const sortControl = document.querySelector("#sortControl");
@@ -55,6 +54,7 @@ const visibleDownloadLinks = document.querySelector("#visibleDownloadLinks");
 // State
 let photos = [];
 let visiblePhotos = [];
+let selectedAlbums = new Set();
 let currentIndex = -1;
 let manifest = null;
 let picker = null;
@@ -354,27 +354,23 @@ function initEntry() {
 
 function doEnter() {
   const album = picker?.selected?.value ?? "";
-  setParams({ album });
-  transitionToGallery(album);
+  selectedAlbums = album ? new Set([album]) : new Set();
+  transitionToGallery();
 }
 
 function enterAllPhotos() {
-  setParams({ album: "" });
-  transitionToGallery("");
+  selectedAlbums = new Set();
+  transitionToGallery();
 }
 
-function transitionToGallery(album) {
+function transitionToGallery() {
   entryScreen.classList.add("is-out");
   setTimeout(() => {
     entryScreen.hidden = true;
   }, 490);
 
-  renderAlbums(album);
+  renderAlbums();
   renderGrid(true);
-
-  const label = albumLabel(album || "All photos");
-  galleryAlbumLabel.textContent = label;
-  document.title = album ? `${label} - Photo Gallery` : "Photo Gallery";
 
   gallery.hidden = false;
   gallery.classList.remove("is-out");
@@ -383,6 +379,7 @@ function transitionToGallery(album) {
 }
 
 function transitionToEntry() {
+  selectedAlbums = new Set();
   gallery.classList.add("is-out");
   setTimeout(() => {
     gallery.hidden = true;
@@ -397,19 +394,11 @@ enterAllBtn.addEventListener("click", enterAllPhotos);
 backBtn.addEventListener("click", transitionToEntry);
 
 // Gallery: albums
-function renderAlbums(activeAlbum = albumFilter.value) {
+function renderAlbums() {
   const counts = getAlbumCounts();
   const displayMap = manifest?.albumDisplay ?? {};
   const albums = [...counts.keys()].sort(collator.compare);
   const stripped = stripCommonPrefix(albums);
-
-  albumFilter.innerHTML = "";
-  albumFilter.append(new Option("All", ""));
-  for (const { value, display } of stripped) {
-    const label = displayMap[value] || display.replace(/ \/ /g, " > ");
-    albumFilter.append(new Option(`${label} (${counts.get(value)})`, value));
-  }
-  albumFilter.value = activeAlbum;
 
   albumRail.innerHTML = "";
   albumRail.append(makeChip("", `All (${photos.length})`));
@@ -417,6 +406,7 @@ function renderAlbums(activeAlbum = albumFilter.value) {
     const label = displayMap[value] || auto.replace(/ \/ /g, " > ");
     albumRail.append(makeChip(value, `${label} (${counts.get(value)})`));
   }
+  updateRailActive();
 }
 
 function makeChip(album, text) {
@@ -424,20 +414,82 @@ function makeChip(album, text) {
   btn.className = "album-chip";
   btn.type = "button";
   btn.dataset.album = album;
-  btn.textContent = text;
   btn.title = album || "All photos";
+
+  if (album) {
+    const toggle = document.createElement("span");
+    toggle.className = "chip-toggle";
+    toggle.dataset.toggle = album;
+    toggle.setAttribute("role", "checkbox");
+    toggle.setAttribute("tabindex", "0");
+    toggle.setAttribute("aria-label", `Blend in ${text}`);
+    btn.append(toggle);
+  }
+
+  const label = document.createElement("span");
+  label.className = "chip-label";
+  label.textContent = text;
+  btn.append(label);
+
   return btn;
 }
 
 function updateRailActive() {
-  const current = albumFilter.value;
-  let active = null;
+  const activeChips = [];
   albumRail.querySelectorAll(".album-chip").forEach((chip) => {
-    const on = chip.dataset.album === current;
+    const album = chip.dataset.album;
+    const on = album ? isAlbumSelected(album) : selectedAlbums.size === 0;
     chip.classList.toggle("is-active", on);
-    if (on) active = chip;
+    const toggle = chip.querySelector(".chip-toggle");
+    if (toggle) {
+      toggle.classList.toggle("is-checked", on);
+      toggle.setAttribute("aria-checked", String(on));
+    }
+    if (on) activeChips.push(chip);
   });
-  if (active) active.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+  // Only auto-scroll when a single set is in view — with a blend open, any
+  // one chip isn't more "current" than the others.
+  if (activeChips.length === 1) {
+    activeChips[0].scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+  }
+}
+
+// Gallery: multi-set blending
+function allAlbumKeys() {
+  return [...getAlbumCounts().keys()];
+}
+
+function isAlbumSelected(album) {
+  return selectedAlbums.size === 0 || selectedAlbums.has(album);
+}
+
+function currentAlbumsLabel() {
+  if (selectedAlbums.size === 0) return "All photos";
+  const names = [...selectedAlbums].map((a) => albumLabel(a));
+  return names.length <= 3 ? names.join(" + ") : `${names.length} sets blended`;
+}
+
+function selectSingleAlbum(album) {
+  selectedAlbums = album ? new Set([album]) : new Set();
+  renderGrid(true);
+}
+
+function toggleAlbumBlend(album) {
+  if (isAlbumSelected(album)) {
+    const base = selectedAlbums.size === 0 ? allAlbumKeys() : [...selectedAlbums];
+    const next = new Set(base.filter((a) => a !== album));
+    if (next.size === 0) {
+      // Last remaining set was just closed — nothing left to view.
+      transitionToEntry();
+      return;
+    }
+    selectedAlbums = next;
+  } else {
+    const next = new Set(selectedAlbums);
+    next.add(album);
+    selectedAlbums = next.size === allAlbumKeys().length ? new Set() : next;
+  }
+  renderGrid(true);
 }
 
 // Gallery: ordering
@@ -574,12 +626,10 @@ window.addEventListener("scroll", updateColorBarThumb, { passive: true });
 const ANIM_CAP = 28;
 
 function renderGrid(animate = false) {
-  const album = albumFilter.value;
-
   visiblePhotos = sortPhotos(
     photos.filter((p) => {
-      if (album && p.album !== album) return false;
-      return true;
+      if (selectedAlbums.size === 0) return true;
+      return selectedAlbums.has(p.album || "Loose Photos");
     })
   );
 
@@ -587,10 +637,10 @@ function renderGrid(animate = false) {
   if (thumbObserver) thumbObserver.disconnect();
   grid.innerHTML = "";
 
-  const albumName = albumLabel(album || "All photos");
+  const albumName = currentAlbumsLabel();
   galleryAlbumLabel.textContent = albumName;
   galleryMeta.textContent = `${visiblePhotos.length} of ${photos.length} photos`;
-  document.title = album ? `${albumName} - Photo Gallery` : "Photo Gallery";
+  document.title = selectedAlbums.size ? `${albumName} - Photo Gallery` : "Photo Gallery";
 
   const frag = document.createDocumentFragment();
   visiblePhotos.forEach((photo, i) => {
@@ -661,7 +711,7 @@ function renderGrid(animate = false) {
   updateRailActive();
 
   setParams({
-    album,
+    album: [...selectedAlbums].join(","),
     sort: currentSort !== "filename" ? currentSort : "",
     seed: "",
     q: "",
@@ -703,8 +753,7 @@ lightboxImage.addEventListener("load", () => lightboxImage.classList.remove("is-
 
 // Download sheet
 function renderDownloadSheet() {
-  const album = albumFilter.value;
-  downloadTitle.textContent = albumLabel(album || "All photos");
+  downloadTitle.textContent = currentAlbumsLabel();
   downloadSummary.textContent = `${visiblePhotos.length} photo${visiblePhotos.length !== 1 ? "s" : ""} shown.`;
   downloadAllVisible.disabled = !visiblePhotos.length;
   downloadAllVisible.textContent = "Download Shown";
@@ -764,10 +813,23 @@ featurePhoto.addEventListener("click", () => {
 });
 
 albumRail.addEventListener("click", (e) => {
+  const toggle = e.target.closest(".chip-toggle");
+  if (toggle) {
+    e.stopPropagation();
+    toggleAlbumBlend(toggle.dataset.toggle);
+    return;
+  }
   const chip = e.target.closest(".album-chip");
   if (!chip) return;
-  albumFilter.value = chip.dataset.album;
-  renderGrid(true);
+  selectSingleAlbum(chip.dataset.album);
+});
+
+albumRail.addEventListener("keydown", (e) => {
+  if (e.key !== "Enter" && e.key !== " ") return;
+  const toggle = e.target.closest(".chip-toggle");
+  if (!toggle) return;
+  e.preventDefault();
+  toggleAlbumBlend(toggle.dataset.toggle);
 });
 
 function applyTileSize(value) {
@@ -898,10 +960,10 @@ function navigateAlbum(delta) {
   const chips = [...albumRail.querySelectorAll(".album-chip")];
   if (chips.length < 2) return;
   const values = chips.map((c) => c.dataset.album);
-  const idx = values.indexOf(albumFilter.value);
+  const current = selectedAlbums.size === 1 ? [...selectedAlbums][0] : "";
+  const idx = values.indexOf(current);
   const next = ((idx + delta) % values.length + values.length) % values.length;
-  albumFilter.value = values[next];
-  renderGrid(true);
+  selectSingleAlbum(values[next]);
 }
 
 let _gsx = 0, _gsy = 0;
@@ -961,8 +1023,10 @@ async function boot() {
     }
 
     if (urlAlbum) {
+      selectedAlbums = new Set(urlAlbum.split(",").map((s) => s.trim()).filter(Boolean));
+
       renderSkeleton();
-      renderAlbums(urlAlbum);
+      renderAlbums();
       renderGrid(true);
 
       entryScreen.hidden = true;
