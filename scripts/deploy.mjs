@@ -128,9 +128,11 @@ async function getOrCreateRelease(token, owner, repo, tag) {
   }
 }
 
-// Release assets are flat — encode path separators as "--"
+// Release assets are flat — encode path separators as "--".
+// GitHub silently rewrites spaces in uploaded asset names to periods, so we
+// sanitize up front to keep the URL we compute in sync with what GitHub stores.
 function toAssetName(relPath) {
-  return relPath.replace(/\//g, "--");
+  return relPath.replace(/\//g, "--").replace(/ /g, ".");
 }
 
 function toDownloadUrl(owner, repo, assetName, tag) {

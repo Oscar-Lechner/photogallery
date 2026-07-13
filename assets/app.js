@@ -38,7 +38,6 @@ const lightboxImage = document.querySelector("#lightboxImage");
 const lightboxTitle = document.querySelector("#lightboxTitle");
 const lightboxAlbum = document.querySelector("#lightboxAlbum");
 const lightboxCount = document.querySelector("#lightboxCount");
-const openPhoto = document.querySelector("#openPhoto");
 const downloadPhoto = document.querySelector("#downloadPhoto");
 const closeLightbox = document.querySelector("#closeLightbox");
 const prevPhoto = document.querySelector("#prevPhoto");
@@ -720,6 +719,20 @@ function renderGrid(animate = false) {
   updateColorBar();
 }
 
+// Loads the full-resolution photo in the background and swaps it into the
+// lightbox once ready. Retries once on failure — mobile connections drop
+// requests often enough that a silent, permanent fallback to the thumbnail
+// isn't acceptable.
+function loadFullRes(photo, idx, isRetry = false) {
+  const hd = new Image();
+  hd.onload = () => { if (currentIndex === idx) lightboxImage.src = hd.src; };
+  hd.onerror = () => {
+    if (currentIndex !== idx || isRetry) return;
+    setTimeout(() => { if (currentIndex === idx) loadFullRes(photo, idx, true); }, 1500);
+  };
+  hd.src = photo.src;
+}
+
 // Lightbox
 function showPhoto(index) {
   if (!visiblePhotos.length) return;
@@ -735,15 +748,12 @@ function showPhoto(index) {
   lightboxTitle.textContent = photo.title;
   lightboxAlbum.textContent = albumLabel(photo.album || "All photos");
   lightboxCount.textContent = `${idx + 1} / ${visiblePhotos.length}`;
-  openPhoto.href = thumbFor(photo);
   downloadPhoto.href = photo.src;
   downloadPhoto.download = fileName(photo);
 
   // Try to upgrade to full-res in the background; swap only if still on this photo
   if (photo.src !== thumb) {
-    const hd = new Image();
-    hd.onload = () => { if (currentIndex === idx) lightboxImage.src = hd.src; };
-    hd.src = photo.src;
+    loadFullRes(photo, idx);
   }
 
   if (!lightbox.open) lightbox.showModal();

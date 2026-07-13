@@ -185,7 +185,6 @@ a {
 .enter-btn,
 .ghost-btn,
 .album-chip,
-.dl-btn,
 .feature-download,
 .card-download,
 .f-eyebrow {
@@ -375,7 +374,6 @@ a {
 .enter-btn,
 .ghost-btn,
 .share-btn,
-.dl-btn,
 .feature-download,
 .card-download {
   display: inline-flex;
@@ -390,7 +388,6 @@ a {
 
 .enter-btn,
 .primary-action,
-.dl-btn:not(.secondary),
 .feature-download {
   padding: 0 18px;
   border: 1px solid rgba(77, 159, 255, 0.52);
@@ -399,8 +396,7 @@ a {
 }
 
 .ghost-btn,
-.share-btn,
-.dl-btn.secondary {
+.share-btn {
   padding: 0 18px;
   border: 1px solid var(--line);
   background: rgba(237, 240, 239, 0.035);
@@ -410,7 +406,6 @@ a {
 .enter-btn:hover,
 .share-btn:hover,
 .ghost-btn:hover,
-.dl-btn:hover,
 .feature-download:hover,
 .card-download:hover {
   transform: translateY(-1px);
@@ -418,15 +413,13 @@ a {
 
 .enter-btn:hover,
 .primary-action:hover,
-.dl-btn:not(.secondary):hover,
 .feature-download:hover {
   border-color: rgba(77, 159, 255, 0.58);
   background: rgba(77, 159, 255, 0.16);
 }
 
 .ghost-btn:hover,
-.share-btn:hover,
-.dl-btn.secondary:hover {
+.share-btn:hover {
   border-color: var(--line-hi);
   background: rgba(237, 240, 239, 0.07);
   color: var(--ink);
@@ -435,13 +428,13 @@ a {
 .enter-btn:focus-visible,
 .ghost-btn:focus-visible,
 .share-btn:focus-visible,
-.dl-btn:focus-visible,
 .feature-download:focus-visible,
 .card-download:focus-visible,
 .album-chip:focus-visible,
 .chip-toggle:focus-visible,
 .back-btn:focus-visible,
 .icon-btn:focus-visible,
+.dl-icon-btn:focus-visible,
 .photo-open:focus-visible,
 .feature-photo:focus-visible {
   outline: 2px solid var(--focus);
@@ -1128,13 +1121,26 @@ a {
   white-space: nowrap;
 }
 
-.dl-btn {
-  min-width: 96px;
-  padding: 0 12px;
+.dl-icon-btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(77, 159, 255, 0.52);
+  border-radius: var(--r);
+  background: rgba(77, 159, 255, 0.14);
+  color: var(--ink);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 130ms ease, border-color 130ms ease, transform 100ms ease;
 }
 
-.dl-btn.secondary {
-  min-width: 68px;
+.dl-icon-btn:hover {
+  border-color: rgba(77, 159, 255, 0.58);
+  background: rgba(77, 159, 255, 0.16);
+  transform: translateY(-1px);
 }
 
 .icon-btn {
@@ -1336,19 +1342,6 @@ a {
     align-items: stretch;
     min-height: 0;
     padding: 12px;
-  }
-
-  .lb-actions {
-    display: grid;
-    grid-template-columns: auto minmax(0, 0.7fr) minmax(0, 1fr);
-    gap: 8px;
-    align-items: center;
-  }
-
-  .dl-btn {
-    min-width: 0;
-    padding: 0 9px;
-    letter-spacing: 0.04em;
   }
 
   .download-sheet {
