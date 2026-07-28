@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:03:31.357Z",
+  "generatedAt": "2026-07-28T21:09:38.736Z",
   "count": 1608,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
@@ -15,7 +15,7 @@
     "discolines / strangers": "2026-04-18T20:00:00",
     "simone_breck": "2026-05-15T20:00:00",
     "simone_corsica": "2026-06-13T20:00:00",
-    "creekdayonshrooms": "2026-07-25T23:07:36.000Z",
+    "creekday": "2026-07-25T23:07:36.000Z",
     "crested butte": "2026-07-12T21:07:46.000Z",
     "flowers collection": "2026-07-25T23:07:36.000Z"
   },
@@ -33,7 +33,7 @@
     "discolines / strangers": "Discolines / Strangers",
     "simone_breck": "Simone Breck",
     "simone_corsica": "Simone Corsica",
-    "creekdayonshrooms": "Creekdayonshrooms",
+    "creekday": "Creekday",
     "crested butte": "Crested Butte",
     "flowers collection": "Flowers Collection"
   },
@@ -1271,11 +1271,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0201",
-      "relativePath": "creekdayonshrooms/IMG_0201.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0201.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0201.webp",
+      "relativePath": "creekday/IMG_0201.JPG",
+      "src": "photos/creekday/IMG_0201.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0201.webp",
       "mtime": 1785020846000,
       "size": 2784535,
       "color": {
@@ -1287,11 +1287,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0202",
-      "relativePath": "creekdayonshrooms/IMG_0202.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0202.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0202.webp",
+      "relativePath": "creekday/IMG_0202.JPG",
+      "src": "photos/creekday/IMG_0202.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0202.webp",
       "mtime": 1785020846000,
       "size": 1494619,
       "color": {
@@ -1303,11 +1303,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0203",
-      "relativePath": "creekdayonshrooms/IMG_0203.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0203.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0203.webp",
+      "relativePath": "creekday/IMG_0203.JPG",
+      "src": "photos/creekday/IMG_0203.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0203.webp",
       "mtime": 1785020846000,
       "size": 1696843,
       "color": {
@@ -1319,11 +1319,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0204",
-      "relativePath": "creekdayonshrooms/IMG_0204.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0204.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0204.webp",
+      "relativePath": "creekday/IMG_0204.JPG",
+      "src": "photos/creekday/IMG_0204.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0204.webp",
       "mtime": 1785020848000,
       "size": 1367850,
       "color": {
@@ -1335,11 +1335,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0205",
-      "relativePath": "creekdayonshrooms/IMG_0205.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0205.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0205.webp",
+      "relativePath": "creekday/IMG_0205.JPG",
+      "src": "photos/creekday/IMG_0205.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0205.webp",
       "mtime": 1785020848000,
       "size": 1797811,
       "color": {
@@ -1351,11 +1351,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0206",
-      "relativePath": "creekdayonshrooms/IMG_0206.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0206.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0206.webp",
+      "relativePath": "creekday/IMG_0206.JPG",
+      "src": "photos/creekday/IMG_0206.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0206.webp",
       "mtime": 1785020848000,
       "size": 2174769,
       "color": {
@@ -1367,11 +1367,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0207",
-      "relativePath": "creekdayonshrooms/IMG_0207.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0207.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0207.webp",
+      "relativePath": "creekday/IMG_0207.JPG",
+      "src": "photos/creekday/IMG_0207.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0207.webp",
       "mtime": 1785020848000,
       "size": 1531338,
       "color": {
@@ -1383,11 +1383,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0208",
-      "relativePath": "creekdayonshrooms/IMG_0208.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0208.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0208.webp",
+      "relativePath": "creekday/IMG_0208.JPG",
+      "src": "photos/creekday/IMG_0208.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0208.webp",
       "mtime": 1785020848000,
       "size": 1361738,
       "color": {
@@ -1399,11 +1399,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0209",
-      "relativePath": "creekdayonshrooms/IMG_0209.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0209.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0209.webp",
+      "relativePath": "creekday/IMG_0209.JPG",
+      "src": "photos/creekday/IMG_0209.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0209.webp",
       "mtime": 1785020848000,
       "size": 2547328,
       "color": {
@@ -1415,11 +1415,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0210",
-      "relativePath": "creekdayonshrooms/IMG_0210.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0210.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0210.webp",
+      "relativePath": "creekday/IMG_0210.JPG",
+      "src": "photos/creekday/IMG_0210.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0210.webp",
       "mtime": 1785020850000,
       "size": 3778914,
       "color": {
@@ -1431,11 +1431,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0211",
-      "relativePath": "creekdayonshrooms/IMG_0211.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0211.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0211.webp",
+      "relativePath": "creekday/IMG_0211.JPG",
+      "src": "photos/creekday/IMG_0211.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0211.webp",
       "mtime": 1785020850000,
       "size": 2616050,
       "color": {
@@ -1447,11 +1447,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0212",
-      "relativePath": "creekdayonshrooms/IMG_0212.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0212.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0212.webp",
+      "relativePath": "creekday/IMG_0212.JPG",
+      "src": "photos/creekday/IMG_0212.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0212.webp",
       "mtime": 1785020850000,
       "size": 1443843,
       "color": {
@@ -1463,11 +1463,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0213",
-      "relativePath": "creekdayonshrooms/IMG_0213.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0213.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0213.webp",
+      "relativePath": "creekday/IMG_0213.JPG",
+      "src": "photos/creekday/IMG_0213.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0213.webp",
       "mtime": 1785020850000,
       "size": 1700287,
       "color": {
@@ -1479,11 +1479,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0214",
-      "relativePath": "creekdayonshrooms/IMG_0214.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0214.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0214.webp",
+      "relativePath": "creekday/IMG_0214.JPG",
+      "src": "photos/creekday/IMG_0214.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0214.webp",
       "mtime": 1785020850000,
       "size": 1655648,
       "color": {
@@ -1495,11 +1495,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0215",
-      "relativePath": "creekdayonshrooms/IMG_0215.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0215.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0215.webp",
+      "relativePath": "creekday/IMG_0215.JPG",
+      "src": "photos/creekday/IMG_0215.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0215.webp",
       "mtime": 1785020850000,
       "size": 1258664,
       "color": {
@@ -1511,11 +1511,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0216",
-      "relativePath": "creekdayonshrooms/IMG_0216.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0216.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0216.webp",
+      "relativePath": "creekday/IMG_0216.JPG",
+      "src": "photos/creekday/IMG_0216.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0216.webp",
       "mtime": 1785020850000,
       "size": 1512556,
       "color": {
@@ -1527,11 +1527,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0217",
-      "relativePath": "creekdayonshrooms/IMG_0217.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0217.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0217.webp",
+      "relativePath": "creekday/IMG_0217.JPG",
+      "src": "photos/creekday/IMG_0217.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0217.webp",
       "mtime": 1785020852000,
       "size": 2312880,
       "color": {
@@ -1543,11 +1543,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0218",
-      "relativePath": "creekdayonshrooms/IMG_0218.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0218.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0218.webp",
+      "relativePath": "creekday/IMG_0218.JPG",
+      "src": "photos/creekday/IMG_0218.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0218.webp",
       "mtime": 1785020852000,
       "size": 2377345,
       "color": {
@@ -1559,11 +1559,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0219",
-      "relativePath": "creekdayonshrooms/IMG_0219.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0219.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0219.webp",
+      "relativePath": "creekday/IMG_0219.JPG",
+      "src": "photos/creekday/IMG_0219.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0219.webp",
       "mtime": 1785020852000,
       "size": 1719704,
       "color": {
@@ -1575,11 +1575,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0220",
-      "relativePath": "creekdayonshrooms/IMG_0220.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0220.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0220.webp",
+      "relativePath": "creekday/IMG_0220.JPG",
+      "src": "photos/creekday/IMG_0220.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0220.webp",
       "mtime": 1785020852000,
       "size": 1745666,
       "color": {
@@ -1591,11 +1591,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0221",
-      "relativePath": "creekdayonshrooms/IMG_0221.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0221.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0221.webp",
+      "relativePath": "creekday/IMG_0221.JPG",
+      "src": "photos/creekday/IMG_0221.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0221.webp",
       "mtime": 1785020852000,
       "size": 1504909,
       "color": {
@@ -1607,11 +1607,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0222",
-      "relativePath": "creekdayonshrooms/IMG_0222.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0222.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0222.webp",
+      "relativePath": "creekday/IMG_0222.JPG",
+      "src": "photos/creekday/IMG_0222.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0222.webp",
       "mtime": 1785020852000,
       "size": 1647116,
       "color": {
@@ -1623,11 +1623,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0223",
-      "relativePath": "creekdayonshrooms/IMG_0223.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0223.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0223.webp",
+      "relativePath": "creekday/IMG_0223.JPG",
+      "src": "photos/creekday/IMG_0223.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0223.webp",
       "mtime": 1785020852000,
       "size": 1536032,
       "color": {
@@ -1639,11 +1639,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0224",
-      "relativePath": "creekdayonshrooms/IMG_0224.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0224.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0224.webp",
+      "relativePath": "creekday/IMG_0224.JPG",
+      "src": "photos/creekday/IMG_0224.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0224.webp",
       "mtime": 1785020852000,
       "size": 3232987,
       "color": {
@@ -1655,11 +1655,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0225",
-      "relativePath": "creekdayonshrooms/IMG_0225.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0225.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0225.webp",
+      "relativePath": "creekday/IMG_0225.JPG",
+      "src": "photos/creekday/IMG_0225.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0225.webp",
       "mtime": 1785020854000,
       "size": 3320449,
       "color": {
@@ -1671,11 +1671,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0226",
-      "relativePath": "creekdayonshrooms/IMG_0226.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0226.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0226.webp",
+      "relativePath": "creekday/IMG_0226.JPG",
+      "src": "photos/creekday/IMG_0226.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0226.webp",
       "mtime": 1785020854000,
       "size": 2085490,
       "color": {
@@ -1687,11 +1687,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0227",
-      "relativePath": "creekdayonshrooms/IMG_0227.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0227.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0227.webp",
+      "relativePath": "creekday/IMG_0227.JPG",
+      "src": "photos/creekday/IMG_0227.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0227.webp",
       "mtime": 1785020854000,
       "size": 1595906,
       "color": {
@@ -1703,11 +1703,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0228",
-      "relativePath": "creekdayonshrooms/IMG_0228.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0228.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0228.webp",
+      "relativePath": "creekday/IMG_0228.JPG",
+      "src": "photos/creekday/IMG_0228.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0228.webp",
       "mtime": 1785020854000,
       "size": 3438134,
       "color": {
@@ -1719,11 +1719,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0229",
-      "relativePath": "creekdayonshrooms/IMG_0229.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0229.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0229.webp",
+      "relativePath": "creekday/IMG_0229.JPG",
+      "src": "photos/creekday/IMG_0229.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0229.webp",
       "mtime": 1785020854000,
       "size": 2034535,
       "color": {
@@ -1735,11 +1735,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0230",
-      "relativePath": "creekdayonshrooms/IMG_0230.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0230.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0230.webp",
+      "relativePath": "creekday/IMG_0230.JPG",
+      "src": "photos/creekday/IMG_0230.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0230.webp",
       "mtime": 1785020854000,
       "size": 1526501,
       "color": {
@@ -1751,11 +1751,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0231",
-      "relativePath": "creekdayonshrooms/IMG_0231.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0231.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0231.webp",
+      "relativePath": "creekday/IMG_0231.JPG",
+      "src": "photos/creekday/IMG_0231.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0231.webp",
       "mtime": 1785020854000,
       "size": 2389486,
       "color": {
@@ -1767,11 +1767,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0232",
-      "relativePath": "creekdayonshrooms/IMG_0232.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0232.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0232.webp",
+      "relativePath": "creekday/IMG_0232.JPG",
+      "src": "photos/creekday/IMG_0232.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0232.webp",
       "mtime": 1785020856000,
       "size": 2511498,
       "color": {
@@ -1783,11 +1783,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0233",
-      "relativePath": "creekdayonshrooms/IMG_0233.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0233.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0233.webp",
+      "relativePath": "creekday/IMG_0233.JPG",
+      "src": "photos/creekday/IMG_0233.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0233.webp",
       "mtime": 1785020856000,
       "size": 1474041,
       "color": {
@@ -1799,11 +1799,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0234",
-      "relativePath": "creekdayonshrooms/IMG_0234.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0234.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0234.webp",
+      "relativePath": "creekday/IMG_0234.JPG",
+      "src": "photos/creekday/IMG_0234.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0234.webp",
       "mtime": 1785020856000,
       "size": 1543454,
       "color": {
@@ -1815,11 +1815,11 @@
       }
     },
     {
-      "album": "creekdayonshrooms",
+      "album": "creekday",
       "title": "IMG 0235",
-      "relativePath": "creekdayonshrooms/IMG_0235.JPG",
-      "src": "photos/creekdayonshrooms/IMG_0235.JPG",
-      "thumbSrc": "thumbnails/creekdayonshrooms/IMG_0235.webp",
+      "relativePath": "creekday/IMG_0235.JPG",
+      "src": "photos/creekday/IMG_0235.JPG",
+      "thumbSrc": "thumbnails/creekday/IMG_0235.webp",
       "mtime": 1785020856000,
       "size": 1496564,
       "color": {
