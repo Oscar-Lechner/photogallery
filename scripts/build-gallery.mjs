@@ -15,7 +15,7 @@ const IMAGE_EXTS = new Set([".avif", ".gif", ".heic", ".heif", ".jpeg", ".jpg", 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 // Increment this when the extraction algorithm changes to bust the cache.
-const COLOR_ALGO_VERSION = 4;
+const COLOR_ALGO_VERSION = 5;
 
 async function extractColor(thumbAbs) {
   try {
@@ -28,6 +28,11 @@ async function extractColor(thumbAbs) {
 
     const n = data.length / 3;
     const buckets = new Float32Array(360);
+    // Pass 1 caches per-pixel HSL so pass 2 can filter by hue without redoing
+    // the conversion. hue[i] === -1 marks a fully achromatic pixel.
+    const pxH = new Float32Array(n);
+    const pxS = new Float32Array(n);
+    const pxL = new Float32Array(n);
     let totalL = 0;
     let chromaticCount = 0;
 
@@ -39,25 +44,30 @@ async function extractColor(thumbAbs) {
       const max = Math.max(r, g, b), min = Math.min(r, g, b);
       const l = (max + min) / 2;
       totalL += l;
-      if (max === min) continue;
+      pxL[i] = l;
+      if (max === min) { pxH[i] = -1; continue; }
       const d = max - min;
       const s = d / (1 - Math.abs(2 * l - 1));
-      if (s < 0.15) continue;                  // skip grey/near-neutral pixels
       let h;
       if (max === r)      h = ((g - b) / d + (g < b ? 6 : 0)) * 60;
       else if (max === g) h = ((b - r) / d + 2) * 60;
       else                h = ((r - g) / d + 4) * 60;
       if (h < 0) h += 360;
+      pxH[i] = h;
+      pxS[i] = s;
+      if (s < 0.15) continue;                  // skip grey/near-neutral pixels
       buckets[Math.floor(h) % 360] += s;        // weight by saturation
       chromaticCount++;
     }
 
+    // Average lightness over every pixel — the image's actual perceived
+    // brightness, independent of which hue happens to dominate.
     const avgL = Math.round((totalL / n) * 100);
 
     const chromaticRatio = Math.round((chromaticCount / n) * 100);
 
     // If fewer than 5% of pixels are chromatic, treat the image as achromatic.
-    if (chromaticCount < n * 0.05) return { h: 0, s: 0, l: avgL, c: chromaticRatio, u: 0 };
+    if (chromaticCount < n * 0.05) return { h: 0, s: 0, l: avgL, c: chromaticRatio, u: 0, b: avgL };
 
     // Find the dominant hue: smooth the histogram with a ±20° window then take the peak.
     let bestScore = -1, dominantH = 0;
@@ -70,22 +80,12 @@ async function extractColor(thumbAbs) {
     // Pass 2: average S and L only for chromatic pixels within ±30° of the dominant hue.
     let sumS = 0, sumL = 0, count = 0;
     for (let i = 0; i < n; i++) {
-      const r = data[i * 3] / 255;
-      const g = data[i * 3 + 1] / 255;
-      const b = data[i * 3 + 2] / 255;
-      const max = Math.max(r, g, b), min = Math.min(r, g, b);
-      if (max === min) continue;
-      const d = max - min;
-      const l = (max + min) / 2;
-      const s = d / (1 - Math.abs(2 * l - 1));
+      const h = pxH[i];
+      if (h < 0) continue;
+      const s = pxS[i];
       if (s < 0.15) continue;
-      let h;
-      if (max === r)      h = ((g - b) / d + (g < b ? 6 : 0)) * 60;
-      else if (max === g) h = ((b - r) / d + 2) * 60;
-      else                h = ((r - g) / d + 4) * 60;
-      if (h < 0) h += 360;
       const diff = Math.min(Math.abs(h - dominantH), 360 - Math.abs(h - dominantH));
-      if (diff <= 30) { sumS += s; sumL += l; count++; }
+      if (diff <= 30) { sumS += s; sumL += pxL[i]; count++; }
     }
 
     return {
@@ -94,6 +94,7 @@ async function extractColor(thumbAbs) {
       l: count > 0 ? Math.round((sumL / count) * 100) : avgL,
       c: chromaticRatio,
       u: Math.round((count / n) * 100),
+      b: avgL,
     };
   } catch {
     return null;

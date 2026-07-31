@@ -491,57 +491,70 @@ function toggleAlbumBlend(album) {
   renderGrid(true);
 }
 
+// Gallery: color model
+//
+// Each photo carries {h,s,l,c,u,b} from data/colors.json:
+//   h,s,l  the dominant hue and the saturation/lightness of *only* those pixels
+//   c      % of the frame that is coloured at all
+//   u      % of the frame agreeing with the dominant hue
+//   b      the whole image's average lightness
+
+// True image brightness. Pre-v5 caches have no `b`; fall back to the old
+// dominant-hue lightness so a stale colors.json still sorts sensibly.
+const lum = (c) => c.b ?? c.l;
+
+// Almost nothing in the frame is coloured, so its "hue" is noise. These are
+// parked after the rainbow instead of being scattered through it.
+const isNeutral = (c) => (c.c ?? 100) < 12;
+
+// The colour a photo is represented by in Swatches view and the corner dot.
+// Saturation is scaled by how much of the frame is actually coloured, and the
+// lightness is the image's real brightness — so a dark, mostly-grey photo with
+// one vivid accent reads as dark grey rather than as a bright saturated tile.
+function swatchColor(c) {
+  const sat = Math.round(c.s * ((c.c ?? 100) / 100));
+  return `hsl(${c.h},${sat}%,${lum(c)}%)`;
+}
+
+// Shared comparator wrapper: photos with no extracted color always sink.
+function byColor(compare) {
+  return (a, b) => {
+    const ca = a.color, cb = b.color;
+    if (!ca && !cb) return 0;
+    if (!ca) return 1;
+    if (!cb) return -1;
+    return compare(ca, cb);
+  };
+}
+
 // Gallery: ordering
 function sortPhotos(items) {
   switch (currentSort) {
-    case "hue": {
-      // Rainbow buckets keep reds together (fixing 0°/360° wrap) and group
-      // similar colors so the sort feels like a real rainbow.
-      // Returns [bucketIndex, hueWithinBucket].
-      function hueBucket(h) {
-        if (h >= 345 || h < 15)  return [0, h >= 345 ? h - 345 : h + 15]; // red
-        if (h < 45)  return [1, h - 15];   // orange
-        if (h < 75)  return [2, h - 45];   // yellow
-        if (h < 165) return [3, h - 75];   // green
-        if (h < 210) return [4, h - 165];  // cyan
-        if (h < 270) return [5, h - 210];  // blue
-        if (h < 315) return [6, h - 270];  // purple
-        return        [7, h - 315];        // pink / magenta
-      }
-      return [...items].sort((a, b) => {
-        const ca = a.color, cb = b.color;
-        if (!ca && !cb) return 0;
-        if (!ca) return 1;
-        if (!cb) return -1;
-        const na = ca.s < 15 || (ca.c ?? 100) < 10;
-        const nb = cb.s < 15 || (cb.c ?? 100) < 10;
+    case "hue":
+      // Rotate +15° so red is contiguous (345°–360° joins 0°–15°) instead of
+      // split across both ends, then quantise to 10° steps. Stepping rather
+      // than comparing raw hue lets near-identical hues group together
+      // vivid-first, while the overall sweep stays a smooth rainbow.
+      return [...items].sort(byColor((ca, cb) => {
+        const na = isNeutral(ca), nb = isNeutral(cb);
         if (na !== nb) return na ? 1 : -1;
-        if (na && nb) return ca.l - cb.l;
-        const [ba, ha] = hueBucket(ca.h);
-        const [bb, hb] = hueBucket(cb.h);
-        if (ba !== bb) return ba - bb;
-        // Within bucket: vivid first, then fine hue order, then most-chromatic
-        return (cb.s - ca.s) || (ha - hb) || ((cb.c ?? 0) - (ca.c ?? 0));
-      });
-    }
+        if (na) return lum(ca) - lum(cb);
+        const step = (c) => Math.floor(((c.h + 15) % 360) / 10);
+        return (step(ca) - step(cb)) || (cb.s - ca.s) || (lum(cb) - lum(ca));
+      }));
+
     case "flat":
-      return [...items].sort((a, b) => {
-        const ca = a.color, cb = b.color;
-        if (!ca && !cb) return 0;
-        if (!ca) return 1;
-        if (!cb) return -1;
-        return ((cb.u ?? 0) - (ca.u ?? 0)) || (cb.s - ca.s);
-      });
-    case "value": {
-      const v = c => { const l = c.l / 100, s = c.s / 100; return l + s * Math.min(l, 1 - l); };
-      return [...items].sort((a, b) => {
-        const ca = a.color, cb = b.color;
-        if (!ca && !cb) return 0;
-        if (!ca) return 1;
-        if (!cb) return -1;
-        return v(cb) - v(ca);
-      });
-    }
+      // Colour unity: how much of the frame agrees on a single hue. Graphic,
+      // near-monochrome images first; busy multi-coloured ones last.
+      return [...items].sort(byColor((ca, cb) =>
+        ((cb.u ?? 0) - (ca.u ?? 0)) || (cb.s - ca.s)));
+
+    case "value":
+      // Actual image brightness, lightest first. Previously this used the
+      // dominant hue's HSV value, which ranked a dark frame with one bright
+      // accent as a bright photo.
+      return [...items].sort(byColor((ca, cb) => lum(cb) - lum(ca)));
+
     default:
       return [...items].sort((a, b) => collator.compare(a.album, b.album) || collator.compare(a.title, b.title));
   }
@@ -598,13 +611,18 @@ function updateColorBar() {
   const sbw = window.innerWidth - document.documentElement.clientWidth;
   colorBar.style.right = sbw + "px";
 
-  // Build gradient from evenly-sampled photos (sorted by hue)
+  // Build gradient from evenly-sampled photos (sorted by hue). Saturation is
+  // forced high because this is a position index, not a preview — it needs to
+  // read as a rainbow at 6px wide.
   const N = Math.min(visiblePhotos.length, 36);
   const stops = [];
   for (let i = 0; i < N; i++) {
-    const idx = Math.round((i / (N - 1)) * (visiblePhotos.length - 1));
-    const h = visiblePhotos[idx]?.color?.h ?? 0;
-    stops.push(`hsl(${h},95%,50%) ${((i / (N - 1)) * 100).toFixed(1)}%`);
+    const t = N === 1 ? 0 : i / (N - 1);
+    const c = visiblePhotos[Math.round(t * (visiblePhotos.length - 1))]?.color;
+    // Neutrals sort last and carry h=0; drawing them literally would paint a
+    // false red band at the foot of the ribbon.
+    const stop = !c || isNeutral(c) ? `hsl(0,0%,${c ? lum(c) : 45}%)` : `hsl(${c.h},95%,50%)`;
+    stops.push(`${stop} ${(t * 100).toFixed(1)}%`);
   }
   colorBarGradient.style.background = `linear-gradient(to bottom,${stops.join(",")})`;
 
@@ -690,7 +708,7 @@ function renderGrid(animate = false) {
     open.append(img, cap);
     card.append(open, dl);
     if (photo.color) {
-      const hsl = `hsl(${photo.color.h},${photo.color.s}%,${photo.color.l}%)`;
+      const hsl = swatchColor(photo.color);
       card.style.setProperty("--card-color", hsl);
       const dot = document.createElement("span");
       dot.className = "color-dot";
