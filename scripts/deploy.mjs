@@ -223,9 +223,11 @@ async function main() {
     // Phase 2: upload originals (4 parallel)
     let uploaded = 0;
     let failed   = 0;
+    let authError = null;   // set on the first 401/403 — stop retrying, the rest will fail too
     const total  = newPhotos.length;
 
     await mapLimit(assignments, 4, async ({ photo, tag }) => {
+      if (authError) { failed++; return; }
       const release = releaseMap[tag];
       try {
         const assetName = toAssetName(photo.relativePath);
@@ -247,6 +249,7 @@ async function main() {
 
       } catch (err) {
         failed++;
+        if (/→ 40[13]:/.test(err.message) && !authError) authError = err.message;
         process.stdout.write(`\r  Uploading: ${uploaded}/${total} done, ${failed} failed   `);
         console.log(`\n  ✗ ${photo.relativePath}: ${err.message}`);
       }
@@ -256,14 +259,40 @@ async function main() {
     saveManifest(manifest);
     console.log(`\n  Uploaded: ${uploaded}  Failed: ${failed}\n`);
 
+    // Never commit or push a half-uploaded deploy: photos.json would point the
+    // missing photos at local photos/ paths, which are gitignored and never
+    // published — producing working thumbnails with dead full-size links.
     if (failed > 0) {
-      console.log("  Re-run 'npm run deploy' to retry failed uploads.\n");
+      if (authError) {
+        console.error("  Your GITHUB_TOKEN cannot write release assets.\n");
+        console.error("  Note: GitHub reports repo 'push: true' for tokens that still cannot");
+        console.error("  upload assets, so only a real upload detects this.\n");
+        console.error("  Fix: use a CLASSIC token with the 'repo' scope");
+        console.error("       (https://github.com/settings/tokens → 'Generate new token (classic)'),");
+        console.error("       or a fine-grained token with 'Contents: Read and write' on this repo.\n");
+      }
+      console.error(`  Aborting before commit — ${failed} photo(s) did not upload.`);
+      console.error("  Nothing was committed or pushed. Fix the above, then re-run 'npm run deploy'.\n");
+      process.exit(1);
     }
   }
 
   // Rebuild photos.json with release URLs
   console.log("Rebuilding index...\n");
   await buildIndex();
+
+  // Safety net: every photo must resolve to a release URL. A "photos/..." src
+  // means the original never made it into the manifest, and publishing it would
+  // ship a dead full-size link behind a working thumbnail.
+  const index  = JSON.parse(readFileSync(path.join(dataDir, "photos.json"), "utf8"));
+  const unpublished = index.photos.filter(p => !/^https?:\/\//.test(p.src));
+  if (unpublished.length > 0) {
+    console.error(`\nAborting: ${unpublished.length} photo(s) are not in the release manifest.`);
+    for (const p of unpublished.slice(0, 10)) console.error(`  ✗ ${p.relativePath}`);
+    if (unpublished.length > 10) console.error(`  ... and ${unpublished.length - 10} more`);
+    console.error("\nNothing was committed or pushed. Re-run 'npm run deploy' to upload them.\n");
+    process.exit(1);
+  }
 
   // Untrack photos/ from git if currently tracked (one-time migration)
   try {
