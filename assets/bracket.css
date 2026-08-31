@@ -1,0 +1,461 @@
+/* bracket.css — photo bracket screens.
+   Desktop only: everything here collapses to display:none below the breakpoint,
+   and app.js never renders the entry button on a touch-first device. */
+
+.bracket {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bracket[hidden] {
+  display: none;
+}
+
+.bracket-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  min-height: 64px;
+  padding: 10px clamp(12px, 2vw, 24px);
+  border-bottom: 1px solid var(--line);
+  background: rgba(5, 6, 8, 0.86);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.bracket-header-center {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.bracket-phase {
+  font-size: 0.68rem;
+  font-weight: 780;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.bracket-meta {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--quiet);
+}
+
+/* ── Setup ─────────────────────────────────────────────────────────────────── */
+
+.bracket-setup,
+.bracket-results {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vh, 52px) clamp(16px, 3vw, 28px) 64px;
+}
+
+.bracket-intro {
+  margin-bottom: 26px;
+}
+
+.bracket-intro h2 {
+  margin: 8px 0 10px;
+  font-size: 1.5rem;
+  font-weight: 780;
+  letter-spacing: -0.01em;
+}
+
+.bracket-copy {
+  max-width: 62ch;
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.bracket-sets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 8px;
+}
+
+/* Two rows: name and count on top, the date underneath. The tiles are ordered
+   by date, so the date has to be visible or the order looks arbitrary. */
+.bracket-set {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2px 12px;
+  align-items: center;
+  min-height: 56px;
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: rgba(237, 240, 239, 0.035);
+  color: var(--muted);
+  cursor: pointer;
+  text-align: left;
+  transition: background 130ms ease, border-color 130ms ease, color 130ms ease,
+    transform 100ms ease;
+}
+
+.bracket-set:hover {
+  border-color: var(--line-hi);
+  background: rgba(237, 240, 239, 0.07);
+  transform: translateY(-1px);
+}
+
+.bracket-set.is-on {
+  border-color: rgba(77, 159, 255, 0.52);
+  background: rgba(77, 159, 255, 0.14);
+  color: var(--ink);
+}
+
+.bracket-set-date {
+  grid-column: 1 / -1;
+  font-size: 0.64rem;
+  letter-spacing: 0.06em;
+  color: var(--quiet);
+}
+
+.bracket-set.is-on .bracket-set-date {
+  color: var(--muted);
+}
+
+.bracket-set-name {
+  overflow: hidden;
+  font-size: 0.68rem;
+  font-weight: 780;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bracket-set-count {
+  flex: none;
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--quiet);
+}
+
+.bracket-set.is-on .bracket-set-count {
+  color: var(--accent);
+}
+
+.bracket-setup-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.bracket-estimate {
+  flex: 1;
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--quiet);
+}
+
+.bracket-estimate.is-short {
+  color: var(--amber);
+}
+
+.bracket-start:disabled,
+#bracketStart:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.bracket-resume {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 26px;
+  padding: 14px 16px;
+  border: 1px solid rgba(192, 164, 110, 0.34);
+  border-radius: var(--r);
+  background: rgba(192, 164, 110, 0.08);
+}
+
+.bracket-resume-copy {
+  flex: 1;
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.bracket-resume-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* ── Arena ─────────────────────────────────────────────────────────────────── */
+
+.bracket-run {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  padding: 0 clamp(12px, 2vw, 24px) 18px;
+}
+
+.bracket-progress {
+  height: 2px;
+  margin-bottom: clamp(12px, 2vh, 22px);
+  background: var(--line);
+}
+
+.bracket-progress-fill {
+  width: 0;
+  height: 100%;
+  background: var(--accent);
+  transition: width 220ms ease;
+}
+
+.bracket-arena {
+  display: grid;
+  flex: 1;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: clamp(12px, 2vw, 28px);
+  align-items: center;
+  min-height: 0;
+}
+
+.bracket-pane {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  max-height: 100%;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+  color: inherit;
+  cursor: pointer;
+  transition: border-color 130ms ease, background 130ms ease, transform 110ms ease;
+}
+
+.bracket-pane:hover,
+.bracket-pane:focus-visible {
+  border-color: rgba(77, 159, 255, 0.52);
+  background: var(--surface-2);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+/* The square is the product. Both photos are judged as the crop they would be
+   posted as, so the viewport is a hard 1:1 window and the image moves behind
+   it — never object-fit, which would decide the framing for you. */
+.bracket-crop {
+  position: relative;
+  width: min(100%, calc(100vh - 250px));
+  margin: 0 auto;
+  overflow: hidden;
+  aspect-ratio: 1;
+  border-radius: 2px;
+  background: var(--bg-2);
+  cursor: grab;
+  touch-action: none;
+}
+
+.bracket-crop.is-dragging {
+  cursor: grabbing;
+}
+
+.bracket-crop img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* Until the image loads there are no real dimensions to compute a crop from,
+     so fall back to a plain centre-cover — which is exactly what an unadjusted
+     crop is anyway. applyCropTo replaces these with explicit pixel sizes. */
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  -webkit-user-drag: none;
+  transition: opacity 160ms ease;
+}
+
+.bracket-pane.is-placeholder .bracket-crop img {
+  opacity: 0.82;
+}
+
+/* Results reuse the same window, minus the dragging. */
+.bracket-crop.is-static {
+  width: 100%;
+  cursor: pointer;
+}
+
+.bracket-pane-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bracket-tool {
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--quiet);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.6rem;
+  font-weight: 780;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  transition: border-color 130ms ease, color 130ms ease;
+}
+
+.bracket-tool:hover {
+  border-color: var(--line-hi);
+  color: var(--ink);
+}
+
+.bracket-zoom {
+  min-width: 26px;
+  font-size: 0.6rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+}
+
+.bracket-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.bracket-pane-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 24px;
+}
+
+.bracket-pane-title {
+  overflow: hidden;
+  font-size: 0.68rem;
+  font-weight: 780;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+.bracket-pane-album {
+  flex: none;
+  font-size: 0.66rem;
+  letter-spacing: 0.04em;
+  color: var(--quiet);
+}
+
+.bracket-versus {
+  align-self: center;
+  font-size: 0.68rem;
+  font-weight: 780;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--quiet);
+}
+
+.bracket-hint {
+  margin: 14px 0 0;
+  font-size: 0.66rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--quiet);
+}
+
+/* ── Results ───────────────────────────────────────────────────────────────── */
+
+.bracket-winners {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.bracket-winner {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+  cursor: pointer;
+  transition: border-color 130ms ease, transform 110ms ease;
+}
+
+.bracket-winner:hover {
+  border-color: var(--line-hi);
+  transform: translateY(-2px);
+}
+
+.bracket-winner .bracket-crop {
+  width: 100%;
+}
+
+.bracket-winner figcaption {
+  overflow: hidden;
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+.bracket-rank {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 1;
+  min-width: 20px;
+  padding: 2px 6px;
+  border-radius: 2px;
+  background: rgba(5, 6, 8, 0.78);
+  font-size: 0.62rem;
+  font-weight: 780;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  color: var(--accent);
+}
+
+.bracket-record {
+  font-size: 0.6rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  color: var(--quiet);
+}
+
+/* ── Desktop only ──────────────────────────────────────────────────────────── */
+
+@media (max-width: 899px), (pointer: coarse) {
+  #bracket,
+  #bracketBtn {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1180px) {
+  .bracket-winners {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

@@ -7,6 +7,7 @@
     <meta name="theme-color" content="#050608" />
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/bracket.css" />
   </head>
   <body>
     <!-- Entry screen -->
@@ -26,6 +27,7 @@
       <div class="entry-actions">
         <button id="enterBtn" class="enter-btn" type="button">Open Set</button>
         <button id="enterAllBtn" class="ghost-btn" type="button">Full Archive</button>
+        <button id="bracketBtn" class="ghost-btn is-desktop-only" type="button" hidden>Bracket</button>
       </div>
 
       <p class="entry-hint"></p>
@@ -83,6 +85,102 @@
       </section>
 
       <section id="photoGrid" class="grid" aria-live="polite" aria-label="Photos"></section>
+    </main>
+
+
+    <!-- Bracket (desktop only) -->
+    <main id="bracket" class="bracket" hidden>
+      <header class="bracket-header">
+        <button id="bracketBack" class="back-btn" type="button" aria-label="Leave bracket">&larr;</button>
+        <div class="bracket-header-center">
+          <span id="bracketPhase" class="bracket-phase">Bracket</span>
+          <span id="bracketMeta" class="bracket-meta"></span>
+        </div>
+        <div class="header-actions">
+          <button id="bracketUndo" class="share-btn" type="button" hidden>Undo (z)</button>
+        </div>
+      </header>
+
+      <section id="bracketSetup" class="bracket-setup">
+        <div id="bracketResume" class="bracket-resume" hidden>
+          <p id="bracketResumeCopy" class="bracket-resume-copy"></p>
+          <div class="bracket-resume-actions">
+            <button id="bracketResumeGo" class="enter-btn compact" type="button">Resume</button>
+            <button id="bracketResumeDrop" class="ghost-btn" type="button">Discard</button>
+          </div>
+        </div>
+
+        <div class="bracket-intro">
+          <p class="f-eyebrow">Bracket</p>
+          <h2>Pick your sets</h2>
+          <p class="bracket-copy">
+            Two photos at a time, you pick the better one. One loss and you are out
+            &mdash; until the field is down to 24, where it takes two. Ten survive.
+          </p>
+        </div>
+
+        <div id="bracketSets" class="bracket-sets"></div>
+
+        <div class="bracket-setup-actions">
+          <p id="bracketEstimate" class="bracket-estimate">No sets chosen.</p>
+          <button id="bracketStart" class="enter-btn" type="button" disabled>Start Bracket</button>
+        </div>
+      </section>
+
+      <section id="bracketRun" class="bracket-run" hidden>
+        <div class="bracket-progress">
+          <div id="bracketProgressFill" class="bracket-progress-fill"></div>
+        </div>
+        <div class="bracket-arena">
+          <div class="bracket-pane" data-side="0">
+            <div class="bracket-crop">
+              <img alt="" draggable="false" />
+            </div>
+            <div class="bracket-pane-meta">
+              <span class="bracket-pane-title"></span>
+              <span class="bracket-pane-tools">
+                <button class="bracket-tool" type="button" data-tool="reset">Reset</button>
+                <span class="bracket-zoom"></span>
+              </span>
+              <span class="bracket-pane-album"></span>
+            </div>
+          </div>
+          <span class="bracket-versus" aria-hidden="true">vs</span>
+          <div class="bracket-pane" data-side="1">
+            <div class="bracket-crop">
+              <img alt="" draggable="false" />
+            </div>
+            <div class="bracket-pane-meta">
+              <span class="bracket-pane-title"></span>
+              <span class="bracket-pane-tools">
+                <button class="bracket-tool" type="button" data-tool="reset">Reset</button>
+                <span class="bracket-zoom"></span>
+              </span>
+              <span class="bracket-pane-album"></span>
+            </div>
+          </div>
+        </div>
+        <div class="bracket-actions">
+          <button id="bracketDefer" class="ghost-btn" type="button">I can&rsquo;t decide</button>
+        </div>
+        <p class="bracket-hint">
+          Click to pick &middot; &larr; &rarr; keys &middot; drag to reframe &middot; scroll to zoom
+          &middot; Space to defer &middot; Z to undo
+        </p>
+      </section>
+
+      <section id="bracketResults" class="bracket-results" hidden>
+        <div class="bracket-intro">
+          <p class="f-eyebrow">Result</p>
+          <h2>Top Ten</h2>
+          <p id="bracketNearMiss" class="bracket-copy"></p>
+        </div>
+        <div id="bracketWinners" class="bracket-winners"></div>
+        <div class="bracket-setup-actions">
+          <button id="bracketDownload" class="enter-btn" type="button">Download Top 10</button>
+          <button id="bracketAgain" class="ghost-btn" type="button">Run Again</button>
+        </div>
+      </section>
     </main>
 
     <!-- Lightbox -->

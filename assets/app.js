@@ -1,3 +1,5 @@
+import { initBracket, openBracket, isDesktop } from "./bracket.js";
+
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
 
 // DOM
@@ -7,6 +9,7 @@ const wheelListEl = document.querySelector("#wheelList");
 const wheelMetaEl = document.querySelector("#wheelMeta");
 const enterBtn = document.querySelector("#enterBtn");
 const enterAllBtn = document.querySelector("#enterAllBtn");
+const bracketBtn = document.querySelector("#bracketBtn");
 const entryError = document.querySelector("#entryError");
 
 const gallery = document.querySelector("#gallery");
@@ -386,6 +389,31 @@ function transitionToEntry() {
     initEntry();
   }, 370);
   setParams({ album: "" });
+}
+
+function enterBracket() {
+  entryScreen.hidden = true;
+  entryScreen.classList.remove("is-out");
+  openBracket();
+}
+
+// Desktop only, so the button is never rendered on a phone rather than being
+// rendered and then refusing to work.
+function setupBracket() {
+  if (!isDesktop()) return;
+  bracketBtn.hidden = false;
+  initBracket({
+    getPhotos: () => photos,
+    albumLabel,
+    albumDate: (album) => manifest?.albumDates?.[album] ?? null,
+    // Just unhide what is already there. Calling initEntry() would build a
+    // second WheelPicker over the same elements, and each one registers its
+    // own global key handler that then fights the first.
+    onExit: () => {
+      entryScreen.hidden = false;
+    },
+  });
+  bracketBtn.addEventListener("click", enterBracket);
 }
 
 enterBtn.addEventListener("click", doEnter);
@@ -1049,6 +1077,8 @@ async function boot() {
         b.setAttribute("aria-pressed", String(active));
       });
     }
+
+    setupBracket();
 
     if (urlAlbum) {
       selectedAlbums = new Set(urlAlbum.split(",").map((s) => s.trim()).filter(Boolean));
