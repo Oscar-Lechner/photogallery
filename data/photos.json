@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T21:05:31.870Z",
-  "count": 1675,
+  "generatedAt": "2026-08-31T18:51:33.795Z",
+  "count": 1731,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -19,7 +19,8 @@
     "crested butte": "2026-07-12T21:07:46.000Z",
     "flowers collection": "2026-07-25T23:07:34.910Z",
     "Grays and Torreys": "2026-07-30T21:16:59.113Z",
-    "neighborhood flowers": "2026-08-05T20:57:55.523Z"
+    "neighborhood flowers": "2026-08-05T20:57:55.523Z",
+    "steamboat 2026": "2026-08-31T18:40:16.129Z"
   },
   "albumDisplay": {
     "europe_2026": "Europe 2026",
@@ -39,7 +40,8 @@
     "crested butte": "Crested Butte",
     "flowers collection": "Flowers Collection",
     "Grays and Torreys": "Grays And Torreys",
-    "neighborhood flowers": "Neighborhood Flowers"
+    "neighborhood flowers": "Neighborhood Flowers",
+    "steamboat 2026": "Steamboat 2026"
   },
   "photos": [
     {
@@ -25574,6 +25576,958 @@
         "c": 79,
         "u": 75,
         "b": 34
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0359",
+      "relativePath": "steamboat 2026/IMG_0359.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0359.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0359.webp",
+      "mtime": 1788201598183.5503,
+      "size": 1452938,
+      "color": {
+        "h": 32,
+        "s": 43,
+        "l": 33,
+        "c": 72,
+        "u": 65,
+        "b": 43
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0360",
+      "relativePath": "steamboat 2026/IMG_0360.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0360.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0360.webp",
+      "mtime": 1788201598448.0562,
+      "size": 1467014,
+      "color": {
+        "h": 36,
+        "s": 40,
+        "l": 32,
+        "c": 88,
+        "u": 78,
+        "b": 37
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0361",
+      "relativePath": "steamboat 2026/IMG_0361.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0361.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0361.webp",
+      "mtime": 1788201598858.492,
+      "size": 3152377,
+      "color": {
+        "h": 59,
+        "s": 30,
+        "l": 43,
+        "c": 68,
+        "u": 52,
+        "b": 44
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0362",
+      "relativePath": "steamboat 2026/IMG_0362.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0362.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0362.webp",
+      "mtime": 1788201599193.373,
+      "size": 1826568,
+      "color": {
+        "h": 25,
+        "s": 23,
+        "l": 49,
+        "c": 34,
+        "u": 17,
+        "b": 45
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0363",
+      "relativePath": "steamboat 2026/IMG_0363.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0363.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0363.webp",
+      "mtime": 1788201599444.1853,
+      "size": 1482133,
+      "color": {
+        "h": 60,
+        "s": 63,
+        "l": 28,
+        "c": 100,
+        "u": 98,
+        "b": 28
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0364",
+      "relativePath": "steamboat 2026/IMG_0364.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0364.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0364.webp",
+      "mtime": 1788201599716.2454,
+      "size": 1552342,
+      "color": {
+        "h": 60,
+        "s": 66,
+        "l": 28,
+        "c": 100,
+        "u": 98,
+        "b": 28
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0365",
+      "relativePath": "steamboat 2026/IMG_0365.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0365.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0365.webp",
+      "mtime": 1788201600177.7708,
+      "size": 3585816,
+      "color": {
+        "h": 27,
+        "s": 24,
+        "l": 51,
+        "c": 90,
+        "u": 88,
+        "b": 48
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0366",
+      "relativePath": "steamboat 2026/IMG_0366.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0366.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0366.webp",
+      "mtime": 1788201600592.2996,
+      "size": 2648519,
+      "color": {
+        "h": 200,
+        "s": 35,
+        "l": 66,
+        "c": 76,
+        "u": 24,
+        "b": 50
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0367",
+      "relativePath": "steamboat 2026/IMG_0367.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0367.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0367.webp",
+      "mtime": 1788201600960.9463,
+      "size": 2687435,
+      "color": {
+        "h": 206,
+        "s": 47,
+        "l": 65,
+        "c": 79,
+        "u": 23,
+        "b": 48
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0369",
+      "relativePath": "steamboat 2026/IMG_0369.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0369.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0369.webp",
+      "mtime": 1788201601566.619,
+      "size": 3227355,
+      "color": {
+        "h": 54,
+        "s": 22,
+        "l": 50,
+        "c": 76,
+        "u": 73,
+        "b": 50
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0371",
+      "relativePath": "steamboat 2026/IMG_0371.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0371.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0371.webp",
+      "mtime": 1788201601925.4932,
+      "size": 2144078,
+      "color": {
+        "h": 18,
+        "s": 27,
+        "l": 46,
+        "c": 39,
+        "u": 27,
+        "b": 44
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0372",
+      "relativePath": "steamboat 2026/IMG_0372.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0372.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0372.webp",
+      "mtime": 1788201602211.567,
+      "size": 1905323,
+      "color": {
+        "h": 17,
+        "s": 24,
+        "l": 57,
+        "c": 44,
+        "u": 30,
+        "b": 50
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0373",
+      "relativePath": "steamboat 2026/IMG_0373.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0373.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0373.webp",
+      "mtime": 1788201602616.016,
+      "size": 2021147,
+      "color": {
+        "h": 25,
+        "s": 26,
+        "l": 54,
+        "c": 38,
+        "u": 31,
+        "b": 50
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0374",
+      "relativePath": "steamboat 2026/IMG_0374.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0374.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0374.webp",
+      "mtime": 1788201603053.9714,
+      "size": 3406629,
+      "color": {
+        "h": 33,
+        "s": 45,
+        "l": 54,
+        "c": 92,
+        "u": 40,
+        "b": 47
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0375",
+      "relativePath": "steamboat 2026/IMG_0375.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0375.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0375.webp",
+      "mtime": 1788201603596.8665,
+      "size": 4059024,
+      "color": {
+        "h": 24,
+        "s": 47,
+        "l": 64,
+        "c": 88,
+        "u": 31,
+        "b": 51
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0376",
+      "relativePath": "steamboat 2026/IMG_0376.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0376.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0376.webp",
+      "mtime": 1788201604025.39,
+      "size": 3398945,
+      "color": {
+        "h": 17,
+        "s": 48,
+        "l": 53,
+        "c": 94,
+        "u": 44,
+        "b": 47
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0377",
+      "relativePath": "steamboat 2026/IMG_0377.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0377.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0377.webp",
+      "mtime": 1788201604304.1748,
+      "size": 2192213,
+      "color": {
+        "h": 30,
+        "s": 28,
+        "l": 44,
+        "c": 68,
+        "u": 26,
+        "b": 47
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0379",
+      "relativePath": "steamboat 2026/IMG_0379.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0379.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0379.webp",
+      "mtime": 1788201604647.3413,
+      "size": 2713817,
+      "color": {
+        "h": 30,
+        "s": 28,
+        "l": 58,
+        "c": 74,
+        "u": 34,
+        "b": 49
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0380",
+      "relativePath": "steamboat 2026/IMG_0380.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0380.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0380.webp",
+      "mtime": 1788201605002.4707,
+      "size": 2839998,
+      "color": {
+        "h": 34,
+        "s": 39,
+        "l": 64,
+        "c": 81,
+        "u": 31,
+        "b": 52
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0381",
+      "relativePath": "steamboat 2026/IMG_0381.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0381.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0381.webp",
+      "mtime": 1788201605354.2124,
+      "size": 2957931,
+      "color": {
+        "h": 28,
+        "s": 39,
+        "l": 55,
+        "c": 82,
+        "u": 40,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0382",
+      "relativePath": "steamboat 2026/IMG_0382.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0382.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0382.webp",
+      "mtime": 1788201605685.8281,
+      "size": 2752222,
+      "color": {
+        "h": 26,
+        "s": 31,
+        "l": 52,
+        "c": 80,
+        "u": 47,
+        "b": 44
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0383",
+      "relativePath": "steamboat 2026/IMG_0383.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0383.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0383.webp",
+      "mtime": 1788201606067.2944,
+      "size": 3066232,
+      "color": {
+        "h": 37,
+        "s": 38,
+        "l": 62,
+        "c": 80,
+        "u": 45,
+        "b": 49
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0384",
+      "relativePath": "steamboat 2026/IMG_0384.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0384.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0384.webp",
+      "mtime": 1788201606410.6958,
+      "size": 2829088,
+      "color": {
+        "h": 37,
+        "s": 35,
+        "l": 56,
+        "c": 83,
+        "u": 41,
+        "b": 43
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0385",
+      "relativePath": "steamboat 2026/IMG_0385.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0385.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0385.webp",
+      "mtime": 1788201606702.771,
+      "size": 2321341,
+      "color": {
+        "h": 26,
+        "s": 28,
+        "l": 50,
+        "c": 49,
+        "u": 20,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0386",
+      "relativePath": "steamboat 2026/IMG_0386.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0386.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0386.webp",
+      "mtime": 1788201607014.673,
+      "size": 2555722,
+      "color": {
+        "h": 87,
+        "s": 32,
+        "l": 42,
+        "c": 65,
+        "u": 45,
+        "b": 44
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0387",
+      "relativePath": "steamboat 2026/IMG_0387.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0387.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0387.webp",
+      "mtime": 1788201607547.8562,
+      "size": 4230693,
+      "color": {
+        "h": 86,
+        "s": 32,
+        "l": 36,
+        "c": 98,
+        "u": 71,
+        "b": 44
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0388",
+      "relativePath": "steamboat 2026/IMG_0388.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0388.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0388.webp",
+      "mtime": 1788201607984.1602,
+      "size": 3652977,
+      "color": {
+        "h": 95,
+        "s": 30,
+        "l": 29,
+        "c": 91,
+        "u": 63,
+        "b": 41
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0389",
+      "relativePath": "steamboat 2026/IMG_0389.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0389.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0389.webp",
+      "mtime": 1788201608238.9592,
+      "size": 2023466,
+      "color": {
+        "h": 208,
+        "s": 66,
+        "l": 80,
+        "c": 49,
+        "u": 21,
+        "b": 53
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0390",
+      "relativePath": "steamboat 2026/IMG_0390.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0390.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0390.webp",
+      "mtime": 1788201608555.5852,
+      "size": 1943802,
+      "color": {
+        "h": 20,
+        "s": 32,
+        "l": 45,
+        "c": 60,
+        "u": 37,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0391",
+      "relativePath": "steamboat 2026/IMG_0391.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0391.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0391.webp",
+      "mtime": 1788201608847.4055,
+      "size": 2392608,
+      "color": {
+        "h": 208,
+        "s": 38,
+        "l": 61,
+        "c": 71,
+        "u": 49,
+        "b": 53
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0392",
+      "relativePath": "steamboat 2026/IMG_0392.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0392.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0392.webp",
+      "mtime": 1788201609097.9421,
+      "size": 1952328,
+      "color": {
+        "h": 27,
+        "s": 34,
+        "l": 51,
+        "c": 73,
+        "u": 48,
+        "b": 48
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0393",
+      "relativePath": "steamboat 2026/IMG_0393.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0393.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0393.webp",
+      "mtime": 1788201609370.268,
+      "size": 2215443,
+      "color": {
+        "h": 24,
+        "s": 35,
+        "l": 54,
+        "c": 52,
+        "u": 38,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0394",
+      "relativePath": "steamboat 2026/IMG_0394.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0394.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0394.webp",
+      "mtime": 1788201609689.6094,
+      "size": 2445630,
+      "color": {
+        "h": 207,
+        "s": 53,
+        "l": 66,
+        "c": 66,
+        "u": 22,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0395",
+      "relativePath": "steamboat 2026/IMG_0395.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0395.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0395.webp",
+      "mtime": 1788201610212.6072,
+      "size": 2073687,
+      "color": {
+        "h": 8,
+        "s": 39,
+        "l": 57,
+        "c": 59,
+        "u": 39,
+        "b": 49
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0396",
+      "relativePath": "steamboat 2026/IMG_0396.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0396.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0396.webp",
+      "mtime": 1788201610518.5476,
+      "size": 2521522,
+      "color": {
+        "h": 210,
+        "s": 50,
+        "l": 78,
+        "c": 97,
+        "u": 40,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0397",
+      "relativePath": "steamboat 2026/IMG_0397.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0397.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0397.webp",
+      "mtime": 1788201610788.843,
+      "size": 2090867,
+      "color": {
+        "h": 25,
+        "s": 34,
+        "l": 46,
+        "c": 74,
+        "u": 33,
+        "b": 53
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0398",
+      "relativePath": "steamboat 2026/IMG_0398.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0398.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0398.webp",
+      "mtime": 1788201611057.1416,
+      "size": 2133927,
+      "color": {
+        "h": 25,
+        "s": 29,
+        "l": 50,
+        "c": 40,
+        "u": 33,
+        "b": 44
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0399",
+      "relativePath": "steamboat 2026/IMG_0399.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0399.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0399.webp",
+      "mtime": 1788201611328.942,
+      "size": 2185494,
+      "color": {
+        "h": 20,
+        "s": 28,
+        "l": 57,
+        "c": 63,
+        "u": 51,
+        "b": 52
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0400",
+      "relativePath": "steamboat 2026/IMG_0400.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0400.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0400.webp",
+      "mtime": 1788201611536.462,
+      "size": 1316880,
+      "color": {
+        "h": 31,
+        "s": 27,
+        "l": 54,
+        "c": 45,
+        "u": 24,
+        "b": 64
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0401",
+      "relativePath": "steamboat 2026/IMG_0401.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0401.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0401.webp",
+      "mtime": 1788201611745.6934,
+      "size": 1561565,
+      "color": {
+        "h": 34,
+        "s": 26,
+        "l": 45,
+        "c": 39,
+        "u": 22,
+        "b": 55
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0402",
+      "relativePath": "steamboat 2026/IMG_0402.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0402.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0402.webp",
+      "mtime": 1788201612124.662,
+      "size": 3280083,
+      "color": {
+        "h": 85,
+        "s": 34,
+        "l": 35,
+        "c": 96,
+        "u": 73,
+        "b": 39
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0403",
+      "relativePath": "steamboat 2026/IMG_0403.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0403.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0403.webp",
+      "mtime": 1788201612360.4878,
+      "size": 1819613,
+      "color": {
+        "h": 344,
+        "s": 77,
+        "l": 55,
+        "c": 100,
+        "u": 79,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0404",
+      "relativePath": "steamboat 2026/IMG_0404.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0404.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0404.webp",
+      "mtime": 1788201612563.7197,
+      "size": 1492238,
+      "color": {
+        "h": 32,
+        "s": 43,
+        "l": 36,
+        "c": 96,
+        "u": 93,
+        "b": 35
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0405",
+      "relativePath": "steamboat 2026/IMG_0405.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0405.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0405.webp",
+      "mtime": 1788201612897.0813,
+      "size": 1319834,
+      "color": {
+        "h": 40,
+        "s": 20,
+        "l": 32,
+        "c": 58,
+        "u": 53,
+        "b": 45
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0406",
+      "relativePath": "steamboat 2026/IMG_0406.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0406.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0406.webp",
+      "mtime": 1788201613147.629,
+      "size": 1947491,
+      "color": {
+        "h": 35,
+        "s": 24,
+        "l": 59,
+        "c": 20,
+        "u": 19,
+        "b": 41
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0407",
+      "relativePath": "steamboat 2026/IMG_0407.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0407.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0407.webp",
+      "mtime": 1788201613494.8745,
+      "size": 2065049,
+      "color": {
+        "h": 80,
+        "s": 21,
+        "l": 26,
+        "c": 21,
+        "u": 15,
+        "b": 48
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0408",
+      "relativePath": "steamboat 2026/IMG_0408.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0408.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0408.webp",
+      "mtime": 1788201613737.4465,
+      "size": 1885447,
+      "color": {
+        "h": 215,
+        "s": 26,
+        "l": 80,
+        "c": 23,
+        "u": 11,
+        "b": 55
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0409",
+      "relativePath": "steamboat 2026/IMG_0409.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0409.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0409.webp",
+      "mtime": 1788201613962.4587,
+      "size": 1670222,
+      "color": {
+        "h": 30,
+        "s": 20,
+        "l": 48,
+        "c": 14,
+        "u": 12,
+        "b": 40
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0410",
+      "relativePath": "steamboat 2026/IMG_0410.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0410.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0410.webp",
+      "mtime": 1788201614209.241,
+      "size": 1942238,
+      "color": {
+        "h": 205,
+        "s": 43,
+        "l": 84,
+        "c": 35,
+        "u": 13,
+        "b": 46
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0411",
+      "relativePath": "steamboat 2026/IMG_0411.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0411.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0411.webp",
+      "mtime": 1788201614396.6748,
+      "size": 1239755,
+      "color": {
+        "h": 21,
+        "s": 20,
+        "l": 25,
+        "c": 17,
+        "u": 14,
+        "b": 28
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0412",
+      "relativePath": "steamboat 2026/IMG_0412.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0412.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0412.webp",
+      "mtime": 1788201614750.0654,
+      "size": 3039955,
+      "color": {
+        "h": 88,
+        "s": 19,
+        "l": 62,
+        "c": 22,
+        "u": 15,
+        "b": 45
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0413",
+      "relativePath": "steamboat 2026/IMG_0413.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0413.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0413.webp",
+      "mtime": 1788201615086.0222,
+      "size": 2889448,
+      "color": {
+        "h": 80,
+        "s": 19,
+        "l": 55,
+        "c": 26,
+        "u": 16,
+        "b": 43
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0414",
+      "relativePath": "steamboat 2026/IMG_0414.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0414.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0414.webp",
+      "mtime": 1788201615324.771,
+      "size": 1794414,
+      "color": {
+        "h": 17,
+        "s": 33,
+        "l": 31,
+        "c": 70,
+        "u": 54,
+        "b": 43
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0415",
+      "relativePath": "steamboat 2026/IMG_0415.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0415.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0415.webp",
+      "mtime": 1788201615530.025,
+      "size": 1482829,
+      "color": {
+        "h": 23,
+        "s": 31,
+        "l": 35,
+        "c": 66,
+        "u": 57,
+        "b": 42
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0416",
+      "relativePath": "steamboat 2026/IMG_0416.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0416.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0416.webp",
+      "mtime": 1788201615865.1255,
+      "size": 1536465,
+      "color": {
+        "h": 22,
+        "s": 33,
+        "l": 40,
+        "c": 65,
+        "u": 57,
+        "b": 47
+      }
+    },
+    {
+      "album": "steamboat 2026",
+      "title": "IMG 0417",
+      "relativePath": "steamboat 2026/IMG_0417.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/steamboat.2026--IMG_0417.JPG",
+      "thumbSrc": "thumbnails/steamboat%202026/IMG_0417.webp",
+      "mtime": 1788201616129.6982,
+      "size": 2008095,
+      "color": {
+        "h": 21,
+        "s": 36,
+        "l": 36,
+        "c": 59,
+        "u": 54,
+        "b": 43
       }
     },
     {
