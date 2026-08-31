@@ -5,7 +5,7 @@
  *   npm run deploy
  *
  * What it does:
- *   1. Reads GITHUB_TOKEN from .env (or environment)
+ *   1. Reads GITHUB_TOKEN from .env (or environment), or falls back to git's credential helper
  *   2. Detects the GitHub repo from your git remote
  *   3. Gets or creates a GitHub Release tagged "photos" to store originals
  *   4. Uploads only NEW photos to the release (incremental — skips already-uploaded)
@@ -63,18 +63,56 @@ function loadDotEnv() {
   });
 }
 
-function requireToken() {
-  loadDotEnv();
-  const token = process.env.GITHUB_TOKEN;
-  if (!token) {
-    console.error("\nGITHUB_TOKEN not set.");
-    console.error("1. Go to https://github.com/settings/tokens");
-    console.error("2. Generate a classic token with the 'repo' scope");
-    console.error("3. Create a .env file in this directory:");
-    console.error("   GITHUB_TOKEN=ghp_your_token_here\n");
-    process.exit(1);
+// Git Credential Manager (git's `credential.helper`) already holds a GitHub OAuth
+// token with `repo` scope, and refreshes it on its own. Using it as a fallback means
+// there is no hand-managed PAT to expire every few weeks.
+function tokenFromGitCredential() {
+  try {
+    const out = execSync("git credential fill", {
+      input: "protocol=https\nhost=github.com\n\n",
+      encoding: "utf8",
+      stdio: ["pipe", "pipe", "ignore"],
+    });
+    const m = out.match(/^password=(.+)$/m);
+    return m ? m[1].trim() : null;
+  } catch {
+    return null;
   }
-  return token;
+}
+
+async function isTokenValid(token) {
+  try {
+    await ghFetch(token, "GET", "https://api.github.com/user");
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function requireToken() {
+  loadDotEnv();
+  const candidates = [
+    { token: process.env.GITHUB_TOKEN, source: "GITHUB_TOKEN (.env or environment)" },
+    { token: tokenFromGitCredential(), source: "git credential helper" },
+  ].filter(c => c.token);
+
+  for (const [i, candidate] of candidates.entries()) {
+    if (await isTokenValid(candidate.token)) {
+      if (i > 0) console.log(`  Auth: ${candidates[0].source} was rejected; using ${candidate.source}`);
+      return candidate.token;
+    }
+  }
+
+  console.error(
+    candidates.length
+      ? "\nNo usable GitHub credentials — every token found was rejected (401)."
+      : "\nNo GitHub credentials found."
+  );
+  console.error("Either sign in to git for github.com (git caches a token that renews itself),");
+  console.error("or put a token in .env in this directory:");
+  console.error("   GITHUB_TOKEN=ghp_your_token_here");
+  console.error("Classic token with the 'repo' scope: https://github.com/settings/tokens\n");
+  process.exit(1);
 }
 
 function detectRepo() {
@@ -184,7 +222,7 @@ function saveManifest(manifest) {
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const token         = requireToken();
+  const token         = await requireToken();
   const { owner, repo } = detectRepo();
 
   console.log(`\nDeploying to github.com/${owner}/${repo}\n`);
