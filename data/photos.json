@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T18:57:09.818Z",
-  "count": 1731,
+  "generatedAt": "2026-09-08T03:08:45.363Z",
+  "count": 1801,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -15,6 +15,7 @@
     "discolines / strangers": "2026-04-18T20:00:00",
     "simone_breck": "2026-05-15T20:00:00",
     "simone_corsica": "2026-06-13T20:00:00",
+    "aspen 2026": "2026-09-08T03:03:03.211Z",
     "creekday": "2026-07-25T23:07:34.910Z",
     "crested butte": "2026-07-12T21:07:46.000Z",
     "flowers collection": "2026-07-25T23:07:34.910Z",
@@ -36,6 +37,7 @@
     "discolines / strangers": "Discolines / Strangers",
     "simone_breck": "Simone Breck",
     "simone_corsica": "Simone Corsica",
+    "aspen 2026": "Aspen 2026",
     "creekday": "Creekday",
     "crested butte": "Crested Butte",
     "flowers collection": "Flowers Collection",
@@ -44,6 +46,1196 @@
     "steamboat 2026": "Steamboat 2026"
   },
   "photos": [
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0421",
+      "relativePath": "aspen 2026/IMG_0421.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0421.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0421.webp",
+      "mtime": 1788836559964.2441,
+      "size": 1752345,
+      "color": {
+        "h": 18,
+        "s": 91,
+        "l": 41,
+        "c": 100,
+        "u": 45,
+        "b": 33
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0422",
+      "relativePath": "aspen 2026/IMG_0422.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0422.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0422.webp",
+      "mtime": 1788836560276.6846,
+      "size": 1716429,
+      "color": {
+        "h": 19,
+        "s": 94,
+        "l": 47,
+        "c": 100,
+        "u": 52,
+        "b": 40
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0423",
+      "relativePath": "aspen 2026/IMG_0423.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0423.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0423.webp",
+      "mtime": 1788836560577.0078,
+      "size": 1467302,
+      "color": {
+        "h": 333,
+        "s": 63,
+        "l": 54,
+        "c": 99,
+        "u": 56,
+        "b": 46
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0424",
+      "relativePath": "aspen 2026/IMG_0424.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0424.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0424.webp",
+      "mtime": 1788836560942.9949,
+      "size": 2583849,
+      "color": {
+        "h": 343,
+        "s": 22,
+        "l": 53,
+        "c": 24,
+        "u": 12,
+        "b": 52
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0425",
+      "relativePath": "aspen 2026/IMG_0425.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0425.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0425.webp",
+      "mtime": 1788836561521.8972,
+      "size": 3053740,
+      "color": {
+        "h": 116,
+        "s": 28,
+        "l": 52,
+        "c": 72,
+        "u": 69,
+        "b": 49
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0426",
+      "relativePath": "aspen 2026/IMG_0426.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0426.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0426.webp",
+      "mtime": 1788836562015.8965,
+      "size": 2598929,
+      "color": {
+        "h": 347,
+        "s": 27,
+        "l": 61,
+        "c": 28,
+        "u": 12,
+        "b": 57
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0427",
+      "relativePath": "aspen 2026/IMG_0427.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0427.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0427.webp",
+      "mtime": 1788836562286.7234,
+      "size": 1507525,
+      "color": {
+        "h": 18,
+        "s": 30,
+        "l": 49,
+        "c": 53,
+        "u": 43,
+        "b": 54
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0428",
+      "relativePath": "aspen 2026/IMG_0428.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0428.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0428.webp",
+      "mtime": 1788836562616.6487,
+      "size": 1852629,
+      "color": {
+        "h": 218,
+        "s": 73,
+        "l": 76,
+        "c": 75,
+        "u": 56,
+        "b": 57
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0429",
+      "relativePath": "aspen 2026/IMG_0429.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0429.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0429.webp",
+      "mtime": 1788836562895.0303,
+      "size": 1582066,
+      "color": {
+        "h": 210,
+        "s": 38,
+        "l": 57,
+        "c": 91,
+        "u": 86,
+        "b": 56
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0430",
+      "relativePath": "aspen 2026/IMG_0430.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0430.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0430.webp",
+      "mtime": 1788836563160.8293,
+      "size": 1165676,
+      "color": {
+        "h": 23,
+        "s": 53,
+        "l": 73,
+        "c": 46,
+        "u": 42,
+        "b": 46
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0431",
+      "relativePath": "aspen 2026/IMG_0431.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0431.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0431.webp",
+      "mtime": 1788836563360.9565,
+      "size": 1078278,
+      "color": {
+        "h": 23,
+        "s": 51,
+        "l": 68,
+        "c": 67,
+        "u": 67,
+        "b": 57
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0432",
+      "relativePath": "aspen 2026/IMG_0432.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0432.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0432.webp",
+      "mtime": 1788836563738.2065,
+      "size": 2531780,
+      "color": {
+        "h": 275,
+        "s": 20,
+        "l": 73,
+        "c": 17,
+        "u": 16,
+        "b": 55
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0433",
+      "relativePath": "aspen 2026/IMG_0433.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0433.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0433.webp",
+      "mtime": 1788836564152.8792,
+      "size": 1488868,
+      "color": {
+        "h": 32,
+        "s": 40,
+        "l": 57,
+        "c": 56,
+        "u": 49,
+        "b": 51
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0434",
+      "relativePath": "aspen 2026/IMG_0434.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0434.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0434.webp",
+      "mtime": 1788836564385.7375,
+      "size": 1316497,
+      "color": {
+        "h": 35,
+        "s": 23,
+        "l": 58,
+        "c": 48,
+        "u": 36,
+        "b": 48
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0435",
+      "relativePath": "aspen 2026/IMG_0435.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0435.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0435.webp",
+      "mtime": 1788836564776.715,
+      "size": 1342482,
+      "color": {
+        "h": 32,
+        "s": 25,
+        "l": 54,
+        "c": 29,
+        "u": 21,
+        "b": 49
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0436",
+      "relativePath": "aspen 2026/IMG_0436.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0436.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0436.webp",
+      "mtime": 1788836565006.179,
+      "size": 1363424,
+      "color": {
+        "h": 229,
+        "s": 28,
+        "l": 72,
+        "c": 12,
+        "u": 5,
+        "b": 62
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0437",
+      "relativePath": "aspen 2026/IMG_0437.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0437.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0437.webp",
+      "mtime": 1788836565359.492,
+      "size": 1992160,
+      "color": {
+        "h": 224,
+        "s": 27,
+        "l": 66,
+        "c": 7,
+        "u": 4,
+        "b": 48
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0438",
+      "relativePath": "aspen 2026/IMG_0438.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0438.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0438.webp",
+      "mtime": 1788836565743.1064,
+      "size": 1704560,
+      "color": {
+        "h": 206,
+        "s": 30,
+        "l": 65,
+        "c": 52,
+        "u": 41,
+        "b": 47
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0439",
+      "relativePath": "aspen 2026/IMG_0439.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0439.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0439.webp",
+      "mtime": 1788836565985.3696,
+      "size": 1833860,
+      "color": {
+        "h": 200,
+        "s": 42,
+        "l": 66,
+        "c": 47,
+        "u": 39,
+        "b": 57
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0440",
+      "relativePath": "aspen 2026/IMG_0440.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0440.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0440.webp",
+      "mtime": 1788836566214.55,
+      "size": 1607092,
+      "color": {
+        "h": 30,
+        "s": 29,
+        "l": 60,
+        "c": 28,
+        "u": 21,
+        "b": 55
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0441",
+      "relativePath": "aspen 2026/IMG_0441.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0441.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0441.webp",
+      "mtime": 1788836566531.1707,
+      "size": 2414942,
+      "color": {
+        "h": 206,
+        "s": 24,
+        "l": 66,
+        "c": 85,
+        "u": 56,
+        "b": 54
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0442",
+      "relativePath": "aspen 2026/IMG_0442.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0442.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0442.webp",
+      "mtime": 1788836566936.8425,
+      "size": 3354012,
+      "color": {
+        "h": 36,
+        "s": 21,
+        "l": 52,
+        "c": 41,
+        "u": 38,
+        "b": 50
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0443",
+      "relativePath": "aspen 2026/IMG_0443.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0443.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0443.webp",
+      "mtime": 1788836567210.6338,
+      "size": 1635917,
+      "color": {
+        "h": 208,
+        "s": 55,
+        "l": 86,
+        "c": 67,
+        "u": 47,
+        "b": 60
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0444",
+      "relativePath": "aspen 2026/IMG_0444.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0444.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0444.webp",
+      "mtime": 1788836567457.7285,
+      "size": 1806424,
+      "color": {
+        "h": 194,
+        "s": 52,
+        "l": 64,
+        "c": 60,
+        "u": 44,
+        "b": 53
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0445",
+      "relativePath": "aspen 2026/IMG_0445.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0445.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0445.webp",
+      "mtime": 1788836567703.9324,
+      "size": 1832744,
+      "color": {
+        "h": 208,
+        "s": 56,
+        "l": 69,
+        "c": 54,
+        "u": 49,
+        "b": 50
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0446",
+      "relativePath": "aspen 2026/IMG_0446.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0446.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0446.webp",
+      "mtime": 1788836567930.242,
+      "size": 1584248,
+      "color": {
+        "h": 212,
+        "s": 35,
+        "l": 65,
+        "c": 79,
+        "u": 78,
+        "b": 58
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0447",
+      "relativePath": "aspen 2026/IMG_0447.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0447.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0447.webp",
+      "mtime": 1788836568200.342,
+      "size": 2155939,
+      "color": {
+        "h": 21,
+        "s": 28,
+        "l": 68,
+        "c": 63,
+        "u": 46,
+        "b": 49
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0448",
+      "relativePath": "aspen 2026/IMG_0448.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0448.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0448.webp",
+      "mtime": 1788836568472.6013,
+      "size": 1903639,
+      "color": {
+        "h": 215,
+        "s": 59,
+        "l": 76,
+        "c": 57,
+        "u": 55,
+        "b": 61
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0449",
+      "relativePath": "aspen 2026/IMG_0449.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0449.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0449.webp",
+      "mtime": 1788836568693.389,
+      "size": 1671192,
+      "color": {
+        "h": 213,
+        "s": 44,
+        "l": 61,
+        "c": 77,
+        "u": 77,
+        "b": 54
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0450",
+      "relativePath": "aspen 2026/IMG_0450.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0450.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0450.webp",
+      "mtime": 1788836569081.4402,
+      "size": 1944017,
+      "color": {
+        "h": 208,
+        "s": 50,
+        "l": 59,
+        "c": 64,
+        "u": 48,
+        "b": 48
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0451",
+      "relativePath": "aspen 2026/IMG_0451.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0451.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0451.webp",
+      "mtime": 1788836569356.6145,
+      "size": 1953628,
+      "color": {
+        "h": 207,
+        "s": 49,
+        "l": 57,
+        "c": 67,
+        "u": 55,
+        "b": 49
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0452",
+      "relativePath": "aspen 2026/IMG_0452.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0452.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0452.webp",
+      "mtime": 1788836569615.575,
+      "size": 1807178,
+      "color": {
+        "h": 208,
+        "s": 49,
+        "l": 58,
+        "c": 67,
+        "u": 55,
+        "b": 48
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0453",
+      "relativePath": "aspen 2026/IMG_0453.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0453.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0453.webp",
+      "mtime": 1788836570122.9346,
+      "size": 3191801,
+      "color": {
+        "h": 14,
+        "s": 20,
+        "l": 61,
+        "c": 29,
+        "u": 25,
+        "b": 51
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0454",
+      "relativePath": "aspen 2026/IMG_0454.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0454.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0454.webp",
+      "mtime": 1788836570558.0305,
+      "size": 3403704,
+      "color": {
+        "h": 11,
+        "s": 21,
+        "l": 66,
+        "c": 29,
+        "u": 26,
+        "b": 49
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0455",
+      "relativePath": "aspen 2026/IMG_0455.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0455.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0455.webp",
+      "mtime": 1788836570995.514,
+      "size": 3346567,
+      "color": {
+        "h": 12,
+        "s": 23,
+        "l": 69,
+        "c": 23,
+        "u": 21,
+        "b": 48
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0456",
+      "relativePath": "aspen 2026/IMG_0456.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0456.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0456.webp",
+      "mtime": 1788836571330.9727,
+      "size": 2430895,
+      "color": {
+        "h": 208,
+        "s": 40,
+        "l": 51,
+        "c": 50,
+        "u": 47,
+        "b": 55
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0457",
+      "relativePath": "aspen 2026/IMG_0457.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0457.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0457.webp",
+      "mtime": 1788836571740.6064,
+      "size": 2086979,
+      "color": {
+        "h": 209,
+        "s": 39,
+        "l": 60,
+        "c": 62,
+        "u": 57,
+        "b": 56
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0458",
+      "relativePath": "aspen 2026/IMG_0458.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0458.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0458.webp",
+      "mtime": 1788836572088.0747,
+      "size": 2583011,
+      "color": {
+        "h": 204,
+        "s": 74,
+        "l": 76,
+        "c": 28,
+        "u": 24,
+        "b": 59
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0459",
+      "relativePath": "aspen 2026/IMG_0459.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0459.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0459.webp",
+      "mtime": 1788836572361.7764,
+      "size": 1822284,
+      "color": {
+        "h": 200,
+        "s": 57,
+        "l": 67,
+        "c": 64,
+        "u": 38,
+        "b": 62
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0460",
+      "relativePath": "aspen 2026/IMG_0460.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0460.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0460.webp",
+      "mtime": 1788836572634.5122,
+      "size": 2183956,
+      "color": {
+        "h": 204,
+        "s": 60,
+        "l": 74,
+        "c": 36,
+        "u": 36,
+        "b": 59
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0461",
+      "relativePath": "aspen 2026/IMG_0461.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0461.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0461.webp",
+      "mtime": 1788836573039.88,
+      "size": 3275057,
+      "color": {
+        "h": 213,
+        "s": 27,
+        "l": 46,
+        "c": 50,
+        "u": 25,
+        "b": 46
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0462",
+      "relativePath": "aspen 2026/IMG_0462.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0462.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0462.webp",
+      "mtime": 1788836573390.3628,
+      "size": 2429978,
+      "color": {
+        "h": 208,
+        "s": 47,
+        "l": 63,
+        "c": 59,
+        "u": 46,
+        "b": 46
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0463",
+      "relativePath": "aspen 2026/IMG_0463.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0463.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0463.webp",
+      "mtime": 1788836573749.913,
+      "size": 2136603,
+      "color": {
+        "h": 212,
+        "s": 51,
+        "l": 70,
+        "c": 70,
+        "u": 49,
+        "b": 50
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0464",
+      "relativePath": "aspen 2026/IMG_0464.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0464.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0464.webp",
+      "mtime": 1788836574130.9124,
+      "size": 2859944,
+      "color": {
+        "h": 217,
+        "s": 43,
+        "l": 58,
+        "c": 39,
+        "u": 30,
+        "b": 51
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0465",
+      "relativePath": "aspen 2026/IMG_0465.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0465.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0465.webp",
+      "mtime": 1788836574540.6824,
+      "size": 2690552,
+      "color": {
+        "h": 220,
+        "s": 35,
+        "l": 54,
+        "c": 45,
+        "u": 37,
+        "b": 55
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0466",
+      "relativePath": "aspen 2026/IMG_0466.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0466.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0466.webp",
+      "mtime": 1788836574942.2385,
+      "size": 3219878,
+      "color": {
+        "h": 207,
+        "s": 25,
+        "l": 19,
+        "c": 43,
+        "u": 24,
+        "b": 47
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0467",
+      "relativePath": "aspen 2026/IMG_0467.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0467.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0467.webp",
+      "mtime": 1788836575291.4175,
+      "size": 2520760,
+      "color": {
+        "h": 209,
+        "s": 84,
+        "l": 80,
+        "c": 29,
+        "u": 27,
+        "b": 59
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0468",
+      "relativePath": "aspen 2026/IMG_0468.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0468.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0468.webp",
+      "mtime": 1788836575626.8032,
+      "size": 2705605,
+      "color": {
+        "h": 213,
+        "s": 85,
+        "l": 67,
+        "c": 41,
+        "u": 35,
+        "b": 50
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0469",
+      "relativePath": "aspen 2026/IMG_0469.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0469.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0469.webp",
+      "mtime": 1788836575949.2708,
+      "size": 2447402,
+      "color": {
+        "h": 227,
+        "s": 76,
+        "l": 64,
+        "c": 64,
+        "u": 58,
+        "b": 53
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0470",
+      "relativePath": "aspen 2026/IMG_0470.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0470.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0470.webp",
+      "mtime": 1788836576350.967,
+      "size": 3068266,
+      "color": {
+        "h": 355,
+        "s": 30,
+        "l": 48,
+        "c": 100,
+        "u": 100,
+        "b": 48
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0471",
+      "relativePath": "aspen 2026/IMG_0471.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0471.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0471.webp",
+      "mtime": 1788836576773.5713,
+      "size": 3418168,
+      "color": {
+        "h": 352,
+        "s": 22,
+        "l": 46,
+        "c": 99,
+        "u": 99,
+        "b": 46
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0472",
+      "relativePath": "aspen 2026/IMG_0472.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0472.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0472.webp",
+      "mtime": 1788836577160.9001,
+      "size": 3099848,
+      "color": {
+        "h": 355,
+        "s": 27,
+        "l": 48,
+        "c": 100,
+        "u": 100,
+        "b": 48
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0473",
+      "relativePath": "aspen 2026/IMG_0473.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0473.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0473.webp",
+      "mtime": 1788836577506.818,
+      "size": 2675321,
+      "color": {
+        "h": 22,
+        "s": 21,
+        "l": 62,
+        "c": 39,
+        "u": 32,
+        "b": 53
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0474",
+      "relativePath": "aspen 2026/IMG_0474.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0474.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0474.webp",
+      "mtime": 1788836577801.4138,
+      "size": 1966379,
+      "color": {
+        "h": 9,
+        "s": 27,
+        "l": 65,
+        "c": 51,
+        "u": 50,
+        "b": 52
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0475",
+      "relativePath": "aspen 2026/IMG_0475.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0475.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0475.webp",
+      "mtime": 1788836578195.944,
+      "size": 3064047,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 68,
+        "c": 1,
+        "u": 0,
+        "b": 68
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0476",
+      "relativePath": "aspen 2026/IMG_0476.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0476.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0476.webp",
+      "mtime": 1788836578727.5974,
+      "size": 3395439,
+      "color": {
+        "h": 220,
+        "s": 51,
+        "l": 51,
+        "c": 66,
+        "u": 28,
+        "b": 52
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0477",
+      "relativePath": "aspen 2026/IMG_0477.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0477.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0477.webp",
+      "mtime": 1788836579148.6245,
+      "size": 3295875,
+      "color": {
+        "h": 208,
+        "s": 48,
+        "l": 47,
+        "c": 44,
+        "u": 16,
+        "b": 51
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0478",
+      "relativePath": "aspen 2026/IMG_0478.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0478.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0478.webp",
+      "mtime": 1788836579458.3235,
+      "size": 2153108,
+      "color": {
+        "h": 25,
+        "s": 24,
+        "l": 65,
+        "c": 12,
+        "u": 11,
+        "b": 40
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0479",
+      "relativePath": "aspen 2026/IMG_0479.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0479.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0479.webp",
+      "mtime": 1788836579752.6711,
+      "size": 2089923,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 53,
+        "c": 4,
+        "u": 0,
+        "b": 53
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0480",
+      "relativePath": "aspen 2026/IMG_0480.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0480.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0480.webp",
+      "mtime": 1788836580044.5168,
+      "size": 2107331,
+      "color": {
+        "h": 24,
+        "s": 22,
+        "l": 67,
+        "c": 7,
+        "u": 5,
+        "b": 42
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0481",
+      "relativePath": "aspen 2026/IMG_0481.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0481.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0481.webp",
+      "mtime": 1788836580759.8208,
+      "size": 2769986,
+      "color": {
+        "h": 20,
+        "s": 23,
+        "l": 55,
+        "c": 13,
+        "u": 12,
+        "b": 41
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0482",
+      "relativePath": "aspen 2026/IMG_0482.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0482.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0482.webp",
+      "mtime": 1788836581001.141,
+      "size": 1632419,
+      "color": {
+        "h": 40,
+        "s": 19,
+        "l": 71,
+        "c": 11,
+        "u": 10,
+        "b": 37
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0483",
+      "relativePath": "aspen 2026/IMG_0483.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0483.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0483.webp",
+      "mtime": 1788836581248.7588,
+      "size": 1832733,
+      "color": {
+        "h": 40,
+        "s": 20,
+        "l": 56,
+        "c": 6,
+        "u": 5,
+        "b": 39
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0484",
+      "relativePath": "aspen 2026/IMG_0484.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0484.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0484.webp",
+      "mtime": 1788836581589.1123,
+      "size": 2660081,
+      "color": {
+        "h": 200,
+        "s": 81,
+        "l": 75,
+        "c": 10,
+        "u": 5,
+        "b": 46
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0485",
+      "relativePath": "aspen 2026/IMG_0485.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0485.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0485.webp",
+      "mtime": 1788836581844.2239,
+      "size": 1657593,
+      "color": {
+        "h": 40,
+        "s": 20,
+        "l": 62,
+        "c": 11,
+        "u": 10,
+        "b": 53
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0486",
+      "relativePath": "aspen 2026/IMG_0486.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0486.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0486.webp",
+      "mtime": 1788836582121.3843,
+      "size": 2231338,
+      "color": {
+        "h": 25,
+        "s": 19,
+        "l": 63,
+        "c": 11,
+        "u": 11,
+        "b": 53
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0487",
+      "relativePath": "aspen 2026/IMG_0487.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0487.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0487.webp",
+      "mtime": 1788836582420.1028,
+      "size": 2295199,
+      "color": {
+        "h": 27,
+        "s": 19,
+        "l": 61,
+        "c": 17,
+        "u": 17,
+        "b": 54
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0488",
+      "relativePath": "aspen 2026/IMG_0488.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0488.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0488.webp",
+      "mtime": 1788836582844.8823,
+      "size": 3447476,
+      "color": {
+        "h": 76,
+        "s": 18,
+        "l": 31,
+        "c": 36,
+        "u": 22,
+        "b": 52
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0489",
+      "relativePath": "aspen 2026/IMG_0489.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0489.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0489.webp",
+      "mtime": 1788836583211.9238,
+      "size": 2808010,
+      "color": {
+        "h": 196,
+        "s": 52,
+        "l": 73,
+        "c": 40,
+        "u": 13,
+        "b": 60
+      }
+    },
+    {
+      "album": "aspen 2026",
+      "title": "IMG 0490",
+      "relativePath": "aspen 2026/IMG_0490.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/aspen.2026--IMG_0490.JPG",
+      "thumbSrc": "thumbnails/aspen%202026/IMG_0490.webp",
+      "mtime": 1788836559681.4377,
+      "size": 1927839,
+      "color": {
+        "h": 34,
+        "s": 37,
+        "l": 44,
+        "c": 48,
+        "u": 31,
+        "b": 34
+      }
+    },
     {
       "album": "atlas_graduation",
       "title": "IMG 1693",
