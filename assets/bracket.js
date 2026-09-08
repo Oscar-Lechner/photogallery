@@ -10,18 +10,20 @@ import {
   createTournament,
   pickWinner,
   deferMatch,
+  trashPhoto,
   progress,
   standings,
   nearMisses,
   remainingIds,
   estimateTotal,
   upcomingPair,
+  fieldSize,
   MIN_ENTRANTS,
   WINNERS_TARGET,
   FINALS_FIELD,
 } from "./bracket-engine.js";
 
-const STORAGE_KEY = "photogallery:bracket:v1";
+const STORAGE_KEY = "photogallery:bracket:v2";
 const UNDO_DEPTH = 40;
 
 const el = {};
@@ -173,9 +175,8 @@ function renderResume() {
     el.resume.hidden = true;
     return;
   }
-  const done = saved.state.matchNo;
-  const total = estimateTotal(saved.state.entrants.length);
-  el.resumeCopy.textContent = `Unfinished bracket — ${done} of ~${total} matches, ${remainingIds(saved.state).length} photos still in.`;
+  const p = progress(saved.state);
+  el.resumeCopy.textContent = `Unfinished bracket — ${p.matchNo} of ~${p.total} matches, ${p.alive} photos still in.`;
   el.resume.hidden = false;
 }
 
@@ -201,6 +202,10 @@ const MAX_ZOOM = 4;
 
 function cropFor(id) {
   return crops[id] ?? DEFAULT_CROP;
+}
+
+function isDefaultCrop(c) {
+  return c.z === DEFAULT_CROP.z && c.ox === DEFAULT_CROP.ox && c.oy === DEFAULT_CROP.oy;
 }
 
 function setCrop(id, next) {
@@ -243,6 +248,10 @@ function applyCrop(pane) {
   const crop = cropFor(pane.dataset.id);
   const zoom = pane.querySelector(".bracket-zoom");
   if (zoom) zoom.textContent = crop.z > 1.02 ? crop.z.toFixed(1) + "x" : "";
+  // Reset only offers itself once there is framing to undo. Sitting there
+  // permanently, next to a photo nobody has touched, it read as a mystery.
+  const reset = pane.querySelector('[data-tool="reset"]');
+  if (reset) reset.hidden = isDefaultCrop(crop);
 }
 
 function applyAllCrops() {
@@ -366,11 +375,13 @@ function renderMatch() {
   el.progressFill.style.width = pct + "%";
 
   el.phase.textContent = state.phase === "cuts" ? "Cuts" : "Finals";
-  el.meta.textContent =
-    state.phase === "cuts"
-      ? `Match ${p.matchNo + 1} · ${p.alive} left · one loss and out`
-      : `Match ${p.matchNo + 1} · ${p.alive} left · two losses and out`;
+  const rule = state.phase === "cuts" ? "one loss and out" : "two losses and out";
+  const binned = p.trashed ? ` · ${p.trashed} trashed` : "";
+  el.meta.textContent = `Match ${p.matchNo + 1} · ${p.alive} left · ${rule}${binned}`;
 
+  // paintPane only reapplies framing on an image load event, which a cached
+  // src can skip; the tool row still has to catch up to the new photo.
+  applyAllCrops();
   el.undo.hidden = history.length === 0;
   preload(upcomingPair(state));
 }
@@ -379,6 +390,17 @@ function choose(winnerId) {
   if (!state || state.phase === "done" || !state.match) return;
   history = [...history.slice(-(UNDO_DEPTH - 1)), state];
   state = pickWinner(state, winnerId);
+  saveSession();
+  renderMatch();
+}
+
+// Take a photo out of the running rather than judging it. It plays no match,
+// so nothing is credited a win over it and the field is one photo smaller —
+// which is one match you never have to sit through. Undo puts it back.
+function trash(id) {
+  if (!state || state.phase === "done" || !state.match?.includes(id)) return;
+  history = [...history.slice(-(UNDO_DEPTH - 1)), state];
+  state = trashPhoto(state, id);
   saveSession();
   renderMatch();
 }
@@ -416,7 +438,9 @@ function renderResults() {
   el.results.hidden = false;
   el.undo.hidden = true;
   el.phase.textContent = "Winners";
-  el.meta.textContent = `${state.entrants.length} photos · ${state.matchNo} matches`;
+  el.meta.textContent =
+    `${fieldSize(state)} photos · ${state.matchNo} matches` +
+    (state.trashed.length ? ` · ${state.trashed.length} trashed` : "");
 
   const winners = standings(state);
   el.winners.replaceChildren(
@@ -595,6 +619,11 @@ export function initBracket(options) {
       e.stopPropagation();
       resetCrop(pane);
     });
+
+    pane.querySelector('[data-tool="trash"]').addEventListener("click", (e) => {
+      e.stopPropagation();
+      trash(pane.dataset.id);
+    });
   }
 
   // Reframing is stored as a fraction of the travel available, so a resize only
@@ -616,10 +645,12 @@ export function initBracket(options) {
     if (!el.run.hidden) {
       if (e.key === "ArrowLeft") {
         e.preventDefault();
-        choose(el.paneA.dataset.id);
+        if (e.shiftKey) trash(el.paneA.dataset.id);
+        else choose(el.paneA.dataset.id);
       } else if (e.key === "ArrowRight") {
         e.preventDefault();
-        choose(el.paneB.dataset.id);
+        if (e.shiftKey) trash(el.paneB.dataset.id);
+        else choose(el.paneB.dataset.id);
       } else if (e.key === " ") {
         e.preventDefault();
         defer();

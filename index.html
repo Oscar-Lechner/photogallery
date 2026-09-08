@@ -116,6 +116,8 @@
           <p class="bracket-copy">
             Two photos at a time, you pick the better one. One loss and you are out
             &mdash; until the field is down to 24, where it takes two. Ten survive.
+            Anything that does not belong in the running at all, trash on sight: it
+            leaves the bracket without costing you a match.
           </p>
         </div>
 
@@ -139,7 +141,12 @@
             <div class="bracket-pane-meta">
               <span class="bracket-pane-title"></span>
               <span class="bracket-pane-tools">
-                <button class="bracket-tool" type="button" data-tool="reset">Reset</button>
+                <button class="bracket-tool" type="button" data-tool="reset" hidden>
+                  Reset crop
+                </button>
+                <button class="bracket-tool is-trash" type="button" data-tool="trash">
+                  Trash
+                </button>
                 <span class="bracket-zoom"></span>
               </span>
               <span class="bracket-pane-album"></span>
@@ -153,7 +160,12 @@
             <div class="bracket-pane-meta">
               <span class="bracket-pane-title"></span>
               <span class="bracket-pane-tools">
-                <button class="bracket-tool" type="button" data-tool="reset">Reset</button>
+                <button class="bracket-tool" type="button" data-tool="reset" hidden>
+                  Reset crop
+                </button>
+                <button class="bracket-tool is-trash" type="button" data-tool="trash">
+                  Trash
+                </button>
                 <span class="bracket-zoom"></span>
               </span>
               <span class="bracket-pane-album"></span>
@@ -164,8 +176,9 @@
           <button id="bracketDefer" class="ghost-btn" type="button">I can&rsquo;t decide</button>
         </div>
         <p class="bracket-hint">
-          Click to pick &middot; &larr; &rarr; keys &middot; drag to reframe &middot; scroll to zoom
-          &middot; Space to defer &middot; Z to undo
+          Click to pick &middot; &larr; &rarr; keys &middot; shift+&larr; &rarr; to trash
+          &middot; drag to reframe &middot; scroll to zoom &middot; space to defer
+          &middot; Z to undo
         </p>
       </section>
 
