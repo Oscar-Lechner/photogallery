@@ -43,6 +43,11 @@
   --tile-min: 140px;
   --r: 4px;
   --max: 1680px;
+  /* Sticky offsets. app.js measures the real bar heights into these, because
+     the header grows with the safe-area inset and the command bar wraps. */
+  --header-h: 64px;
+  --command-h: 50px;
+  --mobile-cols: 4;
 }
 
 *, *::before, *::after {
@@ -140,7 +145,11 @@ a {
   justify-items: center;
   min-height: 100svh;
   padding: max(24px, env(safe-area-inset-top)) clamp(14px, 4vw, 48px) 28px;
-  overflow: hidden;
+  /* A phone on its side is shorter than the wheel plus its buttons; scroll
+     rather than clip the actions off the bottom. */
+  overflow-x: hidden;
+  overflow-y: auto;
+  align-content: safe center;
   background:
     radial-gradient(circle at 50% 38%, rgba(77, 159, 255, 0.09), transparent 30%),
     linear-gradient(180deg, #030303, var(--bg) 58%, #030303);
@@ -537,8 +546,63 @@ a {
 }
 
 .share-btn {
+  gap: 8px;
   min-width: 106px;
   white-space: nowrap;
+}
+
+.btn-icon {
+  display: none;
+  flex-shrink: 0;
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: calc(100% - 32px);
+  padding: 10px 14px;
+  border: 1px solid var(--line-hi);
+  border-radius: var(--r);
+  background: rgba(16, 17, 18, 0.96);
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  font-size: 0.8rem;
+  transform: translateX(-50%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.toast button {
+  flex-shrink: 0;
+  min-height: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--line-hi);
+  border-radius: var(--r);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.68rem;
+  font-weight: 780;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.toast button:hover,
+.toast button:focus-visible {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+/* The page behind an open viewer or sheet should stay put — on iOS a drag
+   inside the dialog otherwise scrolls the grid underneath. */
+body:has(dialog[open]) {
+  overflow: hidden;
 }
 
 .command-bar,
@@ -552,7 +616,7 @@ a {
 
 .command-bar {
   position: sticky;
-  top: 64px;
+  top: var(--header-h);
   z-index: 15;
   display: flex;
   flex-wrap: wrap;
@@ -590,6 +654,12 @@ a {
   text-transform: uppercase;
   cursor: pointer;
   transition: background 130ms ease, border-color 130ms ease, color 130ms ease;
+}
+
+/* The button is a flex box, so a leading space inside the hint would be
+   dropped; space it with a margin instead. */
+.kbd {
+  margin-left: 0.45em;
 }
 
 .tile-size-btn:hover {
@@ -683,12 +753,13 @@ a {
 
 .album-rail {
   position: sticky;
-  top: 114px;
+  top: calc(var(--header-h) + var(--command-h));
   z-index: 14;
   display: flex;
   gap: 8px;
   padding: 8px 0;
   overflow-x: auto;
+  overscroll-behavior-x: contain;
   scrollbar-width: none;
   scroll-padding-inline: clamp(10px, 3vw, 24px);
   background: rgba(5, 6, 8, 0.9);
@@ -698,6 +769,24 @@ a {
 
 .album-rail::-webkit-scrollbar {
   display: none;
+}
+
+/* The scrollbar is hidden, so fade whichever edge has more sets behind it —
+   otherwise nothing says the rail scrolls at all. */
+.album-rail.has-more-start,
+.album-rail.has-more-end {
+  --fade-start: 0px;
+  --fade-end: 0px;
+  -webkit-mask-image: linear-gradient(90deg, transparent, black var(--fade-start), black calc(100% - var(--fade-end)), transparent);
+  mask-image: linear-gradient(90deg, transparent, black var(--fade-start), black calc(100% - var(--fade-end)), transparent);
+}
+
+.album-rail.has-more-start {
+  --fade-start: 36px;
+}
+
+.album-rail.has-more-end {
+  --fade-end: 36px;
 }
 
 .album-chip {
@@ -737,6 +826,7 @@ a {
 }
 
 .chip-toggle {
+  position: relative;
   flex: 0 0 auto;
   width: 11px;
   height: 11px;
@@ -745,6 +835,14 @@ a {
   background: transparent;
   cursor: pointer;
   transition: background 130ms ease, border-color 130ms ease;
+}
+
+/* The box is drawn at 11px but answers taps well outside it; the chip clips
+   the overflow, so this only ever widens toward the chip's own edge. */
+.chip-toggle::before {
+  position: absolute;
+  inset: -14px -8px -14px -14px;
+  content: "";
 }
 
 .chip-toggle:hover {
@@ -1270,6 +1368,11 @@ a {
 }
 
 @media (hover: none) {
+  /* Keyboard shortcuts mean nothing on a touchscreen. */
+  .kbd {
+    display: none;
+  }
+
   .card-download {
     opacity: 1;
     transform: none;
@@ -1288,20 +1391,58 @@ a {
 
 @media (max-width: 760px) {
   .gallery-header {
-    grid-template-columns: auto minmax(0, 1fr);
     gap: 10px;
   }
 
+  /* Icon-only on a phone: the album name needs the width more than the
+     buttons need their words. The words stay for screen readers. */
   .header-actions {
+    gap: 8px;
+  }
+
+  .header-actions .share-btn {
+    width: 40px;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .header-actions .btn-icon {
+    display: block;
+  }
+
+  .header-actions .btn-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+
+  /* One row that scrolls sideways, and not sticky: three stacked sticky bars
+     would eat a quarter of a phone screen. */
+  .command-bar {
+    position: static;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .command-bar::-webkit-scrollbar {
     display: none;
   }
 
-  .command-bar {
-    display: none;
+  .command-bar > *,
+  .tile-size-btn {
+    flex-shrink: 0;
   }
 
   .album-rail {
-    top: 64px;
+    top: var(--header-h);
   }
 
   .size-field {
@@ -1309,8 +1450,10 @@ a {
     padding-top: 0;
   }
 
+  /* Tile size picks a column count here; a pixel minimum would round to the
+     same four columns for every option on a phone. */
   .grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(var(--mobile-cols), minmax(0, 1fr));
     gap: 6px;
   }
 

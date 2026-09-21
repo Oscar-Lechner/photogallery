@@ -47,18 +47,28 @@
           <span id="galleryMeta" class="gallery-count"></span>
         </div>
         <div class="header-actions">
-          <button id="downloadView" class="share-btn primary-action" type="button">Download</button>
-          <button id="copyAlbumLink" class="share-btn" type="button">Copy Link</button>
+          <button id="downloadView" class="share-btn primary-action" type="button">
+            <svg class="btn-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+              <path d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5M4 19h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span class="btn-text">Download</span>
+          </button>
+          <button id="copyAlbumLink" class="share-btn" type="button">
+            <svg class="btn-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+              <path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span class="btn-text">Copy Link</span>
+          </button>
         </div>
       </header>
 
       <section class="command-bar" aria-label="Gallery controls">
-        <button id="colorViewBtn" class="tile-size-btn" type="button" aria-pressed="false">Swatches (s)</button>
+        <button id="colorViewBtn" class="tile-size-btn" type="button" aria-pressed="false">Swatches<span class="kbd">(s)</span></button>
         <div id="sortControl" class="sort-control" role="group" aria-label="Sort photos">
-          <button class="tile-size-btn is-active" type="button" data-sort="filename" aria-pressed="true">Default (1)</button>
-          <button class="tile-size-btn" type="button" data-sort="hue" aria-pressed="false">Hue (2)</button>
-          <button class="tile-size-btn" type="button" data-sort="flat" aria-pressed="false">Flat (3)</button>
-          <button class="tile-size-btn" type="button" data-sort="value" aria-pressed="false">Value (4)</button>
+          <button class="tile-size-btn is-active" type="button" data-sort="filename" aria-pressed="true">Default<span class="kbd">(1)</span></button>
+          <button class="tile-size-btn" type="button" data-sort="hue" aria-pressed="false">Hue<span class="kbd">(2)</span></button>
+          <button class="tile-size-btn" type="button" data-sort="flat" aria-pressed="false">Flat<span class="kbd">(3)</span></button>
+          <button class="tile-size-btn" type="button" data-sort="value" aria-pressed="false">Value<span class="kbd">(4)</span></button>
         </div>
         <div id="tileSizeControl" class="tile-size-control" role="group" aria-label="Tile size">
           <button class="tile-size-btn" type="button" data-tile-size="80" aria-pressed="false">Tiny</button>
@@ -257,6 +267,8 @@
       <div id="colorBarGradient" class="color-bar-gradient"></div>
       <div id="colorBarThumb" class="color-bar-thumb"></div>
     </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
     <script src="assets/app.js" type="module"></script>
   </body>

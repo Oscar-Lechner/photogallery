@@ -52,6 +52,9 @@ const downloadTitle = document.querySelector("#downloadTitle");
 const downloadSummary = document.querySelector("#downloadSummary");
 const downloadAllVisible = document.querySelector("#downloadAllVisible");
 const visibleDownloadLinks = document.querySelector("#visibleDownloadLinks");
+const galleryHeader = document.querySelector(".gallery-header");
+const commandBar = document.querySelector(".command-bar");
+const toast = document.querySelector("#toast");
 
 // State
 let photos = [];
@@ -76,7 +79,45 @@ function setParams(next) {
     if (v) p.set(k, v);
     else p.delete(k);
   }
-  history.replaceState(null, "", p.size ? `?${p}` : location.pathname);
+  // Keep whatever state the entry carries — it is what tells the back button
+  // this entry is the gallery rather than the set picker.
+  history.replaceState(history.state, "", p.size ? `?${p}` : location.pathname);
+}
+
+const prefersReducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const scrollBehavior = () => (prefersReducedMotion() ? "auto" : "smooth");
+
+// Toast: one short status line at the foot of the screen, optionally with a
+// single action (Cancel, Undo…). A new message replaces the old one.
+let toastTimer = 0;
+let toastAction = null;
+const toastText = document.createElement("span");
+const toastButton = document.createElement("button");
+toastButton.type = "button";
+toastButton.addEventListener("click", () => toastAction?.());
+toast.append(toastText, toastButton);
+
+function showToast(message, { action, onAction, duration = 2600 } = {}) {
+  clearTimeout(toastTimer);
+  // A modal dialog makes everything outside it inert, so a toast left in
+  // <body> would sit unclickable behind the download sheet. Live inside
+  // whichever dialog is open.
+  const host = document.querySelector("dialog[open]") ?? document.body;
+  if (toast.parentElement !== host) host.append(toast);
+  // Update in place rather than rebuilding, so a progress count ticking over
+  // never pulls the Cancel button out from under a finger.
+  toastText.textContent = message;
+  toastButton.hidden = !action;
+  toastButton.textContent = action ?? "";
+  toastAction = onAction ?? null;
+  toast.hidden = false;
+  if (duration) toastTimer = setTimeout(hideToast, duration);
+}
+
+function hideToast() {
+  clearTimeout(toastTimer);
+  toast.hidden = true;
+  toastAction = null;
 }
 
 function pathToTitle(p) {
@@ -114,14 +155,76 @@ function getAlbumCounts() {
   return m;
 }
 
-function triggerDownload(photo) {
-  const a = document.createElement("a");
-  a.href = photo.src;
-  a.download = fileName(photo);
-  a.rel = "noopener";
-  document.body.append(a);
-  a.click();
-  a.remove();
+// Originals live on GitHub Releases, a different origin, so the browser ignores
+// `download` and treats each click as a navigation — and every new navigation
+// cancels the one before it. Firing a burst of link clicks therefore saved
+// only the last photo. A hidden iframe per file, spaced out, downloads each
+// one (GitHub serves them as attachments, so nothing ever renders).
+const DOWNLOAD_GAP_MS = 450;
+const DOWNLOAD_CONFIRM_OVER = 25;
+let downloadQueue = null;
+
+function downloadViaFrame(url) {
+  const frame = document.createElement("iframe");
+  frame.hidden = true;
+  frame.src = url;
+  document.body.append(frame);
+  // Long enough for the response headers to arrive and the download to be
+  // handed to the browser; removing it sooner can abort a slow start.
+  setTimeout(() => frame.remove(), 60_000);
+}
+
+function downloadMany(list) {
+  if (downloadQueue) cancelDownloads();
+  if (!list.length) return;
+  if (list.length > DOWNLOAD_CONFIRM_OVER &&
+      !confirm(`Download ${list.length} full-size photos? Your browser may ask to allow multiple downloads.`)) {
+    return;
+  }
+
+  const queue = { list: [...list], done: 0, timer: 0 };
+  downloadQueue = queue;
+
+  const step = () => {
+    if (downloadQueue !== queue) return;
+    if (queue.done >= queue.list.length) {
+      downloadQueue = null;
+      showToast(`Started ${queue.list.length} download${queue.list.length !== 1 ? "s" : ""}`);
+      updateDownloadButton();
+      return;
+    }
+    downloadViaFrame(queue.list[queue.done].src);
+    queue.done++;
+    if (queue.list.length > 1) {
+      showToast(`Downloading ${queue.done} / ${queue.list.length}`, {
+        action: "Cancel",
+        onAction: cancelDownloads,
+        duration: 0,
+      });
+    }
+    updateDownloadButton();
+    queue.timer = setTimeout(step, DOWNLOAD_GAP_MS);
+  };
+  step();
+}
+
+function cancelDownloads() {
+  if (!downloadQueue) return;
+  clearTimeout(downloadQueue.timer);
+  const { done, list } = downloadQueue;
+  downloadQueue = null;
+  showToast(`Stopped after ${done} of ${list.length}`);
+  updateDownloadButton();
+}
+
+function updateDownloadButton() {
+  if (downloadQueue) {
+    downloadAllVisible.textContent = "Stop";
+    downloadAllVisible.disabled = false;
+  } else {
+    downloadAllVisible.textContent = `Download Shown (${visiblePhotos.length})`;
+    downloadAllVisible.disabled = !visiblePhotos.length;
+  }
 }
 
 function thumbFor(photo) {
@@ -271,50 +374,78 @@ class WheelPicker {
     const vp = this.viewport;
     const IH = WheelPicker.ITEM_H;
 
+    // A drag that happens to end over another row must not also count as a
+    // click on that row, or releasing the wheel yanks it somewhere else.
+    this._moved = false;
+
     this.list.addEventListener("click", (e) => {
+      if (this._moved) return;
       const el = e.target.closest("[data-idx]");
-      if (el) this._go(Number(el.dataset.idx));
+      if (!el) return;
+      const idx = Number(el.dataset.idx);
+      // Tapping the set that is already centred opens it — on a phone the
+      // Open button is a thumb-stretch below the wheel.
+      if (idx === this.index) doEnter();
+      else this._go(idx);
     });
 
+    // Trackpads report a scroll gesture as dozens of small wheel events; one
+    // step per event sent the wheel flying past every set. Accumulate the
+    // distance and step once per notch-sized chunk instead.
+    const WHEEL_STEP = 40;
+    let wheelAcc = 0;
     vp.addEventListener("wheel", (e) => {
       e.preventDefault();
-      this._go(this.index + Math.sign(e.deltaY));
+      const dy = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+      if (Math.sign(dy) !== Math.sign(wheelAcc)) wheelAcc = 0;
+      wheelAcc += dy;
+      if (Math.abs(wheelAcc) < WHEEL_STEP) return;
+      this._go(this.index + Math.sign(wheelAcc));
+      wheelAcc = 0;
     }, { passive: false });
 
+    const DRAG_SLOP = 6;
+    const dragTo = (y) => {
+      const dy = this._drag.y - y;
+      if (Math.abs(dy) > DRAG_SLOP) this._moved = true;
+      if (this._moved) this._go(this._drag.idx + Math.round(dy / IH), false);
+    };
+
     vp.addEventListener("mousedown", (e) => {
+      if (e.button !== 0) return;
       this._drag = { y: e.clientY, idx: this.index };
+      this._moved = false;
       vp.style.cursor = "grabbing";
       e.preventDefault();
     });
     window.addEventListener("mousemove", (e) => {
-      if (!this._drag) return;
-      const dy = this._drag.y - e.clientY;
-      this._go(this._drag.idx + Math.round(dy / IH), false);
+      if (this._drag) dragTo(e.clientY);
     });
     window.addEventListener("mouseup", () => {
       if (!this._drag) return;
       this._drag = null;
       vp.style.cursor = "";
-      this._go(this.index, true);
+      if (this._moved) this._go(this.index, true);
     });
 
     vp.addEventListener("touchstart", (e) => {
       this._drag = { y: e.touches[0].clientY, idx: this.index };
+      this._moved = false;
     }, { passive: true });
     vp.addEventListener("touchmove", (e) => {
       if (!this._drag) return;
       e.preventDefault();
-      const dy = this._drag.y - e.touches[0].clientY;
-      this._go(this._drag.idx + Math.round(dy / IH), false);
+      dragTo(e.touches[0].clientY);
     }, { passive: false });
     vp.addEventListener("touchend", () => {
       if (!this._drag) return;
       this._drag = null;
-      this._go(this.index, true);
+      if (this._moved) this._go(this.index, true);
     }, { passive: true });
 
     window.addEventListener("keydown", (e) => {
       if (entryScreen.hidden || entryScreen.classList.contains("is-out")) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === "ArrowDown" || e.key === "ArrowRight") {
         e.preventDefault();
         this.go(1);
@@ -323,7 +454,14 @@ class WheelPicker {
         e.preventDefault();
         this.go(-1);
       }
+      if (e.key === "Home" || e.key === "End") {
+        e.preventDefault();
+        this._go(e.key === "Home" ? 0 : this.items.length - 1);
+      }
       if (e.key === "Enter" || e.key === " ") {
+        // Enter on a focused button (Full Archive, Bracket) belongs to that
+        // button; swallowing it here opened the wheel's set instead.
+        if (e.target.closest?.("button, a")) return;
         e.preventDefault();
         doEnter();
       }
@@ -339,15 +477,21 @@ function initEntry() {
     return;
   }
 
-  picker = new WheelPicker(wheelEl, wheelListEl, items, (item) => {
-    if (!item) {
-      wheelMetaEl.textContent = "";
-      return;
-    }
-    const parts = [`${item.count} photograph${item.count !== 1 ? "s" : ""}`];
-    if (item.date) parts.push(item.date);
-    wheelMetaEl.textContent = parts.join(" / ");
-  });
+  // Build the wheel once. Coming back from the gallery used to construct a
+  // fresh WheelPicker each time, and every one of them registered its own
+  // window key and mouse handlers — after a few round trips one arrow press
+  // moved the wheel several sets.
+  if (!picker) {
+    picker = new WheelPicker(wheelEl, wheelListEl, items, (item) => {
+      if (!item) {
+        wheelMetaEl.textContent = "";
+        return;
+      }
+      const parts = [`${item.count} photograph${item.count !== 1 ? "s" : ""}`];
+      if (item.date) parts.push(item.date);
+      wheelMetaEl.textContent = parts.join(" / ");
+    });
+  }
 
   entryScreen.hidden = false;
   entryScreen.classList.remove("is-out");
@@ -366,6 +510,12 @@ function enterAllPhotos() {
 }
 
 function transitionToGallery() {
+  // Give the gallery its own history entry so a phone's back gesture returns
+  // to the set picker instead of leaving the site.
+  if (history.state?.view !== "gallery") {
+    history.pushState({ view: "gallery", fromEntry: true }, "", location.href);
+  }
+
   entryScreen.classList.add("is-out");
   setTimeout(() => {
     entryScreen.hidden = true;
@@ -389,6 +539,16 @@ function transitionToEntry() {
     initEntry();
   }, 370);
   setParams({ album: "" });
+  // Whatever got us here, this entry is now the picker.
+  history.replaceState(null, "", location.href);
+}
+
+// Leave through history when the gallery was entered from the picker, so
+// the in-page back arrow and the browser's back button are the same step.
+// A gallery opened straight from a shared link has no picker behind it.
+function leaveGallery() {
+  if (history.state?.view === "gallery" && history.state?.fromEntry) history.back();
+  else transitionToEntry();
 }
 
 function enterBracket() {
@@ -418,20 +578,20 @@ function setupBracket() {
 
 enterBtn.addEventListener("click", doEnter);
 enterAllBtn.addEventListener("click", enterAllPhotos);
-backBtn.addEventListener("click", transitionToEntry);
+backBtn.addEventListener("click", leaveGallery);
 
 // Gallery: albums
 function renderAlbums() {
-  const counts = getAlbumCounts();
+  // Same newest-first order as the entry wheel, so the set just added is at
+  // the front of the rail rather than buried alphabetically.
+  const items = buildWheelItems();
   const displayMap = manifest?.albumDisplay ?? {};
-  const albums = [...counts.keys()].sort(collator.compare);
-  const stripped = stripCommonPrefix(albums);
 
   albumRail.innerHTML = "";
   albumRail.append(makeChip("", `All (${photos.length})`));
-  for (const { value, display: auto } of stripped) {
-    const label = displayMap[value] || auto.replace(/ \/ /g, " > ");
-    albumRail.append(makeChip(value, `${label} (${counts.get(value)})`));
+  for (const { value, display, count } of items) {
+    const label = displayMap[value] || display.replace(/ \/ /g, " > ");
+    albumRail.append(makeChip(value, `${label} (${count})`));
   }
   updateRailActive();
 }
@@ -476,10 +636,45 @@ function updateRailActive() {
   });
   // Only auto-scroll when a single set is in view — with a blend open, any
   // one chip isn't more "current" than the others.
-  if (activeChips.length === 1) {
-    activeChips[0].scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
-  }
+  if (activeChips.length === 1) revealChip(activeChips[0]);
+  updateRailFades();
 }
+
+// Scroll the rail — and only the rail — so a chip is fully in view.
+// scrollIntoView would also nudge the page vertically, and it fought the
+// user's own finger when it fired mid-swipe.
+function revealChip(chip) {
+  const pad = 24;
+  const viewL = albumRail.scrollLeft;
+  const left = chip.getBoundingClientRect().left - albumRail.getBoundingClientRect().left + viewL;
+  const right = left + chip.offsetWidth;
+  const viewR = viewL + albumRail.clientWidth;
+  if (left >= viewL + pad && right <= viewR - pad) return;
+  const target = left < viewL + pad ? left - pad : right - albumRail.clientWidth + pad;
+  albumRail.scrollTo({ left: Math.max(0, target), behavior: scrollBehavior() });
+}
+
+function updateRailFades() {
+  const max = albumRail.scrollWidth - albumRail.clientWidth;
+  albumRail.classList.toggle("has-more-start", albumRail.scrollLeft > 2);
+  albumRail.classList.toggle("has-more-end", albumRail.scrollLeft < max - 2);
+}
+
+albumRail.addEventListener("scroll", updateRailFades, { passive: true });
+
+// With the scrollbar hidden, a plain mouse wheel had no way to reach the sets
+// past the right edge. Turn vertical wheel movement over the rail into
+// sideways scrolling — until the rail hits its end, then let the page scroll.
+albumRail.addEventListener("wheel", (e) => {
+  if (e.ctrlKey || Math.abs(e.deltaX) >= Math.abs(e.deltaY)) return;
+  const max = albumRail.scrollWidth - albumRail.clientWidth;
+  if (max <= 0) return;
+  const dy = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+  const atEnd = dy > 0 ? albumRail.scrollLeft >= max - 1 : albumRail.scrollLeft <= 0;
+  if (atEnd) return;
+  e.preventDefault();
+  albumRail.scrollLeft += dy;
+}, { passive: false });
 
 // Gallery: multi-set blending
 function allAlbumKeys() {
@@ -499,6 +694,13 @@ function currentAlbumsLabel() {
 function selectSingleAlbum(album) {
   selectedAlbums = album ? new Set([album]) : new Set();
   renderGrid(true);
+  scrollGridToTop();
+}
+
+// Switching sets from deep in a long one left you staring at the middle of
+// the new set (or past its end). Start the new set from its first row.
+function scrollGridToTop() {
+  if (window.scrollY > 0) window.scrollTo({ top: 0, behavior: "auto" });
 }
 
 function toggleAlbumBlend(album) {
@@ -507,7 +709,7 @@ function toggleAlbumBlend(album) {
     const next = new Set(base.filter((a) => a !== album));
     if (next.size === 0) {
       // Last remaining set was just closed — nothing left to view.
-      transitionToEntry();
+      leaveGallery();
       return;
     }
     selectedAlbums = next;
@@ -802,17 +1004,52 @@ function showPhoto(index) {
     loadFullRes(photo, idx);
   }
 
-  if (!lightbox.open) lightbox.showModal();
+  if (!lightbox.open) openDialog(lightbox, "lightbox");
 }
+
+// Dialogs get a history entry of their own, so the back gesture on a phone
+// closes the photo instead of dropping out of the gallery (or the site).
+function openDialog(dialog, name) {
+  history.pushState({ ...history.state, overlay: name }, "", location.href);
+  dialog.showModal();
+}
+
+for (const [dialog, name] of [[lightbox, "lightbox"], [downloadSheet, "sheet"]]) {
+  dialog.addEventListener("close", () => {
+    // A download still in progress keeps reporting after the sheet closes.
+    if (toast.parentElement === dialog) document.body.append(toast);
+    // Closed by button, Esc or backdrop: drop the entry it pushed. Closed by
+    // popstate: the entry is already gone and there is nothing to undo.
+    if (history.state?.overlay === name) history.back();
+  });
+}
+
+window.addEventListener("popstate", () => {
+  const state = history.state;
+  if (lightbox.open && state?.overlay !== "lightbox") lightbox.close();
+  if (downloadSheet.open && state?.overlay !== "sheet") downloadSheet.close();
+  if (state?.overlay) return;
+
+  if (!gallery.hidden && state?.view !== "gallery") {
+    transitionToEntry();
+  } else if (gallery.hidden && state?.view === "gallery" && !entryScreen.hidden) {
+    // Forward again from the picker: reopen whatever the URL names.
+    const album = getParams().get("album") ?? "";
+    selectedAlbums = new Set(album.split(",").map((s) => s.trim()).filter(Boolean));
+    transitionToGallery();
+  }
+});
 
 lightboxImage.addEventListener("load", () => lightboxImage.classList.remove("is-loading"));
 
 // Download sheet
 function renderDownloadSheet() {
   downloadTitle.textContent = currentAlbumsLabel();
-  downloadSummary.textContent = `${visiblePhotos.length} photo${visiblePhotos.length !== 1 ? "s" : ""} shown.`;
-  downloadAllVisible.disabled = !visiblePhotos.length;
-  downloadAllVisible.textContent = "Download Shown";
+  // The total matters before committing to a few hundred full-size files.
+  const totalBytes = visiblePhotos.reduce((sum, p) => sum + (p.size || 0), 0);
+  const count = `${visiblePhotos.length} photo${visiblePhotos.length !== 1 ? "s" : ""} shown`;
+  downloadSummary.textContent = totalBytes ? `${count} · ${formatBytes(totalBytes)}` : `${count}.`;
+  updateDownloadButton();
 
   visibleDownloadLinks.innerHTML = "";
   const frag = document.createDocumentFragment();
@@ -839,21 +1076,33 @@ function renderDownloadSheet() {
 
 function openDownloadSheet() {
   renderDownloadSheet();
-  if (!downloadSheet.open) downloadSheet.showModal();
+  if (!downloadSheet.open) openDialog(downloadSheet, "sheet");
 }
 
 // Share
+// On a phone the button is an icon, so feedback goes through the toast; and
+// where the OS has a share sheet (phones), that beats a silent clipboard copy.
+const canNativeShare = () =>
+  typeof navigator.share === "function" && window.matchMedia("(hover: none)").matches;
+
 async function shareAlbum() {
   const url = location.href;
+  if (canNativeShare()) {
+    try {
+      await navigator.share({ title: document.title, url });
+      return;
+    } catch (err) {
+      if (err?.name === "AbortError") return; // the user closed the sheet
+    }
+  }
   try {
     await navigator.clipboard.writeText(url);
-    copyAlbumLink.textContent = "Copied";
+    showToast("Link copied");
   } catch {
-    copyAlbumLink.textContent = "Copy URL";
+    // Previously this just relabelled the button "Copy URL", which read as
+    // an instruction rather than a failure.
+    showToast("Couldn't reach the clipboard — copy the link from the address bar");
   }
-  setTimeout(() => {
-    copyAlbumLink.textContent = "Copy Link";
-  }, 1600);
 }
 
 // Event wiring
@@ -888,9 +1137,16 @@ albumRail.addEventListener("keydown", (e) => {
   toggleAlbumBlend(toggle.dataset.toggle);
 });
 
+// On a phone the grid is a fixed column count (see styles.css); each size
+// option picks one, so the buttons do something there too.
+const MOBILE_COLS = { 80: 6, 140: 4, 190: 3, 250: 2 };
+
 function applyTileSize(value) {
-  currentTileMin = parseInt(value);
-  document.documentElement.style.setProperty("--tile-min", `${value}px`);
+  currentTileMin = parseInt(value, 10);
+  const root = document.documentElement.style;
+  root.setProperty("--tile-min", `${value}px`);
+  const cols = MOBILE_COLS[currentTileMin];
+  if (cols) root.setProperty("--mobile-cols", String(cols));
 }
 
 tileSizeControl.addEventListener("click", (e) => {
@@ -926,6 +1182,9 @@ sortControl.addEventListener("click", (e) => {
 // Keyboard shortcuts: 1–4 for sort, [ / ] for tile size
 document.addEventListener("keydown", (e) => {
   if (gallery.hidden) return;
+  // With the viewer or the download sheet open, re-sorting the grid behind
+  // it silently re-pointed the viewer's prev/next at different photos.
+  if (lightbox.open || downloadSheet.open) return;
   if (e.target.closest("input,textarea,select,[contenteditable]")) return;
   if (e.metaKey || e.ctrlKey || e.altKey) return;
 
@@ -962,9 +1221,9 @@ document.addEventListener("keydown", (e) => {
     const count = visiblePhotos.length;
     if (count === 0) return;
     const gap = 8;
-    const gridWidth = photoGrid.clientWidth;
+    const gridWidth = grid.clientWidth;
     // Grid's distance from document top (stable regardless of current scroll position)
-    const gridDocTop = photoGrid.getBoundingClientRect().top + window.scrollY;
+    const gridDocTop = grid.getBoundingClientRect().top + window.scrollY;
     const availableH = window.innerHeight - gridDocTop - 8;
     // Binary search: largest tileMin where all photos fit without scrolling
     let lo = 20, hi = gridWidth;
@@ -992,11 +1251,8 @@ copyAlbumLink.addEventListener("click", shareAlbum);
 downloadView.addEventListener("click", openDownloadSheet);
 closeDownloadSheet.addEventListener("click", () => downloadSheet.close());
 downloadAllVisible.addEventListener("click", () => {
-  visiblePhotos.forEach(triggerDownload);
-  downloadAllVisible.textContent = "Started";
-  setTimeout(() => {
-    downloadAllVisible.textContent = "Download Shown";
-  }, 1400);
+  if (downloadQueue) cancelDownloads();
+  else downloadMany(visiblePhotos);
 });
 
 closeLightbox.addEventListener("click", () => lightbox.close());
@@ -1022,26 +1278,58 @@ function navigateAlbum(delta) {
   selectSingleAlbum(values[next]);
 }
 
-let _gsx = 0, _gsy = 0;
+// A sideways swipe on the page flips to the next set. It must leave alone
+// anything that scrolls sideways by itself — swiping the set rail used to
+// change the set instead of scrolling the rail, which made every set past
+// the first screenful unreachable on a phone — and pinch-zoom or panning
+// a zoomed-in page, which look like swipes too.
+const SWIPE_MIN = 60;
+let gallerySwipe = null;
+
+const isZoomed = () => (window.visualViewport?.scale ?? 1) > 1.01;
+
 gallery.addEventListener("touchstart", (e) => {
-  _gsx = e.touches[0].clientX;
-  _gsy = e.touches[0].clientY;
+  const blocked =
+    e.touches.length > 1 ||
+    isZoomed() ||
+    e.target.closest(".album-rail, .command-bar, .gallery-header");
+  gallerySwipe = blocked ? null : { x: e.touches[0].clientX, y: e.touches[0].clientY };
+}, { passive: true });
+gallery.addEventListener("touchmove", (e) => {
+  if (e.touches.length > 1) gallerySwipe = null;
 }, { passive: true });
 gallery.addEventListener("touchend", (e) => {
-  const dx = e.changedTouches[0].clientX - _gsx;
-  const dy = e.changedTouches[0].clientY - _gsy;
-  if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy)) return;
+  if (!gallerySwipe || e.touches.length > 0) return;
+  const dx = e.changedTouches[0].clientX - gallerySwipe.x;
+  const dy = e.changedTouches[0].clientY - gallerySwipe.y;
+  gallerySwipe = null;
+  // Clearly sideways, not a slightly slanted scroll.
+  if (Math.abs(dx) < SWIPE_MIN || Math.abs(dx) < Math.abs(dy) * 1.5) return;
   navigateAlbum(dx < 0 ? 1 : -1);
 }, { passive: true });
 
 // Touch swipe in lightbox
-let _tx = 0;
+// Sideways flips photos; a firm downward swipe closes, like most phone
+// viewers. Pinching to look closer must not count as either.
+let lightboxSwipe = null;
 lightbox.addEventListener("touchstart", (e) => {
-  _tx = e.touches[0].clientX;
+  lightboxSwipe = e.touches.length > 1 || isZoomed()
+    ? null
+    : { x: e.touches[0].clientX, y: e.touches[0].clientY };
+}, { passive: true });
+lightbox.addEventListener("touchmove", (e) => {
+  if (e.touches.length > 1) lightboxSwipe = null;
 }, { passive: true });
 lightbox.addEventListener("touchend", (e) => {
-  const dx = e.changedTouches[0].clientX - _tx;
-  if (Math.abs(dx) > 40) showPhoto(currentIndex + (dx < 0 ? 1 : -1));
+  if (!lightboxSwipe || e.touches.length > 0) return;
+  const dx = e.changedTouches[0].clientX - lightboxSwipe.x;
+  const dy = e.changedTouches[0].clientY - lightboxSwipe.y;
+  lightboxSwipe = null;
+  if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+    showPhoto(currentIndex + (dx < 0 ? 1 : -1));
+  } else if (dy > 90 && dy > Math.abs(dx) * 1.5) {
+    lightbox.close();
+  }
 }, { passive: true });
 
 window.addEventListener("keydown", (e) => {
@@ -1049,6 +1337,22 @@ window.addEventListener("keydown", (e) => {
   if (e.key === "ArrowLeft") showPhoto(currentIndex - 1);
   if (e.key === "ArrowRight") showPhoto(currentIndex + 1);
 });
+
+// Sticky offsets: the header grows with the notch inset and the command bar
+// wraps to two rows on narrower windows, so hard-coded tops let the set rail
+// slide underneath them. Measure instead.
+function syncStickyOffsets() {
+  const root = document.documentElement.style;
+  if (galleryHeader.offsetHeight) root.setProperty("--header-h", `${galleryHeader.offsetHeight}px`);
+  if (commandBar.offsetHeight) root.setProperty("--command-h", `${commandBar.offsetHeight}px`);
+}
+
+if ("ResizeObserver" in window) {
+  const ro = new ResizeObserver(syncStickyOffsets);
+  ro.observe(galleryHeader);
+  ro.observe(commandBar);
+}
+window.addEventListener("resize", updateRailFades, { passive: true });
 
 // Boot
 async function boot() {
@@ -1089,6 +1393,9 @@ async function boot() {
 
       entryScreen.hidden = true;
       gallery.hidden = false;
+      // Opened from a shared link: mark this entry as the gallery so the
+      // back handling knows where it stands.
+      history.replaceState({ view: "gallery" }, "", location.href);
     } else {
       initEntry();
     }
