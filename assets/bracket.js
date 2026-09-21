@@ -324,6 +324,12 @@ function paintPane(pane, photo) {
   const img = pane.querySelector("img");
   img.alt = photo.title || "";
 
+  // Two panes carry an identical pair of bare "Trash" buttons, so the label has
+  // to say which photo is about to go.
+  const named = photo.title || "this photo";
+  pane.querySelector('[data-tool="trash"]').setAttribute("aria-label", "Trash " + named);
+  pane.querySelector('[data-tool="reset"]').setAttribute("aria-label", "Reset crop on " + named);
+
   // A pane's img fires load on every src it is given — thumbnail and original
   // both — and applyCrop is wired to that once in initBracket, so the framing
   // reapplies itself as soon as real dimensions are known.
@@ -367,7 +373,15 @@ function renderMatch() {
   el.results.hidden = true;
   el.run.hidden = false;
 
-  const [a, b] = state.match;
+  // Trashing a photo leaves its opponent in play, and the engine deals that
+  // survivor back in whichever order suits the queue. Painting the pair blind
+  // would slide it across the screen — so a photo that carries over from the
+  // last match keeps the side it was already on, and the newcomer takes the
+  // other. Otherwise trashing on the left would shove the survivor under the
+  // cursor that just clicked trash.
+  let [a, b] = state.match;
+  if (a === el.paneB.dataset.id || b === el.paneA.dataset.id) [a, b] = [b, a];
+
   paintPane(el.paneA, byId.get(a));
   paintPane(el.paneB, byId.get(b));
 
@@ -615,13 +629,22 @@ export function initBracket(options) {
       { passive: false }
     );
 
+    // A mouse click leaves the button focused, which would quietly re-aim the
+    // next Space at it. Drop focus so Space keeps meaning "I can't decide" —
+    // but only for a real pointer click, so tabbing to the button still works.
+    const release = (e) => {
+      if (e.detail > 0) e.currentTarget.blur();
+    };
+
     pane.querySelector('[data-tool="reset"]').addEventListener("click", (e) => {
       e.stopPropagation();
+      release(e);
       resetCrop(pane);
     });
 
     pane.querySelector('[data-tool="trash"]').addEventListener("click", (e) => {
       e.stopPropagation();
+      release(e);
       trash(pane.dataset.id);
     });
   }
@@ -652,6 +675,9 @@ export function initBracket(options) {
         if (e.shiftKey) trash(el.paneB.dataset.id);
         else choose(el.paneB.dataset.id);
       } else if (e.key === " ") {
+        // Space activates whichever button has focus. Deferring here instead
+        // would leave Trash, Reset crop and Undo unreachable by keyboard.
+        if (e.target?.closest?.("button")) return;
         e.preventDefault();
         defer();
       } else if (e.key.toLowerCase() === "z") {

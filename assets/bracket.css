@@ -326,7 +326,8 @@
 
 /* Trashing is the destructive one, so it says so on hover rather than shouting
    from the start — it sits beside a photo you are still deciding about. */
-.bracket-tool.is-trash:hover {
+.bracket-tool.is-trash:hover,
+.bracket-tool.is-trash:focus-visible {
   border-color: var(--danger);
   color: var(--danger);
 }
