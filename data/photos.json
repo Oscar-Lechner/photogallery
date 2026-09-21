@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T03:08:45.363Z",
-  "count": 1801,
+  "generatedAt": "2026-09-21T15:40:46.485Z",
+  "count": 1912,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -21,6 +21,7 @@
     "flowers collection": "2026-07-25T23:07:34.910Z",
     "Grays and Torreys": "2026-07-30T21:16:59.113Z",
     "neighborhood flowers": "2026-08-05T20:57:55.523Z",
+    "sept.we3.2026": "2026-09-21T15:25:37.471Z",
     "steamboat 2026": "2026-08-31T18:40:16.129Z"
   },
   "albumDisplay": {
@@ -43,6 +44,7 @@
     "flowers collection": "Flowers Collection",
     "Grays and Torreys": "Grays And Torreys",
     "neighborhood flowers": "Neighborhood Flowers",
+    "sept.we3.2026": "Sept.We 3.2026",
     "steamboat 2026": "Steamboat 2026"
   },
   "photos": [
@@ -18812,6 +18814,1893 @@
         "c": 51,
         "u": 43,
         "b": 35
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0508",
+      "relativePath": "sept.we3.2026/IMG_0508.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0508.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0508.webp",
+      "mtime": 1790004303511.1714,
+      "size": 2507808,
+      "color": {
+        "h": 85,
+        "s": 27,
+        "l": 56,
+        "c": 62,
+        "u": 51,
+        "b": 55
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0509",
+      "relativePath": "sept.we3.2026/IMG_0509.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0509.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0509.webp",
+      "mtime": 1790004303764.4446,
+      "size": 1504834,
+      "color": {
+        "h": 203,
+        "s": 29,
+        "l": 30,
+        "c": 65,
+        "u": 50,
+        "b": 21
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0510",
+      "relativePath": "sept.we3.2026/IMG_0510.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0510.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0510.webp",
+      "mtime": 1790004304067.923,
+      "size": 1932771,
+      "color": {
+        "h": 200,
+        "s": 41,
+        "l": 53,
+        "c": 97,
+        "u": 95,
+        "b": 55
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0511",
+      "relativePath": "sept.we3.2026/IMG_0511.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0511.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0511.webp",
+      "mtime": 1790004304376.9558,
+      "size": 1863946,
+      "color": {
+        "h": 40,
+        "s": 37,
+        "l": 18,
+        "c": 86,
+        "u": 50,
+        "b": 26
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0512",
+      "relativePath": "sept.we3.2026/IMG_0512.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0512.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0512.webp",
+      "mtime": 1790004304655.5115,
+      "size": 1856849,
+      "color": {
+        "h": 40,
+        "s": 33,
+        "l": 20,
+        "c": 83,
+        "u": 47,
+        "b": 23
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0513",
+      "relativePath": "sept.we3.2026/IMG_0513.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0513.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0513.webp",
+      "mtime": 1790004305027.8552,
+      "size": 1631585,
+      "color": {
+        "h": 100,
+        "s": 49,
+        "l": 19,
+        "c": 55,
+        "u": 18,
+        "b": 15
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0514",
+      "relativePath": "sept.we3.2026/IMG_0514.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0514.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0514.webp",
+      "mtime": 1790004305359.4343,
+      "size": 1271564,
+      "color": {
+        "h": 26,
+        "s": 60,
+        "l": 13,
+        "c": 86,
+        "u": 82,
+        "b": 11
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0515",
+      "relativePath": "sept.we3.2026/IMG_0515.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0515.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0515.webp",
+      "mtime": 1790004305594.2683,
+      "size": 1916671,
+      "color": {
+        "h": 23,
+        "s": 44,
+        "l": 54,
+        "c": 81,
+        "u": 79,
+        "b": 47
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0516",
+      "relativePath": "sept.we3.2026/IMG_0516.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0516.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0516.webp",
+      "mtime": 1790004305785.2512,
+      "size": 1330859,
+      "color": {
+        "h": 200,
+        "s": 27,
+        "l": 21,
+        "c": 41,
+        "u": 13,
+        "b": 10
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0517",
+      "relativePath": "sept.we3.2026/IMG_0517.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0517.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0517.webp",
+      "mtime": 1790004305953.638,
+      "size": 1187790,
+      "color": {
+        "h": 20,
+        "s": 27,
+        "l": 6,
+        "c": 60,
+        "u": 42,
+        "b": 4
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0518",
+      "relativePath": "sept.we3.2026/IMG_0518.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0518.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0518.webp",
+      "mtime": 1790004306267.3572,
+      "size": 2620980,
+      "color": {
+        "h": 43,
+        "s": 32,
+        "l": 33,
+        "c": 70,
+        "u": 67,
+        "b": 35
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0519",
+      "relativePath": "sept.we3.2026/IMG_0519.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0519.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0519.webp",
+      "mtime": 1790004306415.6575,
+      "size": 831748,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 1,
+        "c": 2,
+        "u": 0,
+        "b": 1
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0520",
+      "relativePath": "sept.we3.2026/IMG_0520.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0520.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0520.webp",
+      "mtime": 1790004306621.2683,
+      "size": 1702307,
+      "color": {
+        "h": 32,
+        "s": 45,
+        "l": 54,
+        "c": 49,
+        "u": 39,
+        "b": 37
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0521",
+      "relativePath": "sept.we3.2026/IMG_0521.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0521.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0521.webp",
+      "mtime": 1790004306887.6245,
+      "size": 2161478,
+      "color": {
+        "h": 26,
+        "s": 41,
+        "l": 54,
+        "c": 47,
+        "u": 42,
+        "b": 37
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0522",
+      "relativePath": "sept.we3.2026/IMG_0522.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0522.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0522.webp",
+      "mtime": 1790004307144.4248,
+      "size": 1325746,
+      "color": {
+        "h": 10,
+        "s": 42,
+        "l": 53,
+        "c": 27,
+        "u": 26,
+        "b": 36
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0523",
+      "relativePath": "sept.we3.2026/IMG_0523.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0523.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0523.webp",
+      "mtime": 1790004307387.0415,
+      "size": 1869003,
+      "color": {
+        "h": 13,
+        "s": 49,
+        "l": 52,
+        "c": 25,
+        "u": 23,
+        "b": 35
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0524",
+      "relativePath": "sept.we3.2026/IMG_0524.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0524.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0524.webp",
+      "mtime": 1790004307614.0813,
+      "size": 1810847,
+      "color": {
+        "h": 25,
+        "s": 31,
+        "l": 39,
+        "c": 44,
+        "u": 40,
+        "b": 28
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0525",
+      "relativePath": "sept.we3.2026/IMG_0525.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0525.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0525.webp",
+      "mtime": 1790004307843.5127,
+      "size": 1496265,
+      "color": {
+        "h": 30,
+        "s": 45,
+        "l": 53,
+        "c": 77,
+        "u": 76,
+        "b": 44
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0526",
+      "relativePath": "sept.we3.2026/IMG_0526.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0526.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0526.webp",
+      "mtime": 1790004308227.8835,
+      "size": 1912065,
+      "color": {
+        "h": 16,
+        "s": 31,
+        "l": 36,
+        "c": 90,
+        "u": 89,
+        "b": 36
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0527",
+      "relativePath": "sept.we3.2026/IMG_0527.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0527.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0527.webp",
+      "mtime": 1790004308503.4607,
+      "size": 2211076,
+      "color": {
+        "h": 26,
+        "s": 36,
+        "l": 49,
+        "c": 50,
+        "u": 49,
+        "b": 45
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0528",
+      "relativePath": "sept.we3.2026/IMG_0528.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0528.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0528.webp",
+      "mtime": 1790004308736.4124,
+      "size": 1702342,
+      "color": {
+        "h": 23,
+        "s": 35,
+        "l": 38,
+        "c": 82,
+        "u": 78,
+        "b": 34
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0529",
+      "relativePath": "sept.we3.2026/IMG_0529.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0529.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0529.webp",
+      "mtime": 1790004308937.403,
+      "size": 1469917,
+      "color": {
+        "h": 36,
+        "s": 37,
+        "l": 45,
+        "c": 67,
+        "u": 64,
+        "b": 38
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0530",
+      "relativePath": "sept.we3.2026/IMG_0530.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0530.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0530.webp",
+      "mtime": 1790004309162.2085,
+      "size": 1715292,
+      "color": {
+        "h": 32,
+        "s": 50,
+        "l": 47,
+        "c": 71,
+        "u": 67,
+        "b": 35
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0531",
+      "relativePath": "sept.we3.2026/IMG_0531.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0531.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0531.webp",
+      "mtime": 1790004309352.403,
+      "size": 1320583,
+      "color": {
+        "h": 22,
+        "s": 41,
+        "l": 50,
+        "c": 65,
+        "u": 64,
+        "b": 40
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0532",
+      "relativePath": "sept.we3.2026/IMG_0532.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0532.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0532.webp",
+      "mtime": 1790004309529.2947,
+      "size": 1242783,
+      "color": {
+        "h": 22,
+        "s": 45,
+        "l": 48,
+        "c": 72,
+        "u": 72,
+        "b": 40
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0533",
+      "relativePath": "sept.we3.2026/IMG_0533.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0533.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0533.webp",
+      "mtime": 1790004309735.3948,
+      "size": 1636715,
+      "color": {
+        "h": 35,
+        "s": 69,
+        "l": 29,
+        "c": 95,
+        "u": 89,
+        "b": 26
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0534",
+      "relativePath": "sept.we3.2026/IMG_0534.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0534.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0534.webp",
+      "mtime": 1790004309944.697,
+      "size": 1633260,
+      "color": {
+        "h": 30,
+        "s": 40,
+        "l": 32,
+        "c": 79,
+        "u": 77,
+        "b": 27
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0535",
+      "relativePath": "sept.we3.2026/IMG_0535.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0535.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0535.webp",
+      "mtime": 1790004310170.7808,
+      "size": 1766081,
+      "color": {
+        "h": 40,
+        "s": 51,
+        "l": 29,
+        "c": 74,
+        "u": 47,
+        "b": 37
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0536",
+      "relativePath": "sept.we3.2026/IMG_0536.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0536.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0536.webp",
+      "mtime": 1790004310360.184,
+      "size": 1341541,
+      "color": {
+        "h": 220,
+        "s": 48,
+        "l": 15,
+        "c": 54,
+        "u": 33,
+        "b": 10
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0537",
+      "relativePath": "sept.we3.2026/IMG_0537.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0537.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0537.webp",
+      "mtime": 1790004310583.519,
+      "size": 1711973,
+      "color": {
+        "h": 26,
+        "s": 36,
+        "l": 51,
+        "c": 59,
+        "u": 57,
+        "b": 33
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0538",
+      "relativePath": "sept.we3.2026/IMG_0538.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0538.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0538.webp",
+      "mtime": 1790004310747.7405,
+      "size": 1040595,
+      "color": {
+        "h": 70,
+        "s": 23,
+        "l": 3,
+        "c": 7,
+        "u": 5,
+        "b": 3
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0539",
+      "relativePath": "sept.we3.2026/IMG_0539.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0539.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0539.webp",
+      "mtime": 1790004310968.2463,
+      "size": 1598580,
+      "color": {
+        "h": 20,
+        "s": 26,
+        "l": 32,
+        "c": 20,
+        "u": 16,
+        "b": 41
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0540",
+      "relativePath": "sept.we3.2026/IMG_0540.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0540.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0540.webp",
+      "mtime": 1790004311196.779,
+      "size": 1636799,
+      "color": {
+        "h": 20,
+        "s": 24,
+        "l": 25,
+        "c": 19,
+        "u": 16,
+        "b": 35
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0541",
+      "relativePath": "sept.we3.2026/IMG_0541.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0541.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0541.webp",
+      "mtime": 1790004311369.3804,
+      "size": 1088974,
+      "color": {
+        "h": 40,
+        "s": 39,
+        "l": 5,
+        "c": 52,
+        "u": 45,
+        "b": 4
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0542",
+      "relativePath": "sept.we3.2026/IMG_0542.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0542.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0542.webp",
+      "mtime": 1790004311543.0889,
+      "size": 1071979,
+      "color": {
+        "h": 40,
+        "s": 35,
+        "l": 5,
+        "c": 46,
+        "u": 38,
+        "b": 4
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0543",
+      "relativePath": "sept.we3.2026/IMG_0543.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0543.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0543.webp",
+      "mtime": 1790004311771.788,
+      "size": 1635000,
+      "color": {
+        "h": 30,
+        "s": 48,
+        "l": 39,
+        "c": 92,
+        "u": 90,
+        "b": 37
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0544",
+      "relativePath": "sept.we3.2026/IMG_0544.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0544.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0544.webp",
+      "mtime": 1790004312042.5305,
+      "size": 2016267,
+      "color": {
+        "h": 36,
+        "s": 84,
+        "l": 25,
+        "c": 93,
+        "u": 93,
+        "b": 26
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0545",
+      "relativePath": "sept.we3.2026/IMG_0545.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0545.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0545.webp",
+      "mtime": 1790004312267.208,
+      "size": 1563305,
+      "color": {
+        "h": 29,
+        "s": 42,
+        "l": 38,
+        "c": 61,
+        "u": 58,
+        "b": 24
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0546",
+      "relativePath": "sept.we3.2026/IMG_0546.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0546.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0546.webp",
+      "mtime": 1790004312543.224,
+      "size": 2057862,
+      "color": {
+        "h": 26,
+        "s": 35,
+        "l": 44,
+        "c": 70,
+        "u": 63,
+        "b": 45
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0547",
+      "relativePath": "sept.we3.2026/IMG_0547.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0547.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0547.webp",
+      "mtime": 1790004312827.5828,
+      "size": 2115713,
+      "color": {
+        "h": 29,
+        "s": 48,
+        "l": 42,
+        "c": 90,
+        "u": 87,
+        "b": 40
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0548",
+      "relativePath": "sept.we3.2026/IMG_0548.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0548.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0548.webp",
+      "mtime": 1790004313141.4207,
+      "size": 1570113,
+      "color": {
+        "h": 32,
+        "s": 51,
+        "l": 48,
+        "c": 92,
+        "u": 85,
+        "b": 45
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0549",
+      "relativePath": "sept.we3.2026/IMG_0549.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0549.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0549.webp",
+      "mtime": 1790004313427.3186,
+      "size": 2156220,
+      "color": {
+        "h": 30,
+        "s": 48,
+        "l": 47,
+        "c": 86,
+        "u": 82,
+        "b": 43
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0550",
+      "relativePath": "sept.we3.2026/IMG_0550.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0550.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0550.webp",
+      "mtime": 1790004313692.5625,
+      "size": 2006095,
+      "color": {
+        "h": 32,
+        "s": 48,
+        "l": 56,
+        "c": 84,
+        "u": 75,
+        "b": 52
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0551",
+      "relativePath": "sept.we3.2026/IMG_0551.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0551.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0551.webp",
+      "mtime": 1790004313946.7961,
+      "size": 1851484,
+      "color": {
+        "h": 26,
+        "s": 35,
+        "l": 35,
+        "c": 82,
+        "u": 60,
+        "b": 34
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0552",
+      "relativePath": "sept.we3.2026/IMG_0552.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0552.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0552.webp",
+      "mtime": 1790004314202.9058,
+      "size": 1763759,
+      "color": {
+        "h": 44,
+        "s": 34,
+        "l": 52,
+        "c": 99,
+        "u": 99,
+        "b": 52
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0553",
+      "relativePath": "sept.we3.2026/IMG_0553.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0553.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0553.webp",
+      "mtime": 1790004314457.5935,
+      "size": 1903548,
+      "color": {
+        "h": 28,
+        "s": 61,
+        "l": 33,
+        "c": 98,
+        "u": 97,
+        "b": 32
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0554",
+      "relativePath": "sept.we3.2026/IMG_0554.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0554.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0554.webp",
+      "mtime": 1790004314826.5305,
+      "size": 3016740,
+      "color": {
+        "h": 27,
+        "s": 36,
+        "l": 73,
+        "c": 66,
+        "u": 27,
+        "b": 48
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0555",
+      "relativePath": "sept.we3.2026/IMG_0555.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0555.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0555.webp",
+      "mtime": 1790004315149.6135,
+      "size": 2331207,
+      "color": {
+        "h": 50,
+        "s": 23,
+        "l": 56,
+        "c": 9,
+        "u": 5,
+        "b": 47
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0556",
+      "relativePath": "sept.we3.2026/IMG_0556.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0556.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0556.webp",
+      "mtime": 1790004315503.4292,
+      "size": 2214263,
+      "color": {
+        "h": 87,
+        "s": 29,
+        "l": 60,
+        "c": 15,
+        "u": 8,
+        "b": 50
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0557",
+      "relativePath": "sept.we3.2026/IMG_0557.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0557.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0557.webp",
+      "mtime": 1790004315827.3467,
+      "size": 2153678,
+      "color": {
+        "h": 88,
+        "s": 28,
+        "l": 58,
+        "c": 9,
+        "u": 5,
+        "b": 47
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0558",
+      "relativePath": "sept.we3.2026/IMG_0558.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0558.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0558.webp",
+      "mtime": 1790004316256.7412,
+      "size": 2632845,
+      "color": {
+        "h": 86,
+        "s": 24,
+        "l": 59,
+        "c": 21,
+        "u": 10,
+        "b": 53
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0559",
+      "relativePath": "sept.we3.2026/IMG_0559.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0559.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0559.webp",
+      "mtime": 1790004316673.7444,
+      "size": 3176105,
+      "color": {
+        "h": 89,
+        "s": 25,
+        "l": 58,
+        "c": 23,
+        "u": 9,
+        "b": 51
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0560",
+      "relativePath": "sept.we3.2026/IMG_0560.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0560.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0560.webp",
+      "mtime": 1790004316997.534,
+      "size": 2315214,
+      "color": {
+        "h": 72,
+        "s": 22,
+        "l": 52,
+        "c": 11,
+        "u": 5,
+        "b": 46
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0561",
+      "relativePath": "sept.we3.2026/IMG_0561.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0561.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0561.webp",
+      "mtime": 1790004317325.8435,
+      "size": 2439831,
+      "color": {
+        "h": 73,
+        "s": 25,
+        "l": 51,
+        "c": 25,
+        "u": 12,
+        "b": 48
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0562",
+      "relativePath": "sept.we3.2026/IMG_0562.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0562.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0562.webp",
+      "mtime": 1790004317686.7832,
+      "size": 2210158,
+      "color": {
+        "h": 160,
+        "s": 22,
+        "l": 59,
+        "c": 25,
+        "u": 11,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0563",
+      "relativePath": "sept.we3.2026/IMG_0563.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0563.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0563.webp",
+      "mtime": 1790004318013.9001,
+      "size": 2228254,
+      "color": {
+        "h": 67,
+        "s": 30,
+        "l": 50,
+        "c": 23,
+        "u": 19,
+        "b": 52
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0564",
+      "relativePath": "sept.we3.2026/IMG_0564.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0564.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0564.webp",
+      "mtime": 1790004318534.8755,
+      "size": 2434479,
+      "color": {
+        "h": 54,
+        "s": 24,
+        "l": 60,
+        "c": 24,
+        "u": 16,
+        "b": 48
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0565",
+      "relativePath": "sept.we3.2026/IMG_0565.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0565.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0565.webp",
+      "mtime": 1790004318848.4478,
+      "size": 2157422,
+      "color": {
+        "h": 240,
+        "s": 36,
+        "l": 85,
+        "c": 26,
+        "u": 12,
+        "b": 63
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0566",
+      "relativePath": "sept.we3.2026/IMG_0566.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0566.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0566.webp",
+      "mtime": 1790004319134.1199,
+      "size": 2176098,
+      "color": {
+        "h": 52,
+        "s": 27,
+        "l": 32,
+        "c": 56,
+        "u": 53,
+        "b": 52
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0567",
+      "relativePath": "sept.we3.2026/IMG_0567.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0567.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0567.webp",
+      "mtime": 1790004319512.9722,
+      "size": 2725899,
+      "color": {
+        "h": 260,
+        "s": 34,
+        "l": 86,
+        "c": 20,
+        "u": 7,
+        "b": 58
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0568",
+      "relativePath": "sept.we3.2026/IMG_0568.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0568.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0568.webp",
+      "mtime": 1790004319778.5222,
+      "size": 1763914,
+      "color": {
+        "h": 52,
+        "s": 24,
+        "l": 13,
+        "c": 33,
+        "u": 28,
+        "b": 32
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0569",
+      "relativePath": "sept.we3.2026/IMG_0569.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0569.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0569.webp",
+      "mtime": 1790004320038.9575,
+      "size": 1884016,
+      "color": {
+        "h": 220,
+        "s": 45,
+        "l": 44,
+        "c": 43,
+        "u": 28,
+        "b": 48
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0571",
+      "relativePath": "sept.we3.2026/IMG_0571.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0571.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0571.webp",
+      "mtime": 1790004320480.8677,
+      "size": 3732369,
+      "color": {
+        "h": 68,
+        "s": 26,
+        "l": 47,
+        "c": 50,
+        "u": 44,
+        "b": 46
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0572",
+      "relativePath": "sept.we3.2026/IMG_0572.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0572.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0572.webp",
+      "mtime": 1790004320994.1323,
+      "size": 4145534,
+      "color": {
+        "h": 62,
+        "s": 35,
+        "l": 45,
+        "c": 87,
+        "u": 81,
+        "b": 45
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0575",
+      "relativePath": "sept.we3.2026/IMG_0575.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0575.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0575.webp",
+      "mtime": 1790004321348.6013,
+      "size": 2489999,
+      "color": {
+        "h": 209,
+        "s": 38,
+        "l": 59,
+        "c": 47,
+        "u": 47,
+        "b": 47
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0576",
+      "relativePath": "sept.we3.2026/IMG_0576.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0576.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0576.webp",
+      "mtime": 1790004321815.7544,
+      "size": 3838205,
+      "color": {
+        "h": 96,
+        "s": 61,
+        "l": 21,
+        "c": 90,
+        "u": 86,
+        "b": 23
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0577",
+      "relativePath": "sept.we3.2026/IMG_0577.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0577.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0577.webp",
+      "mtime": 1790004322227.6777,
+      "size": 3051264,
+      "color": {
+        "h": 75,
+        "s": 71,
+        "l": 30,
+        "c": 98,
+        "u": 97,
+        "b": 30
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0578",
+      "relativePath": "sept.we3.2026/IMG_0578.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0578.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0578.webp",
+      "mtime": 1790004322518.6958,
+      "size": 1936726,
+      "color": {
+        "h": 206,
+        "s": 60,
+        "l": 68,
+        "c": 57,
+        "u": 52,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0579",
+      "relativePath": "sept.we3.2026/IMG_0579.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0579.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0579.webp",
+      "mtime": 1790004322759.6375,
+      "size": 1745264,
+      "color": {
+        "h": 200,
+        "s": 44,
+        "l": 56,
+        "c": 50,
+        "u": 39,
+        "b": 39
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0580",
+      "relativePath": "sept.we3.2026/IMG_0580.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0580.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0580.webp",
+      "mtime": 1790004323015.6094,
+      "size": 1797320,
+      "color": {
+        "h": 200,
+        "s": 40,
+        "l": 56,
+        "c": 44,
+        "u": 37,
+        "b": 51
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0581",
+      "relativePath": "sept.we3.2026/IMG_0581.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0581.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0581.webp",
+      "mtime": 1790004323504.7502,
+      "size": 3056973,
+      "color": {
+        "h": 215,
+        "s": 21,
+        "l": 72,
+        "c": 8,
+        "u": 5,
+        "b": 50
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0582",
+      "relativePath": "sept.we3.2026/IMG_0582.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0582.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0582.webp",
+      "mtime": 1790004323876.6582,
+      "size": 2853981,
+      "color": {
+        "h": 34,
+        "s": 30,
+        "l": 70,
+        "c": 13,
+        "u": 6,
+        "b": 42
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0583",
+      "relativePath": "sept.we3.2026/IMG_0583.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0583.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0583.webp",
+      "mtime": 1790004324264.9307,
+      "size": 2816118,
+      "color": {
+        "h": 32,
+        "s": 26,
+        "l": 47,
+        "c": 21,
+        "u": 8,
+        "b": 27
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0584",
+      "relativePath": "sept.we3.2026/IMG_0584.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0584.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0584.webp",
+      "mtime": 1790004324576.3914,
+      "size": 2510650,
+      "color": {
+        "h": 281,
+        "s": 23,
+        "l": 38,
+        "c": 22,
+        "u": 8,
+        "b": 24
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0585",
+      "relativePath": "sept.we3.2026/IMG_0585.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0585.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0585.webp",
+      "mtime": 1790004324938.638,
+      "size": 2808730,
+      "color": {
+        "h": 320,
+        "s": 29,
+        "l": 58,
+        "c": 18,
+        "u": 7,
+        "b": 29
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0586",
+      "relativePath": "sept.we3.2026/IMG_0586.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0586.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0586.webp",
+      "mtime": 1790004325265.8022,
+      "size": 2383588,
+      "color": {
+        "h": 320,
+        "s": 28,
+        "l": 51,
+        "c": 36,
+        "u": 18,
+        "b": 40
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0587",
+      "relativePath": "sept.we3.2026/IMG_0587.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0587.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0587.webp",
+      "mtime": 1790004325525.6917,
+      "size": 1737304,
+      "color": {
+        "h": 64,
+        "s": 51,
+        "l": 24,
+        "c": 87,
+        "u": 69,
+        "b": 22
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0588",
+      "relativePath": "sept.we3.2026/IMG_0588.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0588.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0588.webp",
+      "mtime": 1790004325729.933,
+      "size": 1422280,
+      "color": {
+        "h": 62,
+        "s": 57,
+        "l": 26,
+        "c": 89,
+        "u": 76,
+        "b": 24
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0589",
+      "relativePath": "sept.we3.2026/IMG_0589.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0589.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0589.webp",
+      "mtime": 1790004325936.4321,
+      "size": 1311789,
+      "color": {
+        "h": 60,
+        "s": 56,
+        "l": 30,
+        "c": 76,
+        "u": 63,
+        "b": 23
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0590",
+      "relativePath": "sept.we3.2026/IMG_0590.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0590.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0590.webp",
+      "mtime": 1790004326166.8284,
+      "size": 1649365,
+      "color": {
+        "h": 13,
+        "s": 52,
+        "l": 27,
+        "c": 96,
+        "u": 92,
+        "b": 26
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0591",
+      "relativePath": "sept.we3.2026/IMG_0591.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0591.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0591.webp",
+      "mtime": 1790004326496.317,
+      "size": 1523305,
+      "color": {
+        "h": 13,
+        "s": 56,
+        "l": 27,
+        "c": 97,
+        "u": 94,
+        "b": 28
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0592",
+      "relativePath": "sept.we3.2026/IMG_0592.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0592.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0592.webp",
+      "mtime": 1790004326891.7434,
+      "size": 3329906,
+      "color": {
+        "h": 205,
+        "s": 87,
+        "l": 71,
+        "c": 37,
+        "u": 26,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0593",
+      "relativePath": "sept.we3.2026/IMG_0593.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0593.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0593.webp",
+      "mtime": 1790004327243.8018,
+      "size": 2682218,
+      "color": {
+        "h": 202,
+        "s": 87,
+        "l": 78,
+        "c": 64,
+        "u": 36,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0596",
+      "relativePath": "sept.we3.2026/IMG_0596.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0596.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0596.webp",
+      "mtime": 1790004327549.5056,
+      "size": 2230062,
+      "color": {
+        "h": 217,
+        "s": 33,
+        "l": 65,
+        "c": 52,
+        "u": 40,
+        "b": 59
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0597",
+      "relativePath": "sept.we3.2026/IMG_0597.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0597.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0597.webp",
+      "mtime": 1790004327916.405,
+      "size": 2815005,
+      "color": {
+        "h": 221,
+        "s": 26,
+        "l": 61,
+        "c": 27,
+        "u": 19,
+        "b": 51
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0600",
+      "relativePath": "sept.we3.2026/IMG_0600.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0600.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0600.webp",
+      "mtime": 1790004328308.1538,
+      "size": 2989855,
+      "color": {
+        "h": 37,
+        "s": 29,
+        "l": 45,
+        "c": 57,
+        "u": 57,
+        "b": 43
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0601",
+      "relativePath": "sept.we3.2026/IMG_0601.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0601.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0601.webp",
+      "mtime": 1790004328615.6338,
+      "size": 2060258,
+      "color": {
+        "h": 203,
+        "s": 67,
+        "l": 77,
+        "c": 64,
+        "u": 43,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0603",
+      "relativePath": "sept.we3.2026/IMG_0603.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0603.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0603.webp",
+      "mtime": 1790004329063.342,
+      "size": 3858512,
+      "color": {
+        "h": 216,
+        "s": 21,
+        "l": 22,
+        "c": 19,
+        "u": 10,
+        "b": 44
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0604",
+      "relativePath": "sept.we3.2026/IMG_0604.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0604.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0604.webp",
+      "mtime": 1790004329526.3103,
+      "size": 3586057,
+      "color": {
+        "h": 32,
+        "s": 24,
+        "l": 69,
+        "c": 18,
+        "u": 16,
+        "b": 46
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0606",
+      "relativePath": "sept.we3.2026/IMG_0606.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0606.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0606.webp",
+      "mtime": 1790004329969.3103,
+      "size": 3351376,
+      "color": {
+        "h": 207,
+        "s": 38,
+        "l": 30,
+        "c": 53,
+        "u": 36,
+        "b": 43
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0609",
+      "relativePath": "sept.we3.2026/IMG_0609.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0609.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0609.webp",
+      "mtime": 1790004330350.9836,
+      "size": 2828846,
+      "color": {
+        "h": 198,
+        "s": 34,
+        "l": 55,
+        "c": 44,
+        "u": 42,
+        "b": 51
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0610",
+      "relativePath": "sept.we3.2026/IMG_0610.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0610.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0610.webp",
+      "mtime": 1790004330624.0132,
+      "size": 1794981,
+      "color": {
+        "h": 204,
+        "s": 44,
+        "l": 61,
+        "c": 66,
+        "u": 63,
+        "b": 55
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0613",
+      "relativePath": "sept.we3.2026/IMG_0613.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0613.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0613.webp",
+      "mtime": 1790004331100.5078,
+      "size": 3673186,
+      "color": {
+        "h": 206,
+        "s": 24,
+        "l": 27,
+        "c": 30,
+        "u": 17,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0614",
+      "relativePath": "sept.we3.2026/IMG_0614.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0614.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0614.webp",
+      "mtime": 1790004331486.5608,
+      "size": 2947567,
+      "color": {
+        "h": 20,
+        "s": 36,
+        "l": 43,
+        "c": 91,
+        "u": 90,
+        "b": 44
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0615",
+      "relativePath": "sept.we3.2026/IMG_0615.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0615.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0615.webp",
+      "mtime": 1790004331794.966,
+      "size": 2190126,
+      "color": {
+        "h": 359,
+        "s": 26,
+        "l": 52,
+        "c": 36,
+        "u": 16,
+        "b": 45
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0616",
+      "relativePath": "sept.we3.2026/IMG_0616.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0616.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0616.webp",
+      "mtime": 1790004332137.381,
+      "size": 2319491,
+      "color": {
+        "h": 355,
+        "s": 27,
+        "l": 52,
+        "c": 34,
+        "u": 26,
+        "b": 48
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0617",
+      "relativePath": "sept.we3.2026/IMG_0617.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0617.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0617.webp",
+      "mtime": 1790004332424.6138,
+      "size": 1973827,
+      "color": {
+        "h": 356,
+        "s": 28,
+        "l": 43,
+        "c": 56,
+        "u": 44,
+        "b": 42
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0618",
+      "relativePath": "sept.we3.2026/IMG_0618.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0618.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0618.webp",
+      "mtime": 1790004332803.0498,
+      "size": 1941754,
+      "color": {
+        "h": 204,
+        "s": 55,
+        "l": 56,
+        "c": 64,
+        "u": 33,
+        "b": 53
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0619",
+      "relativePath": "sept.we3.2026/IMG_0619.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0619.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0619.webp",
+      "mtime": 1790004333268.0925,
+      "size": 3001770,
+      "color": {
+        "h": 358,
+        "s": 32,
+        "l": 59,
+        "c": 57,
+        "u": 31,
+        "b": 46
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0620",
+      "relativePath": "sept.we3.2026/IMG_0620.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0620.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0620.webp",
+      "mtime": 1790004333611.1475,
+      "size": 2515235,
+      "color": {
+        "h": 3,
+        "s": 35,
+        "l": 59,
+        "c": 56,
+        "u": 30,
+        "b": 47
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0621",
+      "relativePath": "sept.we3.2026/IMG_0621.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0621.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0621.webp",
+      "mtime": 1790004334042.8975,
+      "size": 3336575,
+      "color": {
+        "h": 207,
+        "s": 68,
+        "l": 62,
+        "c": 37,
+        "u": 17,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0622",
+      "relativePath": "sept.we3.2026/IMG_0622.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0622.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0622.webp",
+      "mtime": 1790004334438.549,
+      "size": 2966717,
+      "color": {
+        "h": 205,
+        "s": 74,
+        "l": 62,
+        "c": 36,
+        "u": 13,
+        "b": 50
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0623",
+      "relativePath": "sept.we3.2026/IMG_0623.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0623.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0623.webp",
+      "mtime": 1790004334864.7847,
+      "size": 3312005,
+      "color": {
+        "h": 203,
+        "s": 59,
+        "l": 53,
+        "c": 61,
+        "u": 29,
+        "b": 51
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0626",
+      "relativePath": "sept.we3.2026/IMG_0626.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0626.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0626.webp",
+      "mtime": 1790004335212.2727,
+      "size": 2445175,
+      "color": {
+        "h": 203,
+        "s": 90,
+        "l": 68,
+        "c": 49,
+        "u": 47,
+        "b": 65
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0628",
+      "relativePath": "sept.we3.2026/IMG_0628.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0628.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0628.webp",
+      "mtime": 1790004335575.547,
+      "size": 2992483,
+      "color": {
+        "h": 52,
+        "s": 43,
+        "l": 62,
+        "c": 45,
+        "u": 37,
+        "b": 46
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0630",
+      "relativePath": "sept.we3.2026/IMG_0630.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0630.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0630.webp",
+      "mtime": 1790004335942.3909,
+      "size": 2822654,
+      "color": {
+        "h": 201,
+        "s": 97,
+        "l": 80,
+        "c": 82,
+        "u": 42,
+        "b": 54
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0631",
+      "relativePath": "sept.we3.2026/IMG_0631.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0631.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0631.webp",
+      "mtime": 1790004336328.8938,
+      "size": 2857245,
+      "color": {
+        "h": 200,
+        "s": 88,
+        "l": 80,
+        "c": 77,
+        "u": 30,
+        "b": 49
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0632",
+      "relativePath": "sept.we3.2026/IMG_0632.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0632.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0632.webp",
+      "mtime": 1790004336673.471,
+      "size": 2355330,
+      "color": {
+        "h": 73,
+        "s": 24,
+        "l": 56,
+        "c": 41,
+        "u": 32,
+        "b": 53
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0633",
+      "relativePath": "sept.we3.2026/IMG_0633.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0633.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0633.webp",
+      "mtime": 1790004336964.8027,
+      "size": 2023043,
+      "color": {
+        "h": 193,
+        "s": 28,
+        "l": 38,
+        "c": 59,
+        "u": 33,
+        "b": 44
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0634",
+      "relativePath": "sept.we3.2026/IMG_0634.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0634.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0634.webp",
+      "mtime": 1790004337220.9475,
+      "size": 1823879,
+      "color": {
+        "h": 200,
+        "s": 38,
+        "l": 68,
+        "c": 53,
+        "u": 37,
+        "b": 46
+      }
+    },
+    {
+      "album": "sept.we3.2026",
+      "title": "IMG 0635",
+      "relativePath": "sept.we3.2026/IMG_0635.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/sept.we3.2026--IMG_0635.JPG",
+      "thumbSrc": "thumbnails/sept.we3.2026/IMG_0635.webp",
+      "mtime": 1790004337471.8657,
+      "size": 1824180,
+      "color": {
+        "h": 202,
+        "s": 43,
+        "l": 81,
+        "c": 54,
+        "u": 48,
+        "b": 58
       }
     },
     {
