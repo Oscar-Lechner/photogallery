@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T15:40:46.485Z",
-  "count": 1912,
+  "generatedAt": "2026-10-11T19:02:19.942Z",
+  "count": 2031,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -20,6 +20,7 @@
     "crested butte": "2026-07-12T21:07:46.000Z",
     "flowers collection": "2026-07-25T23:07:34.910Z",
     "Grays and Torreys": "2026-07-30T21:16:59.113Z",
+    "jigitz and more": "2026-10-11T18:56:17.845Z",
     "neighborhood flowers": "2026-08-05T20:57:55.523Z",
     "sept.we3.2026": "2026-09-21T15:25:37.471Z",
     "steamboat 2026": "2026-08-31T18:40:16.129Z"
@@ -43,6 +44,7 @@
     "crested butte": "Crested Butte",
     "flowers collection": "Flowers Collection",
     "Grays and Torreys": "Grays And Torreys",
+    "jigitz and more": "Jigitz And More",
     "neighborhood flowers": "Neighborhood Flowers",
     "sept.we3.2026": "Sept.We 3.2026",
     "steamboat 2026": "Steamboat 2026"
@@ -15771,6 +15773,2029 @@
         "c": 77,
         "u": 41,
         "b": 28
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0646",
+      "relativePath": "jigitz and more/IMG_0646.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0646.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0646.webp",
+      "mtime": 1791744946022.1985,
+      "size": 2040370,
+      "color": {
+        "h": 200,
+        "s": 48,
+        "l": 42,
+        "c": 85,
+        "u": 85,
+        "b": 40
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0647",
+      "relativePath": "jigitz and more/IMG_0647.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0647.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0647.webp",
+      "mtime": 1791744946277.767,
+      "size": 1472227,
+      "color": {
+        "h": 210,
+        "s": 23,
+        "l": 59,
+        "c": 32,
+        "u": 30,
+        "b": 45
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0648",
+      "relativePath": "jigitz and more/IMG_0648.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0648.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0648.webp",
+      "mtime": 1791744946593.2896,
+      "size": 2022017,
+      "color": {
+        "h": 25,
+        "s": 32,
+        "l": 37,
+        "c": 40,
+        "u": 26,
+        "b": 33
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0649",
+      "relativePath": "jigitz and more/IMG_0649.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0649.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0649.webp",
+      "mtime": 1791744946989.3042,
+      "size": 1698168,
+      "color": {
+        "h": 20,
+        "s": 45,
+        "l": 51,
+        "c": 40,
+        "u": 38,
+        "b": 37
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0650",
+      "relativePath": "jigitz and more/IMG_0650.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0650.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0650.webp",
+      "mtime": 1791744947303.7214,
+      "size": 1874559,
+      "color": {
+        "h": 26,
+        "s": 38,
+        "l": 45,
+        "c": 34,
+        "u": 34,
+        "b": 42
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0651",
+      "relativePath": "jigitz and more/IMG_0651.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0651.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0651.webp",
+      "mtime": 1791744947623.417,
+      "size": 1922908,
+      "color": {
+        "h": 34,
+        "s": 36,
+        "l": 52,
+        "c": 54,
+        "u": 37,
+        "b": 55
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0652",
+      "relativePath": "jigitz and more/IMG_0652.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0652.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0652.webp",
+      "mtime": 1791744947915.686,
+      "size": 1817950,
+      "color": {
+        "h": 220,
+        "s": 35,
+        "l": 44,
+        "c": 20,
+        "u": 10,
+        "b": 29
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0653",
+      "relativePath": "jigitz and more/IMG_0653.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0653.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0653.webp",
+      "mtime": 1791744948267.1848,
+      "size": 2255961,
+      "color": {
+        "h": 25,
+        "s": 45,
+        "l": 46,
+        "c": 71,
+        "u": 39,
+        "b": 41
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0654",
+      "relativePath": "jigitz and more/IMG_0654.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0654.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0654.webp",
+      "mtime": 1791744948750.6655,
+      "size": 2593318,
+      "color": {
+        "h": 2,
+        "s": 25,
+        "l": 46,
+        "c": 13,
+        "u": 12,
+        "b": 43
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0655",
+      "relativePath": "jigitz and more/IMG_0655.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0655.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0655.webp",
+      "mtime": 1791744949083.7664,
+      "size": 1944824,
+      "color": {
+        "h": 16,
+        "s": 34,
+        "l": 42,
+        "c": 40,
+        "u": 32,
+        "b": 35
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0656",
+      "relativePath": "jigitz and more/IMG_0656.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0656.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0656.webp",
+      "mtime": 1791744949432.4644,
+      "size": 2131704,
+      "color": {
+        "h": 16,
+        "s": 34,
+        "l": 42,
+        "c": 48,
+        "u": 39,
+        "b": 42
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0657",
+      "relativePath": "jigitz and more/IMG_0657.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0657.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0657.webp",
+      "mtime": 1791744949746.8435,
+      "size": 2041531,
+      "color": {
+        "h": 12,
+        "s": 29,
+        "l": 43,
+        "c": 33,
+        "u": 24,
+        "b": 36
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0658",
+      "relativePath": "jigitz and more/IMG_0658.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0658.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0658.webp",
+      "mtime": 1791744950017.4966,
+      "size": 1411177,
+      "color": {
+        "h": 20,
+        "s": 38,
+        "l": 16,
+        "c": 54,
+        "u": 42,
+        "b": 13
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0659",
+      "relativePath": "jigitz and more/IMG_0659.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0659.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0659.webp",
+      "mtime": 1791744950240.2185,
+      "size": 1336526,
+      "color": {
+        "h": 20,
+        "s": 38,
+        "l": 15,
+        "c": 55,
+        "u": 45,
+        "b": 11
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0660",
+      "relativePath": "jigitz and more/IMG_0660.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0660.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0660.webp",
+      "mtime": 1791744950509.7507,
+      "size": 1516431,
+      "color": {
+        "h": 33,
+        "s": 43,
+        "l": 19,
+        "c": 79,
+        "u": 63,
+        "b": 18
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0661",
+      "relativePath": "jigitz and more/IMG_0661.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0661.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0661.webp",
+      "mtime": 1791744950993.8208,
+      "size": 2106331,
+      "color": {
+        "h": 10,
+        "s": 38,
+        "l": 44,
+        "c": 52,
+        "u": 47,
+        "b": 39
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0662",
+      "relativePath": "jigitz and more/IMG_0662.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0662.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0662.webp",
+      "mtime": 1791744951303.2156,
+      "size": 2196909,
+      "color": {
+        "h": 12,
+        "s": 30,
+        "l": 48,
+        "c": 41,
+        "u": 33,
+        "b": 42
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0663",
+      "relativePath": "jigitz and more/IMG_0663.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0663.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0663.webp",
+      "mtime": 1791744951546.3584,
+      "size": 1757901,
+      "color": {
+        "h": 2,
+        "s": 35,
+        "l": 49,
+        "c": 77,
+        "u": 77,
+        "b": 44
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0664",
+      "relativePath": "jigitz and more/IMG_0664.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0664.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0664.webp",
+      "mtime": 1791744951785.7476,
+      "size": 1871398,
+      "color": {
+        "h": 13,
+        "s": 34,
+        "l": 61,
+        "c": 23,
+        "u": 23,
+        "b": 47
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0665",
+      "relativePath": "jigitz and more/IMG_0665.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0665.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0665.webp",
+      "mtime": 1791744952028.7075,
+      "size": 1884746,
+      "color": {
+        "h": 12,
+        "s": 47,
+        "l": 67,
+        "c": 25,
+        "u": 25,
+        "b": 53
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0666",
+      "relativePath": "jigitz and more/IMG_0666.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0666.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0666.webp",
+      "mtime": 1791744952277.9783,
+      "size": 1872279,
+      "color": {
+        "h": 133,
+        "s": 67,
+        "l": 76,
+        "c": 65,
+        "u": 20,
+        "b": 62
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0667",
+      "relativePath": "jigitz and more/IMG_0667.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0667.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0667.webp",
+      "mtime": 1791744952557.6328,
+      "size": 2217409,
+      "color": {
+        "h": 6,
+        "s": 35,
+        "l": 58,
+        "c": 22,
+        "u": 22,
+        "b": 44
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0668",
+      "relativePath": "jigitz and more/IMG_0668.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0668.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0668.webp",
+      "mtime": 1791744952811.7078,
+      "size": 1918216,
+      "color": {
+        "h": 233,
+        "s": 45,
+        "l": 53,
+        "c": 74,
+        "u": 43,
+        "b": 50
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0669",
+      "relativePath": "jigitz and more/IMG_0669.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0669.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0669.webp",
+      "mtime": 1791744953072.7996,
+      "size": 1848978,
+      "color": {
+        "h": 25,
+        "s": 48,
+        "l": 70,
+        "c": 18,
+        "u": 17,
+        "b": 49
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0670",
+      "relativePath": "jigitz and more/IMG_0670.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0670.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0670.webp",
+      "mtime": 1791744953302.797,
+      "size": 1714865,
+      "color": {
+        "h": 11,
+        "s": 29,
+        "l": 70,
+        "c": 11,
+        "u": 11,
+        "b": 53
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0671",
+      "relativePath": "jigitz and more/IMG_0671.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0671.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0671.webp",
+      "mtime": 1791744953515.5164,
+      "size": 1585066,
+      "color": {
+        "h": 5,
+        "s": 27,
+        "l": 62,
+        "c": 21,
+        "u": 21,
+        "b": 54
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0672",
+      "relativePath": "jigitz and more/IMG_0672.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0672.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0672.webp",
+      "mtime": 1791744953759.5532,
+      "size": 1959644,
+      "color": {
+        "h": 17,
+        "s": 48,
+        "l": 66,
+        "c": 29,
+        "u": 18,
+        "b": 53
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0673",
+      "relativePath": "jigitz and more/IMG_0673.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-2/jigitz.and.more--IMG_0673.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0673.webp",
+      "mtime": 1791744954005.5984,
+      "size": 1760476,
+      "color": {
+        "h": 3,
+        "s": 26,
+        "l": 55,
+        "c": 11,
+        "u": 11,
+        "b": 42
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0674",
+      "relativePath": "jigitz and more/IMG_0674.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0674.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0674.webp",
+      "mtime": 1791744954252.6526,
+      "size": 1920229,
+      "color": {
+        "h": 221,
+        "s": 42,
+        "l": 47,
+        "c": 47,
+        "u": 28,
+        "b": 52
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0675",
+      "relativePath": "jigitz and more/IMG_0675.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0675.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0675.webp",
+      "mtime": 1791744954521.352,
+      "size": 2029891,
+      "color": {
+        "h": 220,
+        "s": 39,
+        "l": 55,
+        "c": 50,
+        "u": 26,
+        "b": 56
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0676",
+      "relativePath": "jigitz and more/IMG_0676.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0676.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0676.webp",
+      "mtime": 1791744954802.958,
+      "size": 2132832,
+      "color": {
+        "h": 26,
+        "s": 51,
+        "l": 67,
+        "c": 31,
+        "u": 19,
+        "b": 56
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0677",
+      "relativePath": "jigitz and more/IMG_0677.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0677.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0677.webp",
+      "mtime": 1791744955291.8367,
+      "size": 2126819,
+      "color": {
+        "h": 225,
+        "s": 30,
+        "l": 55,
+        "c": 60,
+        "u": 37,
+        "b": 56
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0678",
+      "relativePath": "jigitz and more/IMG_0678.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0678.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0678.webp",
+      "mtime": 1791744955519.5947,
+      "size": 1748897,
+      "color": {
+        "h": 359,
+        "s": 25,
+        "l": 67,
+        "c": 7,
+        "u": 6,
+        "b": 53
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0679",
+      "relativePath": "jigitz and more/IMG_0679.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0679.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0679.webp",
+      "mtime": 1791744955763.5825,
+      "size": 1865157,
+      "color": {
+        "h": 10,
+        "s": 37,
+        "l": 71,
+        "c": 30,
+        "u": 29,
+        "b": 54
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0680",
+      "relativePath": "jigitz and more/IMG_0680.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0680.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0680.webp",
+      "mtime": 1791744956023.5908,
+      "size": 1995886,
+      "color": {
+        "h": 5,
+        "s": 44,
+        "l": 69,
+        "c": 24,
+        "u": 23,
+        "b": 52
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0681",
+      "relativePath": "jigitz and more/IMG_0681.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0681.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0681.webp",
+      "mtime": 1791744956266.303,
+      "size": 1814364,
+      "color": {
+        "h": 350,
+        "s": 34,
+        "l": 70,
+        "c": 19,
+        "u": 17,
+        "b": 58
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0682",
+      "relativePath": "jigitz and more/IMG_0682.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0682.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0682.webp",
+      "mtime": 1791744956548.1306,
+      "size": 2309232,
+      "color": {
+        "h": 10,
+        "s": 38,
+        "l": 54,
+        "c": 75,
+        "u": 73,
+        "b": 51
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0683",
+      "relativePath": "jigitz and more/IMG_0683.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0683.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0683.webp",
+      "mtime": 1791744956853.069,
+      "size": 1878008,
+      "color": {
+        "h": 12,
+        "s": 35,
+        "l": 45,
+        "c": 55,
+        "u": 54,
+        "b": 34
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0684",
+      "relativePath": "jigitz and more/IMG_0684.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0684.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0684.webp",
+      "mtime": 1791744957096.7854,
+      "size": 1860952,
+      "color": {
+        "h": 20,
+        "s": 50,
+        "l": 50,
+        "c": 54,
+        "u": 44,
+        "b": 34
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0685",
+      "relativePath": "jigitz and more/IMG_0685.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0685.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0685.webp",
+      "mtime": 1791744957324.6663,
+      "size": 1741130,
+      "color": {
+        "h": 12,
+        "s": 37,
+        "l": 50,
+        "c": 49,
+        "u": 46,
+        "b": 36
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0686",
+      "relativePath": "jigitz and more/IMG_0686.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0686.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0686.webp",
+      "mtime": 1791744957603.6663,
+      "size": 2081992,
+      "color": {
+        "h": 9,
+        "s": 37,
+        "l": 45,
+        "c": 59,
+        "u": 58,
+        "b": 38
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0687",
+      "relativePath": "jigitz and more/IMG_0687.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0687.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0687.webp",
+      "mtime": 1791744957825.7324,
+      "size": 1592966,
+      "color": {
+        "h": 32,
+        "s": 34,
+        "l": 40,
+        "c": 43,
+        "u": 43,
+        "b": 29
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0688",
+      "relativePath": "jigitz and more/IMG_0688.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0688.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0688.webp",
+      "mtime": 1791744958060.7295,
+      "size": 1786627,
+      "color": {
+        "h": 31,
+        "s": 33,
+        "l": 54,
+        "c": 41,
+        "u": 40,
+        "b": 42
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0689",
+      "relativePath": "jigitz and more/IMG_0689.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0689.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0689.webp",
+      "mtime": 1791744958292.1194,
+      "size": 1769894,
+      "color": {
+        "h": 44,
+        "s": 47,
+        "l": 78,
+        "c": 11,
+        "u": 7,
+        "b": 58
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0690",
+      "relativePath": "jigitz and more/IMG_0690.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0690.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0690.webp",
+      "mtime": 1791744958543.8513,
+      "size": 1959327,
+      "color": {
+        "h": 50,
+        "s": 49,
+        "l": 76,
+        "c": 29,
+        "u": 14,
+        "b": 61
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0691",
+      "relativePath": "jigitz and more/IMG_0691.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0691.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0691.webp",
+      "mtime": 1791744958801.4658,
+      "size": 1809130,
+      "color": {
+        "h": 358,
+        "s": 27,
+        "l": 60,
+        "c": 14,
+        "u": 14,
+        "b": 48
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0692",
+      "relativePath": "jigitz and more/IMG_0692.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0692.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0692.webp",
+      "mtime": 1791744959048.876,
+      "size": 1936948,
+      "color": {
+        "h": 1,
+        "s": 50,
+        "l": 61,
+        "c": 55,
+        "u": 23,
+        "b": 56
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0693",
+      "relativePath": "jigitz and more/IMG_0693.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0693.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0693.webp",
+      "mtime": 1791744959544.9531,
+      "size": 1904555,
+      "color": {
+        "h": 225,
+        "s": 38,
+        "l": 60,
+        "c": 64,
+        "u": 33,
+        "b": 56
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0694",
+      "relativePath": "jigitz and more/IMG_0694.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0694.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0694.webp",
+      "mtime": 1791744959807.6948,
+      "size": 1951125,
+      "color": {
+        "h": 230,
+        "s": 37,
+        "l": 59,
+        "c": 63,
+        "u": 33,
+        "b": 54
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0695",
+      "relativePath": "jigitz and more/IMG_0695.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0695.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0695.webp",
+      "mtime": 1791744960401.0496,
+      "size": 1909602,
+      "color": {
+        "h": 5,
+        "s": 39,
+        "l": 65,
+        "c": 25,
+        "u": 20,
+        "b": 53
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0696",
+      "relativePath": "jigitz and more/IMG_0696.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0696.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0696.webp",
+      "mtime": 1791744960631.809,
+      "size": 1716156,
+      "color": {
+        "h": 359,
+        "s": 42,
+        "l": 68,
+        "c": 26,
+        "u": 15,
+        "b": 55
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0697",
+      "relativePath": "jigitz and more/IMG_0697.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0697.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0697.webp",
+      "mtime": 1791744961001.5334,
+      "size": 1899065,
+      "color": {
+        "h": 0,
+        "s": 33,
+        "l": 58,
+        "c": 44,
+        "u": 36,
+        "b": 52
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0698",
+      "relativePath": "jigitz and more/IMG_0698.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0698.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0698.webp",
+      "mtime": 1791744961264.5698,
+      "size": 1873917,
+      "color": {
+        "h": 212,
+        "s": 38,
+        "l": 57,
+        "c": 62,
+        "u": 51,
+        "b": 61
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0699",
+      "relativePath": "jigitz and more/IMG_0699.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0699.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0699.webp",
+      "mtime": 1791744961518.5308,
+      "size": 1877328,
+      "color": {
+        "h": 220,
+        "s": 48,
+        "l": 57,
+        "c": 73,
+        "u": 46,
+        "b": 57
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0700",
+      "relativePath": "jigitz and more/IMG_0700.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0700.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0700.webp",
+      "mtime": 1791744961876.804,
+      "size": 1963576,
+      "color": {
+        "h": 240,
+        "s": 36,
+        "l": 53,
+        "c": 57,
+        "u": 28,
+        "b": 55
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0701",
+      "relativePath": "jigitz and more/IMG_0701.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0701.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0701.webp",
+      "mtime": 1791744962113.542,
+      "size": 1712403,
+      "color": {
+        "h": 353,
+        "s": 40,
+        "l": 50,
+        "c": 67,
+        "u": 32,
+        "b": 52
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0702",
+      "relativePath": "jigitz and more/IMG_0702.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0702.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0702.webp",
+      "mtime": 1791744962373.093,
+      "size": 2066217,
+      "color": {
+        "h": 1,
+        "s": 57,
+        "l": 61,
+        "c": 59,
+        "u": 24,
+        "b": 55
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0703",
+      "relativePath": "jigitz and more/IMG_0703.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0703.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0703.webp",
+      "mtime": 1791744962688.6567,
+      "size": 1826675,
+      "color": {
+        "h": 20,
+        "s": 42,
+        "l": 71,
+        "c": 24,
+        "u": 23,
+        "b": 58
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0704",
+      "relativePath": "jigitz and more/IMG_0704.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0704.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0704.webp",
+      "mtime": 1791744962986.62,
+      "size": 1485030,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 57,
+        "c": 3,
+        "u": 0,
+        "b": 57
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0705",
+      "relativePath": "jigitz and more/IMG_0705.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0705.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0705.webp",
+      "mtime": 1791744963352.048,
+      "size": 1794758,
+      "color": {
+        "h": 218,
+        "s": 52,
+        "l": 70,
+        "c": 50,
+        "u": 20,
+        "b": 59
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0706",
+      "relativePath": "jigitz and more/IMG_0706.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0706.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0706.webp",
+      "mtime": 1791744963688.3735,
+      "size": 1553717,
+      "color": {
+        "h": 165,
+        "s": 29,
+        "l": 55,
+        "c": 33,
+        "u": 33,
+        "b": 54
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0707",
+      "relativePath": "jigitz and more/IMG_0707.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0707.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0707.webp",
+      "mtime": 1791744963902.2966,
+      "size": 1529289,
+      "color": {
+        "h": 18,
+        "s": 30,
+        "l": 62,
+        "c": 40,
+        "u": 40,
+        "b": 56
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0708",
+      "relativePath": "jigitz and more/IMG_0708.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0708.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0708.webp",
+      "mtime": 1791744964118.6558,
+      "size": 1465647,
+      "color": {
+        "h": 359,
+        "s": 23,
+        "l": 64,
+        "c": 23,
+        "u": 22,
+        "b": 59
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0709",
+      "relativePath": "jigitz and more/IMG_0709.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0709.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0709.webp",
+      "mtime": 1791744964397.3567,
+      "size": 2251559,
+      "color": {
+        "h": 29,
+        "s": 37,
+        "l": 37,
+        "c": 71,
+        "u": 67,
+        "b": 37
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0710",
+      "relativePath": "jigitz and more/IMG_0710.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0710.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0710.webp",
+      "mtime": 1791744964625.6494,
+      "size": 1600980,
+      "color": {
+        "h": 28,
+        "s": 35,
+        "l": 28,
+        "c": 44,
+        "u": 41,
+        "b": 19
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0711",
+      "relativePath": "jigitz and more/IMG_0711.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0711.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0711.webp",
+      "mtime": 1791744964864.751,
+      "size": 1823482,
+      "color": {
+        "h": 40,
+        "s": 32,
+        "l": 29,
+        "c": 66,
+        "u": 50,
+        "b": 23
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0712",
+      "relativePath": "jigitz and more/IMG_0712.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0712.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0712.webp",
+      "mtime": 1791744965116.3242,
+      "size": 1982699,
+      "color": {
+        "h": 31,
+        "s": 25,
+        "l": 52,
+        "c": 37,
+        "u": 34,
+        "b": 43
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0713",
+      "relativePath": "jigitz and more/IMG_0713.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0713.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0713.webp",
+      "mtime": 1791744965422.4636,
+      "size": 2321903,
+      "color": {
+        "h": 32,
+        "s": 35,
+        "l": 54,
+        "c": 62,
+        "u": 62,
+        "b": 45
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0714",
+      "relativePath": "jigitz and more/IMG_0714.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0714.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0714.webp",
+      "mtime": 1791744965744.9392,
+      "size": 1802596,
+      "color": {
+        "h": 30,
+        "s": 44,
+        "l": 43,
+        "c": 43,
+        "u": 39,
+        "b": 30
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0715",
+      "relativePath": "jigitz and more/IMG_0715.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0715.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0715.webp",
+      "mtime": 1791744965984.813,
+      "size": 1776630,
+      "color": {
+        "h": 11,
+        "s": 37,
+        "l": 23,
+        "c": 68,
+        "u": 58,
+        "b": 20
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0716",
+      "relativePath": "jigitz and more/IMG_0716.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0716.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0716.webp",
+      "mtime": 1791744966205.2925,
+      "size": 1632585,
+      "color": {
+        "h": 32,
+        "s": 39,
+        "l": 17,
+        "c": 58,
+        "u": 52,
+        "b": 14
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0717",
+      "relativePath": "jigitz and more/IMG_0717.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0717.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0717.webp",
+      "mtime": 1791744966450.8242,
+      "size": 1822886,
+      "color": {
+        "h": 7,
+        "s": 25,
+        "l": 24,
+        "c": 12,
+        "u": 10,
+        "b": 46
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0718",
+      "relativePath": "jigitz and more/IMG_0718.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0718.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0718.webp",
+      "mtime": 1791744966687.8274,
+      "size": 1784317,
+      "color": {
+        "h": 8,
+        "s": 26,
+        "l": 32,
+        "c": 18,
+        "u": 16,
+        "b": 46
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0719",
+      "relativePath": "jigitz and more/IMG_0719.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0719.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0719.webp",
+      "mtime": 1791744966891.2761,
+      "size": 1436447,
+      "color": {
+        "h": 13,
+        "s": 27,
+        "l": 39,
+        "c": 30,
+        "u": 25,
+        "b": 49
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0720",
+      "relativePath": "jigitz and more/IMG_0720.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0720.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0720.webp",
+      "mtime": 1791744967122.087,
+      "size": 1795858,
+      "color": {
+        "h": 19,
+        "s": 40,
+        "l": 58,
+        "c": 27,
+        "u": 13,
+        "b": 47
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0721",
+      "relativePath": "jigitz and more/IMG_0721.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0721.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0721.webp",
+      "mtime": 1791744967448.3855,
+      "size": 1757893,
+      "color": {
+        "h": 88,
+        "s": 22,
+        "l": 26,
+        "c": 39,
+        "u": 23,
+        "b": 42
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0722",
+      "relativePath": "jigitz and more/IMG_0722.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0722.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0722.webp",
+      "mtime": 1791744967666.2761,
+      "size": 1668550,
+      "color": {
+        "h": 10,
+        "s": 24,
+        "l": 49,
+        "c": 31,
+        "u": 19,
+        "b": 51
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0723",
+      "relativePath": "jigitz and more/IMG_0723.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0723.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0723.webp",
+      "mtime": 1791744968063.7634,
+      "size": 2166805,
+      "color": {
+        "h": 4,
+        "s": 40,
+        "l": 65,
+        "c": 43,
+        "u": 23,
+        "b": 52
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0724",
+      "relativePath": "jigitz and more/IMG_0724.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0724.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0724.webp",
+      "mtime": 1791744968327.5308,
+      "size": 1748880,
+      "color": {
+        "h": 5,
+        "s": 33,
+        "l": 53,
+        "c": 30,
+        "u": 30,
+        "b": 64
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0725",
+      "relativePath": "jigitz and more/IMG_0725.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0725.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0725.webp",
+      "mtime": 1791744968554.5947,
+      "size": 1679930,
+      "color": {
+        "h": 214,
+        "s": 29,
+        "l": 69,
+        "c": 54,
+        "u": 36,
+        "b": 52
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0726",
+      "relativePath": "jigitz and more/IMG_0726.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0726.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0726.webp",
+      "mtime": 1791744968781.337,
+      "size": 1675668,
+      "color": {
+        "h": 15,
+        "s": 41,
+        "l": 51,
+        "c": 71,
+        "u": 45,
+        "b": 50
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0727",
+      "relativePath": "jigitz and more/IMG_0727.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0727.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0727.webp",
+      "mtime": 1791744968977.501,
+      "size": 1435721,
+      "color": {
+        "h": 15,
+        "s": 40,
+        "l": 50,
+        "c": 64,
+        "u": 38,
+        "b": 49
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0728",
+      "relativePath": "jigitz and more/IMG_0728.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0728.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0728.webp",
+      "mtime": 1791744969176.639,
+      "size": 1508011,
+      "color": {
+        "h": 16,
+        "s": 32,
+        "l": 40,
+        "c": 70,
+        "u": 38,
+        "b": 49
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0729",
+      "relativePath": "jigitz and more/IMG_0729.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0729.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0729.webp",
+      "mtime": 1791744969390.0103,
+      "size": 1647465,
+      "color": {
+        "h": 12,
+        "s": 42,
+        "l": 49,
+        "c": 67,
+        "u": 39,
+        "b": 51
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0730",
+      "relativePath": "jigitz and more/IMG_0730.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0730.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0730.webp",
+      "mtime": 1791744969660.589,
+      "size": 2048440,
+      "color": {
+        "h": 214,
+        "s": 35,
+        "l": 63,
+        "c": 75,
+        "u": 45,
+        "b": 53
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0731",
+      "relativePath": "jigitz and more/IMG_0731.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0731.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0731.webp",
+      "mtime": 1791744969896.0137,
+      "size": 1660004,
+      "color": {
+        "h": 352,
+        "s": 29,
+        "l": 26,
+        "c": 19,
+        "u": 14,
+        "b": 48
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0732",
+      "relativePath": "jigitz and more/IMG_0732.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0732.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0732.webp",
+      "mtime": 1791744970065.3337,
+      "size": 1125313,
+      "color": {
+        "h": 60,
+        "s": 20,
+        "l": 4,
+        "c": 14,
+        "u": 13,
+        "b": 5
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0733",
+      "relativePath": "jigitz and more/IMG_0733.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0733.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0733.webp",
+      "mtime": 1791744970254.7876,
+      "size": 1365486,
+      "color": {
+        "h": 20,
+        "s": 27,
+        "l": 18,
+        "c": 42,
+        "u": 29,
+        "b": 24
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0734",
+      "relativePath": "jigitz and more/IMG_0734.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0734.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0734.webp",
+      "mtime": 1791744970439.529,
+      "size": 1390738,
+      "color": {
+        "h": 20,
+        "s": 26,
+        "l": 17,
+        "c": 45,
+        "u": 39,
+        "b": 34
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0735",
+      "relativePath": "jigitz and more/IMG_0735.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0735.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0735.webp",
+      "mtime": 1791744970643.2725,
+      "size": 1394824,
+      "color": {
+        "h": 20,
+        "s": 20,
+        "l": 13,
+        "c": 18,
+        "u": 17,
+        "b": 31
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0736",
+      "relativePath": "jigitz and more/IMG_0736.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0736.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0736.webp",
+      "mtime": 1791744970799.9287,
+      "size": 960213,
+      "color": {
+        "h": 44,
+        "s": 29,
+        "l": 13,
+        "c": 79,
+        "u": 71,
+        "b": 12
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0737",
+      "relativePath": "jigitz and more/IMG_0737.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0737.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0737.webp",
+      "mtime": 1791744970976.2788,
+      "size": 1242028,
+      "color": {
+        "h": 20,
+        "s": 24,
+        "l": 8,
+        "c": 18,
+        "u": 9,
+        "b": 12
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0738",
+      "relativePath": "jigitz and more/IMG_0738.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0738.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0738.webp",
+      "mtime": 1791744971170.2183,
+      "size": 1258447,
+      "color": {
+        "h": 60,
+        "s": 20,
+        "l": 4,
+        "c": 22,
+        "u": 15,
+        "b": 7
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0739",
+      "relativePath": "jigitz and more/IMG_0739.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0739.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0739.webp",
+      "mtime": 1791744971366.7468,
+      "size": 1407626,
+      "color": {
+        "h": 60,
+        "s": 24,
+        "l": 4,
+        "c": 37,
+        "u": 23,
+        "b": 9
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0740",
+      "relativePath": "jigitz and more/IMG_0740.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0740.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0740.webp",
+      "mtime": 1791744971577.6638,
+      "size": 1418039,
+      "color": {
+        "h": 80,
+        "s": 19,
+        "l": 5,
+        "c": 35,
+        "u": 27,
+        "b": 6
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0741",
+      "relativePath": "jigitz and more/IMG_0741.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0741.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0741.webp",
+      "mtime": 1791744971868.6062,
+      "size": 2152289,
+      "color": {
+        "h": 60,
+        "s": 21,
+        "l": 6,
+        "c": 44,
+        "u": 35,
+        "b": 10
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0742",
+      "relativePath": "jigitz and more/IMG_0742.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0742.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0742.webp",
+      "mtime": 1791744972227.3118,
+      "size": 1842863,
+      "color": {
+        "h": 14,
+        "s": 26,
+        "l": 35,
+        "c": 18,
+        "u": 15,
+        "b": 46
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0743",
+      "relativePath": "jigitz and more/IMG_0743.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0743.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0743.webp",
+      "mtime": 1791744972516.162,
+      "size": 2061024,
+      "color": {
+        "h": 20,
+        "s": 32,
+        "l": 38,
+        "c": 54,
+        "u": 45,
+        "b": 45
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0744",
+      "relativePath": "jigitz and more/IMG_0744.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0744.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0744.webp",
+      "mtime": 1791744972769.501,
+      "size": 1519702,
+      "color": {
+        "h": 25,
+        "s": 26,
+        "l": 22,
+        "c": 42,
+        "u": 38,
+        "b": 18
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0745",
+      "relativePath": "jigitz and more/IMG_0745.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0745.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0745.webp",
+      "mtime": 1791744973033.5986,
+      "size": 2010838,
+      "color": {
+        "h": 10,
+        "s": 45,
+        "l": 35,
+        "c": 52,
+        "u": 50,
+        "b": 31
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0746",
+      "relativePath": "jigitz and more/IMG_0746.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0746.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0746.webp",
+      "mtime": 1791744973246.7615,
+      "size": 1377554,
+      "color": {
+        "h": 345,
+        "s": 68,
+        "l": 14,
+        "c": 88,
+        "u": 55,
+        "b": 14
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0747",
+      "relativePath": "jigitz and more/IMG_0747.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0747.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0747.webp",
+      "mtime": 1791744973452.51,
+      "size": 1246697,
+      "color": {
+        "h": 240,
+        "s": 60,
+        "l": 14,
+        "c": 68,
+        "u": 47,
+        "b": 10
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0748",
+      "relativePath": "jigitz and more/IMG_0748.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0748.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0748.webp",
+      "mtime": 1791744973708.5837,
+      "size": 1657557,
+      "color": {
+        "h": 26,
+        "s": 28,
+        "l": 40,
+        "c": 26,
+        "u": 23,
+        "b": 40
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0749",
+      "relativePath": "jigitz and more/IMG_0749.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0749.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0749.webp",
+      "mtime": 1791744974022.5437,
+      "size": 1374410,
+      "color": {
+        "h": 240,
+        "s": 57,
+        "l": 12,
+        "c": 82,
+        "u": 35,
+        "b": 9
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0750",
+      "relativePath": "jigitz and more/IMG_0750.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0750.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0750.webp",
+      "mtime": 1791744974262.6602,
+      "size": 1722687,
+      "color": {
+        "h": 10,
+        "s": 26,
+        "l": 43,
+        "c": 45,
+        "u": 44,
+        "b": 33
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0751",
+      "relativePath": "jigitz and more/IMG_0751.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0751.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0751.webp",
+      "mtime": 1791744974552.6997,
+      "size": 2175333,
+      "color": {
+        "h": 13,
+        "s": 25,
+        "l": 42,
+        "c": 33,
+        "u": 31,
+        "b": 37
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0752",
+      "relativePath": "jigitz and more/IMG_0752.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0752.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0752.webp",
+      "mtime": 1791744974774.6812,
+      "size": 1036486,
+      "color": {
+        "h": 240,
+        "s": 48,
+        "l": 6,
+        "c": 73,
+        "u": 70,
+        "b": 4
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0753",
+      "relativePath": "jigitz and more/IMG_0753.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0753.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0753.webp",
+      "mtime": 1791744975031.9775,
+      "size": 1283837,
+      "color": {
+        "h": 350,
+        "s": 49,
+        "l": 11,
+        "c": 81,
+        "u": 61,
+        "b": 10
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0754",
+      "relativePath": "jigitz and more/IMG_0754.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0754.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0754.webp",
+      "mtime": 1791744975294.9075,
+      "size": 1827281,
+      "color": {
+        "h": 278,
+        "s": 72,
+        "l": 44,
+        "c": 99,
+        "u": 78,
+        "b": 46
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0755",
+      "relativePath": "jigitz and more/IMG_0755.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0755.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0755.webp",
+      "mtime": 1791744975623.0562,
+      "size": 1546058,
+      "color": {
+        "h": 253,
+        "s": 54,
+        "l": 13,
+        "c": 93,
+        "u": 44,
+        "b": 14
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0756",
+      "relativePath": "jigitz and more/IMG_0756.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0756.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0756.webp",
+      "mtime": 1791744975924.5322,
+      "size": 918320,
+      "color": {
+        "h": 140,
+        "s": 21,
+        "l": 20,
+        "c": 7,
+        "u": 6,
+        "b": 2
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0757",
+      "relativePath": "jigitz and more/IMG_0757.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0757.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0757.webp",
+      "mtime": 1791744976135.7517,
+      "size": 1447487,
+      "color": {
+        "h": 240,
+        "s": 54,
+        "l": 16,
+        "c": 90,
+        "u": 78,
+        "b": 16
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0758",
+      "relativePath": "jigitz and more/IMG_0758.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0758.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0758.webp",
+      "mtime": 1791744976344.9497,
+      "size": 1437514,
+      "color": {
+        "h": 233,
+        "s": 57,
+        "l": 16,
+        "c": 78,
+        "u": 34,
+        "b": 13
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0759",
+      "relativePath": "jigitz and more/IMG_0759.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0759.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0759.webp",
+      "mtime": 1791744976695.9834,
+      "size": 1466429,
+      "color": {
+        "h": 30,
+        "s": 51,
+        "l": 13,
+        "c": 90,
+        "u": 64,
+        "b": 13
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0760",
+      "relativePath": "jigitz and more/IMG_0760.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0760.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0760.webp",
+      "mtime": 1791744976964.56,
+      "size": 1883264,
+      "color": {
+        "h": 16,
+        "s": 32,
+        "l": 43,
+        "c": 49,
+        "u": 47,
+        "b": 34
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0761",
+      "relativePath": "jigitz and more/IMG_0761.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0761.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0761.webp",
+      "mtime": 1791744977244.7285,
+      "size": 1962204,
+      "color": {
+        "h": 13,
+        "s": 32,
+        "l": 37,
+        "c": 67,
+        "u": 61,
+        "b": 25
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0762",
+      "relativePath": "jigitz and more/IMG_0762.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0762.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0762.webp",
+      "mtime": 1791744977419.5918,
+      "size": 907546,
+      "color": {
+        "h": 252,
+        "s": 44,
+        "l": 6,
+        "c": 25,
+        "u": 18,
+        "b": 2
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0763",
+      "relativePath": "jigitz and more/IMG_0763.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0763.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0763.webp",
+      "mtime": 1791744977628.725,
+      "size": 1460601,
+      "color": {
+        "h": 160,
+        "s": 75,
+        "l": 13,
+        "c": 93,
+        "u": 92,
+        "b": 12
+      }
+    },
+    {
+      "album": "jigitz and more",
+      "title": "IMG 0764",
+      "relativePath": "jigitz and more/IMG_0764.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/jigitz.and.more--IMG_0764.JPG",
+      "thumbSrc": "thumbnails/jigitz%20and%20more/IMG_0764.webp",
+      "mtime": 1791744977845.0515,
+      "size": 1501594,
+      "color": {
+        "h": 160,
+        "s": 88,
+        "l": 19,
+        "c": 99,
+        "u": 99,
+        "b": 19
       }
     },
     {
