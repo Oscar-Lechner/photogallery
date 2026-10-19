@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T19:02:19.942Z",
-  "count": 2031,
+  "generatedAt": "2026-10-19T17:22:57.162Z",
+  "count": 2245,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -22,6 +22,7 @@
     "Grays and Torreys": "2026-07-30T21:16:59.113Z",
     "jigitz and more": "2026-10-11T18:56:17.845Z",
     "neighborhood flowers": "2026-08-05T20:57:55.523Z",
+    "nyc 2026": "2026-10-19T17:08:47.903Z",
     "sept.we3.2026": "2026-09-21T15:25:37.471Z",
     "steamboat 2026": "2026-08-31T18:40:16.129Z"
   },
@@ -46,6 +47,7 @@
     "Grays and Torreys": "Grays And Torreys",
     "jigitz and more": "Jigitz And More",
     "neighborhood flowers": "Neighborhood Flowers",
+    "nyc 2026": "Nyc 2026",
     "sept.we3.2026": "Sept.We 3.2026",
     "steamboat 2026": "Steamboat 2026"
   },
@@ -20839,6 +20841,3644 @@
         "c": 51,
         "u": 43,
         "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0767",
+      "relativePath": "nyc 2026/IMG_0767.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0767.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0767.webp",
+      "mtime": 1792429664602.5554,
+      "size": 1565504,
+      "color": {
+        "h": 29,
+        "s": 49,
+        "l": 49,
+        "c": 64,
+        "u": 54,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0768",
+      "relativePath": "nyc 2026/IMG_0768.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0768.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0768.webp",
+      "mtime": 1792429664889.5466,
+      "size": 1616518,
+      "color": {
+        "h": 207,
+        "s": 21,
+        "l": 78,
+        "c": 31,
+        "u": 31,
+        "b": 64
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0769",
+      "relativePath": "nyc 2026/IMG_0769.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0769.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0769.webp",
+      "mtime": 1792429665208.1802,
+      "size": 2030307,
+      "color": {
+        "h": 26,
+        "s": 24,
+        "l": 66,
+        "c": 11,
+        "u": 6,
+        "b": 46
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0770",
+      "relativePath": "nyc 2026/IMG_0770.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0770.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0770.webp",
+      "mtime": 1792429665460.732,
+      "size": 1151382,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 4,
+        "c": 3,
+        "u": 0,
+        "b": 4
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0771",
+      "relativePath": "nyc 2026/IMG_0771.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0771.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0771.webp",
+      "mtime": 1792429665895.5342,
+      "size": 1988925,
+      "color": {
+        "h": 9,
+        "s": 40,
+        "l": 57,
+        "c": 16,
+        "u": 7,
+        "b": 59
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0772",
+      "relativePath": "nyc 2026/IMG_0772.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0772.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0772.webp",
+      "mtime": 1792429666210.3186,
+      "size": 1829344,
+      "color": {
+        "h": 24,
+        "s": 36,
+        "l": 48,
+        "c": 87,
+        "u": 85,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0773",
+      "relativePath": "nyc 2026/IMG_0773.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0773.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0773.webp",
+      "mtime": 1792429666638.205,
+      "size": 2203830,
+      "color": {
+        "h": 212,
+        "s": 59,
+        "l": 50,
+        "c": 58,
+        "u": 58,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0774",
+      "relativePath": "nyc 2026/IMG_0774.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0774.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0774.webp",
+      "mtime": 1792429666940.096,
+      "size": 1915025,
+      "color": {
+        "h": 202,
+        "s": 74,
+        "l": 82,
+        "c": 40,
+        "u": 28,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0775",
+      "relativePath": "nyc 2026/IMG_0775.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0775.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0775.webp",
+      "mtime": 1792429667222.2688,
+      "size": 1522249,
+      "color": {
+        "h": 201,
+        "s": 81,
+        "l": 83,
+        "c": 46,
+        "u": 38,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0776",
+      "relativePath": "nyc 2026/IMG_0776.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0776.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0776.webp",
+      "mtime": 1792429667498.1426,
+      "size": 1902820,
+      "color": {
+        "h": 210,
+        "s": 76,
+        "l": 80,
+        "c": 35,
+        "u": 20,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0777",
+      "relativePath": "nyc 2026/IMG_0777.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0777.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0777.webp",
+      "mtime": 1792429667795.8796,
+      "size": 1706258,
+      "color": {
+        "h": 200,
+        "s": 73,
+        "l": 76,
+        "c": 40,
+        "u": 35,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0778",
+      "relativePath": "nyc 2026/IMG_0778.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0778.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0778.webp",
+      "mtime": 1792429668068.3345,
+      "size": 1583493,
+      "color": {
+        "h": 40,
+        "s": 23,
+        "l": 59,
+        "c": 21,
+        "u": 16,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0779",
+      "relativePath": "nyc 2026/IMG_0779.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0779.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0779.webp",
+      "mtime": 1792429668369.9604,
+      "size": 1772132,
+      "color": {
+        "h": 40,
+        "s": 30,
+        "l": 78,
+        "c": 30,
+        "u": 29,
+        "b": 46
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0780",
+      "relativePath": "nyc 2026/IMG_0780.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0780.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0780.webp",
+      "mtime": 1792429668646.069,
+      "size": 1757346,
+      "color": {
+        "h": 208,
+        "s": 60,
+        "l": 71,
+        "c": 23,
+        "u": 18,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0781",
+      "relativePath": "nyc 2026/IMG_0781.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0781.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0781.webp",
+      "mtime": 1792429668949.2822,
+      "size": 1963617,
+      "color": {
+        "h": 206,
+        "s": 54,
+        "l": 46,
+        "c": 55,
+        "u": 44,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0782",
+      "relativePath": "nyc 2026/IMG_0782.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0782.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0782.webp",
+      "mtime": 1792429669288.437,
+      "size": 2007779,
+      "color": {
+        "h": 20,
+        "s": 25,
+        "l": 75,
+        "c": 10,
+        "u": 5,
+        "b": 42
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0783",
+      "relativePath": "nyc 2026/IMG_0783.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0783.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0783.webp",
+      "mtime": 1792429669637.1345,
+      "size": 2343813,
+      "color": {
+        "h": 217,
+        "s": 31,
+        "l": 41,
+        "c": 30,
+        "u": 18,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0784",
+      "relativePath": "nyc 2026/IMG_0784.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0784.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0784.webp",
+      "mtime": 1792429670004.255,
+      "size": 2314663,
+      "color": {
+        "h": 20,
+        "s": 31,
+        "l": 53,
+        "c": 41,
+        "u": 25,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0785",
+      "relativePath": "nyc 2026/IMG_0785.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0785.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0785.webp",
+      "mtime": 1792429670292.1309,
+      "size": 2260391,
+      "color": {
+        "h": 28,
+        "s": 29,
+        "l": 61,
+        "c": 33,
+        "u": 19,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0786",
+      "relativePath": "nyc 2026/IMG_0786.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0786.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0786.webp",
+      "mtime": 1792429670538.9744,
+      "size": 1484775,
+      "color": {
+        "h": 208,
+        "s": 50,
+        "l": 74,
+        "c": 63,
+        "u": 58,
+        "b": 56
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0787",
+      "relativePath": "nyc 2026/IMG_0787.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0787.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0787.webp",
+      "mtime": 1792429670866.4,
+      "size": 2457529,
+      "color": {
+        "h": 216,
+        "s": 30,
+        "l": 47,
+        "c": 21,
+        "u": 8,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0788",
+      "relativePath": "nyc 2026/IMG_0788.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0788.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0788.webp",
+      "mtime": 1792429671137.6965,
+      "size": 1886073,
+      "color": {
+        "h": 10,
+        "s": 32,
+        "l": 62,
+        "c": 24,
+        "u": 19,
+        "b": 44
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0789",
+      "relativePath": "nyc 2026/IMG_0789.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0789.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0789.webp",
+      "mtime": 1792429671401.9824,
+      "size": 1807029,
+      "color": {
+        "h": 40,
+        "s": 20,
+        "l": 62,
+        "c": 14,
+        "u": 14,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0790",
+      "relativePath": "nyc 2026/IMG_0790.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0790.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0790.webp",
+      "mtime": 1792429671626.8096,
+      "size": 1503925,
+      "color": {
+        "h": 212,
+        "s": 59,
+        "l": 45,
+        "c": 56,
+        "u": 40,
+        "b": 39
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0792",
+      "relativePath": "nyc 2026/IMG_0792.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0792.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0792.webp",
+      "mtime": 1792429671901.797,
+      "size": 2163144,
+      "color": {
+        "h": 22,
+        "s": 27,
+        "l": 56,
+        "c": 36,
+        "u": 25,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0793",
+      "relativePath": "nyc 2026/IMG_0793.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0793.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0793.webp",
+      "mtime": 1792429672196.6533,
+      "size": 2120316,
+      "color": {
+        "h": 22,
+        "s": 29,
+        "l": 62,
+        "c": 42,
+        "u": 33,
+        "b": 49
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0794",
+      "relativePath": "nyc 2026/IMG_0794.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0794.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0794.webp",
+      "mtime": 1792429672488.5515,
+      "size": 2178457,
+      "color": {
+        "h": 23,
+        "s": 28,
+        "l": 53,
+        "c": 39,
+        "u": 28,
+        "b": 42
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0795",
+      "relativePath": "nyc 2026/IMG_0795.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0795.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0795.webp",
+      "mtime": 1792429672764.448,
+      "size": 1937601,
+      "color": {
+        "h": 26,
+        "s": 23,
+        "l": 63,
+        "c": 35,
+        "u": 33,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0796",
+      "relativePath": "nyc 2026/IMG_0796.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0796.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0796.webp",
+      "mtime": 1792429673043.0637,
+      "size": 2137692,
+      "color": {
+        "h": 20,
+        "s": 29,
+        "l": 63,
+        "c": 40,
+        "u": 34,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0797",
+      "relativePath": "nyc 2026/IMG_0797.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0797.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0797.webp",
+      "mtime": 1792429673313.2004,
+      "size": 1829254,
+      "color": {
+        "h": 10,
+        "s": 31,
+        "l": 57,
+        "c": 37,
+        "u": 30,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0798",
+      "relativePath": "nyc 2026/IMG_0798.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0798.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0798.webp",
+      "mtime": 1792429673545.7268,
+      "size": 1720356,
+      "color": {
+        "h": 10,
+        "s": 33,
+        "l": 62,
+        "c": 37,
+        "u": 30,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0799",
+      "relativePath": "nyc 2026/IMG_0799.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0799.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0799.webp",
+      "mtime": 1792429673802.037,
+      "size": 2010676,
+      "color": {
+        "h": 20,
+        "s": 29,
+        "l": 47,
+        "c": 45,
+        "u": 34,
+        "b": 37
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0800",
+      "relativePath": "nyc 2026/IMG_0800.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0800.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0800.webp",
+      "mtime": 1792429673993.793,
+      "size": 1092728,
+      "color": {
+        "h": 20,
+        "s": 45,
+        "l": 62,
+        "c": 59,
+        "u": 58,
+        "b": 40
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0801",
+      "relativePath": "nyc 2026/IMG_0801.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0801.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0801.webp",
+      "mtime": 1792429674234.3657,
+      "size": 1937872,
+      "color": {
+        "h": 24,
+        "s": 66,
+        "l": 52,
+        "c": 99,
+        "u": 92,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0802",
+      "relativePath": "nyc 2026/IMG_0802.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0802.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0802.webp",
+      "mtime": 1792429674455.2231,
+      "size": 1651332,
+      "color": {
+        "h": 211,
+        "s": 75,
+        "l": 68,
+        "c": 90,
+        "u": 69,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0803",
+      "relativePath": "nyc 2026/IMG_0803.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0803.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0803.webp",
+      "mtime": 1792429674925.8818,
+      "size": 1393847,
+      "color": {
+        "h": 202,
+        "s": 69,
+        "l": 66,
+        "c": 95,
+        "u": 81,
+        "b": 56
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0804",
+      "relativePath": "nyc 2026/IMG_0804.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0804.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0804.webp",
+      "mtime": 1792429675231.433,
+      "size": 2356381,
+      "color": {
+        "h": 200,
+        "s": 84,
+        "l": 76,
+        "c": 84,
+        "u": 44,
+        "b": 46
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0805",
+      "relativePath": "nyc 2026/IMG_0805.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0805.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0805.webp",
+      "mtime": 1792429675521.389,
+      "size": 2061109,
+      "color": {
+        "h": 210,
+        "s": 84,
+        "l": 67,
+        "c": 77,
+        "u": 48,
+        "b": 40
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0806",
+      "relativePath": "nyc 2026/IMG_0806.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0806.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0806.webp",
+      "mtime": 1792429675791.5376,
+      "size": 1939303,
+      "color": {
+        "h": 204,
+        "s": 83,
+        "l": 76,
+        "c": 70,
+        "u": 61,
+        "b": 62
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0807",
+      "relativePath": "nyc 2026/IMG_0807.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0807.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0807.webp",
+      "mtime": 1792429676103.4695,
+      "size": 2376655,
+      "color": {
+        "h": 206,
+        "s": 63,
+        "l": 72,
+        "c": 54,
+        "u": 30,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0808",
+      "relativePath": "nyc 2026/IMG_0808.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0808.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0808.webp",
+      "mtime": 1792429676401.1008,
+      "size": 2218384,
+      "color": {
+        "h": 200,
+        "s": 64,
+        "l": 58,
+        "c": 79,
+        "u": 74,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0809",
+      "relativePath": "nyc 2026/IMG_0809.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0809.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0809.webp",
+      "mtime": 1792429676850.466,
+      "size": 3615668,
+      "color": {
+        "h": 85,
+        "s": 27,
+        "l": 45,
+        "c": 54,
+        "u": 48,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0810",
+      "relativePath": "nyc 2026/IMG_0810.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0810.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0810.webp",
+      "mtime": 1792429677261.267,
+      "size": 3366320,
+      "color": {
+        "h": 80,
+        "s": 32,
+        "l": 42,
+        "c": 71,
+        "u": 69,
+        "b": 36
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0811",
+      "relativePath": "nyc 2026/IMG_0811.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0811.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0811.webp",
+      "mtime": 1792429677746.2012,
+      "size": 4012604,
+      "color": {
+        "h": 80,
+        "s": 39,
+        "l": 44,
+        "c": 84,
+        "u": 82,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0812",
+      "relativePath": "nyc 2026/IMG_0812.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0812.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0812.webp",
+      "mtime": 1792429678030.333,
+      "size": 1927638,
+      "color": {
+        "h": 212,
+        "s": 76,
+        "l": 67,
+        "c": 80,
+        "u": 62,
+        "b": 54
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0813",
+      "relativePath": "nyc 2026/IMG_0813.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0813.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0813.webp",
+      "mtime": 1792429678328.3223,
+      "size": 2328496,
+      "color": {
+        "h": 185,
+        "s": 56,
+        "l": 71,
+        "c": 90,
+        "u": 42,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0815",
+      "relativePath": "nyc 2026/IMG_0815.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0815.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0815.webp",
+      "mtime": 1792429678645.6924,
+      "size": 2367971,
+      "color": {
+        "h": 202,
+        "s": 79,
+        "l": 70,
+        "c": 87,
+        "u": 49,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0816",
+      "relativePath": "nyc 2026/IMG_0816.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0816.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0816.webp",
+      "mtime": 1792429678866.6562,
+      "size": 1313870,
+      "color": {
+        "h": 85,
+        "s": 57,
+        "l": 21,
+        "c": 96,
+        "u": 67,
+        "b": 31
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0817",
+      "relativePath": "nyc 2026/IMG_0817.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0817.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0817.webp",
+      "mtime": 1792429679048.3484,
+      "size": 1293128,
+      "color": {
+        "h": 85,
+        "s": 53,
+        "l": 23,
+        "c": 92,
+        "u": 62,
+        "b": 38
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0818",
+      "relativePath": "nyc 2026/IMG_0818.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0818.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0818.webp",
+      "mtime": 1792429679255.537,
+      "size": 1327151,
+      "color": {
+        "h": 80,
+        "s": 55,
+        "l": 26,
+        "c": 96,
+        "u": 73,
+        "b": 34
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0819",
+      "relativePath": "nyc 2026/IMG_0819.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0819.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0819.webp",
+      "mtime": 1792429679486.5562,
+      "size": 1559471,
+      "color": {
+        "h": 75,
+        "s": 46,
+        "l": 27,
+        "c": 71,
+        "u": 50,
+        "b": 39
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0820",
+      "relativePath": "nyc 2026/IMG_0820.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0820.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0820.webp",
+      "mtime": 1792429679820.1252,
+      "size": 2638269,
+      "color": {
+        "h": 200,
+        "s": 69,
+        "l": 50,
+        "c": 95,
+        "u": 75,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0821",
+      "relativePath": "nyc 2026/IMG_0821.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0821.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0821.webp",
+      "mtime": 1792429680179.6477,
+      "size": 2514039,
+      "color": {
+        "h": 194,
+        "s": 68,
+        "l": 59,
+        "c": 82,
+        "u": 61,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0822",
+      "relativePath": "nyc 2026/IMG_0822.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0822.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0822.webp",
+      "mtime": 1792429680504.854,
+      "size": 1972569,
+      "color": {
+        "h": 200,
+        "s": 79,
+        "l": 62,
+        "c": 63,
+        "u": 61,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0823",
+      "relativePath": "nyc 2026/IMG_0823.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0823.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0823.webp",
+      "mtime": 1792429680856.0115,
+      "size": 2646282,
+      "color": {
+        "h": 208,
+        "s": 66,
+        "l": 54,
+        "c": 63,
+        "u": 46,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0824",
+      "relativePath": "nyc 2026/IMG_0824.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0824.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0824.webp",
+      "mtime": 1792429681116.5574,
+      "size": 1752144,
+      "color": {
+        "h": 344,
+        "s": 48,
+        "l": 39,
+        "c": 92,
+        "u": 90,
+        "b": 36
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0825",
+      "relativePath": "nyc 2026/IMG_0825.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0825.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0825.webp",
+      "mtime": 1792429681410.3125,
+      "size": 2044096,
+      "color": {
+        "h": 225,
+        "s": 46,
+        "l": 44,
+        "c": 36,
+        "u": 35,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0826",
+      "relativePath": "nyc 2026/IMG_0826.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0826.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0826.webp",
+      "mtime": 1792429681698.156,
+      "size": 1962346,
+      "color": {
+        "h": 23,
+        "s": 40,
+        "l": 42,
+        "c": 74,
+        "u": 70,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0827",
+      "relativePath": "nyc 2026/IMG_0827.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0827.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0827.webp",
+      "mtime": 1792429681995.8525,
+      "size": 2067907,
+      "color": {
+        "h": 20,
+        "s": 48,
+        "l": 50,
+        "c": 95,
+        "u": 92,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0828",
+      "relativePath": "nyc 2026/IMG_0828.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0828.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0828.webp",
+      "mtime": 1792429682295.6711,
+      "size": 2135515,
+      "color": {
+        "h": 14,
+        "s": 44,
+        "l": 43,
+        "c": 86,
+        "u": 86,
+        "b": 40
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0829",
+      "relativePath": "nyc 2026/IMG_0829.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0829.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0829.webp",
+      "mtime": 1792429682557.9885,
+      "size": 1826051,
+      "color": {
+        "h": 14,
+        "s": 63,
+        "l": 40,
+        "c": 95,
+        "u": 85,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0830",
+      "relativePath": "nyc 2026/IMG_0830.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0830.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0830.webp",
+      "mtime": 1792429682861.7656,
+      "size": 2175917,
+      "color": {
+        "h": 14,
+        "s": 46,
+        "l": 46,
+        "c": 80,
+        "u": 80,
+        "b": 44
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0831",
+      "relativePath": "nyc 2026/IMG_0831.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0831.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0831.webp",
+      "mtime": 1792429683161.4973,
+      "size": 2129140,
+      "color": {
+        "h": 13,
+        "s": 46,
+        "l": 52,
+        "c": 81,
+        "u": 81,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0832",
+      "relativePath": "nyc 2026/IMG_0832.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0832.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0832.webp",
+      "mtime": 1792429683467.266,
+      "size": 1751019,
+      "color": {
+        "h": 20,
+        "s": 34,
+        "l": 36,
+        "c": 89,
+        "u": 89,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0833",
+      "relativePath": "nyc 2026/IMG_0833.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0833.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0833.webp",
+      "mtime": 1792429683757.0088,
+      "size": 1988955,
+      "color": {
+        "h": 20,
+        "s": 38,
+        "l": 44,
+        "c": 92,
+        "u": 92,
+        "b": 43
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0834",
+      "relativePath": "nyc 2026/IMG_0834.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0834.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0834.webp",
+      "mtime": 1792429683946.3086,
+      "size": 984633,
+      "color": {
+        "h": 5,
+        "s": 29,
+        "l": 32,
+        "c": 77,
+        "u": 76,
+        "b": 26
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0835",
+      "relativePath": "nyc 2026/IMG_0835.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0835.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0835.webp",
+      "mtime": 1792429684129.9443,
+      "size": 1140996,
+      "color": {
+        "h": 23,
+        "s": 44,
+        "l": 38,
+        "c": 33,
+        "u": 32,
+        "b": 61
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0836",
+      "relativePath": "nyc 2026/IMG_0836.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0836.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0836.webp",
+      "mtime": 1792429684409.923,
+      "size": 2144621,
+      "color": {
+        "h": 30,
+        "s": 36,
+        "l": 57,
+        "c": 26,
+        "u": 18,
+        "b": 56
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0837",
+      "relativePath": "nyc 2026/IMG_0837.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0837.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0837.webp",
+      "mtime": 1792429684705.6453,
+      "size": 1796155,
+      "color": {
+        "h": 37,
+        "s": 23,
+        "l": 58,
+        "c": 75,
+        "u": 68,
+        "b": 56
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0838",
+      "relativePath": "nyc 2026/IMG_0838.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0838.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0838.webp",
+      "mtime": 1792429684977.8528,
+      "size": 1842599,
+      "color": {
+        "h": 46,
+        "s": 28,
+        "l": 40,
+        "c": 64,
+        "u": 61,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0839",
+      "relativePath": "nyc 2026/IMG_0839.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0839.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0839.webp",
+      "mtime": 1792429685269.5579,
+      "size": 2108853,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 61,
+        "c": 1,
+        "u": 0,
+        "b": 61
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0840",
+      "relativePath": "nyc 2026/IMG_0840.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0840.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0840.webp",
+      "mtime": 1792429685650.337,
+      "size": 2560387,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 55,
+        "c": 2,
+        "u": 0,
+        "b": 55
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0841",
+      "relativePath": "nyc 2026/IMG_0841.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0841.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0841.webp",
+      "mtime": 1792429685999.385,
+      "size": 2506648,
+      "color": {
+        "h": 320,
+        "s": 89,
+        "l": 70,
+        "c": 30,
+        "u": 9,
+        "b": 39
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0842",
+      "relativePath": "nyc 2026/IMG_0842.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0842.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0842.webp",
+      "mtime": 1792429686245.7703,
+      "size": 1380448,
+      "color": {
+        "h": 154,
+        "s": 44,
+        "l": 51,
+        "c": 6,
+        "u": 3,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0843",
+      "relativePath": "nyc 2026/IMG_0843.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0843.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0843.webp",
+      "mtime": 1792429686450.8774,
+      "size": 1422462,
+      "color": {
+        "h": 11,
+        "s": 34,
+        "l": 48,
+        "c": 21,
+        "u": 14,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0844",
+      "relativePath": "nyc 2026/IMG_0844.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0844.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0844.webp",
+      "mtime": 1792429686632.4036,
+      "size": 1112299,
+      "color": {
+        "h": 51,
+        "s": 42,
+        "l": 77,
+        "c": 11,
+        "u": 6,
+        "b": 24
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0845",
+      "relativePath": "nyc 2026/IMG_0845.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0845.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0845.webp",
+      "mtime": 1792429686904.573,
+      "size": 2113095,
+      "color": {
+        "h": 32,
+        "s": 30,
+        "l": 78,
+        "c": 14,
+        "u": 8,
+        "b": 57
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0846",
+      "relativePath": "nyc 2026/IMG_0846.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0846.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0846.webp",
+      "mtime": 1792429687166.7507,
+      "size": 1508687,
+      "color": {
+        "h": 40,
+        "s": 37,
+        "l": 62,
+        "c": 13,
+        "u": 6,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0847",
+      "relativePath": "nyc 2026/IMG_0847.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0847.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0847.webp",
+      "mtime": 1792429687399.3015,
+      "size": 1640236,
+      "color": {
+        "h": 10,
+        "s": 24,
+        "l": 63,
+        "c": 16,
+        "u": 12,
+        "b": 59
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0848",
+      "relativePath": "nyc 2026/IMG_0848.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0848.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0848.webp",
+      "mtime": 1792429687614.3613,
+      "size": 1331608,
+      "color": {
+        "h": 40,
+        "s": 23,
+        "l": 89,
+        "c": 21,
+        "u": 9,
+        "b": 27
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0849",
+      "relativePath": "nyc 2026/IMG_0849.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0849.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0849.webp",
+      "mtime": 1792429687838.849,
+      "size": 1605427,
+      "color": {
+        "h": 199,
+        "s": 38,
+        "l": 86,
+        "c": 40,
+        "u": 20,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0850",
+      "relativePath": "nyc 2026/IMG_0850.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0850.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0850.webp",
+      "mtime": 1792429688083.3975,
+      "size": 1772574,
+      "color": {
+        "h": 5,
+        "s": 39,
+        "l": 46,
+        "c": 43,
+        "u": 26,
+        "b": 42
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0851",
+      "relativePath": "nyc 2026/IMG_0851.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0851.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0851.webp",
+      "mtime": 1792429688347.482,
+      "size": 1953533,
+      "color": {
+        "h": 349,
+        "s": 35,
+        "l": 55,
+        "c": 41,
+        "u": 31,
+        "b": 57
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0852",
+      "relativePath": "nyc 2026/IMG_0852.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0852.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0852.webp",
+      "mtime": 1792429688592.0625,
+      "size": 1354288,
+      "color": {
+        "h": 4,
+        "s": 38,
+        "l": 48,
+        "c": 51,
+        "u": 40,
+        "b": 57
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0853",
+      "relativePath": "nyc 2026/IMG_0853.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0853.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0853.webp",
+      "mtime": 1792429688795.0525,
+      "size": 1433404,
+      "color": {
+        "h": 34,
+        "s": 27,
+        "l": 62,
+        "c": 45,
+        "u": 44,
+        "b": 58
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0854",
+      "relativePath": "nyc 2026/IMG_0854.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0854.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0854.webp",
+      "mtime": 1792429689049.439,
+      "size": 1776011,
+      "color": {
+        "h": 34,
+        "s": 37,
+        "l": 46,
+        "c": 54,
+        "u": 52,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0855",
+      "relativePath": "nyc 2026/IMG_0855.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0855.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0855.webp",
+      "mtime": 1792429689311.5073,
+      "size": 2004008,
+      "color": {
+        "h": 6,
+        "s": 57,
+        "l": 27,
+        "c": 95,
+        "u": 76,
+        "b": 34
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0856",
+      "relativePath": "nyc 2026/IMG_0856.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0856.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0856.webp",
+      "mtime": 1792429689552.1033,
+      "size": 1540051,
+      "color": {
+        "h": 13,
+        "s": 42,
+        "l": 44,
+        "c": 80,
+        "u": 79,
+        "b": 37
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0857",
+      "relativePath": "nyc 2026/IMG_0857.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0857.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0857.webp",
+      "mtime": 1792429689782.6335,
+      "size": 1638757,
+      "color": {
+        "h": 14,
+        "s": 35,
+        "l": 42,
+        "c": 62,
+        "u": 58,
+        "b": 28
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0858",
+      "relativePath": "nyc 2026/IMG_0858.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0858.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0858.webp",
+      "mtime": 1792429690050.704,
+      "size": 1838490,
+      "color": {
+        "h": 13,
+        "s": 32,
+        "l": 38,
+        "c": 72,
+        "u": 60,
+        "b": 31
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0859",
+      "relativePath": "nyc 2026/IMG_0859.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0859.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0859.webp",
+      "mtime": 1792429690328.897,
+      "size": 1711842,
+      "color": {
+        "h": 13,
+        "s": 33,
+        "l": 36,
+        "c": 82,
+        "u": 79,
+        "b": 31
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0860",
+      "relativePath": "nyc 2026/IMG_0860.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0860.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0860.webp",
+      "mtime": 1792429690541.739,
+      "size": 1390030,
+      "color": {
+        "h": 20,
+        "s": 53,
+        "l": 9,
+        "c": 74,
+        "u": 62,
+        "b": 7
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0861",
+      "relativePath": "nyc 2026/IMG_0861.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0861.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0861.webp",
+      "mtime": 1792429690825.5886,
+      "size": 2137086,
+      "color": {
+        "h": 20,
+        "s": 46,
+        "l": 36,
+        "c": 87,
+        "u": 84,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0862",
+      "relativePath": "nyc 2026/IMG_0862.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0862.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0862.webp",
+      "mtime": 1792429691182.353,
+      "size": 2543237,
+      "color": {
+        "h": 25,
+        "s": 43,
+        "l": 38,
+        "c": 57,
+        "u": 53,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0863",
+      "relativePath": "nyc 2026/IMG_0863.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0863.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0863.webp",
+      "mtime": 1792429691505.8176,
+      "size": 2400833,
+      "color": {
+        "h": 25,
+        "s": 37,
+        "l": 43,
+        "c": 58,
+        "u": 53,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0864",
+      "relativePath": "nyc 2026/IMG_0864.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0864.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0864.webp",
+      "mtime": 1792429691850.8015,
+      "size": 2331570,
+      "color": {
+        "h": 28,
+        "s": 34,
+        "l": 44,
+        "c": 58,
+        "u": 56,
+        "b": 40
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0865",
+      "relativePath": "nyc 2026/IMG_0865.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0865.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0865.webp",
+      "mtime": 1792429692199.762,
+      "size": 2680382,
+      "color": {
+        "h": 26,
+        "s": 33,
+        "l": 49,
+        "c": 52,
+        "u": 46,
+        "b": 43
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0866",
+      "relativePath": "nyc 2026/IMG_0866.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0866.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0866.webp",
+      "mtime": 1792429692528.9832,
+      "size": 2292448,
+      "color": {
+        "h": 20,
+        "s": 45,
+        "l": 39,
+        "c": 83,
+        "u": 82,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0867",
+      "relativePath": "nyc 2026/IMG_0867.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0867.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0867.webp",
+      "mtime": 1792429692842.38,
+      "size": 2076632,
+      "color": {
+        "h": 21,
+        "s": 52,
+        "l": 38,
+        "c": 96,
+        "u": 95,
+        "b": 37
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0868",
+      "relativePath": "nyc 2026/IMG_0868.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0868.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0868.webp",
+      "mtime": 1792429693086.9587,
+      "size": 1367461,
+      "color": {
+        "h": 88,
+        "s": 46,
+        "l": 15,
+        "c": 54,
+        "u": 20,
+        "b": 18
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0869",
+      "relativePath": "nyc 2026/IMG_0869.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0869.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0869.webp",
+      "mtime": 1792429693321.5232,
+      "size": 1689124,
+      "color": {
+        "h": 8,
+        "s": 39,
+        "l": 31,
+        "c": 71,
+        "u": 69,
+        "b": 27
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0870",
+      "relativePath": "nyc 2026/IMG_0870.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0870.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0870.webp",
+      "mtime": 1792429693542.2732,
+      "size": 1529499,
+      "color": {
+        "h": 10,
+        "s": 32,
+        "l": 25,
+        "c": 71,
+        "u": 54,
+        "b": 30
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0871",
+      "relativePath": "nyc 2026/IMG_0871.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0871.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0871.webp",
+      "mtime": 1792429693786.5732,
+      "size": 1570135,
+      "color": {
+        "h": 10,
+        "s": 35,
+        "l": 30,
+        "c": 85,
+        "u": 84,
+        "b": 26
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0872",
+      "relativePath": "nyc 2026/IMG_0872.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0872.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0872.webp",
+      "mtime": 1792429694014.005,
+      "size": 1575047,
+      "color": {
+        "h": 11,
+        "s": 35,
+        "l": 27,
+        "c": 85,
+        "u": 82,
+        "b": 27
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0873",
+      "relativePath": "nyc 2026/IMG_0873.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0873.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0873.webp",
+      "mtime": 1792429694293.8071,
+      "size": 2153810,
+      "color": {
+        "h": 12,
+        "s": 42,
+        "l": 44,
+        "c": 71,
+        "u": 69,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0874",
+      "relativePath": "nyc 2026/IMG_0874.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0874.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0874.webp",
+      "mtime": 1792429694593.4167,
+      "size": 1839864,
+      "color": {
+        "h": 16,
+        "s": 39,
+        "l": 37,
+        "c": 78,
+        "u": 76,
+        "b": 30
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0875",
+      "relativePath": "nyc 2026/IMG_0875.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0875.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0875.webp",
+      "mtime": 1792429694855.494,
+      "size": 1609694,
+      "color": {
+        "h": 13,
+        "s": 37,
+        "l": 41,
+        "c": 86,
+        "u": 85,
+        "b": 36
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0876",
+      "relativePath": "nyc 2026/IMG_0876.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0876.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0876.webp",
+      "mtime": 1792429695121.5576,
+      "size": 1917497,
+      "color": {
+        "h": 13,
+        "s": 33,
+        "l": 38,
+        "c": 85,
+        "u": 85,
+        "b": 34
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0877",
+      "relativePath": "nyc 2026/IMG_0877.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0877.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0877.webp",
+      "mtime": 1792429695389.639,
+      "size": 1722228,
+      "color": {
+        "h": 12,
+        "s": 39,
+        "l": 29,
+        "c": 89,
+        "u": 86,
+        "b": 26
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0878",
+      "relativePath": "nyc 2026/IMG_0878.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0878.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0878.webp",
+      "mtime": 1792429695634.1572,
+      "size": 1780431,
+      "color": {
+        "h": 13,
+        "s": 39,
+        "l": 34,
+        "c": 91,
+        "u": 88,
+        "b": 31
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0879",
+      "relativePath": "nyc 2026/IMG_0879.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0879.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0879.webp",
+      "mtime": 1792429695913.8926,
+      "size": 1803868,
+      "color": {
+        "h": 26,
+        "s": 40,
+        "l": 40,
+        "c": 85,
+        "u": 84,
+        "b": 37
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0880",
+      "relativePath": "nyc 2026/IMG_0880.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0880.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0880.webp",
+      "mtime": 1792429696187.9749,
+      "size": 1963287,
+      "color": {
+        "h": 25,
+        "s": 39,
+        "l": 37,
+        "c": 82,
+        "u": 80,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0881",
+      "relativePath": "nyc 2026/IMG_0881.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0881.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0881.webp",
+      "mtime": 1792429696513.1438,
+      "size": 2294281,
+      "color": {
+        "h": 10,
+        "s": 43,
+        "l": 37,
+        "c": 83,
+        "u": 82,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0882",
+      "relativePath": "nyc 2026/IMG_0882.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0882.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0882.webp",
+      "mtime": 1792429696824.5115,
+      "size": 2165818,
+      "color": {
+        "h": 17,
+        "s": 35,
+        "l": 29,
+        "c": 78,
+        "u": 75,
+        "b": 28
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0883",
+      "relativePath": "nyc 2026/IMG_0883.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0883.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0883.webp",
+      "mtime": 1792429697141.89,
+      "size": 1912555,
+      "color": {
+        "h": 13,
+        "s": 41,
+        "l": 37,
+        "c": 80,
+        "u": 79,
+        "b": 36
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0884",
+      "relativePath": "nyc 2026/IMG_0884.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0884.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0884.webp",
+      "mtime": 1792429697407.9446,
+      "size": 1808348,
+      "color": {
+        "h": 20,
+        "s": 32,
+        "l": 32,
+        "c": 63,
+        "u": 54,
+        "b": 29
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0885",
+      "relativePath": "nyc 2026/IMG_0885.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0885.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0885.webp",
+      "mtime": 1792429697662.3687,
+      "size": 1674129,
+      "color": {
+        "h": 20,
+        "s": 36,
+        "l": 31,
+        "c": 72,
+        "u": 56,
+        "b": 32
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0886",
+      "relativePath": "nyc 2026/IMG_0886.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0886.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0886.webp",
+      "mtime": 1792429697942.4602,
+      "size": 1899323,
+      "color": {
+        "h": 27,
+        "s": 43,
+        "l": 43,
+        "c": 88,
+        "u": 83,
+        "b": 38
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0887",
+      "relativePath": "nyc 2026/IMG_0887.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0887.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0887.webp",
+      "mtime": 1792429698216.3225,
+      "size": 1829424,
+      "color": {
+        "h": 25,
+        "s": 40,
+        "l": 37,
+        "c": 81,
+        "u": 77,
+        "b": 31
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0888",
+      "relativePath": "nyc 2026/IMG_0888.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0888.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0888.webp",
+      "mtime": 1792429698494.4353,
+      "size": 1748901,
+      "color": {
+        "h": 10,
+        "s": 38,
+        "l": 23,
+        "c": 64,
+        "u": 61,
+        "b": 25
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0889",
+      "relativePath": "nyc 2026/IMG_0889.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0889.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0889.webp",
+      "mtime": 1792429698862.8645,
+      "size": 2832393,
+      "color": {
+        "h": 42,
+        "s": 31,
+        "l": 48,
+        "c": 27,
+        "u": 24,
+        "b": 36
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0890",
+      "relativePath": "nyc 2026/IMG_0890.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0890.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0890.webp",
+      "mtime": 1792429699154.7595,
+      "size": 1946842,
+      "color": {
+        "h": 20,
+        "s": 24,
+        "l": 42,
+        "c": 27,
+        "u": 20,
+        "b": 40
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0891",
+      "relativePath": "nyc 2026/IMG_0891.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0891.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0891.webp",
+      "mtime": 1792429699396.9548,
+      "size": 1549723,
+      "color": {
+        "h": 27,
+        "s": 30,
+        "l": 47,
+        "c": 52,
+        "u": 49,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0892",
+      "relativePath": "nyc 2026/IMG_0892.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0892.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0892.webp",
+      "mtime": 1792429699649.2546,
+      "size": 1778673,
+      "color": {
+        "h": 41,
+        "s": 35,
+        "l": 45,
+        "c": 15,
+        "u": 12,
+        "b": 25
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0893",
+      "relativePath": "nyc 2026/IMG_0893.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0893.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0893.webp",
+      "mtime": 1792429699946.844,
+      "size": 2006329,
+      "color": {
+        "h": 28,
+        "s": 22,
+        "l": 60,
+        "c": 25,
+        "u": 14,
+        "b": 46
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0894",
+      "relativePath": "nyc 2026/IMG_0894.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0894.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0894.webp",
+      "mtime": 1792429700234.7385,
+      "size": 2047530,
+      "color": {
+        "h": 215,
+        "s": 20,
+        "l": 58,
+        "c": 27,
+        "u": 17,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0895",
+      "relativePath": "nyc 2026/IMG_0895.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0895.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0895.webp",
+      "mtime": 1792429700544.261,
+      "size": 2137551,
+      "color": {
+        "h": 28,
+        "s": 26,
+        "l": 53,
+        "c": 23,
+        "u": 13,
+        "b": 55
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0896",
+      "relativePath": "nyc 2026/IMG_0896.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0896.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0896.webp",
+      "mtime": 1792429700824.405,
+      "size": 1861458,
+      "color": {
+        "h": 20,
+        "s": 38,
+        "l": 62,
+        "c": 42,
+        "u": 27,
+        "b": 55
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0897",
+      "relativePath": "nyc 2026/IMG_0897.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0897.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0897.webp",
+      "mtime": 1792429701064.7998,
+      "size": 1538562,
+      "color": {
+        "h": 23,
+        "s": 26,
+        "l": 43,
+        "c": 17,
+        "u": 15,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0898",
+      "relativePath": "nyc 2026/IMG_0898.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0898.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0898.webp",
+      "mtime": 1792429701291.581,
+      "size": 1437488,
+      "color": {
+        "h": 36,
+        "s": 34,
+        "l": 54,
+        "c": 16,
+        "u": 10,
+        "b": 59
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0899",
+      "relativePath": "nyc 2026/IMG_0899.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0899.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0899.webp",
+      "mtime": 1792429701496.5803,
+      "size": 1436964,
+      "color": {
+        "h": 32,
+        "s": 25,
+        "l": 42,
+        "c": 17,
+        "u": 15,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0900",
+      "relativePath": "nyc 2026/IMG_0900.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0900.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0900.webp",
+      "mtime": 1792429701695.6062,
+      "size": 1294189,
+      "color": {
+        "h": 60,
+        "s": 19,
+        "l": 5,
+        "c": 7,
+        "u": 5,
+        "b": 4
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0901",
+      "relativePath": "nyc 2026/IMG_0901.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0901.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0901.webp",
+      "mtime": 1792429701947.9116,
+      "size": 1806508,
+      "color": {
+        "h": 11,
+        "s": 54,
+        "l": 55,
+        "c": 17,
+        "u": 10,
+        "b": 55
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0902",
+      "relativePath": "nyc 2026/IMG_0902.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0902.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0902.webp",
+      "mtime": 1792429702218.0178,
+      "size": 1732144,
+      "color": {
+        "h": 21,
+        "s": 51,
+        "l": 56,
+        "c": 13,
+        "u": 13,
+        "b": 44
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0903",
+      "relativePath": "nyc 2026/IMG_0903.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0903.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0903.webp",
+      "mtime": 1792429702438.773,
+      "size": 1571468,
+      "color": {
+        "h": 60,
+        "s": 22,
+        "l": 14,
+        "c": 19,
+        "u": 14,
+        "b": 11
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0904",
+      "relativePath": "nyc 2026/IMG_0904.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0904.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0904.webp",
+      "mtime": 1792429702695.0676,
+      "size": 1852187,
+      "color": {
+        "h": 70,
+        "s": 20,
+        "l": 17,
+        "c": 32,
+        "u": 25,
+        "b": 18
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0905",
+      "relativePath": "nyc 2026/IMG_0905.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0905.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0905.webp",
+      "mtime": 1792429702982.934,
+      "size": 2276047,
+      "color": {
+        "h": 0,
+        "s": 79,
+        "l": 34,
+        "c": 100,
+        "u": 100,
+        "b": 34
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0906",
+      "relativePath": "nyc 2026/IMG_0906.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0906.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0906.webp",
+      "mtime": 1792429703209.46,
+      "size": 1149534,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 1,
+        "c": 0,
+        "u": 0,
+        "b": 1
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0907",
+      "relativePath": "nyc 2026/IMG_0907.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0907.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0907.webp",
+      "mtime": 1792429703471.8203,
+      "size": 2018176,
+      "color": {
+        "h": 0,
+        "s": 97,
+        "l": 21,
+        "c": 100,
+        "u": 100,
+        "b": 21
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0908",
+      "relativePath": "nyc 2026/IMG_0908.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0908.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0908.webp",
+      "mtime": 1792429703826.5913,
+      "size": 1785260,
+      "color": {
+        "h": 29,
+        "s": 37,
+        "l": 39,
+        "c": 69,
+        "u": 64,
+        "b": 30
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0909",
+      "relativePath": "nyc 2026/IMG_0909.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0909.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0909.webp",
+      "mtime": 1792429704069.2715,
+      "size": 1409941,
+      "color": {
+        "h": 30,
+        "s": 34,
+        "l": 37,
+        "c": 49,
+        "u": 43,
+        "b": 25
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0910",
+      "relativePath": "nyc 2026/IMG_0910.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0910.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0910.webp",
+      "mtime": 1792429704284.0486,
+      "size": 1379867,
+      "color": {
+        "h": 32,
+        "s": 40,
+        "l": 48,
+        "c": 58,
+        "u": 54,
+        "b": 34
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0911",
+      "relativePath": "nyc 2026/IMG_0911.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0911.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0911.webp",
+      "mtime": 1792429704558.1887,
+      "size": 1442234,
+      "color": {
+        "h": 32,
+        "s": 37,
+        "l": 41,
+        "c": 48,
+        "u": 44,
+        "b": 24
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0912",
+      "relativePath": "nyc 2026/IMG_0912.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0912.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0912.webp",
+      "mtime": 1792429704820.2544,
+      "size": 1869829,
+      "color": {
+        "h": 40,
+        "s": 38,
+        "l": 16,
+        "c": 82,
+        "u": 71,
+        "b": 13
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0913",
+      "relativePath": "nyc 2026/IMG_0913.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0913.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0913.webp",
+      "mtime": 1792429705117.8845,
+      "size": 2280021,
+      "color": {
+        "h": 28,
+        "s": 31,
+        "l": 38,
+        "c": 60,
+        "u": 59,
+        "b": 28
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0914",
+      "relativePath": "nyc 2026/IMG_0914.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0914.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0914.webp",
+      "mtime": 1792429705474.9849,
+      "size": 2466889,
+      "color": {
+        "h": 34,
+        "s": 37,
+        "l": 54,
+        "c": 73,
+        "u": 72,
+        "b": 49
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0915",
+      "relativePath": "nyc 2026/IMG_0915.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0915.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0915.webp",
+      "mtime": 1792429705737.1077,
+      "size": 1745160,
+      "color": {
+        "h": 26,
+        "s": 42,
+        "l": 43,
+        "c": 93,
+        "u": 93,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0916",
+      "relativePath": "nyc 2026/IMG_0916.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0916.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0916.webp",
+      "mtime": 1792429706018.955,
+      "size": 1934043,
+      "color": {
+        "h": 40,
+        "s": 16,
+        "l": 19,
+        "c": 6,
+        "u": 5,
+        "b": 47
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0917",
+      "relativePath": "nyc 2026/IMG_0917.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0917.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0917.webp",
+      "mtime": 1792429706340.372,
+      "size": 2311080,
+      "color": {
+        "h": 205,
+        "s": 18,
+        "l": 87,
+        "c": 25,
+        "u": 24,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0918",
+      "relativePath": "nyc 2026/IMG_0918.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0918.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0918.webp",
+      "mtime": 1792429706659.7952,
+      "size": 2070412,
+      "color": {
+        "h": 204,
+        "s": 24,
+        "l": 71,
+        "c": 5,
+        "u": 3,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0919",
+      "relativePath": "nyc 2026/IMG_0919.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0919.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0919.webp",
+      "mtime": 1792429706965.15,
+      "size": 2040963,
+      "color": {
+        "h": 207,
+        "s": 18,
+        "l": 77,
+        "c": 22,
+        "u": 22,
+        "b": 54
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0920",
+      "relativePath": "nyc 2026/IMG_0920.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0920.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0920.webp",
+      "mtime": 1792429707253.024,
+      "size": 1986657,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 48,
+        "c": 3,
+        "u": 0,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0921",
+      "relativePath": "nyc 2026/IMG_0921.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0921.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0921.webp",
+      "mtime": 1792429707558.654,
+      "size": 2102699,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 41,
+        "c": 0,
+        "u": 0,
+        "b": 41
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0922",
+      "relativePath": "nyc 2026/IMG_0922.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0922.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0922.webp",
+      "mtime": 1792429707854.8142,
+      "size": 2060538,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 67,
+        "c": 3,
+        "u": 0,
+        "b": 67
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0923",
+      "relativePath": "nyc 2026/IMG_0923.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0923.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0923.webp",
+      "mtime": 1792429708175.9355,
+      "size": 2168722,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 53,
+        "c": 1,
+        "u": 0,
+        "b": 53
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0924",
+      "relativePath": "nyc 2026/IMG_0924.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0924.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0924.webp",
+      "mtime": 1792429708471.8562,
+      "size": 2080637,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 57,
+        "c": 3,
+        "u": 0,
+        "b": 57
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0925",
+      "relativePath": "nyc 2026/IMG_0925.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0925.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0925.webp",
+      "mtime": 1792429708787.2466,
+      "size": 2237984,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 66,
+        "c": 0,
+        "u": 0,
+        "b": 66
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0926",
+      "relativePath": "nyc 2026/IMG_0926.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0926.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0926.webp",
+      "mtime": 1792429709163.791,
+      "size": 2755985,
+      "color": {
+        "h": 56,
+        "s": 30,
+        "l": 47,
+        "c": 11,
+        "u": 11,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0927",
+      "relativePath": "nyc 2026/IMG_0927.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0927.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0927.webp",
+      "mtime": 1792429709534.2231,
+      "size": 2552624,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 51,
+        "c": 1,
+        "u": 0,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0928",
+      "relativePath": "nyc 2026/IMG_0928.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0928.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0928.webp",
+      "mtime": 1792429709879.1946,
+      "size": 2664842,
+      "color": {
+        "h": 195,
+        "s": 21,
+        "l": 66,
+        "c": 24,
+        "u": 24,
+        "b": 58
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0929",
+      "relativePath": "nyc 2026/IMG_0929.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0929.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0929.webp",
+      "mtime": 1792429710194.5889,
+      "size": 2395573,
+      "color": {
+        "h": 207,
+        "s": 17,
+        "l": 73,
+        "c": 31,
+        "u": 31,
+        "b": 61
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0930",
+      "relativePath": "nyc 2026/IMG_0930.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0930.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0930.webp",
+      "mtime": 1792429710531.8367,
+      "size": 2265740,
+      "color": {
+        "h": 212,
+        "s": 18,
+        "l": 75,
+        "c": 14,
+        "u": 14,
+        "b": 54
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0931",
+      "relativePath": "nyc 2026/IMG_0931.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0931.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0931.webp",
+      "mtime": 1792429710862.968,
+      "size": 2245040,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 44,
+        "c": 4,
+        "u": 0,
+        "b": 44
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0932",
+      "relativePath": "nyc 2026/IMG_0932.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0932.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0932.webp",
+      "mtime": 1792429711146.7947,
+      "size": 2004479,
+      "color": {
+        "h": 26,
+        "s": 46,
+        "l": 58,
+        "c": 74,
+        "u": 73,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0933",
+      "relativePath": "nyc 2026/IMG_0933.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0933.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0933.webp",
+      "mtime": 1792429711523.3008,
+      "size": 2881152,
+      "color": {
+        "h": 40,
+        "s": 24,
+        "l": 74,
+        "c": 15,
+        "u": 10,
+        "b": 49
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0934",
+      "relativePath": "nyc 2026/IMG_0934.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0934.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0934.webp",
+      "mtime": 1792429711896.0508,
+      "size": 2654155,
+      "color": {
+        "h": 40,
+        "s": 35,
+        "l": 83,
+        "c": 20,
+        "u": 10,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0935",
+      "relativePath": "nyc 2026/IMG_0935.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0935.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0935.webp",
+      "mtime": 1792429712357.1326,
+      "size": 3421183,
+      "color": {
+        "h": 87,
+        "s": 22,
+        "l": 36,
+        "c": 33,
+        "u": 24,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0936",
+      "relativePath": "nyc 2026/IMG_0936.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0936.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0936.webp",
+      "mtime": 1792429712771.1394,
+      "size": 3009086,
+      "color": {
+        "h": 200,
+        "s": 59,
+        "l": 95,
+        "c": 21,
+        "u": 7,
+        "b": 49
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0937",
+      "relativePath": "nyc 2026/IMG_0937.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0937.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0937.webp",
+      "mtime": 1792429713131.8088,
+      "size": 2435779,
+      "color": {
+        "h": 33,
+        "s": 24,
+        "l": 28,
+        "c": 15,
+        "u": 14,
+        "b": 53
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0938",
+      "relativePath": "nyc 2026/IMG_0938.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0938.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0938.webp",
+      "mtime": 1792429713587.0881,
+      "size": 3505171,
+      "color": {
+        "h": 103,
+        "s": 27,
+        "l": 47,
+        "c": 25,
+        "u": 23,
+        "b": 49
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0939",
+      "relativePath": "nyc 2026/IMG_0939.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0939.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0939.webp",
+      "mtime": 1792429713947.7373,
+      "size": 2503228,
+      "color": {
+        "h": 35,
+        "s": 18,
+        "l": 34,
+        "c": 41,
+        "u": 36,
+        "b": 38
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0940",
+      "relativePath": "nyc 2026/IMG_0940.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0940.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0940.webp",
+      "mtime": 1792429714192.2917,
+      "size": 1430596,
+      "color": {
+        "h": 0,
+        "s": 0,
+        "l": 48,
+        "c": 4,
+        "u": 0,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0941",
+      "relativePath": "nyc 2026/IMG_0941.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0941.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0941.webp",
+      "mtime": 1792429714493.891,
+      "size": 2318941,
+      "color": {
+        "h": 65,
+        "s": 46,
+        "l": 21,
+        "c": 99,
+        "u": 62,
+        "b": 31
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0942",
+      "relativePath": "nyc 2026/IMG_0942.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0942.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0942.webp",
+      "mtime": 1792429714777.77,
+      "size": 1847154,
+      "color": {
+        "h": 80,
+        "s": 58,
+        "l": 29,
+        "c": 100,
+        "u": 82,
+        "b": 33
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0943",
+      "relativePath": "nyc 2026/IMG_0943.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0943.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0943.webp",
+      "mtime": 1792429715053.6013,
+      "size": 1903466,
+      "color": {
+        "h": 85,
+        "s": 53,
+        "l": 27,
+        "c": 100,
+        "u": 76,
+        "b": 34
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0944",
+      "relativePath": "nyc 2026/IMG_0944.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0944.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0944.webp",
+      "mtime": 1792429715384.7236,
+      "size": 2262017,
+      "color": {
+        "h": 223,
+        "s": 30,
+        "l": 60,
+        "c": 81,
+        "u": 80,
+        "b": 55
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0945",
+      "relativePath": "nyc 2026/IMG_0945.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0945.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0945.webp",
+      "mtime": 1792429715712.1636,
+      "size": 2303283,
+      "color": {
+        "h": 207,
+        "s": 35,
+        "l": 78,
+        "c": 62,
+        "u": 61,
+        "b": 65
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0946",
+      "relativePath": "nyc 2026/IMG_0946.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0946.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0946.webp",
+      "mtime": 1792429716108.0957,
+      "size": 2846595,
+      "color": {
+        "h": 208,
+        "s": 23,
+        "l": 50,
+        "c": 44,
+        "u": 36,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0947",
+      "relativePath": "nyc 2026/IMG_0947.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0947.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0947.webp",
+      "mtime": 1792429716445.2727,
+      "size": 2111030,
+      "color": {
+        "h": 200,
+        "s": 26,
+        "l": 52,
+        "c": 70,
+        "u": 66,
+        "b": 53
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0948",
+      "relativePath": "nyc 2026/IMG_0948.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0948.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0948.webp",
+      "mtime": 1792429716847.5217,
+      "size": 2718758,
+      "color": {
+        "h": 206,
+        "s": 35,
+        "l": 67,
+        "c": 79,
+        "u": 79,
+        "b": 59
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0949",
+      "relativePath": "nyc 2026/IMG_0949.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0949.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0949.webp",
+      "mtime": 1792429717129.385,
+      "size": 1804809,
+      "color": {
+        "h": 200,
+        "s": 35,
+        "l": 67,
+        "c": 36,
+        "u": 26,
+        "b": 29
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0950",
+      "relativePath": "nyc 2026/IMG_0950.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0950.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0950.webp",
+      "mtime": 1792429717387.448,
+      "size": 1619628,
+      "color": {
+        "h": 200,
+        "s": 34,
+        "l": 76,
+        "c": 17,
+        "u": 10,
+        "b": 18
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0951",
+      "relativePath": "nyc 2026/IMG_0951.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0951.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0951.webp",
+      "mtime": 1792429717667.5417,
+      "size": 1986807,
+      "color": {
+        "h": 212,
+        "s": 34,
+        "l": 69,
+        "c": 54,
+        "u": 47,
+        "b": 42
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0952",
+      "relativePath": "nyc 2026/IMG_0952.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0952.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0952.webp",
+      "mtime": 1792429717986.6616,
+      "size": 2335682,
+      "color": {
+        "h": 207,
+        "s": 38,
+        "l": 73,
+        "c": 65,
+        "u": 58,
+        "b": 57
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0953",
+      "relativePath": "nyc 2026/IMG_0953.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0953.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0953.webp",
+      "mtime": 1792429718321.8506,
+      "size": 2421425,
+      "color": {
+        "h": 208,
+        "s": 30,
+        "l": 65,
+        "c": 73,
+        "u": 63,
+        "b": 53
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0954",
+      "relativePath": "nyc 2026/IMG_0954.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0954.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0954.webp",
+      "mtime": 1792429718672.7473,
+      "size": 2421380,
+      "color": {
+        "h": 212,
+        "s": 29,
+        "l": 63,
+        "c": 73,
+        "u": 64,
+        "b": 53
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0955",
+      "relativePath": "nyc 2026/IMG_0955.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0955.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0955.webp",
+      "mtime": 1792429719011.6367,
+      "size": 2306927,
+      "color": {
+        "h": 212,
+        "s": 35,
+        "l": 70,
+        "c": 68,
+        "u": 57,
+        "b": 54
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0956",
+      "relativePath": "nyc 2026/IMG_0956.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0956.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0956.webp",
+      "mtime": 1792429719390.1409,
+      "size": 3087560,
+      "color": {
+        "h": 202,
+        "s": 33,
+        "l": 62,
+        "c": 64,
+        "u": 49,
+        "b": 55
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0957",
+      "relativePath": "nyc 2026/IMG_0957.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0957.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0957.webp",
+      "mtime": 1792429719699.7817,
+      "size": 1984107,
+      "color": {
+        "h": 208,
+        "s": 48,
+        "l": 71,
+        "c": 60,
+        "u": 52,
+        "b": 46
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0958",
+      "relativePath": "nyc 2026/IMG_0958.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0958.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0958.webp",
+      "mtime": 1792429719997.4036,
+      "size": 2137203,
+      "color": {
+        "h": 200,
+        "s": 36,
+        "l": 73,
+        "c": 60,
+        "u": 46,
+        "b": 57
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0959",
+      "relativePath": "nyc 2026/IMG_0959.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0959.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0959.webp",
+      "mtime": 1792429720334.319,
+      "size": 2375669,
+      "color": {
+        "h": 208,
+        "s": 42,
+        "l": 71,
+        "c": 61,
+        "u": 49,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0960",
+      "relativePath": "nyc 2026/IMG_0960.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0960.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0960.webp",
+      "mtime": 1792429720665.4548,
+      "size": 1478988,
+      "color": {
+        "h": 208,
+        "s": 35,
+        "l": 68,
+        "c": 45,
+        "u": 35,
+        "b": 39
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0961",
+      "relativePath": "nyc 2026/IMG_0961.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0961.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0961.webp",
+      "mtime": 1792429720916.015,
+      "size": 1764041,
+      "color": {
+        "h": 40,
+        "s": 43,
+        "l": 69,
+        "c": 16,
+        "u": 10,
+        "b": 51
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0962",
+      "relativePath": "nyc 2026/IMG_0962.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0962.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0962.webp",
+      "mtime": 1792429721211.5825,
+      "size": 2212025,
+      "color": {
+        "h": 29,
+        "s": 38,
+        "l": 54,
+        "c": 30,
+        "u": 23,
+        "b": 44
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0963",
+      "relativePath": "nyc 2026/IMG_0963.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0963.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0963.webp",
+      "mtime": 1792429721572.2754,
+      "size": 2323946,
+      "color": {
+        "h": 34,
+        "s": 38,
+        "l": 57,
+        "c": 32,
+        "u": 21,
+        "b": 46
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0964",
+      "relativePath": "nyc 2026/IMG_0964.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0964.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0964.webp",
+      "mtime": 1792429721976.2854,
+      "size": 3036864,
+      "color": {
+        "h": 6,
+        "s": 33,
+        "l": 36,
+        "c": 78,
+        "u": 68,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0965",
+      "relativePath": "nyc 2026/IMG_0965.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0965.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0965.webp",
+      "mtime": 1792429722402.1306,
+      "size": 3035307,
+      "color": {
+        "h": 8,
+        "s": 35,
+        "l": 44,
+        "c": 82,
+        "u": 76,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0966",
+      "relativePath": "nyc 2026/IMG_0966.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0966.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0966.webp",
+      "mtime": 1792429722745.3513,
+      "size": 2183831,
+      "color": {
+        "h": 200,
+        "s": 31,
+        "l": 74,
+        "c": 42,
+        "u": 32,
+        "b": 52
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0967",
+      "relativePath": "nyc 2026/IMG_0967.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0967.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0967.webp",
+      "mtime": 1792429723151.4373,
+      "size": 2716727,
+      "color": {
+        "h": 205,
+        "s": 61,
+        "l": 58,
+        "c": 79,
+        "u": 77,
+        "b": 49
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0968",
+      "relativePath": "nyc 2026/IMG_0968.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0968.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0968.webp",
+      "mtime": 1792429723401.808,
+      "size": 1676767,
+      "color": {
+        "h": 28,
+        "s": 71,
+        "l": 47,
+        "c": 96,
+        "u": 95,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0969",
+      "relativePath": "nyc 2026/IMG_0969.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0969.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0969.webp",
+      "mtime": 1792429723699.39,
+      "size": 2296352,
+      "color": {
+        "h": 28,
+        "s": 34,
+        "l": 51,
+        "c": 28,
+        "u": 14,
+        "b": 25
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0970",
+      "relativePath": "nyc 2026/IMG_0970.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0970.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0970.webp",
+      "mtime": 1792429724030.525,
+      "size": 2373557,
+      "color": {
+        "h": 40,
+        "s": 30,
+        "l": 45,
+        "c": 42,
+        "u": 39,
+        "b": 33
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0971",
+      "relativePath": "nyc 2026/IMG_0971.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0971.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0971.webp",
+      "mtime": 1792429724357.6663,
+      "size": 2165952,
+      "color": {
+        "h": 69,
+        "s": 49,
+        "l": 47,
+        "c": 58,
+        "u": 30,
+        "b": 31
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0972",
+      "relativePath": "nyc 2026/IMG_0972.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0972.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0972.webp",
+      "mtime": 1792429724722.3394,
+      "size": 2406756,
+      "color": {
+        "h": 33,
+        "s": 37,
+        "l": 38,
+        "c": 48,
+        "u": 36,
+        "b": 29
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0973",
+      "relativePath": "nyc 2026/IMG_0973.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0973.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0973.webp",
+      "mtime": 1792429725096.7725,
+      "size": 2549691,
+      "color": {
+        "h": 34,
+        "s": 35,
+        "l": 34,
+        "c": 53,
+        "u": 41,
+        "b": 29
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0974",
+      "relativePath": "nyc 2026/IMG_0974.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0974.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0974.webp",
+      "mtime": 1792429725414.184,
+      "size": 2031539,
+      "color": {
+        "h": 43,
+        "s": 39,
+        "l": 25,
+        "c": 61,
+        "u": 51,
+        "b": 18
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0975",
+      "relativePath": "nyc 2026/IMG_0975.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0975.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0975.webp",
+      "mtime": 1792429725788.8928,
+      "size": 2701320,
+      "color": {
+        "h": 223,
+        "s": 57,
+        "l": 38,
+        "c": 57,
+        "u": 55,
+        "b": 48
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0977",
+      "relativePath": "nyc 2026/IMG_0977.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0977.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0977.webp",
+      "mtime": 1792429726116.1367,
+      "size": 2012708,
+      "color": {
+        "h": 359,
+        "s": 30,
+        "l": 41,
+        "c": 27,
+        "u": 17,
+        "b": 35
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0978",
+      "relativePath": "nyc 2026/IMG_0978.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0978.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0978.webp",
+      "mtime": 1792429726467.084,
+      "size": 2645017,
+      "color": {
+        "h": 197,
+        "s": 56,
+        "l": 51,
+        "c": 91,
+        "u": 90,
+        "b": 50
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0979",
+      "relativePath": "nyc 2026/IMG_0979.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0979.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0979.webp",
+      "mtime": 1792429726798.1934,
+      "size": 2147050,
+      "color": {
+        "h": 208,
+        "s": 77,
+        "l": 67,
+        "c": 74,
+        "u": 71,
+        "b": 60
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0982",
+      "relativePath": "nyc 2026/IMG_0982.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0982.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0982.webp",
+      "mtime": 1792429727241.4426,
+      "size": 3140619,
+      "color": {
+        "h": 200,
+        "s": 85,
+        "l": 69,
+        "c": 50,
+        "u": 46,
+        "b": 56
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0983",
+      "relativePath": "nyc 2026/IMG_0983.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0983.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0983.webp",
+      "mtime": 1792429727537.3525,
+      "size": 2206564,
+      "color": {
+        "h": 2,
+        "s": 47,
+        "l": 49,
+        "c": 99,
+        "u": 69,
+        "b": 39
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0984",
+      "relativePath": "nyc 2026/IMG_0984.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0984.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0984.webp",
+      "mtime": 1792429727903.746,
+      "size": 2443123,
+      "color": {
+        "h": 205,
+        "s": 81,
+        "l": 81,
+        "c": 46,
+        "u": 33,
+        "b": 45
+      }
+    },
+    {
+      "album": "nyc 2026",
+      "title": "IMG 0985",
+      "relativePath": "nyc 2026/IMG_0985.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/nyc.2026--IMG_0985.JPG",
+      "thumbSrc": "thumbnails/nyc%202026/IMG_0985.webp",
+      "mtime": 1792429664299.0474,
+      "size": 1373102,
+      "color": {
+        "h": 11,
+        "s": 50,
+        "l": 89,
+        "c": 67,
+        "u": 57,
+        "b": 76
       }
     },
     {
