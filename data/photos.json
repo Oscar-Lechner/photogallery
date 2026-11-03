@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T17:22:57.162Z",
-  "count": 2245,
+  "generatedAt": "2026-11-03T21:40:33.357Z",
+  "count": 2293,
   "albumDates": {
     "europe_2026": "2026-05-25T00:00:00",
     "night2": "2026-05-22T00:00:00",
@@ -20,6 +20,7 @@
     "crested butte": "2026-07-12T21:07:46.000Z",
     "flowers collection": "2026-07-25T23:07:34.910Z",
     "Grays and Torreys": "2026-07-30T21:16:59.113Z",
+    "halloween 2026": "2026-11-03T21:35:48.458Z",
     "jigitz and more": "2026-10-11T18:56:17.845Z",
     "neighborhood flowers": "2026-08-05T20:57:55.523Z",
     "nyc 2026": "2026-10-19T17:08:47.903Z",
@@ -45,6 +46,7 @@
     "crested butte": "Crested Butte",
     "flowers collection": "Flowers Collection",
     "Grays and Torreys": "Grays And Torreys",
+    "halloween 2026": "Halloween 2026",
     "jigitz and more": "Jigitz And More",
     "neighborhood flowers": "Neighborhood Flowers",
     "nyc 2026": "Nyc 2026",
@@ -15775,6 +15777,822 @@
         "c": 77,
         "u": 41,
         "b": 28
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0986",
+      "relativePath": "halloween 2026/IMG_0986.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0986.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0986.webp",
+      "mtime": 1793741732449.7068,
+      "size": 1996095,
+      "color": {
+        "h": 35,
+        "s": 31,
+        "l": 28,
+        "c": 66,
+        "u": 36,
+        "b": 37
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0987",
+      "relativePath": "halloween 2026/IMG_0987.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0987.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0987.webp",
+      "mtime": 1793741732818.3186,
+      "size": 2557052,
+      "color": {
+        "h": 28,
+        "s": 34,
+        "l": 31,
+        "c": 80,
+        "u": 74,
+        "b": 27
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0988",
+      "relativePath": "halloween 2026/IMG_0988.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0988.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0988.webp",
+      "mtime": 1793741733176.9353,
+      "size": 2393011,
+      "color": {
+        "h": 34,
+        "s": 39,
+        "l": 25,
+        "c": 93,
+        "u": 73,
+        "b": 29
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0989",
+      "relativePath": "halloween 2026/IMG_0989.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0989.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0989.webp",
+      "mtime": 1793741733604.87,
+      "size": 2746674,
+      "color": {
+        "h": 32,
+        "s": 33,
+        "l": 27,
+        "c": 89,
+        "u": 74,
+        "b": 30
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0990",
+      "relativePath": "halloween 2026/IMG_0990.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0990.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0990.webp",
+      "mtime": 1793741733957.8276,
+      "size": 2447102,
+      "color": {
+        "h": 32,
+        "s": 35,
+        "l": 27,
+        "c": 89,
+        "u": 73,
+        "b": 29
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0991",
+      "relativePath": "halloween 2026/IMG_0991.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0991.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0991.webp",
+      "mtime": 1793741734436.6335,
+      "size": 2402191,
+      "color": {
+        "h": 25,
+        "s": 29,
+        "l": 29,
+        "c": 65,
+        "u": 55,
+        "b": 20
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0992",
+      "relativePath": "halloween 2026/IMG_0992.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0992.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0992.webp",
+      "mtime": 1793741734821.123,
+      "size": 2383531,
+      "color": {
+        "h": 25,
+        "s": 27,
+        "l": 32,
+        "c": 63,
+        "u": 48,
+        "b": 21
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0993",
+      "relativePath": "halloween 2026/IMG_0993.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0993.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0993.webp",
+      "mtime": 1793741735229.17,
+      "size": 2654741,
+      "color": {
+        "h": 25,
+        "s": 26,
+        "l": 30,
+        "c": 66,
+        "u": 58,
+        "b": 25
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0994",
+      "relativePath": "halloween 2026/IMG_0994.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0994.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0994.webp",
+      "mtime": 1793741735576.088,
+      "size": 2285971,
+      "color": {
+        "h": 25,
+        "s": 27,
+        "l": 33,
+        "c": 58,
+        "u": 48,
+        "b": 23
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0995",
+      "relativePath": "halloween 2026/IMG_0995.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0995.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0995.webp",
+      "mtime": 1793741736082.687,
+      "size": 2071179,
+      "color": {
+        "h": 20,
+        "s": 30,
+        "l": 34,
+        "c": 59,
+        "u": 45,
+        "b": 21
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0996",
+      "relativePath": "halloween 2026/IMG_0996.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0996.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0996.webp",
+      "mtime": 1793741736421.8203,
+      "size": 2260813,
+      "color": {
+        "h": 28,
+        "s": 33,
+        "l": 52,
+        "c": 36,
+        "u": 31,
+        "b": 24
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0997",
+      "relativePath": "halloween 2026/IMG_0997.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0997.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0997.webp",
+      "mtime": 1793741736817.8335,
+      "size": 2615739,
+      "color": {
+        "h": 20,
+        "s": 30,
+        "l": 30,
+        "c": 70,
+        "u": 66,
+        "b": 34
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0998",
+      "relativePath": "halloween 2026/IMG_0998.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0998.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0998.webp",
+      "mtime": 1793741737206.3396,
+      "size": 2497766,
+      "color": {
+        "h": 25,
+        "s": 25,
+        "l": 50,
+        "c": 27,
+        "u": 22,
+        "b": 61
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 0999",
+      "relativePath": "halloween 2026/IMG_0999.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_0999.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_0999.webp",
+      "mtime": 1793741737517.7632,
+      "size": 2192017,
+      "color": {
+        "h": 250,
+        "s": 49,
+        "l": 61,
+        "c": 75,
+        "u": 30,
+        "b": 26
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1000",
+      "relativePath": "halloween 2026/IMG_1000.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1000.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1000.webp",
+      "mtime": 1793741737921.9058,
+      "size": 2603606,
+      "color": {
+        "h": 30,
+        "s": 28,
+        "l": 34,
+        "c": 60,
+        "u": 50,
+        "b": 28
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1001",
+      "relativePath": "halloween 2026/IMG_1001.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1001.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1001.webp",
+      "mtime": 1793741738310.4553,
+      "size": 2872222,
+      "color": {
+        "h": 20,
+        "s": 32,
+        "l": 23,
+        "c": 37,
+        "u": 34,
+        "b": 36
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1002",
+      "relativePath": "halloween 2026/IMG_1002.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1002.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1002.webp",
+      "mtime": 1793741738718.4807,
+      "size": 2930755,
+      "color": {
+        "h": 25,
+        "s": 31,
+        "l": 27,
+        "c": 42,
+        "u": 40,
+        "b": 35
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1003",
+      "relativePath": "halloween 2026/IMG_1003.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1003.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1003.webp",
+      "mtime": 1793741738994.3137,
+      "size": 1942927,
+      "color": {
+        "h": 25,
+        "s": 34,
+        "l": 37,
+        "c": 51,
+        "u": 38,
+        "b": 18
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1004",
+      "relativePath": "halloween 2026/IMG_1004.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1004.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1004.webp",
+      "mtime": 1793741739306.0225,
+      "size": 2215403,
+      "color": {
+        "h": 28,
+        "s": 31,
+        "l": 55,
+        "c": 66,
+        "u": 40,
+        "b": 32
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1005",
+      "relativePath": "halloween 2026/IMG_1005.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1005.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1005.webp",
+      "mtime": 1793741739678.4434,
+      "size": 2753689,
+      "color": {
+        "h": 28,
+        "s": 37,
+        "l": 24,
+        "c": 76,
+        "u": 62,
+        "b": 19
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1006",
+      "relativePath": "halloween 2026/IMG_1006.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1006.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1006.webp",
+      "mtime": 1793741740001.7915,
+      "size": 2267481,
+      "color": {
+        "h": 30,
+        "s": 38,
+        "l": 39,
+        "c": 48,
+        "u": 38,
+        "b": 27
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1007",
+      "relativePath": "halloween 2026/IMG_1007.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1007.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1007.webp",
+      "mtime": 1793741740332.9546,
+      "size": 2233101,
+      "color": {
+        "h": 26,
+        "s": 31,
+        "l": 36,
+        "c": 68,
+        "u": 49,
+        "b": 24
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1008",
+      "relativePath": "halloween 2026/IMG_1008.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1008.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1008.webp",
+      "mtime": 1793741740685.6865,
+      "size": 2685215,
+      "color": {
+        "h": 28,
+        "s": 43,
+        "l": 42,
+        "c": 92,
+        "u": 89,
+        "b": 39
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1009",
+      "relativePath": "halloween 2026/IMG_1009.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1009.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1009.webp",
+      "mtime": 1793741741066.0757,
+      "size": 2604369,
+      "color": {
+        "h": 26,
+        "s": 26,
+        "l": 30,
+        "c": 83,
+        "u": 81,
+        "b": 27
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1010",
+      "relativePath": "halloween 2026/IMG_1010.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1010.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1010.webp",
+      "mtime": 1793741741417.1199,
+      "size": 2386413,
+      "color": {
+        "h": 32,
+        "s": 25,
+        "l": 30,
+        "c": 77,
+        "u": 72,
+        "b": 29
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1011",
+      "relativePath": "halloween 2026/IMG_1011.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1011.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1011.webp",
+      "mtime": 1793741741722.4387,
+      "size": 2050920,
+      "color": {
+        "h": 25,
+        "s": 37,
+        "l": 27,
+        "c": 70,
+        "u": 63,
+        "b": 24
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1012",
+      "relativePath": "halloween 2026/IMG_1012.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1012.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1012.webp",
+      "mtime": 1793741742057.6555,
+      "size": 2567107,
+      "color": {
+        "h": 25,
+        "s": 31,
+        "l": 51,
+        "c": 82,
+        "u": 71,
+        "b": 52
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1013",
+      "relativePath": "halloween 2026/IMG_1013.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1013.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1013.webp",
+      "mtime": 1793741742327.727,
+      "size": 1909471,
+      "color": {
+        "h": 20,
+        "s": 40,
+        "l": 43,
+        "c": 88,
+        "u": 85,
+        "b": 46
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1014",
+      "relativePath": "halloween 2026/IMG_1014.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1014.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1014.webp",
+      "mtime": 1793741742615.5864,
+      "size": 2144514,
+      "color": {
+        "h": 25,
+        "s": 36,
+        "l": 50,
+        "c": 80,
+        "u": 73,
+        "b": 45
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1015",
+      "relativePath": "halloween 2026/IMG_1015.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1015.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1015.webp",
+      "mtime": 1793741742911.229,
+      "size": 2174370,
+      "color": {
+        "h": 20,
+        "s": 43,
+        "l": 55,
+        "c": 70,
+        "u": 68,
+        "b": 47
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1016",
+      "relativePath": "halloween 2026/IMG_1016.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1016.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1016.webp",
+      "mtime": 1793741743250.3762,
+      "size": 2397801,
+      "color": {
+        "h": 32,
+        "s": 35,
+        "l": 48,
+        "c": 85,
+        "u": 75,
+        "b": 41
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1017",
+      "relativePath": "halloween 2026/IMG_1017.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1017.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1017.webp",
+      "mtime": 1793741743577.5747,
+      "size": 2504014,
+      "color": {
+        "h": 21,
+        "s": 31,
+        "l": 33,
+        "c": 50,
+        "u": 37,
+        "b": 29
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1018",
+      "relativePath": "halloween 2026/IMG_1018.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1018.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1018.webp",
+      "mtime": 1793741743849.6323,
+      "size": 1912869,
+      "color": {
+        "h": 29,
+        "s": 34,
+        "l": 26,
+        "c": 43,
+        "u": 25,
+        "b": 21
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1019",
+      "relativePath": "halloween 2026/IMG_1019.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1019.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1019.webp",
+      "mtime": 1793741744212.5347,
+      "size": 2871243,
+      "color": {
+        "h": 27,
+        "s": 31,
+        "l": 30,
+        "c": 81,
+        "u": 67,
+        "b": 32
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1020",
+      "relativePath": "halloween 2026/IMG_1020.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1020.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1020.webp",
+      "mtime": 1793741744578.9995,
+      "size": 2865242,
+      "color": {
+        "h": 27,
+        "s": 31,
+        "l": 31,
+        "c": 88,
+        "u": 73,
+        "b": 36
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1021",
+      "relativePath": "halloween 2026/IMG_1021.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1021.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1021.webp",
+      "mtime": 1793741744849.1008,
+      "size": 1893309,
+      "color": {
+        "h": 20,
+        "s": 35,
+        "l": 34,
+        "c": 32,
+        "u": 27,
+        "b": 21
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1022",
+      "relativePath": "halloween 2026/IMG_1022.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1022.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1022.webp",
+      "mtime": 1793741745103.385,
+      "size": 1887714,
+      "color": {
+        "h": 31,
+        "s": 33,
+        "l": 45,
+        "c": 30,
+        "u": 20,
+        "b": 14
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1023",
+      "relativePath": "halloween 2026/IMG_1023.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1023.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1023.webp",
+      "mtime": 1793741745402.9502,
+      "size": 2093013,
+      "color": {
+        "h": 24,
+        "s": 33,
+        "l": 48,
+        "c": 38,
+        "u": 29,
+        "b": 21
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1024",
+      "relativePath": "halloween 2026/IMG_1024.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1024.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1024.webp",
+      "mtime": 1793741745692.764,
+      "size": 1976355,
+      "color": {
+        "h": 29,
+        "s": 40,
+        "l": 41,
+        "c": 65,
+        "u": 58,
+        "b": 28
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1025",
+      "relativePath": "halloween 2026/IMG_1025.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1025.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1025.webp",
+      "mtime": 1793741746061.397,
+      "size": 2967604,
+      "color": {
+        "h": 28,
+        "s": 30,
+        "l": 30,
+        "c": 88,
+        "u": 83,
+        "b": 30
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1026",
+      "relativePath": "halloween 2026/IMG_1026.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1026.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1026.webp",
+      "mtime": 1793741746424.0708,
+      "size": 2656816,
+      "color": {
+        "h": 30,
+        "s": 30,
+        "l": 28,
+        "c": 87,
+        "u": 83,
+        "b": 28
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1027",
+      "relativePath": "halloween 2026/IMG_1027.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1027.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1027.webp",
+      "mtime": 1793741746804.5774,
+      "size": 2708029,
+      "color": {
+        "h": 25,
+        "s": 35,
+        "l": 29,
+        "c": 94,
+        "u": 93,
+        "b": 28
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1028",
+      "relativePath": "halloween 2026/IMG_1028.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1028.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1028.webp",
+      "mtime": 1793741747157.5142,
+      "size": 2403902,
+      "color": {
+        "h": 20,
+        "s": 32,
+        "l": 24,
+        "c": 92,
+        "u": 89,
+        "b": 22
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1029",
+      "relativePath": "halloween 2026/IMG_1029.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1029.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1029.webp",
+      "mtime": 1793741747466.822,
+      "size": 2163837,
+      "color": {
+        "h": 13,
+        "s": 37,
+        "l": 42,
+        "c": 54,
+        "u": 40,
+        "b": 26
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1030",
+      "relativePath": "halloween 2026/IMG_1030.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1030.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1030.webp",
+      "mtime": 1793741747800.1765,
+      "size": 2213567,
+      "color": {
+        "h": 10,
+        "s": 40,
+        "l": 39,
+        "c": 77,
+        "u": 36,
+        "b": 32
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1031",
+      "relativePath": "halloween 2026/IMG_1031.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1031.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1031.webp",
+      "mtime": 1793741748119.578,
+      "size": 2334874,
+      "color": {
+        "h": 20,
+        "s": 38,
+        "l": 32,
+        "c": 62,
+        "u": 39,
+        "b": 28
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1032",
+      "relativePath": "halloween 2026/IMG_1032.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1032.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1032.webp",
+      "mtime": 1793741748458.4521,
+      "size": 2324775,
+      "color": {
+        "h": 10,
+        "s": 48,
+        "l": 30,
+        "c": 93,
+        "u": 92,
+        "b": 29
+      }
+    },
+    {
+      "album": "halloween 2026",
+      "title": "IMG 1033",
+      "relativePath": "halloween 2026/IMG_1033.JPG",
+      "src": "https://github.com/Oscar-Lechner/photogallery/releases/download/photos-3/halloween.2026--IMG_1033.JPG",
+      "thumbSrc": "thumbnails/halloween%202026/IMG_1033.webp",
+      "mtime": 1793741732134.3787,
+      "size": 2206092,
+      "color": {
+        "h": 28,
+        "s": 39,
+        "l": 22,
+        "c": 73,
+        "u": 62,
+        "b": 19
       }
     },
     {
